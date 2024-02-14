@@ -46,3 +46,13 @@ We will discuss what work we did yesterday.
 and ask if they can provide feedback on this.  
 Basically we are giving a demo to the product owner and ask for the feedback
 
+7. **Product backlog** - This will consist of all pending user stories and bugs.
+Let's say
+
+### Advantages of Agile
+1. Improved collaboration
+2. Customer satisfaction
+
+### Disadvantages of Agile
+* Effort estimation is not certain - Work and budget is clear at initial stage
+* Customer requirement changes are allowed which can disturb the sprint.
