@@ -32,6 +32,7 @@ Why System testing? To check when we navigate through all the features and check
 
 ## Blackbox testing
 It is performed by testers  
+Testing the application when application is ready  
 **Types - Functional and Non functional**
 
 ### Functional Testing 
@@ -46,8 +47,8 @@ We test functionality of an application with respect to customer requirements
 6. Regression Testing
 7. User Acceptance Testing
 
-### Component Testing
-Testing each and every component fo an application rigorously or thoroughly against customer requiremnt specification is called component testing  
+### 1. Component Testing
+Testing each and every component of an application rigorously or thoroughly against customer requiremnt specification is called component testing  
 e.g. Text box field, radio button, buttons, hyperlink etc  
 **Types of component tesitng**
 1. Over Testing/Exhaustive Testing - Here we enter more data
@@ -56,7 +57,28 @@ e.g. Text box field, radio button, buttons, hyperlink etc
 
 **Optimized testing** can be of two types - Positive testing  and Negative testing
 
-### Smoke Testing or Build verification testing or positive testing
+
+### 2. Integration Testing
+Testing the data flow or interface between two or more modules  
+Types of Integration Testing  
+1. Incremental Integration Testing.
+2. Non Incremental Integration testing.
+
+**Under Incremental Integration testing we have 2 types**  
+
+**Topdown approach** - Incrementally adding the modules and testing the data flow  between the modules and ensure that the module we are adding is child of  
+the previous module is called Topdown Incremental Integration Testing.  
+e.g.
+```
+Gmail - Compose and Sent items
+Compose is a parent module and sent items is a child module.
+Data flow is happening from parent to child
+```
+**Bottom up approach** - Incrementally adding the modules and testing the dataflow between the  
+modules and ensure that the module we are adding is the parent of previous module is called as
+Bottom up approach.
+
+### 3. Smoke Testing or Build verification testing or positive testing
 Testing the basic and critical features of an application before doing thorough
 Testing is called as Smoke Testing.  
 
