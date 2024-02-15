@@ -1,6 +1,12 @@
 ## Types of Testing
 ![Types of Software Testing](image-1.png)
 
+## Levels of Testing
+1. Unit Testing
+2. Integration Testing
+3. System of Testing
+4. User Acceptance Testing
+
 ## Incremental Integration Testing - 
 Incrementally adding the module and testing the
 data flow between the modules is called as Incremental Integration Testing.
@@ -26,7 +32,10 @@ Why System testing? To check when we navigate through all the features and check
 
 ## Blackbox testing
 It is performed by testers  
-Types - Functional and Non functional
+**Types - Functional and Non functional**
+
+### Functional Testing 
+We test functionality of an application with respect to customer requirements
 
 **Types of functional testing**
 1. Component Testing
@@ -39,10 +48,11 @@ Types - Functional and Non functional
 
 ### Component Testing
 Testing each and every component fo an application rigorously or thoroughly against customer requiremnt specification is called component testing  
+e.g. Text box field, radio button, buttons, hyperlink etc  
 **Types of component tesitng**
-1. Over Testing/Exhaustive Testing
-2. Under Testing
-3. Optimized Testing - 
+1. Over Testing/Exhaustive Testing - Here we enter more data
+2. Under Testing - Here we enter less data
+3. Optimized Testing - Here we enter proper data which makes sense.
 
 **Optimized testing** can be of two types - Positive testing  and Negative testing
 
