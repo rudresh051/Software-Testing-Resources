@@ -64,7 +64,7 @@ Types of Integration Testing
 1. Incremental Integration Testing.
 2. Non Incremental Integration testing.
 
-**Under Incremental Integration testing we have 2 types**  
+**Under Incremental Integration testing we have 2 types**  - topdown , bottom up  
 
 **Topdown approach** - Incrementally adding the modules and testing the data flow  between the modules and ensure that the module we are adding is child of  
 the previous module is called Topdown Incremental Integration Testing.  
@@ -77,6 +77,21 @@ Data flow is happening from parent to child
 **Bottom up approach** - Incrementally adding the modules and testing the dataflow between the  
 modules and ensure that the module we are adding is the parent of previous module is called as
 Bottom up approach.
+
+**Non Incremental Integration Testing**  or **Big Bang Method**
+Testing the data flow between multiples modules and check whether the dataflow is happening correctly or not.
+
+### 3. System Testing
+It is end to end to testing where we check whether end feature is working or not.
+**Scenarios**:
+
+**Positive scenario**:  
+Signup to Flipkart, Login, click on mobiles feature, click on Samsung. Select of the mobile, add to cart, click
+on buy now. Select the payment option as phonepe and complete payment. Check if payment is successful.
+
+**Negative scenario:**  
+Login to Flipkart, search for accessories, select a watch. Add to cart, click on buy now. Select payment
+method as debit card, Generate OTP, enter OTP in reverse order, check if OTP is accepted or not.
 
 ### 3. Smoke Testing or Build verification testing or positive testing
 Testing the basic and critical features of an application before doing thorough
