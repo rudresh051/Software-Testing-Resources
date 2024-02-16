@@ -127,6 +127,9 @@ bug and developer has fixed it, we do sanity testing to make sure that other fea
 are working by Testing thoroughly, we test each and every feature and check data
 flow and end to end features - this is how we do deep testing. This time we have more clarity on features   
 
+3-4 Hours  
+After finding a bug , because it might have introduced new bugs in old features, so we do deep and narrow testing.  
+
 Sanity Testing is done for **stable** builds.  
 
 Sanity testing is a subset of regression testing
@@ -144,31 +147,37 @@ they might find defects in order to avoid that, Adhoc testing should be done.
 maximum defects).
 
 ### Regression Testing (Release Candidate Testing)
-Testing the old features so that any new changes like adding a feature, modifying
-a feature, deleting a feature or fixing a defect might introduce a new defect in old
-features, to check that we do Regression testing on the old features.(Here we test
+**Testing the old features** so that any new changes like adding a feature, modifying
+a feature, deleting a feature or fixing a defect is not introducing a new defect in old features.  
+
+To check that we do Regression testing on the old features.(Here we test
 the new changes first and then we test for old features, these old features are
-tested by looking into old test cases, which are already used earlier)  
-Why Regression Testing - To check if new changes made has introduced any
+tested by looking into old test cases, which are already used earlier) 
+ 
+**Why Regression Testing** - To check if new changes made has introduced any
 defect in old features or not.
 
-**Types of Regresssion Testing**  
+**Types of Regresssion Testing** -   
 
-**Unit Regression Testing** - Testing only the changes made is called as Unit
+1. **Unit Regression Testing** - Testing only the changes made is called as Unit
 Regression testing(Here we test only new feature added, because we are sure it
 is not affecting old features).  
 
-**Regional Regression Testing** - Testing the changes made and the impacted
+e.g. Addition of FAQ modules in a application for flipkart having Login, Add to cart, Search modules will not affect these. 
+So I will be only doing Unit Regression Testing.
+
+2. **Regional Regression Testing** - Testing the changes made and the impacted
 modules affected because of this change is called as Regional Regression testing.  
 **How do we know which all areas are impacted?**
-By doing impact analysis meeting, in this meeting we cross verify with Business
+By doing **impact analysis meeting**, in this meeting we cross verify with Business
 Analyst and check which all areas(modules) are impacted because of this new
 change made.  
 
-**Full Regression Testing** - If the new changes made is largely impacting other
+3. **Full Regression Testing** - If the new changes made is largely impacting other
 modules(more areas), we go for Full Regression Testing.  
 
-By conducting Full Regression Testing, we can save a lot of time.  
+By conducting Full Regression Testing, we can save a lot of time.    
+e.g. let's say 9 out 10 modules are impacted , then go for full Regression testing.  
 
 Both Manual Testing and Automation Testing can be done for Full Regression testing.
 
