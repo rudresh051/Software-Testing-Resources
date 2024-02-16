@@ -106,18 +106,31 @@ defect.
 We are doing Smoke testing, indirectly we are ensuring that build is installed  
 properly or not. 
 
-It is a High Level testing.
+**It is a High Level testing.**  
+It is also called and wide testing.  
+This is a shallow and wide testing.  
+This can be done by both developers and testers.  
 
-Types of Smoke testing  
+**Types of Smoke testing**  
 Formal Smoke Testing  - we document the bug  
 Informal Smoke Tesing - we don't document anything  
 
 ### Sanity Testing
-Sanity Testing is a deep and narrow Testing. It is usually for done when Tester finds a
+Sanity Testing is a **deep and narrow Testing**.   
+Here we do both positive and negative testing.  
+**This testing is done in detail.**  
+We are taking more time here.  
+It is usually for done when Tester finds a
 bug and developer has fixed it, we do sanity testing to make sure that other features
 are working by Testing thoroughly, we test each and every feature and check data
-flow and end to end features - this is how we do deep testing.  
-Sanity Testing is done for **stable** builds.
+flow and end to end features - this is how we do deep testing. This time we have more clarity on features   
+
+Sanity Testing is done for **stable** builds.  
+
+
+### Retesting  
+When developers fix the bug , we need to do mandatory retesting. It can happen that developers has not fixed the bug or fixed some other bug.
+
 
 ### Adhoc testing(Negative, Out of box, random testing)
 Testing the application or software randomly without looking into requirements is
