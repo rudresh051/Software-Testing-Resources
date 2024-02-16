@@ -132,7 +132,7 @@ After finding a bug , because it might have introduced new bugs in old features,
 
 Sanity Testing is done for **stable** builds.  
 
-Sanity testing is a subset of regression testing
+**Sanity testing is a subset of regression testing**
 ### Retesting  
 When developers fix the bug , we need to do mandatory retesting. It can happen that developers has not fixed the bug or fixed some other bug. We are only checking that particular defect which we found while doing testing.
 
@@ -176,10 +176,16 @@ change made.
 3. **Full Regression Testing** - If the new changes made is largely impacting other
 modules(more areas), we go for Full Regression Testing.  
 
+IOW , If majority of modules are getting impacted then we go for full regression testing.  
+
 By conducting Full Regression Testing, we can save a lot of time.    
 e.g. let's say 9 out 10 modules are impacted , then go for full Regression testing.  
 
 Both Manual Testing and Automation Testing can be done for Full Regression testing.
+
+With test cases, I will test old features - Functional Testing, Integration Testing, System Testing
+
+Regression testing acts between bridge between Manual testing and Automation testing.  
 
 ### Acceptance Testing(User Acceptance Testing)  
 It is an end to end testing, done by the customers where in they use software for
