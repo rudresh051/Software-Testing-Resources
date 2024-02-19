@@ -40,7 +40,7 @@ if there same code or duplicate code, then user defined code is used.
     Example - let's say, one developer writes a code and file size is upto 500 kb,
     another developer writes a similar code with similar logic and file size is upto 250 kb.  
 
-    Here we use tool called as rational purifier to test for these large codes(variables
+    Here we use tool called as **rational purifier** to test for these large codes(variables
     and functions).
 
 6. **Testing from performance point of view -** 
@@ -48,18 +48,18 @@ The application could be slow
 because of these reasons - for conditional cases, we use or & and frequently, not
 using nested if statements instead of switch case or when logic is used.  
 
-    Here, we use a tool called 'Rational Quantify', which resolves these issues
+    Here, we use a tool called **'Rational Quantify'**, which resolves these issues
     automatically(when we execute the codes, we get outcome in the form of thick
     and thin lines, thick lines means codes which are time consuming, thin lines
     means codes which are not time consuming)
 
 #### Advantages of WBT  
-It is done in SDLC even without GUI  
-Hidden errors the code can be identified  
-Testing is more thorough  
-**Disadvantages:**  
-Expensive and complex  
-Too much time consuming for big applications
+1. It is done in SDLC even without GUI  
+2. Hidden errors the code can be identified  
+3. Testing is more thorough  
+#### Disadvantages of WBT
+1. Expensive and complex  
+2. Too much time consuming for big applications
 
 ### Experienced based Testing techniques
 In this technique, test cases are derived from Testers skill and intuitive. Their
@@ -70,13 +70,13 @@ Why Experienced based testing techniques:
 3) Less time to understand the requirement
 
 ### Types of Experience based testing
-**Error Guessing** - Here, Tester guesses the error entering data against given
+1. **Error Guessing** - Here, Tester guesses the error entering data against given
 requirement.  
 
-**Checklist based Testing** - Here Testers created a checklist for creating different
+2. **Checklist based Testing** - Here Testers created a checklist for creating different
 functionalities and use cases for testing.  
 
-**Exploratory Testing** - Here, Testers explore the application, navigate through
+3. **Exploratory Testing** - Here, Testers explore the application, navigate through
 different functionalities and tries to find defects.  
 It is very important to have experienced Tester who have a similar experience of
 the project to be worked on, otherwise it may lead to lot of defects.
