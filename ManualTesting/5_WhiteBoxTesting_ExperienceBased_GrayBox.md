@@ -89,7 +89,7 @@ The purpose of greybox testing is to search and identify the defects due to
 improper code structure or improper use of applications.
 
 **Types/techniques in Graybox testing**  
-**Matrix Testing** - In matrix testing techniques, business and technical risks which
+1. **Matrix Testing** - In matrix testing techniques, business and technical risks which
 are defined by the developers in software programs are examined. 
 
 Developers define all the variables that exist in the program.  
@@ -100,14 +100,14 @@ now this should be as per requirement, otherwise it will reduce the speed of the
 software and readability of program. With Matrix Testing, we can remove unused
 or uninitialized variables by identifying used variables.
 
-**Pattern Testing:**  
+2. **Pattern Testing:**  
 
-Pattern Testing is done on those softwares that developed copying the
+**Pattern Testing is done on those softwares that developed copying the
 patterns of other softwares. In these softwares there is high probability of
 getting similar kind of defects. With Pattern testing we can analyze reasons
-of failure easily.  
+of failure easily.**
 
-To perform testing, previous defects are analyzed.
+To perform testing, previous defects are analyzed.  
 Pattern testing determines the cause of the failure by looking into code.
 
 **Orthogonal Array Testing -**   
