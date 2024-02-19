@@ -70,6 +70,13 @@ Why Experienced based testing techniques:
 3) Less time to understand the requirement
 
 ### Types of Experience based testing
+In this technique , test cases are derived from testers skill and intuitive. Their experience with applicaitons and technologies will play a key role
+
+Why Experienced based testing techniques:  
+* When requiements are not available  
+* Requirements are complex to understand  
+* Less time to understand the requirement  
+
 1. **Error Guessing** - Here, Tester guesses the error entering data against given
 requirement.  
 
@@ -78,8 +85,9 @@ functionalities and use cases for testing.
 
 3. **Exploratory Testing** - Here, Testers explore the application, navigate through
 different functionalities and tries to find defects.  
-It is very important to have experienced Tester who have a similar experience of
-the project to be worked on, otherwise it may lead to lot of defects.
+
+    It is very important to have experienced Tester who have a similar experience of
+    the project to be worked on, otherwise it may lead to lot of defects.
 
 ### Graybox Testing Techniques
 Graybox testing is a combination of whitebox and blackbox testing.  
@@ -121,3 +129,11 @@ It makes analysis less complex and simple.
 **Regression Testing:**  
 To ensure that any new changes made is not affecting old features. Here some
 techniques used are retest risky use case, retest within a firewall.
+
+### Web Security Testing
+1. URL manipulation
+2. Session Expiry
+3. Cookies based
+    * Session based - It will be stored in browser.
+    * Persistent based - It will be stored in computer hardware
+4. SQL injection
