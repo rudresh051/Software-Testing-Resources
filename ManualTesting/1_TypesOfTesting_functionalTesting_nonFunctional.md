@@ -222,7 +222,7 @@ Types -
 **Testing the functionality of an application or software for different hardware and
 software configurations is called Compatibility Testing.** 
 
-Why Compatibility Testing - Tester might have tested software in one platform,  
+**Why Compatibility Testing** - Tester might have tested software in one platform,  
 chances are there the users will use the software in different platforms and the  
 software might not work and this will spread bad name in the market and software  
 usage will go down, to avoid that we do compatability testing.  
@@ -234,7 +234,7 @@ Different platforms - Different OS, Browsers.
 
 How tester will do compatibility testing  
 
-1) Initially Testers will test for base platform ie.. Lets say among the browsers   
+1) Initially Testers will test for base platform i.e. Lets say among the browsers   
 chrome, firefox, safari, according to market research chrome is widely used,  
 hence we will consider chrome as the base platform and start the software in  
 Chrome first and later we will test for other browsers.  
@@ -242,7 +242,7 @@ Chrome first and later we will test for other browsers.
 2) Same process is applicable for OS also.
 
 ### 2. Usability Testing
-Testing the userfriendlyness of an application is called as usability testing.  
+Testing the user friendliness of an application is called as usability testing.  
 
 **Why usability testing**  
 To ensure software is in simple language, easy to access, easy to navigate and  
