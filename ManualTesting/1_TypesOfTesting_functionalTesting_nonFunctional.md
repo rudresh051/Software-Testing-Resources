@@ -204,15 +204,53 @@ Alpha Testing - Acceptance Testing done in company environment.
 
 Beta Testing - Acceptance Testing done in customer énvironment.
 
+**Functional testing key points**
+1. It is done before Non-functional testing
+2. It validates/checks functionality of the software.
+3. Functionality describes what software does
+4. Works on customer requirements.
+
 ## Types of Non Functional Testing
 Here we check whether it is according to customer expectations  
 Types -   
-Compatibility Testing  
-Usability Testing  
-Performance Testing  
+1. Compatibility Testing  
+2. Usability Testing  
+3. Performance Testing  
 
-### Performance Testing
-Testing the stability and response time of an application by applying load is called as Performance testing.  
+
+### 1. Compatibility Testing(Cross browser Testing) ( Type - Blackbox => Non functional testing)
+**Testing the functionality of an application or software for different hardware and
+software configurations is called Compatibility Testing.** 
+
+Why Compatibility Testing - Tester might have tested software in one platform,  
+chances are there the users will use the software in different platforms and the  
+software might not work and this will spread bad name in the market and software  
+usage will go down, to avoid that we do compatability testing.  
+
+To ensure all the features is consistently working for all platforms, we will do
+compatibility testing
+
+Different platforms - Different OS, Browsers.  
+
+How tester will do compatibility testing  
+
+1) Initially Testers will test for base platform ie.. Lets say among the browsers   
+chrome, firefox, safari, according to market research chrome is widely used,  
+hence we will consider chrome as the base platform and start the software in  
+Chrome first and later we will test for other browsers.  
+
+2) Same process is applicable for OS also.
+
+### 2. Usability Testing
+Testing the userfriendlyness of an application is called as usability testing.  
+
+**Why usability testing**  
+To ensure software is in simple language, easy to access, easy to navigate and  
+look and feel of the application should be good.  
+GUI Testing is a part of Usability Testing.
+
+### 3. Performance Testing (Type - Non functional testing)
+**Testing the stability and response time of an application by applying load is called as Performance testing.**  
 
 Why performance testing - To check how is the response time and stability of an
 application when load is applied.  
@@ -222,30 +260,20 @@ withstand designed number of users).
 
 Response Time means time taken by server to respond to user query
 
-**Types of Performance Testing**  
+#### Types of Performance Testing  
+1. Load Testing - By applying within limit. let's say app can accept 100 users.
+e.g. so now I am putting like 8,99 users. We will be using tool Jmeter.
 
-Load Testing - By applying within limit  
+2. Stress Testing - Applying more load  
+e.g. I will put 150 users.
 
-Stress Testing - Applying more load  
+3. Scalability Testing - Applying more load and check where exactly software crashes
+Here I want to know the limit.
 
-Scalability Testing - Applying more load and check where exactly software crashes  
+4. Volume Testing - testing the database of large volume of data  
+e.g. Here I will be testing only a complete software
 
-Volume Testing - testing the database of large volume of data  
+5. Soak Testing - Endurance testing by applying load continuously for long time  
 
-Soak Testing - Endurance testing by applying load continuously for long time  
-
-It will be mostly done for e-commerce applicatin, client-server application. Not for standalone application
-
-### Compatibility Testing(Cross browser Testing)
-Testing the functionality of an application or software for different hardware and
-software configurations is called Compatibility Testing.  
-
-Why Compatibility Testing - Tester might have tested software in one platform,
-chances are there the users will use the software in different platforms and the
-software might not work and this will spread bad name in the market and software
-usage will go down, to avoid that we do compatability testing.  
-
-To ensure all the features is consistently working for all platforms, we will do
-compatibility testing
-
-
+Performance testing will be mostly done for e-commerce applicatin, client-server application.
+We will not be doing Performance testing. 
