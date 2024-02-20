@@ -47,7 +47,7 @@ We test functionality of an application with respect to customer requirements
 6. Regression Testing
 7. User Acceptance Testing
 
-### 1. Component Testing
+### 1. Component Testing (Type - Blackbox =>functional testing)
 Testing each and every component of an application rigorously or thoroughly against customer requiremnt specification is called component testing  
 e.g. Text box field, radio button, buttons, hyperlink etc  
 **Types of component tesitng**
@@ -58,7 +58,7 @@ e.g. Text box field, radio button, buttons, hyperlink etc
 **Optimized testing** can be of two types - Positive testing  and Negative testing
 
 
-### 2. Integration Testing
+### 2. Integration Testing (Type - Blackbox =>functional testing)
 Testing the data flow or interface between two or more modules  
 Types of Integration Testing  
 1. Incremental Integration Testing.
@@ -81,7 +81,7 @@ Bottom up approach.
 **Non Incremental Integration Testing**  or **Big Bang Method**
 Testing the data flow between multiples modules and check whether the dataflow is happening correctly or not.
 
-### 3. System Testing
+### 3. System Testing (Type - Blackbox =>functional testing)
 It is end to end to testing where we check whether end feature is working or not.
 **Scenarios**:
 
@@ -93,7 +93,7 @@ on buy now. Select the payment option as phonepe and complete payment. Check if 
 Login to Flipkart, search for accessories, select a watch. Add to cart, click on buy now. Select payment
 method as debit card, Generate OTP, enter OTP in reverse order, check if OTP is accepted or not.
 
-### 3. Smoke Testing or Build verification testing or positive testing
+### 4. Smoke Testing or Build verification testing or positive testing (Type - Blackbox =>functional testing)
 Testing the basic and critical features of an application before doing thorough
 Testing is called as Smoke Testing.  
 Here we take only 1-2 hours.
@@ -117,7 +117,7 @@ Smoke testing is a subset of acceptance testing
 Formal Smoke Testing  - we document the bug  
 Informal Smoke Tesing - we don't document anything  
 
-### Sanity Testing
+### 5. Sanity Testing (Type - Blackbox =>functional testing)
 Sanity Testing is a **deep and narrow Testing**.   
 Here we do both **positive and negative testing.**  
 **This testing is done in detail.**  
@@ -146,7 +146,7 @@ they might find defects in order to avoid that, Adhoc testing should be done.
 2) The intention is to break the software, so we should do Adhoc testing(To find
 maximum defects).
 
-### Regression Testing (Release Candidate Testing)
+### 6. Regression Testing (Release Candidate Testing) (Type - Blackbox =>functional testing)
 **Testing the old features** so that any new changes like adding a feature, modifying
 a feature, deleting a feature or fixing a defect is not introducing a new defect in old features.  
 
@@ -187,7 +187,7 @@ With test cases, I will test old features - Functional Testing, Integration Test
 
 Regression testing acts between bridge between Manual testing and Automation testing.  
 
-### Acceptance Testing(User Acceptance Testing)  
+### 7. Acceptance Testing(User Acceptance Testing)  (Type - Blackbox =>functional testing)
 It is an end to end testing, done by the customers where in they use software for
 real time business for some particular period of time and check whether software
 can handle all the real time business, scenarios and situations. This is called as
