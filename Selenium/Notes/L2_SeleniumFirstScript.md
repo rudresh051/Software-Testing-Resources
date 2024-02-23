@@ -48,3 +48,4 @@ Locators are classified into 8 types:
 
 All of the Locators are static methods of `By` class
 
+By class is an abstract class.

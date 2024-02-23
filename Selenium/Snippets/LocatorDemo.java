@@ -15,7 +15,9 @@ public class LocatorDemoTest {
 		//driver.get("https://www.google.com/");
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		// To use locators
-		driver.findElement(By.className("ui-autocomplete-input")).sendKeys("abcdefghi ");
+//		driver.findElement(By.className("ui-autocomplete-input")).sendKeys("abcdefghi ");
+//		driver.findElement(By.linkText("Free Access to InterviewQues/ResumeAssistance/Material")).click();
+//		driver.findElement(By.partialLinkText("Free Access")).click();
 
 	}
 
