@@ -31,6 +31,7 @@ stored in the reference variable **driver**.
 Here, All the driver methods are just declared in **Webdriver** Interface, and all the driver methods(get,close,quit,findelement etc) are implemented in Implementation class called **ChromeDriver();**
 
 ## Locators
+
 In Automation, before performing any action such as click, pass the data (send keys) we need to find the address of the element.
 
 We do that by inspecting the element
@@ -46,3 +47,4 @@ Locators are classified into 8 types:
 8. X path.
 
 All of the Locators are static methods of `By` class
+
