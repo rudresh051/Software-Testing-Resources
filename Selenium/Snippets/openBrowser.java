@@ -9,6 +9,11 @@ public class OpenBrowserTest {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rudre\\Downloads\\chromedriver122\\chromedriver-win64\\chromedriver.exe");
 		// Open my chrome browser => Syntax
 		WebDriver driver = new ChromeDriver();
+		driver.get("https://the-internet.herokuapp.com/login");
+		// To use locators
+		//WebElement username = driver.findElement(By.id("username"));
+		WebElement username = driver.findElement(By.className("username"));
+		username.sendKeys("some value");
 		
 	}
 
