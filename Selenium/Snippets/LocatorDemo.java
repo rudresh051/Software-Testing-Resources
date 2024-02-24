@@ -18,7 +18,10 @@ public class LocatorDemoTest {
 //		driver.findElement(By.className("ui-autocomplete-input")).sendKeys("abcdefghi ");
 //		driver.findElement(By.linkText("Free Access to InterviewQues/ResumeAssistance/Material")).click();
 //		driver.findElement(By.partialLinkText("Free Access")).click();
+		
+//		driver.findElement(By.cssSelector("input.ui-autocomplete-input")).sendKeys("Rudreshwar");
+		driver.findElement(By.cssSelector(".ui-autocomplete-input")).sendKeys("Rudreshwar");
+
 
 	}
-
 }

@@ -18,13 +18,14 @@ public class OpenBrowserTest {
 		driver.get("https://the-internet.herokuapp.com/login");
 		// To use locators
 		//WebElement username = driver.findElement(By.id("username"));
-//		WebElement username = driver.findElement(By.className("username"));
-//		username.sendKeys("some value");
+		// WebElement username = driver.findElement(By.className("username"));
+		// username.sendKeys("some value");
 		
-		driver.findElement(By.cssSelector("input#username")).sendKeys("Rudreshwar");
-//		driver.findElement(By.cssSelector("#username")).sendKeys("Rudreshwar");
-
-
+		// CSS Selector using class
+//		driver.findElement(By.cssSelector("input#username")).sendKeys("asdflkj");
+//		driver.findElement(By.cssSelector("#username")).sendKeys("asdflkj");
+//		driver.findElement(By.cssSelector("input#password")).sendKeys("wrong_password");
+		
 	}
 
 }
