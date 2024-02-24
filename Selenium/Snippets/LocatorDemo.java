@@ -21,6 +21,7 @@ public class LocatorDemoTest {
 		
 //		driver.findElement(By.cssSelector("input.ui-autocomplete-input")).sendKeys("Rudreshwar");
 		driver.findElement(By.cssSelector(".ui-autocomplete-input")).sendKeys("Rudreshwar");
+		driver.findElement(By.cssSelector("input[placeholder='Type to Select Countries']")).sendKeys("some value using other");
 
 
 	}
