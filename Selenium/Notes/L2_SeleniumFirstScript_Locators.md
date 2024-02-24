@@ -49,3 +49,43 @@ Locators are classified into 8 types:
 All of the Locators are static methods of `By` class
 
 By class is an abstract class.
+
+## What is a CSS Selector?
+CSS (Cascading Style sheets) Selectors in selenium are used to identify   
+and locate web elements based on their id, class, name and other attributes.  
+
+CSS is a preferred locator strategy as it is simpler to write and faster as   
+compared to XPath.
+**By.cssSelector(String cssSelector)**  method is used to locate the elements   
+in Selenium WebDriver.
+
+This method accepts a CSS Selector String as an argument which defines the   
+selection method for the web elements. Types of CSS Selectors in Selenium(with Examples)  
+There are five types of CSS Selectors tests:
+1. ID
+2. Class
+3. Attribute
+
+#### 1. ID
+In CSS, we can use **"#"** notation to select the **"id"** attribute of an element.
+```
+Syntax:
+<tagname>#<id_value>
+#<id value>
+```
+
+#### 2. Class
+In CSS, we can use **"."** notation to select the "class" attribute of an element.
+
+```
+Syntax:
+<tagname><class value>
+<class value>
+```
+
+#### 3. Attribute
+Apart from "id" and "class", other attributes can also be used to locate web elements using CSS selector.
+```
+Syntax:
+<tagname>[href='<href value>']
+```

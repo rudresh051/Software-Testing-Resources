@@ -21,8 +21,10 @@ public class OpenBrowserTest {
 //		WebElement username = driver.findElement(By.className("username"));
 //		username.sendKeys("some value");
 		
-		driver.findElement(By.cssSelector("input#username")).sendKeys("asdflkj");
-//		driver.findElement(By.cssSelector("#username")).sendKeys("asdflkj");
+		driver.findElement(By.cssSelector("input#username")).sendKeys("Rudreshwar");
+//		driver.findElement(By.cssSelector("#username")).sendKeys("Rudreshwar");
+
+
 	}
 
 }
