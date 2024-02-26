@@ -27,3 +27,27 @@
 13. Government and Civic Services: Websites providing government services, information, or facilitating civic engagement. Examples include IRS.gov, Gov.uk, and USA.gov.
 
 14. Job Portals and Recruitment: Platforms for posting job listings, finding employment, or recruiting talent. Examples include LinkedIn, Indeed, and Monster.
+
+## Data Gathering Category Web Applications
+1. Survey and Form Builders: Platforms like SurveyMonkey, Google Forms, and Typeform allow professionals to create customized surveys and forms to gather data from respondents.
+
+2. Data Collection and Analytics: Tools such as Google Analytics, Mixpanel, and Adobe Analytics enable professionals to track website traffic, user behavior, and other relevant metrics for data-driven decision-making.
+
+3. Customer Relationship Management (CRM): CRM systems like Salesforce, HubSpot, and Zoho CRM help professionals gather and manage customer data, interactions, and relationships.
+
+4. Business Intelligence (BI) Platforms: BI tools such as Tableau, Power BI, and Looker allow professionals to gather, analyze, and visualize data from various sources to derive insights and make informed business decisions.
+
+5. Market Research Platforms: Services like Nielsen, Statista, and YouGov provide professionals with access to market research data and insights to understand consumer behavior, market trends, and competitive landscapes.
+
+6. Data Scraping and Web Crawling Tools: Tools like Octoparse, Import.io, and ParseHub enable professionals to gather data from websites and online sources for analysis and research purposes.
+
+7. Data Annotation and Labeling Platforms: Platforms such as Labelbox, Scale AI, and Amazon SageMaker Ground Truth provide tools for professionals to annotate and label data for machine learning and AI model training purposes.
+
+8. Field Data Collection Apps: Mobile applications like Fulcrum, Survey123, and Magpi facilitate data gathering in the field, allowing professionals to collect data offline and sync it to a central database later.
+
+9. Data Governance and Compliance Solutions: Platforms such as Collibra, Informatica, and OneTrust offer tools for professionals to ensure data governance, compliance, and data privacy within their organizations.
+
+
+
+
+
