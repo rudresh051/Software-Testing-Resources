@@ -22,7 +22,8 @@ cars are being assembled on an assembly line. There's no set race or pause for p
 Workers just keep adding parts to the cars as they move along the line. It's a steady 
 pace without distinct races or breaks, but the work keeps moving forward."
 
-In essence, Scrum works in short, focused bursts with breaks for planning, while Kanban is a continuous flow without distinct pauses for planning.
+In essence, Scrum works in short, focused bursts with breaks for planning, while 
+Kanban is a continuous flow without distinct pauses for planning.
 ```
 
 | Aspect         | Kanban                                                     | Scrum                                                       |
