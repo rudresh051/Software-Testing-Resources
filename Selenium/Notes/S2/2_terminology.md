@@ -12,3 +12,13 @@ Automation Testing tools which are used for functional automation:
 * Selenium, open source.
 
 * Auto It, open Source.
+
+Automation Testing tools which are used for non-functional automation:
+
+* Load Runner, provided by HP.
+* JMeter, provided by Apache.
+* Burp Suite, provided by PortSwigger.
+* Acunetix, provided by Acunetix.
+
+## Automation Testing Life Cycle
+![automation testing life cycle](image.png)
