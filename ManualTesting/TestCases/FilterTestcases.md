@@ -33,3 +33,18 @@ verify that If the selection in this drop-down is controlling some other control
 Check that on pressing an alphabet on the keyboard, categories in the drop-down starting with that alphabet are getting highlighted.
 
 Check that the user is able to select the categories/items from the drop-down list by pressing the down key on the keyboard.
+
+## Sample test cases for Dynamic dropdown
+e.g. 
+```
+Q. We have Consider (State & City) dropdown example to explain in Details, 
+Here in city dropdown value will display on the selection of state.
+1. Verify the city dropdown without selecting a state.
+2. Verify the City dropdown by selecting the state.
+3. Check the value in the city dropdown is bound accordingly or not.
+4. Check that the user is able to select the value from the city dropdown 
+5. Verify that when the user selects a value from the city dropdown and unselects the state.
+6. Verify the default value for the city dropdown 
+7. Check that the selected value in the city dropdown gets unselected or not when 
+the user unselects the state dropdown.
+```
