@@ -1,4 +1,4 @@
-## Traceability Matrix
+## Requirement Traceability Matrix
 It is also called as requirement Traceability matrix(RTM) or Cross reference matrix (CRM)  
 
 It is a document through which we are ensuring that each and every requirement has minimum test cases.
