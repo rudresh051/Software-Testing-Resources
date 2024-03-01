@@ -43,3 +43,37 @@ expected.
 verify that the back button behaves appropriately in such cases.
 * These test cases cover a range of scenarios to ensure that the browser's back button functions   
 correctly and reliably across different situations.
+
+
+Banking applications like SBI often restrict navigation through the browser's back   
+button due to security and user experience considerations:
+
+1. **Security Concerns:**
+   - Preventing users from navigating back with the browser's back button can help mitigate   
+   security risks, such as session hijacking or unauthorized access.
+   - By controlling the navigation flow within the application, banks can ensure that users   
+     don't inadvertently land on cached pages containing sensitive information, such as account   
+     details or transaction history.
+
+2. **Prevention of Form Resubmission:**
+   - Banking applications often involve form submissions for transactions or account management tasks.
+   - Allowing users to navigate back to a page with a form submission could lead to unintended   
+   resubmission of the form, potentially causing duplicate transactions or other errors.
+
+3. **Transaction Integrity:**
+   - For banking transactions, maintaining transaction integrity is crucial.
+   - Disabling the browser's back button helps prevent users from navigating back to a previous step in   
+   a transaction flow, which could disrupt the transaction process or lead to inconsistencies in account balances.
+
+4. **User Experience Optimization:**
+   - Banking applications typically strive to provide a seamless and intuitive user experience.
+   - By controlling navigation within the application, banks can ensure that users follow predefined   
+   flows and encounter fewer errors or confusion.
+
+5. **Compliance Requirements:**
+   - Regulatory requirements may also play a role in determining the navigation behavior of banking applications.
+   - Banks need to comply with various security standards and regulations, and restricting browser   
+    navigation may be a part of their compliance strategy.
+
+Overall, while restricting navigation through the browser's back button may limit some user freedoms,   
+it's often done to prioritize security, transaction integrity, and a seamless user experience in banking applications.
