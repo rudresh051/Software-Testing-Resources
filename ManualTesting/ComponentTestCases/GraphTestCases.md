@@ -59,7 +59,6 @@ specific requirements and features of the charting library or tool being used.
 # Test cases for verifying the responsiveness of graphs with different screen sizes and zoom levels
 
 ## Screen Size Test Cases:
-
 * Test with various screen resolutions such as 1920x1080, 1366x768, 1280x800, etc.
 * Verify the graph's appearance and readability on both small and large screens.
 * Test on different devices like desktops, laptops, tablets, and mobile phones.
@@ -74,8 +73,10 @@ specific requirements and features of the charting library or tool being used.
 
 ## Cross-Browser Compatibility:
 * Test the graph on various web browsers such as Chrome, Firefox, Safari, Edge, and Internet Explorer (if supported).
-* Ensure consistent behavior and appearance across different browsers, including older versions if applicable.
-* Verify that the graph renders correctly and responds smoothly to changes in screen size and zoom level in each browser.
+* Ensure consistent behavior and appearance across different browsers, including older   
+versions if applicable.
+* Verify that the graph renders correctly and responds smoothly to changes in screen size   
+and zoom level in each browser.
 
 ## Orientation Test Cases:
 * Test the graph's responsiveness in both landscape and portrait orientations on mobile devices.
@@ -84,7 +85,8 @@ specific requirements and features of the charting library or tool being used.
 
 ## Dynamic Resize Test Cases:
 * Test the graph's behavior when the browser window is resized dynamically.
-* Verify that the graph elements resize smoothly and adjust their position to accommodate the new window dimensions.
+* Verify that the graph elements resize smoothly and adjust their position to accommodate the new   
+window dimensions.
 * Check for any layout issues or visual glitches that may occur during resizing.
 
 ## Performance Test Cases:
