@@ -56,7 +56,8 @@ These test cases cover a range of scenarios to ensure the accuracy, performance,
 usability of different types of chart graphs. Adjustments may be necessary based on the   
 specific requirements and features of the charting library or tool being used.
 
-# Test cases for verifying the responsiveness of graphs with different screen sizes and zoom levels
+# Test cases for verifying the responsiveness of graphs 
+# with different screen sizes and zoom levels
 
 ## Screen Size Test Cases:
 * Test with various screen resolutions such as 1920x1080, 1366x768, 1280x800, etc.
