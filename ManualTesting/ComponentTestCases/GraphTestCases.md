@@ -55,3 +55,48 @@ information or highlighting selected slices.
 These test cases cover a range of scenarios to ensure the accuracy, performance, and   
 usability of different types of chart graphs. Adjustments may be necessary based on the   
 specific requirements and features of the charting library or tool being used.
+
+# Test cases for verifying the responsiveness of graphs with different screen sizes and zoom levels
+
+## Screen Size Test Cases:
+
+* Test with various screen resolutions such as 1920x1080, 1366x768, 1280x800, etc.
+* Verify the graph's appearance and readability on both small and large screens.
+* Test on different devices like desktops, laptops, tablets, and mobile phones.
+* Ensure that the graph elements adjust dynamically to fit the screen without distortion or loss of information.
+
+## Zoom Level Test Cases:
+
+* Test graph behavior at different zoom levels, including 100%, 150%, and 200%.
+* Verify that labels, legends, and data points remain clear and readable at each zoom level.
+* Check if the graph maintains its aspect ratio and does not become disproportionate when zooming in or out.
+* Ensure that interactive features such as tooltips and hover effects work correctly at all zoom levels.
+
+## Cross-Browser Compatibility:
+* Test the graph on various web browsers such as Chrome, Firefox, Safari, Edge, and Internet Explorer (if supported).
+* Ensure consistent behavior and appearance across different browsers, including older versions if applicable.
+* Verify that the graph renders correctly and responds smoothly to changes in screen size and zoom level in each browser.
+
+## Orientation Test Cases:
+* Test the graph's responsiveness in both landscape and portrait orientations on mobile devices.
+* Verify that the graph adjusts appropriately to the orientation change without overlapping or cutting off any elements.
+* Ensure that the graph remains readable and visually appealing in both orientations.
+
+## Dynamic Resize Test Cases:
+* Test the graph's behavior when the browser window is resized dynamically.
+* Verify that the graph elements resize smoothly and adjust their position to accommodate the new window dimensions.
+* Check for any layout issues or visual glitches that may occur during resizing.
+
+## Performance Test Cases:
+* Measure the loading time of the graph on different devices and network conditions.
+* Test the graph's performance when rendering large datasets or complex visualizations.
+* Verify that the graph remains responsive and interactive without significant lag or delays.
+
+## Accessibility Test Cases:
+* Verify that the graph meets accessibility standards for users with disabilities.
+* Test with screen readers to ensure that all graph elements are properly labeled and accessible.
+* Check for sufficient color contrast and provide alternative text for non-text elements such as images and icons.  
+
+By executing these test cases, you can ensure that the graph behaves as expected across   
+various screen sizes, zoom levels, and other factors, providing a consistent and optimal   
+user experience.
