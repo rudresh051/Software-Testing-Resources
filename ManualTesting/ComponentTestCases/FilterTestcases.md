@@ -48,3 +48,28 @@ Here in city dropdown value will display on the selection of state.
 7. Check that the selected value in the city dropdown gets unselected or not when 
 the user unselects the state dropdown.
 ```
+
+## Filters
+Test cases for dependent and independent filters typically involve checking how the filters behave when applied individually and in combination with each other. Here are some examples:
+
+1. **Independent Filters**:
+   
+   a. Test Case 1: Apply filter A and filter B separately and verify the results.
+   
+   b. Test Case 2: Apply filter A to dataset X and filter B to dataset Y, then combine the results and verify if they match the expected output.
+   
+   c. Test Case 3: Apply filter A with a specific parameter setting and verify the output. Then, apply filter A with a different parameter setting and compare the results.
+   
+   d. Test Case 4: Apply multiple instances of the same filter in parallel with different parameters and ensure they do not interfere with each other.
+
+2. **Dependent Filters**:
+   
+   a. Test Case 1: Apply filter A and filter B sequentially and verify if the output of filter B depends on the output of filter A.
+   
+   b. Test Case 2: Apply filter A to dataset X, then apply filter B to the output of filter A. Verify if the combined result is as expected.
+   
+   c. Test Case 3: Apply filter A with certain conditions (e.g., only apply if a specific criterion is met), then apply filter B dependent on the output of filter A. Verify if the conditions are properly enforced and the results are correct.
+   
+   d. Test Case 4: Modify the input dataset in a way that affects the dependency between filters A and B, and ensure that the filters adapt accordingly.
+
+For both types of filters, it's important to include test cases covering edge cases, such as empty datasets, datasets with null values, extreme parameter values, and boundary conditions, to ensure the robustness and correctness of the filtering process.
