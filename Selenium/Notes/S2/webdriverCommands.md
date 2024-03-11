@@ -42,3 +42,24 @@ e.g.
 ```
 driver.findElement(By.name("q")).clear();
 ```
+4. Fetching text over any web element
+```
+driver.findElement(By.id("element567")).getText();
+```
+
+5. Performing Click event
+To click on any webelement simply use click() method
+
+```
+driver.findElement(By.id("idValue")).click();
+```
+6. Navigating backward in browser history
+
+```
+driver.navigate().back();
+```
+7. Navigating forward in browser history
+
+```
+driver.navigate().forward();
+```
