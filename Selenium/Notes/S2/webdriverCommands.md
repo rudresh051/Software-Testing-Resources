@@ -63,3 +63,21 @@ driver.navigate().back();
 ```
 driver.navigate().forward();
 ```
+8. Refresh/Reload a web page
+
+```
+driver.navigate().refresh();
+```
+9. Closing Browser
+```
+driver.close();
+```
+10. Closing browser and other all other windows associated with the driver.
+
+```
+driver.quit();
+```
+11. Moving between frames
+```
+driver.switchTo().frame("frameName");
+```
