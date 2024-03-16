@@ -14,3 +14,15 @@ There are four basic components of WebDriver Architecture:
 * JSON Wire Protocol
 * Browser Drivers
 * Real Browsers
+
+# Selenium Language Bindings / Selenium Client Libraries
+Selenium Developers have built language bindings/Selenium Client Libraries in order to support   
+multiple lanuages.
+
+# JSON Wire Protocol
+JSON(JavaScript Object Notation) is an open standard for exchanging data on web. It supports data   
+structures like object and array.
+
+JSON Wire protocol provides a transport mechanism to transfer data between a server and a client. 
+JSON Wire Protocol provides a transport mechanism to transfer data between a server and a client.   
+JSON Wire Protocol servers as an industry standard for various REST web services.
