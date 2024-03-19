@@ -1,38 +1,38 @@
 ## Sample test cases for dropdown filter
-Verify that the Dropdown list is Clickable or Not (active or not).
+1. Verify that the Dropdown list is Clickable or Not (active or not).
 
-Verify that When Clicking on the drop-down the Dropdown list (value of Dropdown) Showing or Not.
+2. Verify that When Clicking on the drop-down the Dropdown list (value of Dropdown) Showing or Not.
 
-Verify whether the dropdown list value is as per requirement or not.
+3. Verify whether the dropdown list value is as per requirement or not.
 
-Check the design of the drop-down and verify the alignment of the drop-down with other web elements in all browsers.
+4. Check the design of the drop-down and verify the alignment of the drop-down with other web elements in all browsers.
 
-Check that the drop-down list accommodates the longest text within its boundary.
+5. Check that the drop-down list accommodates the longest text within its boundary.
 
-Check that the drop-down can be scrolled down by clicking the down arrow.
+6. Check that the drop-down can be scrolled down by clicking the down arrow.
 
-Check the title of the dropdown is as per SRS.
+7. Check the title of the dropdown is as per SRS.
 
-Check that the default item is displayed on the drop-down when the user first visits the page.
+8. Check that the default item is displayed on the drop-down when the user first visits the page.
 
-Check that if select the drop-down by the down arrow key then all items are listed in their expected order.
+9. Check that if select the drop-down by the down arrow key then all items are listed in their expected order.
 
-Check the spelling, font, and style of the text inside the drop-down as per SRS.
+10. Check the spelling, font, and style of the text inside the drop-down as per SRS.
 
-Check that on clicking the categories on the dropdown, the page displays the corresponding items.
+11. Check that on clicking the categories on the dropdown, the page displays the corresponding items.
 
-Check that the selected category on the drop-down Field is highlighted on selecting the item.
+12. Check that the selected category on the drop-down Field is highlighted on selecting the item.
 
-Check how much time it takes the drop down list to load the items under each category.
+13. Check how much time it takes the drop down list to load the items under each category.
 
-Verify that the User able to Select the Dropdown by the "tab" key from the keyboard.
+14. Verify that the User able to Select the Dropdown by the "tab" key from the keyboard.
 
-verify that If the list (of items) of this drop-down is controlled by some other selection (say in another drop-down or check-box, radio button) then Check the correctness of the items in this drop-down.
+15. Verify that If the list (of items) of this drop-down is controlled by some other selection (say in another drop-down or check-box, radio button) then Check the correctness of the items in this drop-down.
 verify that If the selection in this drop-down is controlling some other control (say, enabling/disabling, etc) then check the proper action.
 
-Check that on pressing an alphabet on the keyboard, categories in the drop-down starting with that alphabet are getting highlighted.
+16. Check that on pressing an alphabet on the keyboard, categories in the drop-down starting with that alphabet are getting highlighted.
 
-Check that the user is able to select the categories/items from the drop-down list by pressing the down key on the keyboard.
+17. Check that the user is able to select the categories/items from the drop-down list by pressing the down key on the keyboard.
 
 ## Sample test cases for Dynamic dropdown
 e.g. 
@@ -73,3 +73,54 @@ Test cases for dependent and independent filters typically involve checking how 
    d. Test Case 4: Modify the input dataset in a way that affects the dependency between filters A and B, and ensure that the filters adapt accordingly.
 
 For both types of filters, it's important to include test cases covering edge cases, such as empty datasets, datasets with null values, extreme parameter values, and boundary conditions, to ensure the robustness and correctness of the filtering process.
+
+## Test cases for a filter dropdown with an apply button 
+
+1. Default State Testing:
+```
+Verify that the filter dropdown is initially closed.
+Ensure that no filters are applied by default.
+Confirm that all content is visible without any filtering.
+```
+2. Filter Dropdown Functionality:
+```
+a. Test each dropdown option to ensure they filter the content correctly.
+b. Check for the case where multiple filters can be applied simultaneously.
+Verify that selecting an option from one dropdown does not interfere with the options 
+in other dropdowns.
+c. Test for the case where some options may not have any corresponding content.
+```
+
+3. Apply Button:
+```
+a. Verify that clicking the apply button updates the content based on the selected filters.
+b. Test scenarios where the apply button is clicked without any filters selected to ensure it doesn't affect the content.
+c. Confirm that clicking apply doesn't close the dropdowns if they're meant to remain open for further selection adjustments.
+```
+4. Clear or Reset Functionality:
+```
+Test the functionality to clear/reset all filters to their default state.
+Confirm that clicking this button removes all applied filters and restores the content to its initial state.
+```
+5. Error Handling:
+
+```
+Check for error messages or warnings when there are no results matching the selected filters.
+Verify that the system handles unexpected inputs or actions gracefully.
+```
+6. Performance and Responsiveness:
+
+```
+Test the filter functionality with a large dataset to ensure it performs efficiently.
+Verify that the dropdowns and apply button work seamlessly across different devices and screen sizes.
+```
+
+**Default State:** 
+Typically, the default state of the page should display all content   
+without any filters applied. The filter dropdowns should be closed initially.
+
+**"Select" Option:** Adding a "Select" option can be helpful for indicating to users that they need to choose an option and   
+also for providing a way to reset a filter if it's already applied. The behavior of the "Select" option could involve:  
+Not allowing the user to apply the filter until an actual option is selected.  
+When the "Select" option is chosen, it resets the filter to its default state (i.e., no filter applied).  
+If all options are selected by default, "Select" could function as a way to remove the filter.
