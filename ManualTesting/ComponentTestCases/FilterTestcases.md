@@ -1,8 +1,10 @@
 ## Sample test cases for dropdown filter
 1. Verify that the Dropdown list is Clickable or Not (active or not).
-2. Verify that When Clicking on the drop-down the Dropdown list (value of Dropdown) Showing or Not.
+2. Verify that When Clicking on the drop-down the Dropdown list (value of Dropdown) Showing   
+or Not.
 3. Verify whether the dropdown list value is as per requirement or not.
-4. Check the design of the drop-down and verify the alignment of the drop-down with other web elements in all browsers.
+4. Check the design of the drop-down and verify the alignment of the drop-down with other  
+web elements in all browsers.
 5. Check that the drop-down list accommodates the longest text within its boundary.
 6. Check that the drop-down can be scrolled down by clicking the down arrow.
 7. Check the title of the dropdown is as per SRS.
@@ -13,10 +15,15 @@
 12. Check that the selected category on the drop-down Field is highlighted on selecting the item.
 13. Check how much time it takes the drop down list to load the items under each category.
 14. Verify that the User able to Select the Dropdown by the "tab" key from the keyboard.
-15. Verify that If the list (of items) of this drop-down is controlled by some other selection (say in another drop-down or check-box, radio button) then Check the correctness of the items in this drop-down.
-verify that If the selection in this drop-down is controlling some other control (say, enabling/disabling, etc) then check the proper action.
-16. Check that on pressing an alphabet on the keyboard, categories in the drop-down starting with that alphabet are getting highlighted.
-17. Check that the user is able to select the categories/items from the drop-down list by pressing the down key on the keyboard.
+15. Verify that If the list (of items) of this drop-down is controlled by some other selection   
+(say in another drop-down or check-box, radio button) then Check the correctness of the   
+items in this drop-down.  
+verify that If the selection in this drop-down is controlling some other control   
+(say, enabling/disabling, etc) then check the proper action.
+16. Check that on pressing an alphabet on the keyboard, categories in the drop-down   
+starting with that alphabet are getting highlighted.
+17. Check that the user is able to select the categories/items from the drop-down list   
+by pressing the down key on the keyboard.
 
 ## Sample test cases for Dynamic dropdown
 e.g. 
