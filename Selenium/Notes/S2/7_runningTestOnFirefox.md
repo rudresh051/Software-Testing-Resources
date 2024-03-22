@@ -11,3 +11,5 @@ Internet Explorer Browser.
 ## Running Test on Safari Browser
 Safari Browser implements the WebDriver protocol using SafariDriver.   
 The SafariDriver is the link between your tests in Selenium and the Safari Browser.
+
+
