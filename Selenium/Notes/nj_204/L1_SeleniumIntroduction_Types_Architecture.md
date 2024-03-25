@@ -60,6 +60,9 @@ A WebDriver implementation that controls a Chrome Browser running on the local m
 It requires a chromedriver executable to be available in PATH  
 
 **ChromeDriver extends RemoteWebDriver**
+# Prerequisites
+1. For Windows -  Download Java and Install it. Set the Environment Variables
+2. Install Eclipse
 
 ## Selenium Installation
 Installation of Selenium web driver, making sure all Environmental variables are set and  
