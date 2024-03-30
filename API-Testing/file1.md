@@ -80,3 +80,7 @@ These are 3 digit numbers returned by a server in response to client's request.
 402 - Payment Gateway
 201 - Successfully created
 505 - http version not supported
+
+## Difference between HTTPS and HTTP
+
+Https - hyper text transfer protocol secure
