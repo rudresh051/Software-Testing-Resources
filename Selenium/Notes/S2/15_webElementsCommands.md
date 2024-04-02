@@ -24,3 +24,42 @@ Method:
 
 Command:  
 `element.click()` 
+
+### IsDisplayed Command
+Method:  
+```
+isDisplayed():boolean
+```
+Command:  
+```
+element.isDisplayed();
+```
+### IsEnabled Command
+Method:  
+```
+isEnabled():boolean
+```
+Command:
+```
+element.isEnabled();
+```
+
+### IsSelected Command
+Method:  
+```
+isSelected():boolean
+```
+Command:
+```
+element.isSelected();
+```
+### Submit Command
+Method:  
+```
+submit():void
+```
+
+Command:  
+```
+element.submit();
+```
