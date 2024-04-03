@@ -63,3 +63,41 @@ Command:
 ```
 element.submit();
 ```
+### GetText Command
+```
+getText():String
+```
+Command:  
+`element.getText();`
+
+### GetTagName Command
+Method:  
+getTagName():String  
+
+Command:  
+`element.getTagName();`
+### getCssValue Command
+Method:  
+getCssValue():String    
+
+Command:  
+`element.getCssValue();`
+
+### getAttribute Command
+Method:  
+`getAttribute(String Name):String`  
+Command  
+`element.getAttribute();`
+
+### getSize Command
+Method:  
+getSize():Dimension  
+
+Command:  
+`element.getSize();`
+### getLocation Command
+Method:  
+`getLocation():Point`  
+
+Command:  
+`element.getLocation();`
