@@ -19,3 +19,21 @@ A Hard Assertion contains the following methods:
 * AssertFalse
 * AssertNull
 * AssertNotNull
+
+# AssertFalse()
+Assertion verifies the boolean value returned by a condition.  
+If the boolean value is false, then assertion passes the test case,  
+and if the boolean value is true, then assertion aborts the test   
+case by an exception.
+```
+Assert.AssertFalse(condition)
+```
+
+# AssertTrue()
+Assertion verifies the boolean value returned by a condition. If the boolean value is   
+true, then assertion passes the test case, and if the boolean value is false, then   
+assertion aborts the test case by an exception
+
+```
+Assert.AssertTrue(condition);  
+```
