@@ -37,3 +37,26 @@ assertion aborts the test case by an exception
 ```
 Assert.AssertTrue(condition);  
 ```
+
+# AssertEquals()
+AssertEquals() is a method used to compare the actual and expected results.   
+If both the actual and expected results are same, then the assertion pass with no exception   
+and the test case is marked as "passed". If both the actual and expected results are not the   
+same, then the assertion fails with an exception and the test case is marked as "failed".    
+Syntax of an AssertEquals() method is given below:
+
+```
+Assert.assertEquals(actual,expected);  
+```
+
+# AssertNotEquals()
+It is opposite to the function of AssertNotEquals() method. AssertNotEquals() is a   
+method used to compare the actual and expected results. If both the actual and expected   
+results are not the same, then the assertion pass with no exception and the test case   
+is marked as "passed". If both the actual and expected results are same, then the assertion     
+fails with an exception and the test case is marked as "failed".   
+Syntax of an AssertNotEquals() method is given below:
+
+```
+AssertNotEquals(actual,expected,message);  
+```
