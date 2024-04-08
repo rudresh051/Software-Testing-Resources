@@ -60,3 +60,15 @@ Syntax of an AssertNotEquals() method is given below:
 ```
 AssertNotEquals(actual,expected,message);  
 ```
+
+# Assert Null
+AssertNull() is a method that verifies whether the object is null or not.  
+If an object is null, then assertion passes the test case, and the test case is marked as "passed",   
+and if an object is not null, then assertion aborts the test case and the test case is marked as "failed"
+
+`Assert.assertNull(object);`
+
+# AssertNotNull()
+AssertNotNull() is a method that verifies whether the object is null or not.  
+If an object is not null, then assertion passes the test case and test case is marked as "passed", and if an object is null, then assertion aborts the test case and case is marked as "failed".
+`Assert.assertNotNull(object);`
