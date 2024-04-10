@@ -16,3 +16,19 @@ servers, so local machine distributes the test cases across different machines/s
 
 ## Architecture of Selenium Grid
 ![Selenium Grid architecture](image-7.png)
+## Hub
+* A Hub is a central point or a local machine that receives all the test requests and   
+distributes them to the right nodes. The machine which actually triggers the test case   
+known as Hub
+* There can be only one hub in a selenium grid.
+* The machine which is containing the hub triggers the test case, but you will see the   
+browser being automated on other machines.
+
+## Node
+Nodes are the selenium instances which will execute the test cases that you loaded on the hub.   
+Nodes can be launched on multiple machines with different platforms and browsers.
+
+## Why Selenium Grid?
+Selenium Grid is useful of the following reasons:
+1. Run on different platforms.
+2. Parallel execution
