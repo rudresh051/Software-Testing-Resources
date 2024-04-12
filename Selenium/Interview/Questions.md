@@ -2,16 +2,12 @@
 `WebDriver driver = new ChromeDriver();`
 2. Explain the different types of selenium locators?
 3. What are different components of Selenium?
-4. Explain Selenium Architecture.
-[5. What is Client-server Architecture?](#client-server-architecture)
+4. [Explain Selenium Architecture.] (#selenium-architecture)
+5. [What is Client-server Architecture?](#client-server-architecture)
 
 
 # Answers
-
-
-
-
-## 4. Explain Selenium Architecture. {#client-server-architecture}
+## 4. Explain Selenium Architecture. {#selenium-architecture}
 # Selenium Architecture
 
 Selenium architecture refers to the design and structure of the Selenium testing framework, including its components, interactions, and principles. Selenium is a popular open-source tool used for automating web browsers, primarily for testing web applications.
@@ -35,7 +31,7 @@ Selenium architecture refers to the design and structure of the Selenium testing
 
 In summary, the Selenium architecture comprises several interconnected components that work together to automate web browsers for testing purposes. Selenium WebDriver serves as the core automation engine, while Selenium Grid enables parallel testing across multiple environments. Additionally, Selenium IDE and client libraries provide tools and interfaces for creating, executing, and managing automated tests.
 
-5. What is Client Server Architecture?
+5. What is Client Server Architecture?{#client-server-architecture}
 # Client-Server Architecture
 
 Client-server architecture is a computing model in which client devices communicate with a central server to request services or resources. It is a common architecture used in networked systems, where clients and servers interact to accomplish tasks and share data.
