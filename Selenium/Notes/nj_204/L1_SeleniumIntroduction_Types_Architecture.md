@@ -67,7 +67,7 @@ data-driven testing, and reporting capabilities.
 It was the predecessor to WebDriver providing a server-based architecture for automated web testing   
 but is now deprecated in favor of WebDriver.
 
-* Selenium RC (Remote Control) was one of the earlier versions of Selenium, used for automating web   
+* Selenium RC (Remote Control) was one of the earlier(old) versions of Selenium, used for automating web   
 browsers for testing purposes. It allowed testers to write automated tests in various programming   
 languages, such as Java, Python, C#, etc., by providing a client-server architecture.
 
@@ -143,7 +143,8 @@ Allows  programmatically interacting with web browsers to automate testing
 
 ## Selenium Architecture
 Selenium WebDriver API provides communication facility between languages and browsers.  
-The following image shows the architectural representation of Selenium WebDriver
+The following image shows the architectural representation of Selenium WebDriver  
+
 ![selenium webdriver architecture](image.png)
 
 ### Selenium Language Bindings / Selenium Client Libraries
