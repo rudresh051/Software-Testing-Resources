@@ -4,17 +4,17 @@
 2. Explain the different types of selenium locators?
 3. What are different components of Selenium?
 4. Explain Selenium Architecture.
-5. What is Client-server Architecture?
+[5. What is Client-server Architecture?](#client-server-architecture)
 
 ```
 
 
+# Answers
 
 
 
 
-
-4. Explain Selenium Architecture.
+## 4. Explain Selenium Architecture. {#client-server-architecture}
 # Selenium Architecture
 
 Selenium architecture refers to the design and structure of the Selenium testing framework, including its components, interactions, and principles. Selenium is a popular open-source tool used for automating web browsers, primarily for testing web applications.
