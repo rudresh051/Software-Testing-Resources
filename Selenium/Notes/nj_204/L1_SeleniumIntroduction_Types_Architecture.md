@@ -9,7 +9,7 @@ Selenium comprises four components:
 3. Selenium WebDriver
 4. Selenium Grid
 
-### Selenium IDE
+### 1. Selenium IDE
 * Selenium IDE(Integrated Development Environment) is a tool used for automated testing of   
 web applications.
 * A browser extension for recording and replay of interactions with a web application.
@@ -63,13 +63,53 @@ systems as needed. Additionally, frameworks like TestNG or JUnit can be used to 
 data-driven testing, and reporting capabilities.
 ```
 
-### Selenium RC ( Remote Control)
+### 2. Selenium RC ( Remote Control)
 It was the predecessor to WebDriver providing a server-based architecture for automated web testing   
 but is now deprecated in favor of WebDriver.
 
-### Selenium Grid
-Selenium Grid enables parallel test execution across multiple machines  
-and browsers
+* Selenium RC (Remote Control) was one of the earlier versions of Selenium, used for automating web   
+browsers for testing purposes. It allowed testers to write automated tests in various programming   
+languages, such as Java, Python, C#, etc., by providing a client-server architecture.
+
+* How Selenium RC worked?
+* What were the drawbacks of Selenium RC?
+
+### 3. Selenium Grid
+* Selenium Grid is a tool used in Selenium testing that enables parallel test execution across multiple machines  
+and browsers.
+* It allows testers to distribute test execution across a network of machines (referred to as "nodes"),   
+thereby reducing test execution time and increasing efficiency.
+
+Here's how Selenium Grid works:
+```
+1. **Hub-Node Architecture:** Selenium Grid follows a hub-node architecture. The hub acts as a central point 
+that controls the test execution, while nodes are instances of browsers running on different machines.
+
+2. **Hub:** The hub is responsible for receiving test requests from clients, such as test scripts written in 
+Selenium WebDriver, and distributing them to available nodes for execution. It manages the allocation of 
+test sessions to nodes based on predefined criteria.
+
+3. **Nodes:** Nodes are machines (physical or virtual) that host different browser environments for test execution. 
+Each node registers itself with the hub, indicating the browser configurations it supports and its 
+availability for test execution.
+
+4. **Test Execution:** When a test script is submitted to the hub for execution, the hub determines an available 
+node that matches the desired browser and platform configuration specified in the test script. It then 
+forwards the test execution command to the selected node.
+
+5. **Parallel Execution:** Selenium Grid allows for parallel execution of tests across multiple nodes. Test 
+scripts can be executed concurrently on different browsers, operating systems, or machine configurations, 
+thereby reducing overall test execution time.
+
+```
+
+
+* Q. What is Parallel Testing?
+```
+Parallel testing means multiple tests in different platforms
+Let's say I have 100 scripts . But I want to run it on Linux, Windows, Mac OS
+
+```
 
 ### Selenium WebDriver
 Allows  programmatically interacting with web browsers to automate testing
@@ -85,8 +125,10 @@ client libraries to write automation scripts. Common languages include Java, Pyt
 C#, Ruby, and JavaScript.  
 
 ### W3C WebDriver Protocol
-The WebDriver protocol is the actual communication protocol used between the   client(automation script or test code) and browser driver. It defines how   
-commands are sent to the browser, how the browser processes those commands, and   how the results are communicated back to the client  
+The WebDriver protocol is the actual communication protocol used between the   
+client(automation script or test code) and browser driver. It defines how   
+commands are sent to the browser, how the browser processes those commands, and   
+how the results are communicated back to the client  
 
 ### Browser Drivers
 Each browser (e.g. ChromeDriver, GeckoDriver etc) has its own driver that  
