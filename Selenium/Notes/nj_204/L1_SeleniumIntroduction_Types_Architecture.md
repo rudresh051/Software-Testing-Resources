@@ -142,23 +142,27 @@ Let's say I have 100 scripts . But I want to run it on Linux, Windows, Mac OS
 Allows  programmatically interacting with web browsers to automate testing
 
 ## Selenium Architecture
+
 Selenium WebDriver API provides communication facility between languages and browsers.  
-The following image shows the architectural representation of Selenium WebDriver  
+
+**The following image shows the architectural representation of Selenium WebDriver**  
 
 ![selenium webdriver architecture](image.png)
 
-### Selenium Language Bindings / Selenium Client Libraries
+There are 3 main components of Selenium Webdriver
+
+### 1. Selenium Language Bindings / Selenium Client Libraries
 Selenium 4 supports various programming languages, and developers use Selenium  
 client libraries to write automation scripts. Common languages include Java, Python,  
 C#, Ruby, and JavaScript.  
 
-### W3C WebDriver Protocol
+### 2. W3C WebDriver Protocol
 The WebDriver protocol is the actual communication protocol used between the   
 client(automation script or test code) and browser driver. It defines how   
 commands are sent to the browser, how the browser processes those commands, and   
 how the results are communicated back to the client  
 
-### Browser Drivers
+### 3. Browser Drivers
 Each browser (e.g. ChromeDriver, GeckoDriver etc) has its own driver that  
 implements the WebDriver protocol. These drivers act as intermediaries between  
 the selenium scripts and the browsers, translating commands from the script into actions in the browser.
