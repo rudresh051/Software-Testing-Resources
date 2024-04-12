@@ -1,5 +1,6 @@
 ## Introduction on Selenium
-Selenium is an open-source framework for automated browser testing and web application automation offering suite of tools to interact with web browsers programmatically
+Selenium is an open-source framework for automated browser testing and web application automation offering   
+suite of tools to interact with web browsers programmatically
 
 ## Different Selenium components
 Selenium comprises four components:
@@ -9,16 +10,35 @@ Selenium comprises four components:
 4. Selenium Grid
 
 ### Selenium IDE
-* Selenium IDE(Integrated Development Environment) is a tool used for automated testing of web applications.
+* Selenium IDE(Integrated Development Environment) is a tool used for automated testing of   
+web applications.
 * A browser extension for recording and replay of interactions with a web application.
-* With Selenium IDE, you can record user interactions like clicks, typing text, selecting options from dropdown, etc., and then replay them to perform automated tesing.
-* It generates test scripts in various programming languages such as Java, Python, C#, etc., which can be further customized and enhanced to suit specific testing needs.
-* Selenium IDE is particularly useful for quick test prototyping, creating simple automated tests, and for those who are new to automated testing or programming, as it provides a simple and intuitive interface for test creation.
-* However, for more complex testing scenarios and larger test suites, testers often use Selenium WebDriver, which offers more flexibility and control over the testing process.
+* With Selenium IDE, you can record user interactions like clicks, typing text, selecting   
+options from dropdown, etc., and then replay them to perform automated tesing.
+* It generates test scripts in various programming languages such as Java, Python, C#, etc.,   
+which can be further customized and enhanced to suit specific testing needs.
+* Selenium IDE is particularly useful for quick test prototyping, creating simple automated tests,   
+and for those who are new to automated testing or programming, as it provides a simple and intuitive   
+interface for test creation.
+* However, for more complex testing scenarios and larger test suites, testers often use Selenium WebDriver,   
+which offers more flexibility and control over the testing process.
 It works only for chrome and firefox
+```
+Q. What are the things that cannot be automated with selenium IDE
+
+A. While Selenium IDE is a powerful tool for automating many web interactions, there are certain   
+limitations and scenarios where it many not be suitable.
+Here is a complex example that illustrates some of these limitations:
+Let's say you're testing a web application that involves complex interactions with elements that are   
+dynamically generated or heavily reliant on JavaScript frameworks like React or Angular. One such scenario   
+could involve testing a multi-step form that dynamically loads new fields based on user input.
+1. Dynamic Element Identification
+
+```
 
 ### Selenium RC ( Remote Control)
-It was the predecessor to WebDriver providing a server-based architecture for automated web testing but is now deprecated in favor of WebDriver.
+It was the predecessor to WebDriver providing a server-based architecture for automated web testing   
+but is now deprecated in favor of WebDriver.
 
 ### Selenium Grid
 Selenium Grid enables parallel test execution across multiple machines  
