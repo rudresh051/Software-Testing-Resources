@@ -24,3 +24,15 @@ Wait doesn't need to be specified with this condition
 3. Implicit Wait needs time frame specification in terms of methods like element visibility,   
 clickable element, and the elements that are to be selected. In contrast, Explicit Wait is dynamic   
 and needs no such specifications.
+
+# Fluent Wait
+Fluent Wait is quite similar to explicit wait. 
+In Fluent wait, you can perform wait for action for an element it might take to be clickable or visible.
+The differential factors that Fluent offers are as follows:
+1. The pooling frequency
+```
+The pooling frequency in case of Explicit is 500 milliseconds. But, using Fluent Wait,   
+this pooling frequency can be changed to any value based upon your need. 
+```
+2. Ignore Exception
+While pooling, if an element is not found, you can ignore some expectations like 'NoSuchElement'.
