@@ -7,7 +7,7 @@
 
 
 # Answers
-## 4. Explain Selenium Architecture. {#selenium-architecture}
+## 4. Explain Selenium Architecture.{#selenium-architecture}
 # Selenium Architecture
 
 Selenium architecture refers to the design and structure of the Selenium testing framework, including its components, interactions, and principles. Selenium is a popular open-source tool used for automating web browsers, primarily for testing web applications.
