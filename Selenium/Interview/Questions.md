@@ -2,7 +2,7 @@
 `WebDriver driver = new ChromeDriver();`
 2. Explain the different types of selenium locators?
 3. What are different components of Selenium?
-4. [Explain Selenium Architecture.] (#selenium-architecture)
+4. [Explain Selenium Architecture.](#selenium-architecture)
 5. [What is Client-server Architecture?](#client-server-architecture)
 
 
