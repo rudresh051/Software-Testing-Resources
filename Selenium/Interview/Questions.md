@@ -1,19 +1,16 @@
 1. Explain the following syntax  
 `WebDriver driver = new ChromeDriver();`
 2. Explain the different types of selenium locators?
-3. What are different components of Selenium?
-4. [Explain Selenium Architecture](#selenium-architecture)
-5. [What is client-server architecture?](#client-server-architecture)
+3. [Explain Selenium Architecture or What are different components of Selenium?](#👉-selenium-architecture)
+4. [What is client-server architecture?](#👉-client-server-architecture)
 
 
-# Answers
-
-4. Explain Selenium Architecture{#selenium-architecture}
-### Selenium Architecture
+## 3. Explain Selenium Architecture
+### 👉 Selenium Architecture
 
 Selenium architecture refers to the design and structure of the Selenium testing framework, including its components, interactions, and principles. Selenium is a popular open-source tool used for automating web browsers, primarily for testing web applications.
 
-## Components:
+### Components:
 
 1. **Selenium WebDriver**:  
    - WebDriver is the core component of Selenium, responsible for automating web browsers. It provides a programming interface for interacting with web elements, simulating user actions such as clicking buttons, typing text, and navigating through web pages. WebDriver communicates directly with the browser using browser-specific drivers (e.g., ChromeDriver, GeckoDriver, etc.) to control its behavior.
@@ -32,12 +29,12 @@ Selenium architecture refers to the design and structure of the Selenium testing
 
 In summary, the Selenium architecture comprises several interconnected components that work together to automate web browsers for testing purposes. Selenium WebDriver serves as the core automation engine, while Selenium Grid enables parallel testing across multiple environments. Additionally, Selenium IDE and client libraries provide tools and interfaces for creating, executing, and managing automated tests.
 
-5.  What is client-server architecture? {#1-client-server-architecture}
-# Client-Server Architecture
+## 4. What is client-server architecture?
+### 👉 Client Server Architecture
 
 Client-server architecture is a computing model in which client devices communicate with a central server to request services or resources. It is a common architecture used in networked systems, where clients and servers interact to accomplish tasks and share data.
 
-## Components:
+### Components:
 
 1. **Client**:
    - The client is a device or software application that initiates communication with the server. Clients can range from desktop computers, laptops, smartphones, to web browsers and mobile apps.
