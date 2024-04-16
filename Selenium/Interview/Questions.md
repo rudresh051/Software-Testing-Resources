@@ -3,6 +3,7 @@
 2. Explain the different types of selenium locators?
 3. [Explain Selenium Architecture or What are different components of Selenium?](#👉-selenium-architecture)
 4. [What is client-server architecture?](#👉-client-server-architecture)
+5. [What is the difference between findElement() and findElements() methods in Selenium WebDriver?](#👉-findElement()-FindElements())
 
 
 ## 3. Explain Selenium Architecture
@@ -58,3 +59,9 @@ Client-server architecture is a computing model in which client devices communic
 - **Security**: Centralized control and security measures implemented on servers help protect data and resources from unauthorized access or misuse.
 
 In summary, client-server architecture forms the basis for networked systems, enabling communication and collaboration between client devices and central servers to provide services, share resources, and facilitate data exchange.
+
+## findElement() and FindElements()
+The `findElement()` method in Selenium WebDriver is used to locate the first element matching the given criteria,   
+and it returns a single WebElement object representing that element. On the other hand, the `findElements()` method   
+returns a list of WebElements matching the given criteria, allowing you to work with multiple elements that match the    
+specified selector. Well done! Here's your next question:
