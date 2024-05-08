@@ -191,6 +191,23 @@ It requires a chromedriver executable to be available in PATH
 2. Install Eclipse
 
 ## Selenium Installation
+1. Navigate to https://www.selenium.dev/downloads/
+2. Download Selenium for Java or as suitable![Selenium downlad page](image-2.png)
+3. Extract the files and keep the all the files in a folder. Give it a proper name for identification.
+4. Open Eclipse
+5. Go to file => New => Maven Project![new maven project](image-3.png)
+6. Click on checkbox "Create a simple project..."
+7. Click next button
+8. Give Group id e.g. company name (Masai)![newProjectSelenium](image-4.png)
+9. Give Artifact id i.e. selenium project
+10. Click on finish
+11. A new Maven project will be created
+12. After this we have to build path of selenium jars files , we have downloaded!
+13. Right click on project name and go to build path=> configure build path
+[alt text](image-5.png)
+13. Click on Maven=>Libraries=>Add external jars
+14. Now download chrome driver
+
 Installation of Selenium web driver, making sure all Environmental variables are set and  
 installing selenium library in IDE
 
