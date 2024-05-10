@@ -87,6 +87,7 @@ Syntax:
 Apart from "id" and "class", other attributes can also be used to locate web elements using CSS selector.
 ```
 Syntax:
+<tagname>[attribute_name='attribute_value']
 <tagname>[href='<href value>']
 ```
 
@@ -119,6 +120,69 @@ public class OpenHerokuApp {
 //		3. By ClassName
 		WebElement username = driver.findElement(By.className("inputs ui-autocomplete-input"));
 		username.sendKeys("some value");
+	}
+
+}
+
+```
+
+## Locator Script
+```
+package day1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OpenHerokuApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
+		// Open my chrome browser
+		WebDriver driver = new ChromeDriver();
+//		driver.get("https://the-internet.herokuapp.com/login");
+		
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/"); 
+		
+//		To use locators
+//		1. By ID
+//		WebElement username = driver.findElement(By.id("username"));
+		
+//		2. By Name
+//		WebElement username = driver.findElement(By.name("username"));
+		
+//		3. By ClassName
+//		WebElement username = driver.findElement(By.className("ui-autocomplete-input"));
+//		WebElement username = driver.findElement(By.className("inputs"));
+		
+//		4. By LinkText
+//		driver.findElement(By.linkText("Free Access to InterviewQues/ResumeAssistance/Material")).click();
+		
+//		5. By PartialLink Text
+//		driver.findElement(By.partialLinkText("Free Access")).click();
+		
+//		6. By CSS Selector
+//		a. Without Tagname
+//		WebElement username = driver.findElement(By.cssSelector("#username"));
+//		WebElement password = driver.findElement(By.cssSelector("#password"));
+
+//		With Tagname
+//		WebElement username = driver.findElement(By.cssSelector("input#username"));
+//		WebElement password = driver.findElement(By.cssSelector("input#password"));
+		
+//		b. With class (Rahul Shetty page)  
+//		WebElement username = driver.findElement(By.cssSelector(".ui-autocomplete-input"));
+//		using Tagname
+//		WebElement username = driver.findElement(By.cssSelector("input.ui-autocomplete-input"));
+
+//		c. With Attribute
+		WebElement username = driver.findElement(By.cssSelector("input[placeholder='Type to Select Countries']"));
+		
+		
+		username.sendKeys("some value");
+//		password.sendKeys("wrong password");
 	}
 
 }
