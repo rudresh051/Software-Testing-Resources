@@ -63,7 +63,10 @@ Syntax - (//tag[@attribute='Value'])[index]
 
 
 Contains Function :  
+https://www.javatpoint.com/webdriver-locating-strategies-by-xpath-using-contains
 It takes two parameters.
+//<HTML tag>[contains(@attribute_name,'attribute_value')]  
+
 Syntax - 
 //Tag[contains(text(),'textvalue')]  
 
@@ -80,5 +83,43 @@ Example -
 ![indexing](image-10.png)
 
 
+# EPFO Website
+```
+1. Normal XPath Locators
+> //img[@src="../images/EPFO_Logo.png"]
+>> //div[@style="display:table-cell; vertical-align:middle; width:71%; font-size:15px;"]
+
+2. Using text fuction
+>> //b[text()='YouTube']
+>> //b[text()='Instagram']
 
 
+
+3. Using contains function
+>> //a[contains(text(),'Grocery')]
+>> //span[contains(text(),"Ministry of Labour & Employment, Government of India ")]
+>> //a[contains(text(),'Establishment e-Report Card')]  
+>> //a[contains(@title,'EPFO Corner')]
+
+
+4. Using combination of contains with indexing
+>> (//div[contains(@class,'link_box_woimg')])[1]
+>> (//div[contains(@class,'link_box_woimg')])[2]
+
+5. Using combination of contains method with "and"
+>> //a[contains(@rel,'noopener noreferrer') and contains(text(),'Establishment e-Report Card')]
+>> //a[contains(@rel,'noopener noreferrer') and contains(text(),'Principal Employers-CAIU Portal')]
+
+```
+
+![contains1](image-13.png)
+
+![contains2](image-14.png)
+
+![contains3](image-15.png)
+
+![contains4](image-16.png)
+
+![text1](image-17.png)
+
+![contains5](image-18.png)

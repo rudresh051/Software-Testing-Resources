@@ -104,8 +104,44 @@ public class RedBusAction {
 		WebElement clickPnrLink = driver.findElement(By.xpath("//p[text()='Check PNR Status']"));
 		clickPnrLink.click();
 		
-
 	}
 
 }
+```
+
+5. DEMOQA Website send Keys
+```
+package day2;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DemoQAWebsite4Text {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://demoqa.com/text-box");
+		
+		WebElement fullName = driver.findElement(By.cssSelector("input#userName"));
+		fullName.sendKeys("Rudreshwar Jha");
+		
+		WebElement email = driver.findElement(By.cssSelector("input#userEmail"));
+		email.sendKeys("qwertyasdfzxcv@gmail.com");
+		
+		WebElement currentAddress = driver.findElement(By.cssSelector("textarea#currentAddress"));
+		currentAddress.sendKeys("Bengaluru");
+		
+		WebElement permanantAddress = driver.findElement(By.cssSelector("textarea#permanentAddress"));
+		permanantAddress.sendKeys("Bihar");
+		
+		
+	}
+
+}
+
 ```
