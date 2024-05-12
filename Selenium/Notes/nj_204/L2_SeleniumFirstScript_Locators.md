@@ -40,11 +40,10 @@ Locators are classified into 8 types:
 1. ClassName
 2. CSS Selector
 3. ID
-4. LinkText
+4. LinkText and PartialLink text
 5. Name
-6. PartialLink text
-7. TagName
-8. X path.
+6. TagName
+7. X path.
 
 All of the Locators are static methods of `By` class
 
