@@ -82,6 +82,8 @@ Syntax:
 <tagname><class value>
 <class value>
 ```
+e.g. img.rb_logo
+![redBus-logo](image-8.png)
 
 #### 3. Attribute
 Apart from "id" and "class", other attributes can also be used to locate web elements using CSS selector.
