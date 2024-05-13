@@ -1,4 +1,4 @@
-1. ClickRadioButton.java
+# 1. ClickRadioButton.java
 ```package day2;
 
 import org.openqa.selenium.By;
@@ -22,7 +22,7 @@ public class ClickRadioButton {
 }
 ```
 
-2. ClickCheckBox
+# 2. ClickCheckBox
 ```
 package day2;
 
@@ -48,7 +48,7 @@ public class ClickCheckBoxes {
 
 ```
 
-3. SendTextToBox.java
+# 3. SendTextToBox.java
 ```
 package day2;
 
@@ -75,7 +75,7 @@ public class SendText {
 }
 ```
 
-4. RedBusAction.java
+# 4. RedBusAction.java
 ```
 package day2;
 
@@ -109,7 +109,7 @@ public class RedBusAction {
 }
 ```
 
-5. DEMOQA Website send Keys
+# 5. DEMOQA Website send Keys
 ```
 package day2;
 
