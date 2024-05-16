@@ -247,3 +247,53 @@ public class FrameTest3 {
 }
 
 ```
+3. Nested Frames
+
+```
+package day3;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class NestedFrame2 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://demo.automationtesting.in/Frames.html");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//a[@href='#Multiple']")).click();
+//		Step1 - Switch the control form webpage to outer frame
+		WebElement outerframe = driver.findElement(By.xpath("//iframe[@src='MultipleFrames.html']"));
+		driver.switchTo().frame(outerframe);
+		
+//		Step2 - Switch to the inner frame
+		WebElement innerframe = driver.findElement(By.xpath("(//iframe[@src='SingleFrame.html'])[1]"));
+		driver.switchTo().frame(innerframe);
+		
+//		Step3 - SendKeys
+		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("hello");
+		
+//		Step4 - Now again switch back to outer frame
+//		It will back to outer layer
+//		It is the nature of default method.
+		driver.switchTo().defaultContent();
+//		Step5 - Switch to Main webpage
+		driver.switchTo().defaultContent();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//a[@href='WebTable.html']")).click();
+		
+
+	}
+
+}
+
+```
+
+# Working with windows and tabs
+### Get window handle
+WebDriver does not make the distinction between windows and tabs. If your site opens a new tab or window, Selenium will let you work with it using a window handle. Each window has a unique identifier which remains persistent in a single session. You can get the window handle of the current window by using: 
+`driver.getWindowHandle()`
