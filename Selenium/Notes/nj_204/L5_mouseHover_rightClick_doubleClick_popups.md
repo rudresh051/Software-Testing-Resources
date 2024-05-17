@@ -295,5 +295,70 @@ public class NestedFrame2 {
 
 # Working with windows and tabs
 ### Get window handle
-WebDriver does not make the distinction between windows and tabs. If your site opens a new tab or window, Selenium will let you work with it using a window handle. Each window has a unique identifier which remains persistent in a single session. You can get the window handle of the current window by using: 
-`driver.getWindowHandle()`
+WebDriver does not make the distinction between windows and tabs.   
+If your site opens a new tab or window, Selenium will let you work with   
+it using a window handle. Each window has a unique identifier which remains   
+persistent in a single session. You can get the window handle of the current   
+window by using: 
+`driver.getWindowHandle()`  
+
+* How to get the window handle of child tab?
+We use a method called driver.getWindowHandles();
+This will give us the window handles of all the windows currently present.
+
+
+Get the handle of the parent window using the command-  
+`String parentWiandowHandle = driver.getWindowHandle();` 
+Print the window handle of the parent window
+Find the element on the web page using an IDIwhich is an element locator.
+Open multiple child windows
+Iterate through child windows-
+Get the handles of all the windows that are currently open using the
+command-
+Which returns the set of handles.
+use the command to swqtch to the desired window and also pass
+the URL ortheweb page
+
+```
+SwitchTabsTest
+
+package day3;
+
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SwitchTabsTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://demo.automationtesting.in/Windows.html");
+		driver.findElement(By.xpath("//button[text()='    click   ']")).click();
+		
+		// Step1 - Switch the control from parent window to child window
+		String child_url = "https://www.selenium.dev/";
+		String parent_window = driver.getWindowHandle();
+		
+		Set<String> all_ids = driver.getWindowHandles();//This will get window handles of all chrome tabs/windows
+		
+		for (String single_id : all_ids) {
+			driver.switchTo().window(single_id);
+			
+			if(driver.getCurrentUrl().contains(child_url)) {
+				break;
+			}
+		}
+		// If we break from the loop then we will be switched to the child window.
+		
+		driver.findElement(By.xpath("//a[@href='/downloads']")).click();		
+		
+	}
+
+}
+
+```
+
