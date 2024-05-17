@@ -31,3 +31,37 @@ Once the command is run, Implicit Wait remains forthe entire duration for which 
 is open. default setting is 0, and the specific wait time needs to be set by the following  
 protocol.  
 Implicit Wait Syntax  
+
+```
+ImplicitWaitTest
+
+package day4;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ImplicitWaitTest {
+
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+//		Thread.sleep(10000);
+		
+		// Implicit wait
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+		
+//		driver.findElement(By.cssSelector("input[placeholder='Type to Select Countries']")).sendKeys("some country");
+		driver.findElement(By.cssSelector("input[placeholder='Type to ']")).sendKeys("some country");
+		driver.findElement(By.xpath("//a[@href='https://rahulshettyacademy.com/documents-request']")).click();
+
+	}
+
+}
+
+```
