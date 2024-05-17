@@ -153,7 +153,45 @@ public class ExplicitWaitTest {
 	}
 
 }
-
-
 ```
  
+
+# JavaScript Executor
+ ![JavaScript Executor](image-19.png)
+
+In simple words, JavaScript Executor is an interface that is used to execute  
+JavaScript with Selenium.  
+To simplify the usage of JavaScript Executor in selenium, think of it as a medium that  
+enables the to interact with HTML élemet$s within the browser.  
+JavaScript is a programming language that interacts with HTML in a browser, and to  
+use this function in Selenium, is required.  
+
+```
+importing the package
+
+Import org.openqa.selenium.JavaScriptExecutor;
+
+// Creating a reference
+
+JavascriptExecutor js = (JavascriptExecutor) driver;
+
+// calling the method
+js.executeScript(script, args);
+```
+
+## How JavascriptExecutor works in Selenium
+Let's try to understand the working of JavascriptExecutor using a simple example and implementation of both the JavascriptExecutor methods.
+
+1. JavascriptExecutor in Selenium to click a buton
+js.executeScript("document.getElementByID('elementid').click();");
+
+2. JavascriptExecutor in Selenium to send text
+js.executeScript("document.getElementByID('elementid').value='xyz'");
+
+3. JavascriptExecutor in Selenium to scroll down.
+js.executeScript("window.scrollBy(0,250)","");
+
+4. JavascriptExecutor in Selenium to scroll down until the element is found into view
+
+// Scrolling down the page till the element is found
+js.executeScript("arguments[0].scrollIntoView();",Element);
