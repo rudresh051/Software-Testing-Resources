@@ -149,9 +149,7 @@ public class ExplicitWaitTest {
 		Actions act = new Actions(driver);
 		WebElement electronics_link = driver.findElement(By.linkText("Electronics"));
 		electronics_link.click();
-				
 	}
-
 }
 ```
  
@@ -180,7 +178,13 @@ js.executeScript(script, args);
 ```
 
 ## How JavascriptExecutor works in Selenium
-Let's try to understand the working of JavascriptExecutor using a simple example and implementation of both the JavascriptExecutor methods.
+The JavaScript Executor in Selenium is an interface that provides a way to execute JavaScript code within the   
+context of the browser. It is particularly useful for performing operations that might not be directly supported   
+by Selenium WebDriver's API or for interacting with elements in ways that are more efficient or reliable than   
+standard WebDriver commands.  
+
+Let's try to understand the working of JavascriptExecutor using a simple example and implementation of   
+both the JavascriptExecutor methods.
 
 1. JavascriptExecutor in Selenium to click a buton
 js.executeScript("document.getElementByID('elementid').click();");
@@ -195,3 +199,94 @@ js.executeScript("window.scrollBy(0,250)","");
 
 // Scrolling down the page till the element is found
 js.executeScript("arguments[0].scrollIntoView();",Element);
+
+
+```
+JavaScriptExecutorTest.java
+
+package day4;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class JavaScriptExecutorTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+		driver.manage().window().maximize();
+		WebElement option1 = driver.findElement(By.cssSelector("input[name='checkBoxOption1']"));
+		option1.click();
+		
+		WebElement mousehover = driver.findElement(By.id("mousehover"));
+		
+//		Step1 - Invoke JavaScript Executor
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+//		js.executeScript("window.scrollBy(0,1300)");
+		
+		js.executeScript("arguments[0].scrollIntoView()", mousehover);
+		
+		
+	}
+
+}
+
+```
+
+
+```
+EbayScrollTest.java
+
+package day4;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class EbayScrollTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.ebay.com/");
+		driver.manage().window().maximize();
+		WebElement Register_link = driver.findElement(By.linkText("Registration"));
+		
+//		Step1 - Invoke javascript executor
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+//		Step2 - Use executemethod from js and use
+		js.executeScript("arguments[0].scrollIntoView()", Register_link);
+		
+	}
+
+}
+
+
+```
+
+| Feature              | Implicit Wait                        | Explicit Wait                          |
+|----------------------|--------------------------------------|----------------------------------------|
+| **Definition**       | Waits for a specified time for elements to appear globally | Waits for specific conditions for specific elements |
+| **Scope**            | Applies to all elements globally     | Applies to specified elements and conditions |
+| **Setting**          | One-time global setting              | Defined each time for specific elements |
+| **Conditions**       | Only waits for the presence of elements | Can wait for various conditions like visibility, clickability, etc. |
+| **Control**          | Less control over wait conditions    | More control and flexibility with wait conditions |
+| **Typical Usage**    | Handling unpredictable delays        | Handling specific scenarios requiring certain conditions |
+
+
+**Example Use Cases**  
+Implicit Wait: Best used when you have many elements that may load at different times,   
+but you don't need to check specific conditions.
+
+Explicit Wait: Best used when you need to wait for specific conditions such as an element   
+becoming clickable, visible, or containing a certain text.
+
+
