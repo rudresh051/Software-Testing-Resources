@@ -51,5 +51,54 @@ public class UploadTest {
 
 }
 
+```
+
+Remember following two things when uploading files in WebDriver
+
+1. There is no need to simulate the clicking of the "Browse" button. WebDriver
+automatically enters the file path onto the file-selection text box of the <input
+type="file"> element
+2. When setting the file path in your Java IDE, use the proper escape character
+for the back-slash.
+
+# Download file in Selenium
+Locate the download link:
+Find the element representing the link to the file you want to download. 
+
+You can use various locators, such as By.id, By.xpath etc
+
+WebElement downloadLink = driver.findElement(By.id("download-lin"));
+
+## Simulate a click on the link:
+Click the download link to initiate the file download:
+
+downloadLink.click();
+
+```
+// DownloadFileTest.java
+
+package day4;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DownloadTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://demo.automationtesting.in/FileDownload.html#google_vignette");
+		driver.manage().window().maximize();
+		driver.findElement(By.id("textbox")).sendKeys("sample data");
+		driver.findElement(By.id("createTxt")).click();
+		
+		// Download link - Direct click on it
+		driver.findElement(By.id("link-to-download")).click();
+	}
+
+}
+
 
 ```
