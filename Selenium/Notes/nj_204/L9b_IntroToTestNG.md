@@ -11,3 +11,6 @@ Click on help option-> Eclipse Marketplace
 2. Find TestNG for eclipse division and click on install button
 3. Click on confirm button and I accept the terms and conditions and click on
 finish
+
+To use TestNG with Selenium, you need to add the library to your project- If  
+you're using Maven, add the following dependency to your pom.xml file.  
