@@ -13,4 +13,21 @@ Click on help option-> Eclipse Marketplace
 finish
 
 To use TestNG with Selenium, you need to add the library to your project- If  
-you're using Maven, add the following dependency to your pom.xml file.  
+you're using Maven, add the following dependency to your pom.xml file. 
+
+# TestNG Annotations:
+TestNG uses annotations to define the behaviour of test methods.  
+Some commonly used annotations in Selenium automation are:
+
+@Test : Marks a method as a test method.
+@BeforeMethod : Executes before each test method
+@AfterMethod : Exectures after each test method
+@BeforeClass : Executes once before the test class.
+@AfterClass : Executes once after the test class.
+@BeforeTest : Executes before a test(a group of classes)
+
+The @BeforeTest annotation is used to designate a method that should run before any test method belonging to a <test> tag in the XML suite file.
+
+@AfterTest : Executes after a test (a group of classes).
+
+@dataprovider - It helps us to run a single testcase with Multiple sets of data.  
