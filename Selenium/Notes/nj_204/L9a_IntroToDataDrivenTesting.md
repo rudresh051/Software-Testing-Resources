@@ -55,3 +55,50 @@ Junit is Unit testing framework available in Java.
   
 </project>
 ```
+## code Example
+```
+package day5;
+
+import java.time.Duration;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class junittesting {
+	
+	WebDriver driver;
+	
+	@Before
+	public void setup() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://the-internet.herokuapp.com/login");
+	}
+	
+
+	@Test
+	public void logintest() throws InterruptedException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		driver.findElement(By.id("username")).sendKeys("Rudreshwar Jha");
+		driver.findElement(By.cssSelector("input[type='password']")).sendKeys("random");
+		wait.until(ExpectedConditions.textToBePresentInElementLocated(By.cssSelector(".fa-sign-in"), "Login"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".fa-sign-in")));
+		driver.findElement(By.cssSelector(".fa-sign-in")).click();
+		driver.close();
+		Thread.sleep(2000);
+	}
+	
+	@After
+	public void teardown() {
+		driver.close();
+	}
+	
+}
+
+```
