@@ -171,3 +171,42 @@ public class DataDrivenTest1 {
 	}
 }
 ```
+
+# Data Providers
+
+What are DataProviders in TestNG?  
+
+The DataProviders in TestNG are another way to pass the parameters in the test function,  
+the other one being TestNG parameters. DataProviders pass different values to the TestNG  
+Test Case in a single execution and in the form of TestNG Annotations.  
+
+It is a part of the inbuilt TestNG data-driven testing for which TestNG is quite popular DataProviders help in    
+passing the parameters in different ways.
+DataProvider 
+
+## Syntax:
+```
+The TestNG DataProvider is used in the following manner
+
+@DataProvider (name="name_of_dataprovider")
+public Object[][] dpMethod(){
+	return new Object [][]{ value }
+}
+```
+
+## How DataProvider works
+Data Provider is an annotation available in TestNg  
+It allows testers to execute a single test method with multiple sets of data.  
+We have to write the test method only once and mention the Data provider.
+
+This will execute the test method multiple times with multiple sets of data provided.
+
+* Steps to Implement Data Provider :
+Step 1 : Create 2 Dimensional Object array and mention the size of it wrt rows and
+column size of your Excel sheet.  
+
+Get the row and column size by using the predefined methods in Xls_reader class.  
+
+Step 2 : Create 2 for loops (1 for Rows and 1 for Columns) and get the cell value and
+Store it in a 2d array.
+Step 3 : Return the Object array
