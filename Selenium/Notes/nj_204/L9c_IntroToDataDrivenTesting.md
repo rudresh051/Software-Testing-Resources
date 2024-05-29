@@ -210,3 +210,51 @@ Get the row and column size by using the predefined methods in Xls_reader class.
 Step 2 : Create 2 for loops (1 for Rows and 1 for Columns) and get the cell value and
 Store it in a 2d array.
 Step 3 : Return the Object array
+
+### DataExtract.java
+```
+package day6;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class DataExtract {
+	
+	// In this class we are getting the data from excel and storing it all into
+	// a 2 Dimensional object array
+	
+	public Object[][] getdatafromexcel() throws EncryptedDocumentException, IOException{
+		// Reading our Excel File through FileInputStream
+		FileInputStream fis = new FileInputStream("C:\\Users\\rudre\\Documents\\workspace-spring-tool-suite-4-4.22.1.RELEASE\\seleniumproject9May\\src\\main\\resources\\TestData1.xlsx");
+		
+		Workbook book = WorkbookFactory.create(fis);
+		Sheet sh = book.getSheet("Sheet1");
+		
+		// next step is get last row number and last column number
+		short cellsize = sh.getRow(0).getLastCellNum();
+		int rowcount = sh.getLastRowNum();
+		
+		
+		// Next step - Create/Define a 2 dimensional Object array.
+		Object[][] obj = new Object[rowcount][cellsize];
+		
+		// Here 2 loops are used so that first we keep the row value same and iterate over
+		// columns and do the same for all the rows
+		
+		for(int i=0; i<rowcount;i++) {
+			for(int j=0; j<cellsize;j++) {
+				obj[i][j] = sh.getRow(i).getCell(j).getStringCellValue();
+			}
+		}
+		
+		return obj;
+		
+	}
+}
+
+```
