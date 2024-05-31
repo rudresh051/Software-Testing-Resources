@@ -23,16 +23,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class TestngFeaturesTest {
 	
 	WebDriver driver;
 	
-	@BeforeMethod
+	@BeforeTest(alwaysRun = true)
 	public void setup() {
-		System.setProperty("webdriver.driver.chrome","C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
+
 		driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		
@@ -74,7 +76,14 @@ public class TestngFeaturesTest {
 		 
 	 }
 	
+	
+	@AfterTest(alwaysRun = true)
+	public void last() {
+		driver.close();
+	}
+	
 }
+
 ```
 
 * smoketestng.xml
