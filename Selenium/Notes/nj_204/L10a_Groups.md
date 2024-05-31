@@ -76,3 +76,23 @@ public class TestngFeaturesTest {
 	
 }
 ```
+
+* smoketestng.xml
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+	<groups>
+		<run>
+			<include name="Regression"></include>
+		</run>
+	</groups>
+    <classes>
+      <class name="day6.TestngFeaturesTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+```
