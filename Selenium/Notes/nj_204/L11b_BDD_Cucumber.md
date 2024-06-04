@@ -4,7 +4,7 @@ Approach to Develop, Test, maintain, Deliver the software.
 BDD - Behavioral Driven Development.
 
 Other approaches:
-TDD - Test Driven Development.
+TDD - Test Driven Development.  
 
 ## What is BDD?
 BDD is a way for software teams to work that closes the gap between **business
@@ -22,12 +22,22 @@ from concept through to implementation, in a process of continuous collaboration
 
 
 ## What is Cucumber?
-0k, now that you know that BDD is about discovery, collaboration and examples  
-(and not testing), let's take a look at Cucumber.
+It is a framework keeping in minds about 3 Amigos.(Testers, Developers and Business Analyst/Product owner)
 
 Cucumber reads executable specifications written in plain text and validates that the
 software does what those specifications say. The specifications consists of multiple examples,  
 or scenarios.  
+
+There are 3 Main Components of Cucumber Framework.
+1. **Feature Files** - Files that are written in Plain English Format. These are also called as Gherkin files.
+It makes use of Keywords. And those come from Gherkin language.
+**Gherkin** Language/Format that is used to write feature files.
+
+2. **Step Definitions** - These are the Subsequent Java Classes that is used to convert feature files into Java selenium Code.
+
+This acts like a translator which translate English language into Java. 
+
+3. **Runner file** - Runner file takes the path of feature file and Step definition and executes the code.
 
 For example:
 Scenario: Breaker guesses a word  
@@ -38,6 +48,8 @@ When the Breaker makes a guess
 Then the Maker is asked to score.
 
 Each scenario is a list of steps for Cucumber to work through. Cucumber verifies that the software confirms with the specification and generates a report indication ✔️ success or ❌ failure for each scenario.
+
+
 
 ## Workflow:
 1. Write Scenarios:
