@@ -33,21 +33,37 @@ There are 3 Main Components of Cucumber Framework.
 It makes use of Keywords. And those come from Gherkin language.
 **Gherkin** Language/Format that is used to write feature files.
 
-2. **Step Definitions** - These are the Subsequent Java Classes that is used to convert feature files into Java selenium Code.
+2. **Step Definitions** - These are the Subsequent Java Classes that is used to convert feature files    
+into Java selenium Code.
 
 This acts like a translator which translate English language into Java. 
 
 3. **Runner file** - Runner file takes the path of feature file and Step definition and executes the code.
 
 For example:
+```
 Scenario: Breaker guesses a word  
 Given the Maker has chosen a word
 
 When the Breaker makes a guess
 
 Then the Maker is asked to score.
+```
 
-Each scenario is a list of steps for Cucumber to work through. Cucumber verifies that the software confirms with the specification and generates a report indication ✔️ success or ❌ failure for each scenario.
+![example](image-27.png)
+
+```
+Scenario: I want to test the Amazon Fresh Feature in Amazon.in
+Given : Open the browser and enter Amazon.in
+AND make sure that you are using chrome browser
+When Click on Fresh Link in bar menu
+Then The Amazon Fresh page should be displayed.
+AND it should also display the SBI Card Advertisement
+```
+
+Each scenario is a list of steps for Cucumber to work through. Cucumber verifies   
+that the software confirms with the specification and generates a report   
+indication ✔️ success or ❌ failure for each scenario.
 
 
 
@@ -55,14 +71,16 @@ Each scenario is a list of steps for Cucumber to work through. Cucumber verifies
 1. Write Scenarios:
 * Collaboratively write scenarios in Gherkin to describe the expected behavior of the application.
 2. Implement Step Definitions:
-* Implement the step definitions in the programming language of your choice (e.g., Java, Ruby, JavaScript) to map Gherkin steps to actual code.
+* Implement the step definitions in the programming language of your choice (e.g., Java, Ruby, JavaScript)   
+to map Gherkin steps to actual code.
 3. Run Tests:
 * Run the tests to validate the application’s behavior against the defined scenarios.
 4. Refactor and Iterate:
 * Refactor the code and scenarios as needed, continuously improving the application and its test coverage.
 
 
-BDD-Cucumber bridges the gap between technical and non-technical team members, fostering a collaborative environment that leads to the development of high-quality software.
+BDD-Cucumber bridges the gap between technical and non-technical team members, fostering a collaborative   
+environment that leads to the development of high-quality software.
 
 loginStpes.java
 ```
