@@ -135,6 +135,53 @@ public class LoginSteps {
 * Add Cucumber junit maven dependency of same version e.g. 4.8.1
 * Add Selenium java maven dependency
 
+pom.xml
+```
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sdet</groupId>
+  <artifactId>cucumber-6thJune</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+	<dependency>
+	    <groupId>io.cucumber</groupId>
+	    <artifactId>cucumber-java</artifactId>
+	    <version>4.8.1</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+	<dependency>
+	    <groupId>io.cucumber</groupId>
+	    <artifactId>cucumber-junit</artifactId>
+	    <version>4.8.1</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>4.10.0</version>
+	</dependency>
+  </dependencies>
+</project>
+```
 
 
+## What is Gherkin?
+Gherkin is a set of grammar rules that makes plain text structured enough for  
+Cucumber to understand. The scenario above is written in Gherkin.  
+Gherkin serves multiple purposes:  
+• Unambiguous executable specification  
+• Automated testing using Cucumber  
+• Document how the system actually behaves  
+Gherkin documents are stored in .feature text files and are typically versioned in  
+source control alongside the software.  
+
+## What are Step Definitions?
+
+Step definitions connect Gherkin steps to programming code. A step definition  
+carries out the action that should be performed by the step. So step definitions hard-  
+wire the specification to the implementation.
+
+![gherkin](image-28.png)
 
