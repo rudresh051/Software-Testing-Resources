@@ -185,3 +185,62 @@ wire the specification to the implementation.
 
 ![gherkin](image-28.png)
 
+
+## Steps
+2. Feature File:
+Create a new directory named features in scg/test/resources to store your
+feature files.
+Inside the features directory, create a feature file (e.g., with
+BDD scenarios:
+Feature: Sample Feature
+Scenario: Login with valid credentials
+Given the user is on the login page
+When the user enters valid username and password
+Then the user should be logged in successfully
+
+login.feature
+```
+#Author: your.email@your.domain.com
+#Keywords Summary :
+#Feature: List of scenarios.
+#Scenario: Business rule through list of steps with arguments.
+#Given: Some precondition step
+#When: Some key actions
+#Then: To observe outcomes or validation
+#And,But: To enumerate more Given,When,Then steps
+#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+#Examples: Container for s table
+#Background: List of steps run before each of the scenarios
+#""" (Doc Strings)
+#| (Data Tables)
+#@ (Tags/Labels):To group Scenarios
+#<> (placeholder)
+#""
+## (Comments)
+#Sample Feature Definition Template
+@tag
+Feature: Heroku Login
+  
+
+  @tag1
+  Scenario: To validate username, password, Login functionality is working or not 
+    Given open the browser enter url
+    And make sure the url is validated
+    When user enters username
+    And user enters password
+    And user clicks on login button
+    Then Login should happen successfully
+    And home page should be displayed
+
+  #@tag2
+  #Scenario Outline: Title of your scenario outline
+   # Given I want to write a step with <name>
+    #When I check for the <value> in step
+    #Then I verify the <status> in step
+
+    #Examples: 
+     # | name  | value | status  |
+      #| name1 |     5 | success |
+      #| name2 |     7 | Fail    |
+
+```
