@@ -128,8 +128,12 @@ public class LoginSteps {
 }
 
 ```
-
-
+## Installation of cucumber
+1. Install Cucumber from Eclipse Market place.
+2. Add following Dependencies to Pom.xml
+* Add Cucumber java maven dependency
+* Add Cucumber junit maven dependency of same version e.g. 4.8.1
+* Add Selenium java maven dependency
 
 
 
