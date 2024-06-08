@@ -188,15 +188,15 @@ wire the specification to the implementation.
 
 ## Steps
 2. Feature File:
-Create a new directory named features in scg/test/resources to store your
-feature files.
-Inside the features directory, create a feature file (e.g., with
-BDD scenarios:
-Feature: Sample Feature
-Scenario: Login with valid credentials
-Given the user is on the login page
-When the user enters valid username and password
-Then the user should be logged in successfully
+* Create a new directory named features in scg/test/resources to store your feature files.
+* Imp - Navigate to new>>file>>filename.feature
+* Inside the features directory, create a feature file (e.g., with
+BDD scenarios:  
+Feature: Sample Feature  
+Scenario: Login with valid credentials  
+Given the user is on the login page  
+When the user enters valid username and password  
+Then the user should be logged in successfully  
 
 login.feature
 ```
@@ -333,3 +333,7 @@ public class LoginStepDefinition {
 	}
 }
 ```
+
+
+## Run the above code with run with cucumber TestNG
+For that add the TestNG dependency
