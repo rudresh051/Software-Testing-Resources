@@ -129,7 +129,7 @@ public class AlertTest5Seconds {
 
 ```
 # Frames
-What are Frames in Selenium?
+What are Frames in Selenium?  
 The term "frames" in Selenium refers to segmenting an HTML document into several  
 portions, each of which can contain a separate HTML document. These frames are  
 also referred to as (inline frames). Frames are frequently used when a web  
@@ -145,7 +145,7 @@ elements. Selenium yygÄQOyer has a few simple steps to handle frames:
 perform the operations.  
 * Switch back to the web content by the method  
 
-1. By Index
+1. **By Index Method**
 ```
 package day3;
 
