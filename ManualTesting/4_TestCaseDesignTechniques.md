@@ -1,7 +1,8 @@
 ## Requirement Traceability Matrix
 It is also called as requirement Traceability matrix(RTM) or Cross reference matrix (CRM)  
 
-It is a document through which we are ensuring that each and every requirement has minimum test cases.
+It is a document through which we are ensuring that each and every requirement has minimum test cases.  
+
 Types of Requirement traceability matix:
 1) Forward Traceability matrix
 2) Backward Traceability matrix
@@ -69,16 +70,34 @@ Question => When we have boundry value analysis why we are going for Equivalence
 So if we don't go for numbers in the range of 1-499 we will miss out many values. There might be defect.   So for this region we are not going for Boundry value analysis.
 
 
-### 3 Boundary Value Analysis— 
+### 3 Boundary Value Analysis — 
 It is a process of testing extreme boundaries of  
-the given component. Lets say, here you need values between the range A to B.  
-We need tests for A,A+ & A- similarly B, B+ & B- . So here we will have 4  
-positive scenarios and 2 negative scenarios. Since the boundaries are covered,  
-our test case coverage is good and no need to test for other values.     
+the given component.  
 
-Advantages - Easy to understand, Test cases are less, cost effective(less)     
+For each variable range we check-   
+* Minimum value. 
+* Just above the minimum. 
+* Nominal Value. 
+* Just below Max value. 
+* Max value. 
 
-### 4) Decision Table Technique —   
+Lets say, here you need values between the range A to B.  
+
+We need tests for A,A+ & A- similarly B, B+ & B- . 
+
+So here we will have 4 positive scenarios and 2 negative scenarios. 
+
+Since the boundaries are covered, our test case coverage is good and 
+no need to test for other values. That means we are not doing over testing or under testing.
+
+Apart from BVA to make our test coverge good we apply Equivalence class partitioning.
+
+**Advantages** - Easy to understand, Test cases are less, cost effective(less)     
+
+![BVA vs Equivalence class Partioning](image-4.png)
+
+
+### 4. Decision Table Technique —   
 In this Technique, we check for multiple
 conditions, combinations and Rule criterias.  
 Formula = 2^ no of conditions = total no of rules or scenarios
