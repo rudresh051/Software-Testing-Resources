@@ -14,13 +14,21 @@ Types of Requirement traceability matix:
 
 ## Test case Design Technique
 1. Error Guessing
-2. Equivalence class Partitioning
+2. Equivalence class Partitioning/Equivalence Partioning (EP/ECP)
 3. Boundry value analysis
 4. Decision Table Technique
 5. State Transition Diagram
 
 ### 1. Error guessing
-Here, TE will guess the error and derive more scenarios.  
+* Here, Test Engineer will guess the error and derive more scenarios. It basically means apart from entering positive input we should enter all other inputs. 
+
+* Error Guessing technique is also applied to all of the other testing techniques to produce more effective and workable tests. 
+
+* It is also called experience-based testing. which has no specific method of testing. It comes from skills and experience/expertise of an individual to find possible flaws. 
+
+* **When or Where to use?** - So this method works especially well for complicated or software systems which doesn't have clear specifications. 
+
+* **Advantage of Error guessing** – We can identify the potential issues before the execution of formal test cases. 
 
 Example: Assume there is an "Amount" text field and the requirement says that it
 accepts + integer only.  
@@ -29,28 +37,39 @@ Now we will have to enter only invalid inputs such as -10, abc, 10@ etc and try 
 guess more errors in this case.
 
 ### 2. Equivalence Class Partitioning -   
-Here, when the input is in range of
-values, let us say, there is an "Amount" text field and the requirement says that  
-it can accept numbers between 100 to 500. In this case what we can do is  
-instead of entering all numbers, we can divide this range into equal classes l,e,.  
+Here, when the input is in range of values especially **when it is a big range of numbers**   
+we divide it in equal partitions.  
+
+let us say, there is an "Amount" text field and the requirement says that    
+**it can accept numbers between 1 to 500**.  
+
+In this case what we can do is  
+instead of entering all numbers, we can divide this range into equal classes i.e.   
 -100 to O, O to 100, 100 to 200, 200 to 300, 300 to 400, 400 to 500 & 500 to  
-600. After this try entering any 1 value from each of this class. Example if you  
-enter 150 for the class 100 to 200, need not enter other values in range of 100  
+600 .  
+
+After this try entering any 1 value from each of this class.   
+
+Example if you enter 150 for the class 100 to 200, need not enter other values in range of 100  
 to 200, if it is accepting, then test case is pass, if it is not accepting, then test  
 case is fail. Likewise we can only test only 7 scenarios/values(which includes 5  
-positive & 2 negative scenarios) and ensure that our test case coverage is
-achieved.  
+positive & 2 negative scenarios) and ensure that our **test case coverage is achieved**.    
 
-Amount text field requirement accepts between 1-500  
-0 to -100  
-1 to 100  
-100 to 200  
-200 to 300  
-300 to 400  
-400 to 500  
-500 to 600  
+**Amount text field requirement accepts between 1-500**  
+Class 1 => 0 to -100  => Negative 
+Class 2 => 1 to 100  => Enter one value for this class e.g. 50  
+Class 3 => 100 to 200  => Enter one value for this class e.g. 123  
+Class 4 => 200 to 300  => Enter one value for this class e.g. 267
+Class 5 => 300 to 400  => Enter one value for this class e.g. 343
+Class 6 => 400 to 500  => Enter one value for this class e.g. 444
+Class 7 => 500 to 600  => Negative
 
-### 3) Boundary Value Analysis— 
+
+Question => When we have boundry value analysis why we are going for Equivalence class partitioning?  
+So if we don't go for numbers in the range of 1-499 we will miss out many values. There might be defect.   So for this region we are not going for Boundry value analysis.
+
+
+### 3 Boundary Value Analysis— 
 It is a process of testing extreme boundaries of  
 the given component. Lets say, here you need values between the range A to B.  
 We need tests for A,A+ & A- similarly B, B+ & B- . So here we will have 4  
