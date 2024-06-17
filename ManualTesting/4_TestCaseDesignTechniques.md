@@ -144,3 +144,33 @@ third time, he can withdraw the cash.
 blocked and he cannot withdraw the cash.   
 These scenarios customers can write in a pictorial way and present how scenarios we can derive
 here.
+
+
+
+# Table
+| Category                  | Technique                        | Description |
+|---------------------------|----------------------------------|-------------|
+| **Black-Box Testing**     | Equivalence Partitioning         | Divides input data into equivalent partitions that can be tested with a single test case. |
+|                           | Boundary Value Analysis          | Focuses on testing the boundaries between partitions. |
+|                           | Decision Table Testing           | Uses a table to represent combinations of inputs and their corresponding outputs. |
+|                           | State Transition Testing         | Tests the various states of a system and the transitions between them. |
+|                           | Use Case Testing                 | Derives test cases from use cases, which describe the interactions between users and the system. |
+|                           | Error Guessing                   | Relies on the tester's experience to guess the most error-prone areas of the application. |
+|                           | Cause-Effect Graphing            | Uses graphical representation to depict the relationship between causes (inputs) and effects (outputs). |
+|                           | Pairwise Testing                 | Tests all possible discrete combinations of input parameters. |
+| **White-Box Testing**     | Statement Coverage               | Ensures that each statement in the code is executed at least once. |
+|                           | Branch Coverage                  | Ensures that each branch (decision point) in the code is executed. |
+|                           | Path Coverage                    | Ensures that all possible paths through the code are executed. |
+|                           | Loop Testing                     | Focuses on testing the loops within the code. |
+|                           | Condition Coverage               | Ensures that each condition in a decision is tested for all possible outcomes. |
+|                           | Multiple Condition Coverage      | Tests all possible combinations of conditions in a decision. |
+|                           | Data Flow Testing                | Focuses on the points where variables receive values and where these values are used. |
+|                           | Control Flow Testing             | Analyzes the flow of control in the program and ensures that all possible paths are tested. |
+| **Experience-Based Testing** | Exploratory Testing             | Simultaneously learning, test design, and test execution, where testers explore the application to find defects. |
+|                           | Ad-Hoc Testing                   | Informal testing based on the tester's intuition and experience without formal test case documentation. |
+|                           | Error Guessing                   | Test cases are derived from the tester’s knowledge of past failures or from common error patterns. |
+|                           | Checklist-Based Testing          | Uses checklists to guide testing efforts, ensuring that all important aspects are covered. |
+| **Other Techniques**      | Model-Based Testing              | Uses models to represent the desired behavior of the system and generate test cases. |
+|                           | Orthogonal Array Testing         | Systematically tests pair-wise combinations of input variables to minimize the number of test cases while maximizing coverage. |
+|                           | Mutation Testing                 | Involves modifying the code slightly (creating mutants) and checking if the test cases can detect these changes. |
+|                           | Specification-Based Testing      | Derives test cases from specifications or requirements. |
