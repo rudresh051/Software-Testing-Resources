@@ -8,11 +8,13 @@
 
 package justPractise;
 
+import java.util.Set;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Assignment2a {
+public class Assignment2 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -21,7 +23,26 @@ public class Assignment2a {
 		driver.get("https://v1.training-support.net/selenium/tab-opener");
 		driver.findElement(By.id("launcher")).click();
 		Thread.sleep(3000);
+		// Step 1 - Switch the control from parent window to child window
+		String child_tab1 = "https://v1.training-support.net/selenium/newtab";
+		String parent_tab = driver.getWindowHandle();
+		
+		Set<String> all_tab_ids = driver.getWindowHandles();
+		System.out.println(all_tab_ids);
+		
+//		System.out.println(parent_tab);
+		
+		for (String var1 : all_tab_ids) {
+			System.out.println(var1);
+			driver.switchTo().window(var1);
+			if (driver.getCurrentUrl().contains(child_tab1)) {
+				break;
+			}
+			
+		}
 		driver.findElement(By.id("actionButton")).click();
+		Thread.sleep(2000);
+		driver.close();
 
 	}
 
