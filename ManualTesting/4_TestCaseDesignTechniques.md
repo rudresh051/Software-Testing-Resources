@@ -145,7 +145,16 @@ blocked and he cannot withdraw the cash.
 These scenarios customers can write in a pictorial way and present how scenarios we can derive
 here.
 
+Example Scenario: ATM System
+Description:
+Consider an ATM system where a user can perform actions like inserting a card, entering a PIN, and withdrawing cash. The system has the following states:
 
+Idle: No card inserted.
+Card Inserted: Card is inserted, awaiting PIN.
+PIN Entered: PIN entered, awaiting transaction choice.
+Transaction Processing: Processing the selected transaction (e.g., cash withdrawal).
+Transaction Complete: Transaction completed, awaiting card removal.
+Error: Incorrect PIN entered three times, card retained.
 
 # Table
 | Category                  | Technique                        | Description |
