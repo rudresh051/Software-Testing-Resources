@@ -21,7 +21,7 @@ Some commonly used annotations in Selenium automation are:
 
 @Test : Marks a method as a test method.
 @BeforeMethod : Executes before each test method
-@AfterMethod : Exectures after each test method
+@AfterMethod : Executes after each test method
 @BeforeClass : Executes once before the test class.
 @AfterClass : Executes once after the test class.
 @BeforeTest : Executes before a test(a group of classes)
