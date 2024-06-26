@@ -1,8 +1,11 @@
 # Introduction to TestNG annotations
 
-(Test Next Generation) is a testing framework for Java that is widely used in  
+(Test Next Generation) is a **testing framework for Java** that is widely used in  
 Selenium automation testing. It provides powerful features for test configuration  
 parallel execution, grouping, and reporting.
+
+
+* We replace Main method and most of the time we use TestNG
 
 # Installation steps of TestNG:
 Go To Eclipse window
@@ -12,9 +15,17 @@ Click on help option-> Eclipse Marketplace
 3. Click on confirm button and I accept the terms and conditions and click on
 finish
 
+![ImageTestNG](image-34.png)
+
 To use TestNG with Selenium, you need to add the library to your project- If  
 you're using Maven, add the following dependency to your pom.xml file. 
 
+![mavenRepo](image-35.png)
+
+
+Select a version which has more downloads and which is stable i.e. 6.9.10 as shown  
+in the image below
+![testNG](image-36.png)
 # TestNG Annotations:
 TestNG uses annotations to define the behaviour of test methods.  
 Some commonly used annotations in Selenium automation are:
