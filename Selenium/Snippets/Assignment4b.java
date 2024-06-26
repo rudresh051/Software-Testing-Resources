@@ -93,6 +93,4 @@ public class Assignment4 {
 		report.endTest(test);
 		report.flush();
 	}
-	
-	
 }
