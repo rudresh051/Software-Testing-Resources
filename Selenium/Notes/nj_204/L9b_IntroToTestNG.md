@@ -19,14 +19,15 @@ you're using Maven, add the following dependency to your pom.xml file.
 TestNG uses annotations to define the behaviour of test methods.  
 Some commonly used annotations in Selenium automation are:
 
-@Test : Marks a method as a test method.
-@BeforeMethod : Executes before each test method
-@AfterMethod : Executes after each test method
-@BeforeClass : Executes once before the test class.
-@AfterClass : Executes once after the test class.
-@BeforeTest : Executes before a test(a group of classes)
+@Test : Marks a method as a test method.  
+@BeforeMethod : Executes before each test method  
+@AfterMethod : Executes after each test method  
+@BeforeClass : Executes once before the test class.  
+@AfterClass : Executes once after the test class.  
+@BeforeTest : Executes before a test(a group of classes)  
 
-The @BeforeTest annotation is used to designate a method that should run before any test method belonging to a <test> tag in the XML suite file.
+The @BeforeTest annotation is used to designate a method that should run before any   
+test method belonging to a <test> tag in the XML suite file.  
 
 @AfterTest : Executes after a test (a group of classes).
 
@@ -34,22 +35,24 @@ The @BeforeTest annotation is used to designate a method that should run before 
 
 ## Difference between JUnit and TestNG
 
-JUnit and TestNG are both popular testing frameworks for Java, and they share similarities in terms of functionality, but they also have some differences. Here's a comparison between JUnit and TestNG
+JUnit and TestNG are both popular testing frameworks for Java, and they share similarities in   
+terms of functionality, but they also have some differences. Here's a comparison between JUnit and TestNG
 
 * **Annoation Support**
 JUnit - JUnit 4 uses annotations such as @Test, @Before, @After, etc.
 
-TestNG - TestNG provides a broader set of annoations, including @Test, @BeforeMethod, @AfterMethod, @BeforeClass, @AfterClass, @BeforeTest, @AfterTest, etc.  
+TestNG - TestNG provides a broader set of annoations, including @Test, @BeforeMethod, @AfterMethod,   
+@BeforeClass, @AfterClass, @BeforeTest, @AfterTest, etc.  
 TestNG's annotations offeer more fine-grained control over test-execution.
 
 * **Parameterization** - 
-JUnit supports parameterized tests using the @Parameterized annotaion.
+JUnit supports parameterized tests using the @Parameterized annotaion.  
 
-TestNG : TestNG has built-in support for parameterization using the @DataProvider
+TestNG : TestNG has built-in support for parameterization using the @DataProvider  
 annotation, making it easier to run tests with different sets of data.
 
 **Dependencies:**
-JUnit - JUnit does not have built-in support for test dependencies. Developers often
+JUnit - JUnit does not have built-in support for test dependencies. Developers often  
 use @Before and @After annotations for setup and teardown.
 
 TestNG - TestNG provides a dependsOnMethods attribute that allows you to specify 
@@ -58,13 +61,14 @@ TestNG - TestNG provides a dependsOnMethods attribute that allows you to specify
 Junit - JUnit doesn't have built-in support for test groups or prioritization.  
 Developers often use naming conventions or custom runners for grouping.
 
-TestNG - TestNG allows you to group tests using attribute in annotations. It also supports test prioritization using the priority attribute.
+TestNG - TestNG allows you to group tests using attribute in annotations. It also supports   
+test prioritization using the priority attribute.
 
 **Parallel Execution:**
-JUnit does not prope native support for parallel execution. Developers often
+JUnit does not prope native support for parallel execution. Developers often  
 rely on external tools for parallel test execution.
 
-Parallel Execution - Execution of Multiple test scripts at once wrt different browsers/platforms.
+Parallel Execution - Execution of Multiple test scripts at once wrt different browsers/platforms.  
 
 TestNG has built-in support for parallel test execution at various levels
 (methods, classes, suites), making it easy to parallelize test runs.
@@ -85,7 +89,9 @@ JUnit's reporting capabilites are basic, and developers often us additional tool
 
 TestNG generates detailed HTML reports by default, providing comprehensive information about test results. 
 
-In Summary, while both JUnit and TestNG are powerful testing frameworks, TestNG oftern offers more features out of the box and provides additional capabilites for test configuration, parameterization, and parallel execution.
+In Summary, while both JUnit and TestNG are powerful testing frameworks, TestNG oftern offers more   
+features out of the box and provides additional capabilites for test configuration, parameterization,   
+and parallel execution.
 
 
 
