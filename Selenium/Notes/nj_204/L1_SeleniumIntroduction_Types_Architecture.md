@@ -138,7 +138,7 @@ Let's say I have 100 scripts . But I want to run it on Linux, Windows, Mac OS
 
 ```
 
-## Selenium WebDriver
+## 4. Selenium WebDriver
 Allows  programmatically interacting with web browsers to automate testing
 
 ### Selenium Architecture
