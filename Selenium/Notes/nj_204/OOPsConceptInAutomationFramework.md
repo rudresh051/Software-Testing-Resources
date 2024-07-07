@@ -1,3 +1,5 @@
+Link - https://www.youtube.com/watch?v=oj6ooN8YTLI
+
 1. **Abstraction**  
 * Abstraction is the methodology of hiding the implementation of internal details   
 and showing the functionality to the users.
@@ -32,3 +34,9 @@ stamps such as SECONDS, MINUTES, HOURS etc.
 
 * **Method Overriding** - Declaring a method in child class which is already present in the   
 parent class is called Method Overriding. Examples are get and navigate methods of different drivers in Selenium.
+
+5. **Encapsulation**
+* Encapsulation is a mechanism of binding code and data (variables) together in a single unit.
+
+* In POM classes, we declare the data members using @FindBy and initialization of data members   
+will be done using Constructor to utilize those in methods.
