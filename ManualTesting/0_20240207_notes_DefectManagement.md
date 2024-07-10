@@ -2,7 +2,8 @@
 A bug is the consequence/outcome of a coding fault
 
 ## What is Defect in Software Testing?
-A defect in software testing is a variation or deviation of the software application from end user's requirements or original business requirements.
+A defect in software testing is a variation or deviation of the software   
+application from end user's requirements or original business requirements.
 
 ## What is bug Report in Software Testing?
 It is a detailed document about bugs found in the software application
@@ -14,9 +15,12 @@ Defect Management is a systematic process to identify bugs and fix bugs.
 1. Discovery
 2. Categorization - It helps the software developers to prioritize their tasks
 3. Defect Resolution - It is a step-by-step process of fixing the defects
-4. Verification - After the development team fixes the resolved the defect, the testing team verifies that the defects are actually resolved
+4. Verification - After the development team fixes the resolved the defect, the testing   
+team verifies that the defects are actually resolved
 5. Closure - Once a defect has been resolved and verified, the defect status is changed to closed
-6. Defect Reporting - It is a process in which test managers prepare and send the defect report to the management team. Defect reporting helps to better communicate, track, and explain the defects in detail.
+6. Defect Reporting - It is a process in which test managers prepare and send the defect report to   
+the management team. Defect reporting helps to better communicate, track, and explain the   
+defects in detail.
 
 ## What is Defect/Bug life cycle?
 It is nothing but the specific set of states that a defect or bug goes through in its entire life cycle.
