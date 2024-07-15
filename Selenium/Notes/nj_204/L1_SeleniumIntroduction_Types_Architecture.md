@@ -187,8 +187,16 @@ It requires a chromedriver executable to be available in PATH
 
 **ChromeDriver extends RemoteWebDriver**
 # Prerequisites
-1. For Windows -  Download Java and Install it. Set the Environment Variables
+1. For Windows -  Download Java and Install it. 
+* https://www.oracle.com/in/java/technologies/downloads/
+* Choose the version. e.g. Java 17
+* Go to program files => Java => bin => copy path
+![java path](image-39.png)
+* Set the Environment Variables
+* System variables => Path => double click => Click new => paste the path => Click OK => click OK => Click OK
 2. Install Eclipse
+* https://www.eclipse.org/downloads/
+![eclipse](image-38.png)
 
 ## Selenium Installation
 1. Navigate to https://www.selenium.dev/downloads/
