@@ -193,10 +193,18 @@ It requires a chromedriver executable to be available in PATH
 * Go to program files => Java => bin => copy path
 ![java path](image-39.png)
 * Set the Environment Variables
-* System variables => Path => double click => Click new => paste the path => Click OK => click OK => Click OK
+* System variables => Path => double click => Click new => paste the path =>   
+Click OK => click OK => Click OK
 2. Install Eclipse
 * https://www.eclipse.org/downloads/
+* Now a days Eclipse comes with Java
 ![eclipse](image-38.png)
+
+3. You can also install Spring Tool suite IDE for developement
+* Go to browser => Type spring tool suite
+* https://spring.io/tools
+* ![spring-tool for eclipse](image-40.png)
+* Video - https://www.youtube.com/watch?v=1TBE0y5xBkU
 
 ## Selenium Installation
 1. Navigate to https://www.selenium.dev/downloads/
@@ -216,7 +224,8 @@ It requires a chromedriver executable to be available in PATH
 15. Right click on project name and go to build path=> configure build path
 [alt text](image-5.png)
 16. Click on Maven=>Libraries=>Add external jars
-17. Now download chromedriver for the chrome browser![chromium driver](image-6.png)
+17. Now download chromedriver for the chrome browser![chromium driver](image-6.png)  
+https://developer.chrome.com/docs/chromedriver/downloads
 18. Extract the files
 19. Go to IDE => src/test/java and do right click
 20. Add a new package e.g. Day1
