@@ -21,15 +21,21 @@ Types of Requirement traceability matix:
 5. State Transition Diagram
 
 ### 1. Error guessing
-* Here, Test Engineer will guess the error and derive more scenarios. It basically means apart from entering positive input we should enter all other inputs. 
+* Here, Test Engineer will guess the error and derive more scenarios.  
+It basically means apart from entering positive input we should enter all other inputs. 
 
-* Error Guessing technique is also applied to all of the other testing techniques to produce more effective and workable tests. 
+* Error Guessing technique is also applied to all of the other testing techniques   
+to produce more effective and workable tests. 
 
-* It is also called experience-based testing. which has no specific method of testing. It comes from skills and experience/expertise of an individual to find possible flaws. 
+* It is also called experience-based testing. which has no specific method of testing.   
+It comes from skills and experience/expertise of an individual to find possible flaws. 
 
-* **When or Where to use?** - So this method works especially well for complicated or software systems which doesn't have clear specifications. 
+* **When or Where to use?** - So this method works especially well for complicated or   
+software systems   
+which doesn't have clear specifications. 
 
-* **Advantage of Error guessing** – We can identify the potential issues before the execution of formal test cases. 
+* **Advantage of Error guessing** – We can identify the potential issues before the execution   
+of formal test cases. 
 
 Example: Assume there is an "Amount" text field and the requirement says that it
 accepts + integer only.  
@@ -67,7 +73,8 @@ Class 7 => 500 to 600  => Negative
 
 
 Question => When we have boundry value analysis why we are going for Equivalence class partitioning?  
-So if we don't go for numbers in the range of 1-499 we will miss out many values. There might be defect.   So for this region we are not going for Boundry value analysis.
+So if we don't go for numbers in the range of 1-499 we will miss out many values.   
+There might be defect. So for this region we are not going for Boundry value analysis.
 
 
 ### 3 Boundary Value Analysis — 
@@ -147,7 +154,8 @@ here.
 
 Example Scenario: ATM System
 Description:
-Consider an ATM system where a user can perform actions like inserting a card, entering a PIN, and withdrawing cash. The system has the following states:
+Consider an ATM system where a user can perform actions like inserting a card,   
+entering a PIN, and withdrawing cash. The system has the following states:
 
 Idle: No card inserted.
 Card Inserted: Card is inserted, awaiting PIN.
