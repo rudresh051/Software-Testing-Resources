@@ -76,13 +76,13 @@ correct.
 ![costOfTestingImage](../noc24_cs91/Images/image.png)
 
 ## Testing: Facts and Myths
-* Fact: Testing can be used to find errors in software, cannot be
+* **Fact:** Testing can be used to find errors in software, cannot be
 used to show that a software is correct.
-* Fact: Testing cannot be replaced by software reviews,
+* **Fact:** Testing cannot be replaced by software reviews,
 inspections, quality audits etc.
-* Fact: Testing cannot be fully automated, needs human
+* **Fact:** Testing cannot be fully automated, needs human
 intervention.
-* Myth: It is wrong to say that "My code is correct and doesn't
+* **Myth:** It is wrong to say that "My code is correct and doesn't
 need to be tested"
 
 > Pareto Principle - The 80% of the defects comes from the 20% of the code.
