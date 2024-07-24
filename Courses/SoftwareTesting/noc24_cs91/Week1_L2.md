@@ -40,14 +40,33 @@ difficulties are called, show themselves and months of intense watching, study a
 "An analyzing process must equally have been performed in  
 order to furnish the Analytical Engine with the necessary  
 operative data; and that herein may also lie a possible source  
-of **error.** Granted that the actual mechanism is unerringin its processes, the cards may give it wrong orders
+of **error.** Granted that the actual mechanism is unerringin its processes,   
+the cards may give it wrong orders
 
 We will use these terms synonmously in this course:  
 fault, failure, error. bug. defect  
 will all mean the same.
 
 ## Test case
-* A test case typically involves inputs to the software and expected outputs.
-* When test cases are executed and results recorded, if the actual output matches the expected output, the test case is said to have passed. Otherwise, the test case is said to have failed.
+* A **test case** typically involves **inputs** to the software and **expected outputs**.
+* When test cases are executed and results recorded, if the **actual** output   
+matches the expected output, the test case is said to have **passed**.   
+Otherwise, the test case is said to have **failed**.
 * A failed test cases indicates an error.
 * A test case also contains other parameters like test case id, traceability details etc.
+
+## Types of Testing
+There are different types/levels of testing, based on the phase of  
+software development lifecycle that they are applied to:
+* Unit Testing: Done by developer during coding.
+* Integration Testing: Various components are put together and  
+testing. Components could be software components or  
+software and hardware components.
+* System Testing: Done with full system implementation and  
+platform in which the system will be running.
+* Acceptance Testing: Done by end customer to ensure that the  
+delivered prqducts meets the committed requirements.
+* A related term is **beta testing** which is done in a so-called  
+beta version of the software by end users, after release.
+
+![TypesOfTesting](image.png)
