@@ -70,3 +70,18 @@ delivered prqducts meets the committed requirements.
 beta version of the software by end users, after release.
 
 ![TypesOfTesting](image.png)
+
+Some additional types of testing are:
+* Functional Testing: Done to eryure that the software meets  
+its specified functionality.
+* Stress Testing: Done to evaluate how the system behaves  
+under peak/unfavourable conditions/inputs.
+* Performance Testing: Done to ensure the speed and response  
+time of the system.
+* Usability Testing: Done to evaluate the user interface,  
+aesthetics etc.
+* Regression Testing: Done after modifying/upgrading a  
+component, to ensure that the modification is working  
+correctly and other components are not damaged by the  
+modification.
+
