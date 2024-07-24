@@ -85,3 +85,10 @@ component, to ensure that the modification is working
 correctly and other components are not damaged by the  
 modification.
 
+## Testing Methods
+* **Black-box testing:** A method of testing that examines the
+functionalities of software/system without looking into its
+internal design or code.
+* **White-box testing:** A method of testing that tests the internal structure of 
+the design or code of a software.
+
