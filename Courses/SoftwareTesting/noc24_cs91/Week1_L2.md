@@ -92,3 +92,27 @@ internal design or code.
 * **White-box testing:** A method of testing that tests the internal structure of 
 the design or code of a software.
 
+| Black-Box Testing | White-Box Testing |
+| ------------------ | ----------------|
+| Unit, integration, system and acceptance testing  | Unit, integration and system testing |
+|Usability, performance, beta and Stress testing||
+
+
+## Types of test activities
+Testing can be broken into four activities:
+* Test design
+* Test automation
+* Test execution
+* Test evaluation
+Adjacent activities include test management, test maintenance test documentation.
+
+## Test Design
+* The most critical job in testing.
+* Need to design effective test cases— test cases that can find
+the errors in the software.
+* Apart from specifying the inputs, this involves defining the
+expected outputs too.
+* Typically cannot be automated.
+* **This course will deal with criteria-based test case design algorithms.**
+
+
