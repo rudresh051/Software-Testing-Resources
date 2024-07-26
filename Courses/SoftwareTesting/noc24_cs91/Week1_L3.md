@@ -24,3 +24,38 @@ are:
     * Propagation: The infected state must cause some output or final state of the   
     program to be incorrect.
     * Reveal: The tester must observe part of the incorrect portion of the program state.
+
+
+Consider the code segment below:  
+input x, y;  
+if (x < 10){
+z = x+1;  
+if (y < z)  
+---error ---;
+} 
+
+* Reachability: True, any value of x can reach the first if
+statement. x < 10 will reach the second if statement.
+
+* Infection: x != 10 will test the first if statement. y < x+1 will
+test the second if statement.
+
+* Propagation: x < 10 and y < z will result in reaching the
+error statement.
+
+## Model based testing
+* Model based testing involves working with a model of the
+software artifact and deriving test cases from the model.
+* The model could be based on
+    * A formal, mathlematical notation (like finite state machines,
+graphs, logical formulas etc.),
+    * A language that supports several entities for modelling (like
+UML, SysML, Simulink, Stateflow etc.). It may or may not  
+have formal semantics.
+* A model could not only be for code, but also for requirements,
+design etc.
+* Testing with models for requirements and design helps in early
+detection of errors.
+
+### Model based testing : Process
+![MBT-Process](image-1.png)
