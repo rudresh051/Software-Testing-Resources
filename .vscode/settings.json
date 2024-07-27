@@ -1,0 +1,6 @@
+{
+    "editor.snippets.codeActions.enabled": true,
+    "editor.snippetSuggestions": "inline",
+    "javascript.suggest.enabled": true,
+    "typescript.suggest.enabled": true
+}
