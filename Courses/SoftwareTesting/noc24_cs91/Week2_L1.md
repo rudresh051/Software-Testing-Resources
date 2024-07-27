@@ -66,7 +66,7 @@ z:=x+1
 ![controlFlowGraph1](image-4.png)
 
 ## Graphs in Testing - CFG example #2
-
+```
 if (x < y){
     y:=0;
     x:=x+1;
@@ -75,7 +75,7 @@ else{
     x:=y+1;
 }
 z:=x+1;
-
+```
 ![CFG2](image-5.png)
 
 ## Paths in Graphs
