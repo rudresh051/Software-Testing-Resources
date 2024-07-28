@@ -21,7 +21,8 @@ coverage criteria apply to them.
 ## Node/Vertex coverage
 * **Node coverage** requires that the test cases visit each node in
 the graph once.
-* **Node Coverage:** Test set T **satisfies node coverage** on graph G iff for every syntactically reachable node n ∈ G, there is some path p in path( T) such that p visits n.
+* **Node Coverage:** Test set T **satisfies node coverage** on graph G iff for every syntactically   
+reachable node n ∈ G, there is some path p in path( T) such that p visits n.
 * Simpler definition: TR(Test requirement) contains each reachable node in G.
 
 ## Edge coverage
