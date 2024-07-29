@@ -268,8 +268,8 @@ withstand designed number of users).
 Response Time means time taken by server to respond to user query  
 
 #### Types of Performance Testing  
-1. Load Testing - By applying within limit. let's say app can accept 100 users.  
-e.g. so now I am putting like 8,99 users. We will be using tool Jmeter.  
+1. Load Testing - By applying within limit. let's say an app can accept 100 users.  
+e.g. so now I am putting like 8 user, 70 user. We will be using tool Jmeter.  
 
 2. Stress Testing - Applying more load  
 e.g. I will put 150 users.
