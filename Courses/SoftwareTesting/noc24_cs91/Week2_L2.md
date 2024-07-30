@@ -117,3 +117,32 @@ be {[1, 2, 3], [1, 2, 2], [2, 2, 3], [2, 2, 2]}.
 * Some of these are prime paths/simple paths.
 * TR for prime path coverage for the above example is
 {[1,2,3],[2,2]}.
+
+## Prime path coverage and loops in graphs
+![alt text](image-12.png)
+Prime paths capture the notion of covering a loop well.
+* There are nine prime paths.
+* They correspond to
+1,3,5,7 - Skipping the loop,
+1,3,5,7 - Executing the loop once, and
+6,5,6 - Executing the loop more than once.
+
+## Implementing test requirements for prime path coverage
+* Prime paths, by definition, do not have internal loops.
+* In many cases, it might be impossible to mee the test
+requirement of prime path coverage without internal loops.
+* That is, test paths that meet prime path coverage TR need to
+have internal loops to make prime path coverage feasible.
+
+![alt text](image-13.png)
+
+## Touring, side trips and detours
+* Tour: A test path R tours sub-path q if q is a sub-path of p.
+* Tour with side trips: A test path p tours sub-path q with
+sidetrips iff every edge in q is also in p in the same order.
+o The tour can include a sidetrip, as long as it comes back to
+the same node.
+* Tour with detours: A test path p tours sub-path q with
+detours iff every node in q is also in p in the same order.
+The tour can include a detour from node n, as long as it
+comes back to the prime path at a successor of n.
