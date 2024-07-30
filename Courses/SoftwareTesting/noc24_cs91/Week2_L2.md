@@ -94,7 +94,7 @@ with loops.
 than once, except possibly the first and last node.
     * No internal loops.
     * A loop is a simple path.
-* A prime path is a simplb path that does not appear as a
+* A prime path is a simple path that does not appear as a
 proper subpath of any other simple path.
 
 ## Simple paths and prime paths - Example
@@ -146,3 +146,34 @@ the same node.
 detours iff every node in q is also in p in the same order.
 The tour can include a detour from node n, as long as it
 comes back to the prime path at a successor of n.
+
+![alt text](image-14.png)
+
+## Infeasible test requirements
+* Some test requirements related to graph structural coverage
+can be infeasible.
+* It is undecidable to check if many structural coverage
+requirements are feasible or not.
+* Typically, when si4e trips are not allowed, many structural
+coverage criteria have infeasible test requirements.
+* However, always allowing side trips weakens the test criteria.
+* Best Effort Touring: Satisfy as many test requirements as
+possible without sidetrips. Allow sidetrips to try to satisfy
+remaining test requirements.
+
+## Round Trips
+* Round trip path: A prime path that starts and ends at the
+1
+same node.
+* Simple round trip coverage: TR contains at least one round
+trip path for each reachable node in G that begins and ends in
+a round trip path.
+* Complete round trip coverage: TR contains all round trip
+paths for each reachable node in G.
+* The above two criteria omit nodes and edges that are not in
+round trips.
+* Hence, they do not subsume edge-pair, edge or node coverage.
+
+
+## Structural coverage Criteria Subsumption
+![alt text](image-15.png)
