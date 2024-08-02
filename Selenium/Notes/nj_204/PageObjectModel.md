@@ -27,3 +27,7 @@ then use these elements to perform different actions.
     * We update to a class file. We no need to update the test cases.
 4. It makes code easy to update the test scripts/Element location.
 
+# POM - tutorial 2 
+https://www.youtube.com/watch?v=n6TasynCP1k&list=PLnNg6KqJ3HGh8K2KhCCxraHh09L3LPL4E&index=39
+
+![alt text](image-41.png)
