@@ -46,7 +46,7 @@ other projects locally
 repository for sharing with other developers and projects.
 
 
-Add both maven surefire plugin and maven plugin in plugins section.  
+* Add both maven surefire plugin and maven compiler plugin in plugins section.  
 
 
 * Maven Surefire Plugin
@@ -66,6 +66,9 @@ Apache Maven Compiler Plugin
 The Compiler Plugin is used to compile the sources of your project. Since 3.0, the default compiler   
 is javax.tools.JavaCompiler (if you are using java 1.6) and is used to compile Java sources. If you   
 want to force the plugin using javac, you must configure the plugin option forceJavacCompilerUse. 
+
+![alt text](image-42.png)
+
 
 ```
 pom.xml
@@ -126,13 +129,15 @@ pom.xml
   </dependencies>
 </project>
 ```
-Steps 
-1. Download Maven
+## Steps 
+1. Download Maven => Select binary zip file
 https://maven.apache.org/download.cgi
+
+![alt text](image-43.png)
 
 2. Add path in Environment variables
 
 3. Check mvn --version in command prompt
 4. Click on project name and run as => maven test
-5. Navigate to project path
+5. Navigate to project path by System Explorer
 6. In CMD `mvn test`
