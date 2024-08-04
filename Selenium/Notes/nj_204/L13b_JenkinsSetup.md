@@ -20,34 +20,50 @@ Continuous connection between developers, testers, DevOps and other teams.
 
 Automatically deploy, it also triggers automation testing code for execution.
 
-Jenkins is a well-known open-source DevOps tool used in many   organizations CI/CD pipelines. Selenium is a popular open-source   automation tool for testing websites
+Jenkins is a well-known open-source DevOps tool used in many   organizations   
+CI/CD pipelines. Selenium is a popular open-source   automation tool for   
+testing websites
 
 **What is Jenkins?**
-Jenkins is a self-contained, open-source automation server that can be   used to automate all sorts of tasks related to building, testing, and   delivering or deploying software.  
+Jenkins is a self-contained, open-source automation server that can be   
+used to automate all sorts of tasks related to building, testing, and   
+delivering or deploying software.  
 
 ### Key Features
-1. Extensibility: Jenkins supports a wide range of plugins, allowing users to extend its capabilities and integrate with various tools and platforms, such as Git, Maven, Docker, and Kubernetes.
+1. Extensibility: Jenkins supports a wide range of plugins, allowing users to   
+extend its capabilities and integrate with various tools and platforms, such as   
+Git, Maven, Docker, and Kubernetes.
 
-2. Easy Installation and Configuration: Jenkins is relatively easy to install and configure, making it accessible to both small teams and large organizations.
+2. Easy Installation and Configuration: Jenkins is relatively easy to install and   
+configure, making it accessible to both small teams and large organizations.
 
-3. Distributed Builds: Jenkins can distribute build tasks across multiple machines, improving performance and scalability.
+3. Distributed Builds: Jenkins can distribute build tasks across multiple machines,   
+improving performance and scalability.
 
-4. Pipeline as Code: Jenkins supports defining build and deployment pipelines as code using its Pipeline DSL (Domain-Specific Language), making it easy to version control and manage complex workflows.
+4. Pipeline as Code: Jenkins supports defining build and deployment pipelines as code   
+using its Pipeline DSL (Domain-Specific Language), making it easy to version control and   
+manage complex workflows.
 
-5. Community Support: Being open-source, Jenkins has a large and active community that contributes to its development and provides support.
+5. Community Support: Being open-source, Jenkins has a large and active community that   
+contributes to its development and provides support.
 
 **What is Continuous Integration?**
-Continuous integration is the process of continuously checking-in the   developer's code into a version control system and triggering the build 
+Continuous integration is the process of continuously checking-in the   developer's code   
+into a version control system and triggering the build 
 to check and identify bugs in the written code.  (Triggering the Automation scripts)
 
 **What is Jenkins Pipeline? What is a Cl CD pipeline?**
-The pipeline can be defined as the suite of plugins supporting the implementation and integration of continuous delivery pipelines in Jenkins.
+The pipeline can be defined as the suite of plugins supporting the implementation and   
+integration of continuous delivery pipelines in Jenkins.
 
-Continuous integration or continuous delivery pipeline consists of build, deploy, test, release pipeline.
+Continuous integration or continuous delivery pipeline consists of build, deploy, test,   
+release pipeline.
 
-The pipeline feature saves a lot of time and error in maintaining the builds. Basically, a pipeline is a group of build jobs that are chained and integrated in sequence.
+The pipeline feature saves a lot of time and error in maintaining the builds. Basically,   
+a pipeline is a group of build jobs that are chained and integrated in sequence.
 
-Whenever you change your code, Jenkins can automatically perform your Selenium tests and then deploy your code to a new environment if the tests pass.
+Whenever you change your code, Jenkins can automatically perform your Selenium tests and   
+then deploy your code to a new environment if the tests pass.
 
 **Poll SCM**
 Jenkins allows you to set a time and date for executing your tests.
@@ -57,10 +73,10 @@ The Test Reports and performance logs can be saved for future reference.
 Jenkins can be used in a continuous integration setup with Maven to create and test.  
 
 ## Jenkins Installed
-1. Make sure Jenkins is installed on your machine. You can download Jenkins from
+1. Make sure Jenkins is installed on your machine. You can download Jenkins from  
 https://jenkins.io/download/and follow the installation instructions.
 
-java -jar jenkins.war
+`java -jar jenkins.war`
 
 * ensure to have java 17 or 21
 2. Navigate to tools and add path for Git, Maven and Java
