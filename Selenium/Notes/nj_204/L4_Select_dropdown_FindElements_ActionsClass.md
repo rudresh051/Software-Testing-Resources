@@ -78,7 +78,8 @@ public class DropDownTest {
 # FindElements
 In Selenium with Java, the method is used to locate multiple elements on a  
 page that match the specified locator strategy   
-This method retums a list objects, allowing you to interact with each matching element individually.  
+This method retums a list objects, allowing you to interact with each matching element   
+individually.  
 
 Here's a breakdown of how findElements works:  
 
@@ -121,7 +122,10 @@ public class MultipleCheckBoxTest {
 ```
 
 # Actions Class
-The Action class in Selenium with Java provides a way to perform complex user interactions, such as mouse and keyboard actions, on a web page. It is part of the org.openqa.selenium.interactions package. The Actions class is often used for performing actions like drag-and-drop, mouse hovering, key press/release, etc
+The Action class in Selenium with Java provides a way to perform complex user interactions,   
+such as mouse and keyboard actions, on a web page. It is part of the org.openqa.selenium.interactions     
+package. The Actions class is often used for performing actions like drag-and-drop, 
+mouse hovering, key press/release, etc
 
 **Step1 -** 
 Create an instance of the Actions class
