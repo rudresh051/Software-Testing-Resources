@@ -74,7 +74,11 @@ Jenkins can be used in a continuous integration setup with Maven to create and t
 
 ## Jenkins Installed
 1. Make sure Jenkins is installed on your machine. You can download Jenkins from  
-https://jenkins.io/download/and follow the installation instructions.
+https://jenkins.io/download/   
+follow the installation instructions.
+
+Download jenkins.war file
+![alt text](image-44.png)
 
 `java -jar jenkins.war`
 
