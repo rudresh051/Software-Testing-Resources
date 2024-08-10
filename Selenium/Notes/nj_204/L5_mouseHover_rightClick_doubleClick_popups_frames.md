@@ -302,21 +302,20 @@ persistent in a single session. You can get the window handle of the current
 window by using: 
 `driver.getWindowHandle()`  
 
-* How to get the window handle of child tab?
-We use a method called driver.getWindowHandles();
-This will give us the window handles of all the windows currently present.
+* How to get the window handle of child tab?  
+We use a method called `driver.getWindowHandles()`;  
+This will give us the window handles of all the windows currently present.  
 
 
 Get the handle of the parent window using the command-  
-`String parentWiandowHandle = driver.getWindowHandle();` 
-Print the window handle of the parent window
-Find the element on the web page using an IDIwhich is an element locator.
-Open multiple child windows
-Iterate through child windows-
-Get the handles of all the windows that are currently open using the
-command-
-Which returns the set of handles.
-use the command to swqtch to the desired window and also pass
+`String parentWiandowHandle = driver.getWindowHandle();`  
+* Print the window handle of the parent window  
+* Find the element on the web page using an IDIwhich is an element locator.  
+* Open multiple child windows  
+* Iterate through child windows-  
+* Get the handles of all the windows that are currently open using the command-  
+Which returns the set of handles.  
+* use the command to switch to the desired window and also pass
 the URL ortheweb page
 
 ```
