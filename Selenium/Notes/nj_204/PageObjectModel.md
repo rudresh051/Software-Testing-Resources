@@ -31,3 +31,9 @@ then use these elements to perform different actions.
 https://www.youtube.com/watch?v=n6TasynCP1k&list=PLnNg6KqJ3HGh8K2KhCCxraHh09L3LPL4E&index=39
 
 ![alt text](image-41.png)
+
+
+# POM - Tutorial 3
+https://youtu.be/2yDLEgSTG_c
+
+![Framework](image-45.png)
