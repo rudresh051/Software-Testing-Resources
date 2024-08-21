@@ -8,10 +8,10 @@ These reports are HTML documents that depict results as pie charts.
 
 They also allow the generation of custom logs, snapshots, and other customized details.
 
-Once an automated test script runs successfully, testers need to generate a test
+Once an automated test script runs successfully, testers need to generate a test  
 execution report. While provide a default report, they do not provide the details.  
 
-Using Extent Reports in Selenium
+Using Extent Reports in Selenium  
 Extent Reports in Selenium contain two major, frequently used classes:  
 * ExtentReports class
 * ExtentTest class
@@ -24,7 +24,7 @@ ExtentTest test = reports.startTest("TestName");
 
 ```
 The ExtentReports class generates HTML reports based on a path specified by the tester. Based on the Boolean flag,   
-the existing  report has to be overwritten or a new report must be generated. "True" is the default value, meaning   
+the existing  report has to be overwritten or a new report must be generated. "True" is the default value, meaning     
 that all existing data will be overwritten.
 
 The ExtentTest class logs test steps onto the previously generated HTML report.  

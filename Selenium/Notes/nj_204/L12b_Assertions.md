@@ -115,7 +115,7 @@ public class assertTest {
 
 ```
 
-## Hart Assert example 2
+## Hard Assert example 2
 
 ```
 package day9;
