@@ -24,7 +24,7 @@ Jenkins is a well-known open-source DevOps tool used in many   organizations
 CI/CD pipelines. Selenium is a popular open-source   automation tool for   
 testing websites
 
-**What is Jenkins?**
+**What is Jenkins?**  
 Jenkins is a self-contained, open-source automation server that can be   
 used to automate all sorts of tasks related to building, testing, and   
 delivering or deploying software.  
@@ -47,12 +47,12 @@ manage complex workflows.
 5. Community Support: Being open-source, Jenkins has a large and active community that   
 contributes to its development and provides support.
 
-**What is Continuous Integration?**
-Continuous integration is the process of continuously checking-in the   developer's code   
-into a version control system and triggering the build 
+**What is Continuous Integration?**  
+Continuous integration is the process of continuously checking-in the developer's code  
+into a version control system and triggering the build  
 to check and identify bugs in the written code.  (Triggering the Automation scripts)
 
-**What is Jenkins Pipeline? What is a Cl CD pipeline?**
+**What is Jenkins Pipeline? What is a Cl CD pipeline?**  
 The pipeline can be defined as the suite of plugins supporting the implementation and   
 integration of continuous delivery pipelines in Jenkins.
 
