@@ -51,3 +51,14 @@
 | Accessibility Test                | Verify that the login page is accessible to users with disabilities, including screen readers and keyboard navigation.     |
 | Performance Test                  | Test the performance of the login page under various load conditions to ensure scalability and responsiveness.            |
 | Security Test                     | Ensure that the login page follows security best practices such as encryption of user credentials, secure storage of passwords, and protection against common vulnerabilities. |
+
+Q 3 - How will you determine when to stop testing?
+
+Ans: It can be hard to know when to stop testing. Many modern software applications are so complicated and run in such a relaxed environment that thorough testing is impossible. The following are some regular criteria to consider when considering when to end testing:
+
+Deadlines are very important (release deadlines, testing deadlines, etc.)
+Completed test cases with a certain percentage of passing
+When the test budget runs out
+When the coverage of code, functionality, or requirements arrives at a certain point, it is said to be complete
+When the bug rate drops below a specific threshold
+When the beta or alpha testing stage is over
