@@ -75,3 +75,15 @@ Here's a bit more detail:
 2. **Explicit Wait**: Unlike implicit waits, explicit waits are applied to specific elements and conditions. With explicit waits, you can instruct the WebDriver to wait for a certain condition to occur before proceeding further in the test script. This condition could be the presence of an element, visibility of an element, or any other custom condition you define. Explicit waits allow more precise control over the timing of interactions and are generally preferred for synchronization in complex scenarios.
 
 So, while implicit waits are a built-in feature that applies globally, explicit waits are more flexible and allow you to wait for specific conditions on specific elements. 
+
+What are the challenges you have faced while working with Selenium based Automation?
+
+1) Testing Offline Functionality: Validating the application's behaviour in offline or low-connectivity scenarios can be challenging to automate, as Selenium primarily operates within the browser and relies on network connectivity
+
+2) Handling High Volume of Data: When dealing with large datasets or data-intensive applications, validating and manipulating extensive data through Selenium might be challenging without optimised strategies
+
+3) Handling Browser Notifications and Alerts: Interacting with browser-level alerts, such as JavaScript alerts or browser notifications, can be tricky to automate as they halt the test execution until manually handled
+
+4) Testing CAPTCHA or Image-based Elements: Automating tests that involve CAPTCHA verification or image-based validations can be challenging as Selenium is designed to interact with DOM elements
+
+5) Handling iframes and Pop-ups: Automating scenarios involving iframes (embedded content) or handling unexpected pop-ups can be complex
