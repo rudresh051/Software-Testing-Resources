@@ -60,13 +60,13 @@ Client-server architecture is a computing model in which client devices communic
 
 In summary, client-server architecture forms the basis for networked systems, enabling communication and collaboration between client devices and central servers to provide services, share resources, and facilitate data exchange.
 
-# findElement() and FindElements()
+## findElement() and FindElements()
 The `findElement()` method in Selenium WebDriver is used to locate the first element matching the given criteria,   
 and it returns a single WebElement object representing that element. On the other hand, the `findElements()` method   
 returns a list of WebElements matching the given criteria, allowing you to work with multiple elements that match the    
 specified selector. Well done! Here's your next question:
 
-# What is the purpose of implicit and explicit waits in Selenium WebDriver, and how do they differ?
+## What is the purpose of implicit and explicit waits in Selenium WebDriver, and how do they differ?
 In Selenium WebDriver, implicit and explicit waits are used to manage the timing of interactions with elements on a web page. 
 Here's a bit more detail:
 
@@ -76,7 +76,7 @@ Here's a bit more detail:
 
 So, while implicit waits are a built-in feature that applies globally, explicit waits are more flexible and allow you to wait for specific conditions on specific elements. 
 
-What are the challenges you have faced while working with Selenium based Automation?
+## What are the challenges you have faced while working with Selenium based Automation?
 
 1) Testing Offline Functionality: Validating the application's behaviour in offline or low-connectivity scenarios can be challenging to automate, as Selenium primarily operates within the browser and relies on network connectivity
 
