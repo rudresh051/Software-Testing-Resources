@@ -62,3 +62,31 @@ When the test budget runs out
 When the coverage of code, functionality, or requirements arrives at a certain point, it is said to be complete
 When the bug rate drops below a specific threshold
 When the beta or alpha testing stage is over
+
+
+## Q. How to do the Manual Regression testing?
+Regression testing involves re-running previously executed test cases to ensure that recent changes or updates to the software have not introduced new defects or affected existing functionality. The selection of test scenarios for regression testing can indeed depend on the tester's judgment and understanding of the application's critical functionalities. Here’s a bit more detail:
+
+### Key Points in Regression Testing:
+
+1. **Identify Critical Functionality:**
+   - Testers need to determine which functionalities are crucial for the application's core operations. These functionalities are more likely to be impacted by changes and should be included in regression testing.
+
+2. **Impact Analysis:**
+   - Assess the changes made to the software (e.g., bug fixes, new features, code refactoring) and analyze which parts of the application might be affected. This helps in selecting relevant test scenarios.
+
+3. **Select Test Scenarios:**
+   - Based on the impact analysis, testers select test scenarios that cover:
+     - **Core Functionality:** Key features that are critical to the application’s operation.
+     - **Integration Points:** Areas where different parts of the application interact.
+     - **High-Risk Areas:** Features that are prone to bugs or have been recently changed.
+     - **Previous Defects:** Areas where bugs were previously found and fixed to ensure they don't reappear.
+
+4. **Test Case Selection:**
+   - For each selected test scenario, specific test cases are chosen to ensure thorough coverage. This can include both positive and negative test cases.
+
+5. **Automation Considerations:**
+   - If possible, automating regression test cases can save time and ensure consistency. Automated test cases can be rerun efficiently whenever changes are made.
+
+### Summary
+Regression testing involves a strategic approach to selecting and running test cases based on the criticality of functionalities, recent changes, and the potential impact of those changes. Testers use their judgment to ensure that the most important and affected areas of the application are thoroughly tested to maintain software quality.
