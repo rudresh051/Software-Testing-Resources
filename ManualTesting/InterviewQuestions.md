@@ -90,3 +90,24 @@ Regression testing involves re-running previously executed test cases to ensure 
 
 ### Summary
 Regression testing involves a strategic approach to selecting and running test cases based on the criticality of functionalities, recent changes, and the potential impact of those changes. Testers use their judgment to ensure that the most important and affected areas of the application are thoroughly tested to maintain software quality.
+
+## Which type of Testing to do in regression testing?
+In regression testing, the primary focus is usually on **functional testing** rather than **UI/UX testing**. Here's why:
+
+### Focus of Regression Testing:
+1. **Functional Testing:**
+   - **Purpose:** The main goal of regression testing is to ensure that existing functionalities still work as expected after changes have been made to the codebase (e.g., bug fixes, enhancements, or new features).
+   - **Scope:** Test cases in regression testing typically focus on the core functionality, business logic, data processing, and system integration. These are areas where changes in the code are more likely to introduce defects.
+   - **Examples:** Verifying that a login process still works, ensuring that data is correctly processed after a form submission, or checking that a calculation or algorithm still returns the correct results.
+
+2. **UI/UX Testing:**
+   - **Purpose:** UI/UX testing focuses on the look, feel, and usability of the application. It includes aspects like layout, responsiveness, visual elements, and user interaction flow.
+   - **Scope:** While UI/UX is crucial for user satisfaction, it is less likely to be the primary focus in regression testing unless the recent changes directly affect the UI (e.g., a redesign or changes in the front-end code).
+   - **Examples:** Ensuring that buttons are correctly aligned, verifying that navigation menus are intuitive, or checking that the application is responsive on different devices.
+
+### Exceptions:
+- **When UI/UX is Affected by Changes:** If the code changes are likely to impact the user interface or user experience (e.g., updating a front-end framework, changing UI components, or implementing a new design), then UI/UX aspects may be included in regression testing.
+- **Visual Regression Testing:** Some teams include visual regression testing as part of their regression testing suite, where automated tools capture screenshots and compare them pixel-by-pixel to detect any unintended visual changes.
+
+### Summary
+Regression testing primarily focuses on **functional aspects** of the application to ensure that recent changes have not broken existing functionality. **UI/UX testing** is generally not the main focus unless the changes directly impact the user interface or experience.
