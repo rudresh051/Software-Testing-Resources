@@ -111,3 +111,5 @@ In regression testing, the primary focus is usually on **functional testing** ra
 
 ### Summary
 Regression testing primarily focuses on **functional aspects** of the application to ensure that recent changes have not broken existing functionality. **UI/UX testing** is generally not the main focus unless the changes directly impact the user interface or experience.
+
+## 
