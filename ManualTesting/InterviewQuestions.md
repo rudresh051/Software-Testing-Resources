@@ -1,4 +1,4 @@
-#### Q. Write down test cases for google search
+## Q. Write down test cases for google search
 
 
 | Test Case                               | Description                                                                                                                                      |
@@ -27,7 +27,7 @@
 | Advertising and Sponsored Content Test | Verify that sponsored search results and advertisements are clearly labeled and do not interfere with organic search results.                  |
 
 
-#### Write down test cases for login page with email ID and password
+## Write down test cases for login page with email ID and password
 | Test Case                         | Description                                                                                                             |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Empty Fields Validation Test      | Verify that the login form does not allow submission if the email ID and password fields are left blank.                 |
@@ -52,7 +52,7 @@
 | Performance Test                  | Test the performance of the login page under various load conditions to ensure scalability and responsiveness.            |
 | Security Test                     | Ensure that the login page follows security best practices such as encryption of user credentials, secure storage of passwords, and protection against common vulnerabilities. |
 
-Q 3 - How will you determine when to stop testing?
+## Q 3 - How will you determine when to stop testing?
 
 Ans: It can be hard to know when to stop testing. Many modern software applications are so complicated and run in such a relaxed environment that thorough testing is impossible. The following are some regular criteria to consider when considering when to end testing:
 
@@ -111,5 +111,3 @@ In regression testing, the primary focus is usually on **functional testing** ra
 
 ### Summary
 Regression testing primarily focuses on **functional aspects** of the application to ensure that recent changes have not broken existing functionality. **UI/UX testing** is generally not the main focus unless the changes directly impact the user interface or experience.
-
-## 
