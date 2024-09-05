@@ -812,3 +812,183 @@ Receiving browser notifications during test automation execution can disrupt the
 - **Test Environments**: Ensure that your testing environments have notifications disabled to avoid interruptions.
 
 By configuring the browser settings appropriately and using the methods mentioned above, you can avoid issues related to browser notifications during test automation execution.
+
+# Why does Stale Element exception occurs and how to handle it?
+
+A **Stale Element Reference Exception** occurs in Selenium WebDriver when the element being interacted with is no longer present in the DOM or has changed since it was first located. This typically happens when the page is dynamically updated or refreshed, causing elements to become invalid (or "stale"). 
+
+### **Why Stale Element Reference Exception Occurs:**
+
+1. **Element No Longer Attached to DOM**:
+   - After locating an element, if the page undergoes changes (like refresh, navigation, or dynamic updates via JavaScript), the element's reference becomes outdated. This causes the element to go "stale."
+   
+2. **DOM Modification**:
+   - If JavaScript or AJAX updates modify the DOM (e.g., adding/removing elements, partial page updates), the original reference to the element may no longer be valid.
+
+3. **Element Re-rendering**:
+   - When certain user actions (like clicking a button, submitting a form, or loading new content) cause the DOM to reload or change, the element might be removed and recreated, leading to a stale reference.
+
+### **Common Scenarios of Stale Element Exception:**
+- Page reloads or navigates after locating an element but before interacting with it.
+- DOM updates dynamically (via JavaScript, AJAX, or frameworks like React/Angular) between finding the element and attempting to interact with it.
+- Elements being re-rendered after performing certain actions like scrolling or clicking buttons.
+
+### **Example Scenario:**
+```java
+WebElement button = driver.findElement(By.id("submitButton"));
+// Page refresh or update happens here
+button.click(); // Throws StaleElementReferenceException
+```
+
+### **How to Handle Stale Element Reference Exception:**
+
+1. **Re-locate the Element**:
+   - The simplest solution is to locate the element again before interacting with it.
+
+   **Example:**
+   ```java
+   WebElement button = driver.findElement(By.id("submitButton"));
+   // Perform some action that causes DOM update
+   button = driver.findElement(By.id("submitButton")); // Re-locate the element
+   button.click();
+   ```
+
+2. **Wrap Actions in a `try-catch` Block and Retry**:
+   - You can catch the `StaleElementReferenceException` and retry locating the element after the exception is thrown.
+
+   **Example:**
+   ```java
+   for (int i = 0; i < 3; i++) {
+       try {
+           WebElement button = driver.findElement(By.id("submitButton"));
+           button.click();
+           break; // Exit the loop if click is successful
+       } catch (StaleElementReferenceException e) {
+           // Element has gone stale, retry
+       }
+   }
+   ```
+
+3. **Use `WebDriverWait` for Dynamic Elements**:
+   - Using `WebDriverWait` can help wait until the element is re-attached to the DOM before interacting with it.
+
+   **Example using Explicit Wait:**
+   ```java
+   WebDriverWait wait = new WebDriverWait(driver, 10);
+   WebElement button = wait.until(ExpectedConditions.elementToBeClickable(By.id("submitButton")));
+   button.click();
+   ```
+
+4. **Avoid Holding Element References Too Long**:
+   - Try to locate elements right before interacting with them to avoid stale references.
+
+   **Example:**
+   ```java
+   // Don't store element references too early
+   driver.findElement(By.id("submitButton")).click(); // Locate and interact immediately
+   ```
+
+5. **Ensure Page Stability Before Interacting**:
+   - If you expect the page to reload or dynamically update, use synchronization techniques like `WebDriverWait` or custom waits to ensure stability before interacting with elements.
+
+6. **Using `ExpectedConditions.refreshed()`**:
+   - This condition helps to re-find a stale element automatically.
+
+   **Example:**
+   ```java
+   WebDriverWait wait = new WebDriverWait(driver, 10);
+   WebElement button = wait.until(ExpectedConditions.refreshed(
+       ExpectedConditions.elementToBeClickable(By.id("submitButton"))
+   ));
+   button.click();
+   ```
+
+### **Summary of Solutions:**
+| **Handling Strategy**                   | **Explanation**                                                                 |
+|-----------------------------------------|---------------------------------------------------------------------------------|
+| **Re-locate the Element**               | After an update, re-find the element before interacting with it.                 |
+| **Use `try-catch` for Retry Logic**     | Catch the exception and retry locating the element within a loop.                |
+| **Use Explicit Wait (`WebDriverWait`)** | Wait for the element to be interactable or refreshed before clicking or typing.  |
+| **Locate Elements Just-in-Time**        | Avoid locating elements too early; find them right before interaction.           |
+| **Use `ExpectedConditions.refreshed()`**| Ensures Selenium retries locating the element after it becomes stale.            |
+
+By applying these techniques, you can handle `StaleElementReferenceException` gracefully and ensure more reliable test automation execution.
+
+# What is Invalid Certificate Exception?
+The **Invalid Certificate Exception** occurs when Selenium WebDriver tries to access a website that uses an SSL/TLS certificate that is either invalid, untrusted, expired, or misconfigured. When Selenium interacts with a web page that has an invalid SSL certificate, browsers like Chrome and Firefox will block access to the site, showing security warnings. This causes the WebDriver to throw an exception as it cannot proceed.
+
+### **Reasons for Invalid Certificate Exception**:
+1. **Expired Certificate**: The SSL/TLS certificate has passed its expiry date.
+2. **Untrusted Certificate Authority (CA)**: The certificate is issued by an untrusted CA.
+3. **Self-signed Certificate**: The website is using a self-signed certificate, which browsers don't trust by default.
+4. **Domain Mismatch**: The certificate is issued for a different domain than the one being accessed.
+5. **Revoked Certificate**: The certificate has been revoked by the issuing authority.
+
+### **Example Scenario**:
+If you are automating a test on a website with an invalid SSL certificate, you may encounter security warnings like "Your connection is not private," and Selenium will fail to interact with the page.
+
+### **How to Handle Invalid Certificate Exception**:
+
+To avoid this error, you can configure Selenium to **bypass SSL certificate validation** by setting specific options for the browser.
+
+#### **Handling Invalid Certificate in Chrome:**
+
+You can use `ChromeOptions` to ignore SSL errors in Chrome:
+
+```java
+// Create instance of ChromeOptions
+ChromeOptions options = new ChromeOptions();
+
+// Ignore SSL certificate errors
+options.setAcceptInsecureCerts(true);
+
+// Pass options to WebDriver
+WebDriver driver = new ChromeDriver(options);
+
+// Navigate to a site with an invalid certificate
+driver.get("https://example.com");
+```
+
+#### **Handling Invalid Certificate in Firefox:**
+
+In Firefox, you can use `DesiredCapabilities` and `FirefoxOptions` to handle SSL certificate errors:
+
+```java
+// Create instance of FirefoxOptions
+FirefoxOptions options = new FirefoxOptions();
+
+// Accept insecure certificates
+options.setAcceptInsecureCerts(true);
+
+// Pass options to WebDriver
+WebDriver driver = new FirefoxDriver(options);
+
+// Navigate to a site with an invalid certificate
+driver.get("https://example.com");
+```
+
+#### **Handling in Edge:**
+
+```java
+// Create instance of EdgeOptions
+EdgeOptions options = new EdgeOptions();
+
+// Accept insecure certificates
+options.setAcceptInsecureCerts(true);
+
+// Pass options to WebDriver
+WebDriver driver = new EdgeDriver(options);
+
+// Navigate to a site with an invalid certificate
+driver.get("https://example.com");
+```
+
+### **Best Practices for Handling SSL Issues in Test Automation**:
+
+1. **Avoid Ignoring SSL Warnings in Production**: Bypassing SSL checks is useful in testing, especially in development environments, but avoid this in production environments to ensure proper certificate validation.
+   
+2. **Use Valid Certificates in Testing**: If possible, use trusted certificates in your test environments to prevent needing to bypass SSL validation.
+
+3. **Explicitly Accept SSL Warnings for Testing**: If you are testing against internal or staging environments with self-signed certificates, use browser options or capabilities to ignore SSL errors.
+
+By configuring the WebDriver to accept insecure certificates, you can avoid the Invalid Certificate Exception and proceed with automating your tests, even on sites with SSL certificate issues.
