@@ -26,9 +26,7 @@ but is within success percentage
 6. onFinish - onFinish method is called after all Tests are executed
 
 
-
-
-Reporting.java
+## Reporting.java
 ```
 package SampleDemo;
 
