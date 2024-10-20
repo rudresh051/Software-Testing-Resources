@@ -15,7 +15,25 @@ Listener is defined as interface that modifies the default TestNG's behavior
 11. ISuiteListener
 12. ITestListener
 
-# ITestListener has following Methods
+## TestNG Listeners
+
+1. Create test case
+2. Create listener class
+3. Create xml file and include both test case & listener class
+
+## 2 ways to implement listener class
+
+* Method 1
+class myListner implements ITestListener{
+
+}
+
+* Method 2
+class myListener extends TestListenerAdapter{
+
+}
+
+## ITestListener has following Methods
 
 1. OnStart - OnStart method is called when any Test starts
 2. onTestSuccess - onTestSuccess method is called on the success of any Test.
@@ -27,7 +45,7 @@ but is within success percentage
 
 ## Reporting.java
 
-```
+```java
 package SampleDemo;
 
 import org.junit.Assert;
@@ -59,7 +77,7 @@ public class Reporting {
 
 Listeners.java
 
-```
+```java
 package SampleDemo;
 
 import org.testng.ITestContext;
