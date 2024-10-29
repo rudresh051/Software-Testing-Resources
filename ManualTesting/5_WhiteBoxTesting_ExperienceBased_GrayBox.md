@@ -1,4 +1,5 @@
 ### White box Testing Techniques
+
 Testing each and every line of the code is called as White box testing.  
 
 Or
@@ -6,7 +7,7 @@ Or
 Looking into the source code and checking whether each and evry line of the code
 is working as expected or not is called as White box testing.  
 
-Developer will do White box testing.   
+Developer will do White box testing.
 It is also called as Open box/Transparent testing.
 
 #### 6 types of White box testing  
@@ -32,7 +33,7 @@ called as Unit Testing. (Focus is done on smallest element of software).
 
     Junit is a tool used for Unit Testing commonly.
 
-5) **Testing the code from memory(size) point of view** -   
+5) **Testing the code from memory(size) point of view** -
 By changing the logic of
 the code, memory can be improved, logic varies from person to person. Suppose
 if there same code or duplicate code, then user defined code is used.  
@@ -43,7 +44,7 @@ if there same code or duplicate code, then user defined code is used.
     Here we use tool called as **rational purifier** to test for these large codes(variables
     and functions).
 
-6. **Testing from performance point of view -** 
+6. **Testing from performance point of view -**
 The application could be slow
 because of these reasons - for conditional cases, we use or & and frequently, not
 using nested if statements instead of switch case or when logic is used.  
@@ -54,25 +55,32 @@ using nested if statements instead of switch case or when logic is used.
     means codes which are not time consuming)
 
 #### Advantages of WBT  
+
 1. It is done in SDLC even without GUI  
 2. Hidden errors the code can be identified  
 3. Testing is more thorough  
+
 #### Disadvantages of WBT
+
 1. Expensive and complex  
 2. Too much time consuming for big applications
 
 ### Experienced based Testing techniques
+
 In this technique, test cases are derived from Testers skill and intuitive. Their
 experience with applications and technologies will play a key role.  
 Why Experienced based testing techniques:
+
 1) When requirements are not available
 2) Requirements are complex to understand
 3) Less time to understand the requirement
 
 ### Types of Experience based testing
+
 In this technique , test cases are derived from testers skill and intuitive. Their experience with applicaitons and technologies will play a key role
 
 Why Experienced based testing techniques:  
+
 * When requiements are not available  
 * Requirements are complex to understand  
 * Less time to understand the requirement  
@@ -90,6 +98,7 @@ different functionalities and tries to find defects.
     the project to be worked on, otherwise it may lead to lot of defects.
 
 ### Graybox Testing Techniques
+
 Graybox testing is a combination of whitebox and blackbox testing.  
 This testing technique to test a software product or application with partial
 knowledge of internal structure of the application.  
@@ -97,11 +106,11 @@ The purpose of greybox testing is to search and identify the defects due to
 improper code structure or improper use of applications.
 
 **Types/techniques in Graybox testing**  
+
 1. **Matrix Testing** - In matrix testing techniques, business and technical risks which
-are defined by the developers in software programs are examined. 
+are defined by the developers in software programs are examined.
 
 Developers define all the variables that exist in the program.  
-
 
 Values are stored in the variables through which it will travel inside the program,
 now this should be as per requirement, otherwise it will reduce the speed of the
@@ -118,7 +127,7 @@ of failure easily.**
 To perform testing, previous defects are analyzed.  
 Pattern testing determines the cause of the failure by looking into code.
 
-**Orthogonal Array Testing -**   
+**Orthogonal Array Testing -**
 This testing is preferred when maximum coverage is
 required.  
 This testing is done to cover maximum code with less test cases.  
@@ -131,6 +140,7 @@ To ensure that any new changes made is not affecting old features. Here some
 techniques used are retest risky use case, retest within a firewall.
 
 ### Web Security Testing
+
 1. URL manipulation
 2. Session Expiry
 3. Cookies based
