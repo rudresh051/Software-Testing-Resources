@@ -1,7 +1,8 @@
 ## E Commerce Application Business models
+
 **Business to Business(B2B)**  
 e.g. IndiaMart, Amazon seller, Two wheeler manufacturer  
-Here the transaction between business people.   
+Here the transaction between business people.
 **Business to Customers(B2C)**  
 e.g. Amazon, Flipkart  
 This you will find plenty  
@@ -13,6 +14,7 @@ e.g. Shutter Stock, some arts
 I have a talent, I am selling it to business people
 
 ## Revenue Models
+
 **Dropshipping** - selling other products online  
 e.g. Amazon  
 **Subscription** - paying subscription for utilising services - course learning website  
@@ -30,9 +32,11 @@ e.g. Udemy, YouTube
 or host upto 100 participants, after that we need to pay.  
 
 ## Purpose of Ecommerce website
+
 Sell their products online
 
 ## Common features in ecommerce
+
 Add to cart  
 wishlist  
 cookies  

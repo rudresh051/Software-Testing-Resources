@@ -1,4 +1,4 @@
-## Principles of Software Testing
+# Principles of Software Testing
 
 1. We should not do exhaustive testing
 2. We should do early testing
@@ -11,6 +11,7 @@ customer requrements testing should be done)
 7. Absence of errors in the software does not mean that software is free
 
 ## Challenges in Software Testing
+
 1. Complexity of Software
 2. Changing Technology
 3. Regression Testing
@@ -19,6 +20,7 @@ customer requrements testing should be done)
 6. Communication issues
 
 ### Test cases for Google Search
+
 To verify that search field provides correct auto suggestion when some information is typed. Example: fac - Facebook
 
 To verify that searcllfield auto corrects missFlled words entered and provides correct information  
