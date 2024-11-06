@@ -35,7 +35,17 @@ Production blue and Production green
 * Now QA knowledge is more into gone into depth in the interview
 * Basic information is readily available
 * ISTQB certificaion and work thing is drastic different.
-* Full Stack QA Engineer
+* **Full Stack QA Engineer**
 
 > What should a manual tester do next to grow in my career?
+
+* Get good hands on any programming language
+like JavaScript, Java, Python, C sharp
+  * It will help in developing problem solving skills
+* Katalon Studio, Test Complete, TOSCA - These are code less automation tools
+* How frequently you want to switch?
+* What target goal interms of CTC and stability?
+* Prover for SalesForce
+
+> Which Automation has more demand in market - Web API or mobile?
 
