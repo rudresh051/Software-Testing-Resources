@@ -48,4 +48,17 @@ like JavaScript, Java, Python, C sharp
 * Prover for SalesForce
 
 > Which Automation has more demand in market - Web API or mobile?
+Currently API automation is on boom.
+Functional testing is flaky.
+But functional testing already framework are there.
+Playwright.
+Python language.
 
+Become Jack of all because Market requirement is diverse to apply for 100 jobs.
+
+Many people are already know Selenium webdriver testng, extent report, Jenkins.
+
+Learn API, Learn Performance.
+
+Don't stop.
+Atleast learn 30 minutes daily.
