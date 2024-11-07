@@ -58,7 +58,11 @@ Become Jack of all because Market requirement is diverse to apply for 100 jobs.
 
 Many people are already know Selenium webdriver testng, extent report, Jenkins.
 
-Learn API, Learn Performance.
+Learn API, Learn Performance, Learn Microservices monlithic
 
 Don't stop.
 Atleast learn 30 minutes daily.
+
+Web automation => API automation => Performance 
+
+Go and see understand the Job description.
