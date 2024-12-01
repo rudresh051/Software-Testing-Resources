@@ -27,8 +27,8 @@ usually in formats like JSON or XML.
 
 There are two types of services in API
 
-1. **Web Services** - A web service is a method of communication between the two electronic
-devices over a network.
+1. **Web Services** - A web service is a **method of communication** between the two electronic
+devices over a **network.**
 It only supports XML
 e.g Wifi, Bluetooth, Airdrop
 
@@ -42,6 +42,8 @@ URL specifies where a resource is located and the protocol used to retrieve it.
 
 Web application is meant for humans to read
 whereas web services are meant for computers to read
+e.g. Web application like Whatsapp is meant for the humans.
+And Web Services are meant for computers.
 
 ## What kind of information??
 
