@@ -55,11 +55,11 @@ understand and how to send and receive those messages.
 
 ## There are three parts of URL
 
-1. **'Base URL'** - The base URL is the root or primary URL from which other URLs derives or appended.
+1. **'Base URL'** - The base URL is the **root or primary URL** from which other URLs derives or appended.
 It typically represents the main entry point for a web application or service  
 e.g. https://www.google.com
 
-2. **Resource URL** - Each resource URL uniquely identifies a specific a resource or a collection
+2. **Resource URL** - Each resource URL **uniquely identifies a specific a resource** or a collection
 of related resources.
 e.g. https://www.google.com/books/Gullivertravels
 
@@ -74,7 +74,7 @@ REST services are based on HTTP Methods:
 1. GET - If we want to see some data then we will use get method.
 2. POST - If we want to create some data then we will use post method
 3. PUT - Put method is used to update or create a resource.
-4. PATCH - Patch method is used for partial modification to a resource
+4. PATCH - Patch method is used for **partial modification** to a resource
 5. DELETE - If we want to delete something or some data that is already present or
 you have created
 
