@@ -96,4 +96,8 @@ These are 3 digit numbers returned by a server in response to client's request.
 
 ## Difference between HTTPS and HTTP
 
-Https - hyper text transfer protocol secure
+Https - HTTPS is hyper text transfer protocol **secure**
+
+
+
+
