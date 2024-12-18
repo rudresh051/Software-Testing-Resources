@@ -30,3 +30,25 @@ for(var i = 0;i<count;i++){
     }
 }
 ```
+
+* Get All orders
+
+```javascript
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+const jsondata = pm.response.json();
+var count = jsondata.length;
+console.log("count",count)
+for(var i=0;i<count;i++){
+    var biid = jsondata[i];
+    if(biid = jsondata[i]);
+    if(biid.timestamp == "1734545392370"){
+        var bookid = biid.id;
+        pm.environment.set("orders",bookid)
+    }
+}
+
+
+```
