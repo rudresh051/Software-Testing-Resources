@@ -1,5 +1,16 @@
 # REST Assured
 
+* Dependency Added -
+
+1. JSON Simple
+2. Jsoup
+3. JSON Path(Rest assured)
+4. XML Path
+5. JSON Schema validator
+6. Rest Assured
+7. TestNG
+
+
 ```HTML
 <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
