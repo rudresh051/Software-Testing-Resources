@@ -60,3 +60,29 @@
 </project>
 
 ```
+
+## Reqres API
+
+```java
+package RestAssured;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import junit.framework.Assert;
+
+public class day1 {
+
+ @Test
+	public void setup() {
+		
+		Response URL = RestAssured.get("https://reqres.in/api/users");
+		System.out.println(URL);
+		int a = URL.statusCode();
+		Assert.assertEquals(a, 200);
+	}
+
+}
+
+```
