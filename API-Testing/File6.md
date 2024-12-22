@@ -23,3 +23,45 @@ For example:
 Suppose you're using a payment system. When a user completes a transaction, the payment system sends a webhook to your server with transaction details. Your server processes this data and updates the order status in your system.
 
 In short, webhooks help enable real-time, event-driven integrations between different systems.
+
+
+* Reqres.in
+
+```java
+package RestAssured;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.Matcher.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+
+public class day1 {
+
+ @Test(enabled = false)
+ public void setup() {
+  
+  Response rep = RestAssured.get("https://reqres.in/api/users");
+//  System.out.println(rep);
+  int statusCode = rep.statusCode();
+  Assert.assertEquals(statusCode, 200);
+ }
+ 
+ @Test(enabled = false)
+ public void ListUsers() {
+  given().get("https://reqres.in/api/users?page=2").then().statusCode(200).log().all();
+ }
+ 
+ @Test(enabled = true)
+ public void SingleUser() {
+//  given().get("https://reqres.in/api/users?page=2").then().statusCode(200).body("data.id[0]", equalTo(7));                                     
+  given().get("https://reqres.in/api/users/2").then().statusCode(200).body("data.first_name", equalTo("Janet"));                                     
+ }
+ 
+}
+
+```
