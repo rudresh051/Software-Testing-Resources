@@ -72,6 +72,9 @@ public class day1 {
 		given().get("https://reqres.in/api/unknown/23").then().statusCode(200).body("data.id", equalTo(2)).log().all();
 	}
 	
- 
+	@Test(enabled = true)
+	public void SingleResourceNotFound1() {
+		given().get("https://reqres.in/api/unknown/23").then().statusCode(404).log().all();
+	}
 }
 ```
