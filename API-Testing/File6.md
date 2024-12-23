@@ -61,7 +61,17 @@ public class day1 {
 //  given().get("https://reqres.in/api/users?page=2").then().statusCode(200).body("data.id[0]", equalTo(7));                                     
   given().get("https://reqres.in/api/users/2").then().statusCode(200).body("data.first_name", equalTo("Janet"));                                     
  }
+
+ 	@Test(enabled = true)
+	public void ListResource() {
+		given().get("https://requres.in/api/unknown").then().statusCode(200).log().all();
+	}
+
+  	@Test(enabled = true)
+	public void SingleResource() {
+		given().get("https://reqres.in/api/unknown/23").then().statusCode(200).body("data.id", equalTo(2)).log().all();
+	}
+	
  
 }
-
 ```
