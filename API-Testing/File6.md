@@ -76,5 +76,18 @@ public class day1 {
 	public void SingleResourceNotFound1() {
 		given().get("https://reqres.in/api/unknown/23").then().statusCode(404).log().all();
 	}
+	
+	@Test(enabled = true)
+	public void Create() {
+		JSONObject obj = new JSONObject();
+		obj.put("name", "rudresh");
+		obj.put("job","tester");
+		given().body(obj.toJSONString()).when().post("https://reqres.in/api/users").then().statusCode(201).log().all();
+	}
+	
+	@Test(enabled = true)
+	public void Delete() {
+		given().delete("https://reqres.in/api/users/2").then().statusCode(204).log().all();
+	}
 }
 ```
