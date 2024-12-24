@@ -89,5 +89,21 @@ public class day1 {
 	public void Delete() {
 		given().delete("https://reqres.in/api/users/2").then().statusCode(204).log().all();
 	}
+
+	@Test(enabled = true)
+	public void Register() {
+		JSONObject obj = new JSONObject();
+		obj.put("email", "jharudreshwar17@gmail.com");
+		obj.put("password", "rudresh123");
+		given().body(obj.toJSONString()).when().post("https://reqres.in/api/register").then().statusCode(200).log().all();
+	}
+	
+	
+	@Test(enabled = true)
+	public void RegisterUnsuccessful() {
+		JSONObject obj = new JSONObject();
+		obj.put("email", "jharudreshwar17@gmail.com");
+		given().body(obj.toJSONString()).when().post("https://reqres.in/api/register").then().statusCode(400).log().all();
+	}
 }
 ```
