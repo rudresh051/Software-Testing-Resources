@@ -20,17 +20,17 @@ import static io.restassured.matcher.RestAssuredMatchers.*;
 
 
 public class Trello {
-	@Test
-	public void CreateBoard() {
-		RestAssured.baseURI = "https://trello.com";
-		given().queryParam("name", "Rudra_board_c")
-		.queryParam("key", "fe9049e46913337fe2e27ffaf75a")
-		.queryParam("token", "ATTA77c4e48363d7a3354574194bfe60bdadf6b99534e3c55b902b28d94c3d9C0723F0")
-		.header("Content-Type","application/json")
-		.when().post("/1/boards/")
-		.then().contentType(ContentType.JSON);
-	}
-	
+ @Test
+ public void CreateBoard() {
+  RestAssured.baseURI = "https://trello.com";
+  given().queryParam("name", "Rudra_board_c")
+  .queryParam("key", "fe9049e46913337fe2e27ffaf75a")
+  .queryParam("token", "ATTA77c4e48363d7a3354574194bfe60bdadf6b99534e3c55b902b28d94c3d9C0723F0")
+  .header("Content-Type","application/json")
+  .when().post("/1/boards/")
+  .then().contentType(ContentType.JSON);
+ }
+ 
 }
 ```
 
