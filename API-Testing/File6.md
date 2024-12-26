@@ -1,6 +1,3 @@
-
-
-
 * Reqres.in
 
 ```java
