@@ -96,7 +96,33 @@ These are 3 digit numbers returned by a server in response to client's request.
 
 ## Difference between HTTPS and HTTP
 
-Https - HTTPS is hyper text transfer protocol **secure**
+The primary difference between **HTTP** (HyperText Transfer Protocol) and **HTTPS** (HyperText Transfer Protocol Secure) is **security**. Here's a detailed breakdown:  
+
+### 1. **Encryption**  
+- **HTTP**: Data is transmitted in plain text, making it vulnerable to interception by attackers.  
+- **HTTPS**: Data is encrypted using **TLS (Transport Layer Security)** or the older **SSL (Secure Sockets Layer)**. This ensures secure transmission between the client (browser) and the server.  
+
+### 2. **Authentication**  
+- **HTTP**: Does not verify the identity of the server, so users cannot be sure they are communicating with the intended website.  
+- **HTTPS**: Uses a **digital certificate** issued by a trusted Certificate Authority (CA) to authenticate the server and establish trust.  
+
+### 3. **Data Integrity**  
+- **HTTP**: Data can be intercepted or altered by attackers during transmission.  
+- **HTTPS**: Ensures data integrity; encrypted data cannot be tampered with during transmission without detection.  
+
+### 4. **SEO and Trust**  
+- **HTTP**: May be flagged as "Not Secure" by modern browsers, discouraging users.  
+- **HTTPS**: Is prioritized by search engines for SEO and inspires user trust, as browsers display a padlock icon.  
+
+### 5. **Port Number**  
+- **HTTP**: Uses **port 80** by default.  
+- **HTTPS**: Uses **port 443** by default.  
+
+### Use Case Recommendations  
+- **HTTP**: Suitable for non-sensitive, public websites (e.g., informational blogs).  
+- **HTTPS**: Essential for sites handling sensitive information like login credentials, payment details, or personal data.  
+
+**In summary**, HTTPS provides a secure, encrypted, and authenticated communication channel, which is essential for most modern web applications.
 
 
 * Working of Maven Project
