@@ -1,4 +1,5 @@
 # What is API
+API Testing basically comes under Backend Testing
 
 Application Programming interface
 APIs defines the methods and protocols used for communication between different
@@ -12,6 +13,24 @@ back the order to the customer
 Here Waiter act as the API
 ![API anology](image.png)
 
+## What is Client & Server?
+**A client** is a computer hardware device or software that accesses a service
+made available by a server. The server is often (but not always) located on a
+separate physical computer.
+
+**A server** is a physical computer dedicated to run services to serve the needs of
+other computers. Depending on the service that is running, it could be a file
+server, database server, home media server, print server, or web server.
+
+![alt text](image-2.png)
+
+
+![alt text](image-3.png)
+
+Application Program Interface (API): Is the way of communication between two
+applications where applications may differ in their platforms or in terms of
+technology.
+![alt text](image-4.png)
 ## Few Basic Terms
 
 1. **End points** - APIs give specific URLs that relate to different functionalities or
@@ -57,11 +76,11 @@ understand and how to send and receive those messages.
 
 1. **'Base URL'** - The base URL is the **root or primary URL** from which other URLs derives or appended.
 It typically represents the main entry point for a web application or service  
-e.g. https://www.google.com
+e.g. <https://www.google.com>
 
 2. **Resource URL** - Each resource URL **uniquely identifies a specific a resource** or a collection
 of related resources.
-e.g. https://www.google.com/books/Gullivertravels
+e.g. <https://www.google.com/books/Gullivertravels>
 
 3. **Parameterized URL** - It is a URL that includes (also called as query parameters) to provide
 information or instructions to the server.
@@ -130,8 +149,7 @@ The primary difference between **HTTP** (HyperText Transfer Protocol) and **HTTP
 
 **In summary**, HTTPS provides a secure, encrypted, and authenticated communication channel, which is essential for most modern web applications.
 
-
-* Working of Maven Project
+- Working of Maven Project
 
 ![alt text](image-1.png)
 
@@ -144,18 +162,18 @@ For example:
 - A payment gateway can use a webhook to notify your application when a payment is successful.
 - A GitHub repository can use a webhook to notify your system whenever there is a push or pull request.
   
-### How it works:
+### How it works
 
 1. **Event Trigger**: The source system (e.g., GitHub, payment provider) is set up to monitor certain events (e.g., new payment, commit, or issue update).
 2. **HTTP Request**: Once that event happens, the source system sends an HTTP request (usually a POST request) to a pre-configured **URL** (your webhook endpoint).
 3. **Data Handling**: The destination system (your application) receives the data in the form of a payload (usually in JSON format), processes it, and can take action (e.g., update a database, send a notification).
 
-### Benefits:
+### Benefits
 
 - **Real-time communication**: Since webhooks push data when an event occurs, there's no need to poll or check constantly for updates.
 - **Efficiency**: Webhooks only send data when necessary, reducing unnecessary API calls and processing.
 
-### Example:
+### Example
 
 Suppose you're using a payment system. When a user completes a transaction, the payment system sends a webhook to your server with transaction details. Your server processes this data and updates the order status in your system.
 
