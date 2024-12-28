@@ -13,6 +13,10 @@ back the order to the customer
 Here Waiter act as the API
 ![API anology](image.png)
 
+e.g. makemytrip example
+
+![alt text](image-5.png)
+
 ## What is Client & Server?
 **A client** is a computer hardware device or software that accesses a service
 made available by a server. The server is often (but not always) located on a
@@ -57,12 +61,98 @@ Mainly based on URI - Uniform resource Identifier
 URL is a part of URI
 URL specifies where a resource is located and the protocol used to retrieve it.
 
+
+## Types of API
+
+1. SOAP - Simple Object Access Protocol
+2. REST - Representational State Transfer
+
+Both are Web Services
+
+Here's a clear breakdown of the differences between **REST API**, **Web API**, and **SOAP API**:
+
+### 1. **REST API (Representational State Transfer API):**
+
+- **Definition**: REST is an architectural style for designing networked applications. It uses standard HTTP methods (GET, POST, PUT, DELETE) to interact with resources.
+- **Protocol**: Primarily uses HTTP/HTTPS.
+- **Format**: Typically uses JSON or XML for data exchange, though JSON is more common.
+- **Design Principles**:
+  - Stateless: Each request from the client to the server must contain all the information the server needs to fulfill the request.
+  - Cacheable: Responses must define whether they can be cached or not.
+  - Resource-based: Resources are identified using URIs.
+  - Layered System: Allows for intermediaries between client and server.
+- **Use Cases**: Web services, mobile apps, IoT applications.
+- **Advantages**:
+  - Lightweight and fast.
+  - Easier to integrate with modern web technologies.
+  - Language and platform-independent.
+- **Disadvantages**:
+  - Limited formal standards, which may lead to inconsistencies.
+
+---
+
+### 2. **Web API**:
+
+- **Definition**: A broader term that encompasses any API that can be accessed over the web using HTTP. REST APIs and SOAP APIs are types of Web APIs.
+- **Protocol**: Usually uses HTTP/HTTPS.
+- **Format**: Can use JSON, XML, or other formats.
+- **Design**: Not confined to REST or SOAP. Can include custom APIs with specific designs.
+- **Use Cases**: Interacting with web services, exposing server functionality to web or mobile clients.
+- **Advantages**:
+  - Flexible and can implement multiple protocols.
+  - Supports a variety of data formats.
+- **Disadvantages**:
+  - Can vary widely in implementation, leading to lack of standardization compared to REST or SOAP.
+
+---
+
+### 3. **SOAP API (Simple Object Access Protocol API):**
+
+- **Definition**: A protocol for exchanging structured information in the implementation of web services. SOAP is highly standardized and uses XML for message format.
+- **Protocol**: Can use HTTP, HTTPS, SMTP, or other transport protocols.
+- **Format**: Exclusively XML.
+- **Design Principles**:
+  - Enforces strict standards for security and reliability.
+  - Uses WSDL (Web Services Description Language) for describing the API.
+  - Stateless or stateful, depending on the implementation.
+- **Use Cases**: Applications requiring high security (banking, financial services) or legacy systems.
+- **Advantages**:
+  - Built-in error handling.
+  - High security (supports WS-Security, encryption).
+  - Language and platform-independent.
+- **Disadvantages**:
+  - Heavyweight due to XML and strict standards.
+  - More complex and slower compared to REST.
+
+---
+
+### Key Differences:
+| Feature                 | REST API                     | Web API                      | SOAP API                       |
+|-------------------------|------------------------------|------------------------------|-------------------------------|
+| **Protocol**            | HTTP/HTTPS                  | HTTP/HTTPS                   | HTTP/HTTPS, SMTP, etc.        |
+| **Data Format**         | JSON, XML                   | JSON, XML, custom            | XML only                      |
+| **Standards**           | Flexible, no strict rules   | Varies, not strict           | Strict (WSDL, WS-Security)    |
+| **Performance**         | Lightweight, fast           | Depends on implementation    | Heavy, slower                 |
+| **Security**            | OAuth, SSL/TLS              | Depends on implementation    | Built-in WS-Security          |
+| **Use Cases**           | Web/mobile apps, IoT        | General-purpose              | High-security, enterprise apps|
+| **Complexity**          | Low                         | Varies                       | High                          |
+
+### Summary:
+
+- Use **REST API** for lightweight and scalable applications with modern needs.
+- Use **Web API** when flexibility and diverse designs are required.
+- Use **SOAP API** for enterprise-level applications where security, reliability, and strict standards are essential.
+
 ## Difference between Web application and Web Services
 
 Web application is meant for humans to read
 whereas web services are meant for computers to read
 e.g. Web application like Whatsapp is meant for the humans.
 And Web Services are meant for computers.
+
+Technically both are same.
+* At the time of development and testing we just call as API
+* And once it is developed and tested then we call it as web service.
 
 ## What kind of information??
 
@@ -178,3 +268,66 @@ For example:
 Suppose you're using a payment system. When a user completes a transaction, the payment system sends a webhook to your server with transaction details. Your server processes this data and updates the order status in your system.
 
 In short, webhooks help enable real-time, event-driven integrations between different systems.
+
+## What is API Lifecycle
+https://www.postman.com/api-platform/api-testing/
+
+Here’s the information formatted in Markdown (`.md`):
+
+
+# Common Bugs Found in API Testing
+
+The API testing process can surface a wide range of bugs and issues. Some of the most common ones include:
+
+## 1. Incorrect Data Formatting
+API tests can help uncover responses that return data in the wrong format, such as JSON instead of XML, or vice versa. This can cause parsing errors in the client application.
+
+## 2. Missing Data or Parameters
+API testing can reveal problems with API authentication or authorization, such as:
+- Incorrect handling of API keys.
+- Issues with tokens or permissions.
+- Resulting in unauthorized access or denial of service.
+
+## 3. Performance and Scalability Problems
+API load testing can determine whether an API:
+- Performs well under load.
+- Scales appropriately.
+  
+Common issues include:
+- Slow response times.
+- Timeouts.
+- Service disruptions.
+
+## 4. Concurrency Issues
+API testing can surface:
+- Race conditions.
+- Threading issues in the API implementation.
+
+These problems can lead to:
+- Unpredictable behavior.
+- Data corruption.
+
+## 5. Security Vulnerabilities
+API security tests can reveal flaws such as:
+- Lack of encryption.
+- Exposed sensitive information.
+- Insufficient rate limiting.
+- Improper validation of input data (e.g., SQL injection, cross-site scripting (XSS)).
+
+## 6. Compatibility Issues
+API testing can detect:
+- Compatibility issues when new API versions cause problems with existing client applications.
+- Broken functionality in client systems.
+
+## 7. Integration Problems
+API integration tests help uncover:
+- Failures in API integration with other systems or services.
+- Data inconsistencies.
+- Interoperability issues.
+
+## 8. Cross-Origin Resource Sharing (CORS) Misconfigurations
+API tests help surface improper CORS configurations, which can:
+- Cause cross-origin requests to fail.
+- Result in client-side issues.
+
+
