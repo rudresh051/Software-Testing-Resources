@@ -56,6 +56,7 @@ npm -v
 > Run the following command  
 `json-server students.json` in git bash
 
+## What is JSON
 
 JSON (JavaScript Object Notation) is the most commonly used data format in API testing and communication for several reasons:
 
@@ -325,3 +326,35 @@ APIs often use keys or tokens for authentication:
 
 ### **Conclusion**
 Encryption and decryption in API communication ensure that sensitive data remains secure during transmission and processing. By combining TLS/SSL with robust encryption algorithms for payloads and adhering to best practices, you can achieve strong API security.
+
+```json
+{
+    "students":[
+
+        {
+            "sid":101,
+            "sname":"John",
+            "grad":"A"
+        },
+        {
+            "sid":102,
+            "sname":"Kim",
+            "grad": "B"
+        },
+        {
+            "sid":103,
+            "sname":"Scott",
+            "grad":"C"
+        }
+    ]
+}
+```
+to find sname => 
+`students[0].sname` => John
+`students[2].sname` => Scott
+
+## Capture and Validate JSON path
+
+https://jsonpathfinder.com/
+ 
+https://jsonpath.com
