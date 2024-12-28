@@ -1,4 +1,5 @@
 # What is API
+
 API Testing basically comes under Backend Testing
 
 Application Programming interface
@@ -18,6 +19,7 @@ e.g. makemytrip example
 ![alt text](image-5.png)
 
 ## What is Client & Server?
+
 **A client** is a computer hardware device or software that accesses a service
 made available by a server. The server is often (but not always) located on a
 separate physical computer.
@@ -35,6 +37,7 @@ Application Program Interface (API): Is the way of communication between two
 applications where applications may differ in their platforms or in terms of
 technology.
 ![alt text](image-4.png)
+
 ## Few Basic Terms
 
 1. **End points** - APIs give specific URLs that relate to different functionalities or
@@ -55,7 +58,8 @@ devices over a **network.**
 It only supports XML
 e.g Wifi, Bluetooth, Airdrop
 
-2. **Rest Services** - Rest stands for REPRESENTATIONAL STATE TRANSFER. It is an ARCHITECTURAL STYLE FOR DESIGNING NETWORKED APPLICATIONS.
+2. **Rest Services** - Rest stands for REPRESENTATIONAL STATE TRANSFER.   
+It is an ARCHITECTURAL STYLE FOR DESIGNING NETWORKED APPLICATIONS.
 Style for designing network application.
 Mainly based on URI - Uniform resource Identifier
 URL is a part of URI
@@ -73,11 +77,13 @@ Here's a clear breakdown of the differences between **REST API**, **Web API**, a
 
 ### 1. **REST API (Representational State Transfer API):**
 
-- **Definition**: REST is an architectural style for designing networked applications. It uses standard HTTP methods (GET, POST, PUT, DELETE) to interact with resources.
+- **Definition**: REST is an architectural style for designing networked applications.   
+It uses standard HTTP methods (GET, POST, PUT, DELETE) to interact with resources.
 - **Protocol**: Primarily uses HTTP/HTTPS.
 - **Format**: Typically uses JSON or XML for data exchange, though JSON is more common.
 - **Design Principles**:
-  - Stateless: Each request from the client to the server must contain all the information the server needs to fulfill the request.
+  - Stateless: Each request from the client to the server must contain all the   
+  information the server needs to fulfill the request.
   - Cacheable: Responses must define whether they can be cached or not.
   - Resource-based: Resources are identified using URIs.
   - Layered System: Allows for intermediaries between client and server.
@@ -93,7 +99,8 @@ Here's a clear breakdown of the differences between **REST API**, **Web API**, a
 
 ### 2. **Web API**:
 
-- **Definition**: A broader term that encompasses any API that can be accessed over the web using HTTP. REST APIs and SOAP APIs are types of Web APIs.
+- **Definition**: A broader term that encompasses any API that can be accessed over   
+the web using HTTP. REST APIs and SOAP APIs are types of Web APIs.
 - **Protocol**: Usually uses HTTP/HTTPS.
 - **Format**: Can use JSON, XML, or other formats.
 - **Design**: Not confined to REST or SOAP. Can include custom APIs with specific designs.
@@ -108,7 +115,8 @@ Here's a clear breakdown of the differences between **REST API**, **Web API**, a
 
 ### 3. **SOAP API (Simple Object Access Protocol API):**
 
-- **Definition**: A protocol for exchanging structured information in the implementation of web services. SOAP is highly standardized and uses XML for message format.
+- **Definition**: A protocol for exchanging structured information in the implementation   
+of web services. SOAP is highly standardized and uses XML for message format.
 - **Protocol**: Can use HTTP, HTTPS, SMTP, or other transport protocols.
 - **Format**: Exclusively XML.
 - **Design Principles**:
@@ -127,6 +135,7 @@ Here's a clear breakdown of the differences between **REST API**, **Web API**, a
 ---
 
 ### Key Differences:
+
 | Feature                 | REST API                     | Web API                      | SOAP API                       |
 |-------------------------|------------------------------|------------------------------|-------------------------------|
 | **Protocol**            | HTTP/HTTPS                  | HTTP/HTTPS                   | HTTP/HTTPS, SMTP, etc.        |
@@ -141,7 +150,8 @@ Here's a clear breakdown of the differences between **REST API**, **Web API**, a
 
 - Use **REST API** for lightweight and scalable applications with modern needs.
 - Use **Web API** when flexibility and diverse designs are required.
-- Use **SOAP API** for enterprise-level applications where security, reliability, and strict standards are essential.
+- Use **SOAP API** for enterprise-level applications where security, reliability, and strict   
+standards are essential.
 
 ## Difference between Web application and Web Services
 
@@ -151,6 +161,7 @@ e.g. Web application like Whatsapp is meant for the humans.
 And Web Services are meant for computers.
 
 Technically both are same.
+
 * At the time of development and testing we just call as API
 * And once it is developed and tested then we call it as web service.
 
@@ -176,7 +187,10 @@ e.g. <https://www.google.com/books/Gullivertravels>
 information or instructions to the server.
 Ex:- <https://www.google.com/books/Gullivertravels?**hhkjehjnjkbenjhhjgjbnmvjbvkjbfn/jhe/898789/huh>**
 
-Rest services support not only xml but also json, html.
+REST services support not only xml but also json, html.
+
+![alt text](image-7.png)
+
 
 REST services are based on HTTP Methods:
 
@@ -191,21 +205,27 @@ you have created
 
 These are 3 digit numbers returned by a server in response to client's request.
 
-100-199 => Informational message
-200-299 => Successful
-300-399 => Redirection
-400-499 => Client error
-500 and above => Server error
+* 100-199 Series => Informational message
+* 200-299 Series => Successful
+* 300-399 Series => Redirection
+* 400-499 Series => Client error
+* 500-599 Series => Server error
 
-404 - File not found
-400 - Bad request
-402 - Payment Gateway
-201 - Successfully created
-505 - http version not supported
+> Examples
+* 404 - File not found
+* 400 - Bad request
+* 402 - Payment Gateway
+* 201 - Successfully created
+* 505 - http version not supported
 
 ## Difference between HTTPS and HTTP
 
-The primary difference between **HTTP** (HyperText Transfer Protocol) and **HTTPS** (HyperText Transfer Protocol Secure) is **security**. Here's a detailed breakdown:  
+![alt text](image-6.png)
+
+The primary difference between **HTTP** (HyperText Transfer Protocol) and **HTTPS**   
+(HyperText Transfer Protocol Secure) is **security**. Here's a detailed breakdown:  
+
+
 
 ### 1. **Encryption**  
 
@@ -270,6 +290,7 @@ Suppose you're using a payment system. When a user completes a transaction, the 
 In short, webhooks help enable real-time, event-driven integrations between different systems.
 
 ## What is API Lifecycle
+
 https://www.postman.com/api-platform/api-testing/
 
 Here’s the information formatted in Markdown (`.md`):
@@ -280,54 +301,87 @@ Here’s the information formatted in Markdown (`.md`):
 The API testing process can surface a wide range of bugs and issues. Some of the most common ones include:
 
 ## 1. Incorrect Data Formatting
+
 API tests can help uncover responses that return data in the wrong format, such as JSON instead of XML, or vice versa. This can cause parsing errors in the client application.
 
 ## 2. Missing Data or Parameters
+
 API testing can reveal problems with API authentication or authorization, such as:
+
 - Incorrect handling of API keys.
 - Issues with tokens or permissions.
 - Resulting in unauthorized access or denial of service.
 
 ## 3. Performance and Scalability Problems
+
 API load testing can determine whether an API:
+
 - Performs well under load.
 - Scales appropriately.
   
 Common issues include:
+
 - Slow response times.
 - Timeouts.
 - Service disruptions.
 
 ## 4. Concurrency Issues
+
 API testing can surface:
+
 - Race conditions.
 - Threading issues in the API implementation.
 
 These problems can lead to:
+
 - Unpredictable behavior.
 - Data corruption.
 
 ## 5. Security Vulnerabilities
+
 API security tests can reveal flaws such as:
+
 - Lack of encryption.
 - Exposed sensitive information.
 - Insufficient rate limiting.
 - Improper validation of input data (e.g., SQL injection, cross-site scripting (XSS)).
 
 ## 6. Compatibility Issues
+
 API testing can detect:
+
 - Compatibility issues when new API versions cause problems with existing client applications.
 - Broken functionality in client systems.
 
 ## 7. Integration Problems
+
 API integration tests help uncover:
+
 - Failures in API integration with other systems or services.
 - Data inconsistencies.
 - Interoperability issues.
 
 ## 8. Cross-Origin Resource Sharing (CORS) Misconfigurations
+
 API tests help surface improper CORS configurations, which can:
+
 - Cause cross-origin requests to fail.
 - Result in client-side issues.
 
+# Payload
 
+![alt text](image-8.png)
+
+## Relation Between URI, URL, and URN:
+
+* A URI is the superset. Both URLs and URNs are types of URIs.
+* All URLs and URNs are URIs, but not all URIs are URLs or URNs.
+
+## REST API Examples
+
+1. Payment Gateways
+2. Google Maps
+3. Twitter
+4. Facebook
+5. LinkedIn
+6. GitHub
