@@ -150,6 +150,7 @@ JSON (JavaScript Object Notation) is the most commonly used data format in API t
 - JSON supports schema definitions for data validation, ensuring API payloads adhere to expected formats.
 
 **Example**: JSON Schema
+
 ```json
 {
   "type": "object",
@@ -164,6 +165,7 @@ JSON (JavaScript Object Notation) is the most commonly used data format in API t
 ---
 
 ### **Comparison with Other Formats**
+
 | **Format** | **Advantages**                                | **Disadvantages**                           |
 |------------|-----------------------------------------------|---------------------------------------------|
 | **JSON**   | Lightweight, readable, widely supported       | Less efficient for large binary data        |

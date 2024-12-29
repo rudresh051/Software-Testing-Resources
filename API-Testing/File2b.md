@@ -157,3 +157,6 @@ e.g.
   ]
 }
 ```
+create two variablers json, json_schema
+tv4 is a library in postman
+![alt text](image-15.png)
