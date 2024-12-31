@@ -32,52 +32,51 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class dataDriven {
-	
-	@DataProvider
-	public Object[][] data() {
-		return new Object[][]{
-			
-			{"p", "sdet"},
-			{"q","SDET"},
-			{"r", "SDET"},
-			{"s","SDET"},
-		};
-		
-	}
-	
-	@Test(dataProvider = "data")
-	public void CreateAnUser(String name, String job) {
-		JSONObject obj = new JSONObject();
-		obj.put("name",name);
-		obj.put("job", job);
-		given().body(obj.toJSONString()).when().post("https://reqres.in/api/users").then().statusCode(201).log().all();
-	};
+ 
+ @DataProvider
+ public Object[][] data() {
+  return new Object[][]{
+   
+   {"p", "sdet"},
+   {"q","SDET"},
+   {"r", "SDET"},
+   {"s","SDET"},
+  };
+  
+ }
+ 
+ @Test(dataProvider = "data")
+ public void CreateAnUser(String name, String job) {
+  JSONObject obj = new JSONObject();
+  obj.put("name",name);
+  obj.put("job", job);
+  given().body(obj.toJSONString()).when().post("https://reqres.in/api/users").then().statusCode(201).log().all();
+ };
 
-	@DataProvider
-	public Object[][] newdata(){
-		return new Object[][] {
-			{"a","sdet",6},
-			{"b","sdet",3},
-			{"c","sdet",10},
-			{"d","sdet",11}
-			
-		};
-	}
-	
-	
-	@Test(dataProvider = "newdata", enabled = true)
-	public void update_user(String name, String job, int id) {
-		JSONObject js = new JSONObject();
-		js.put("name",name);
-		js.put("job", job);
-		
-		given().body(js.toJSONString()).when()
-		.put("https://reqres.in/api/users"+"/"+id)
-		.then().statusCode(200).log().all();
-		
-		
-	}
-	
+ @DataProvider
+ public Object[][] newdata(){
+  return new Object[][] {
+   {"a","sdet",6},
+   {"b","sdet",3},
+   {"c","sdet",10},
+   {"d","sdet",11}
+   
+  };
+ }
+ 
+ 
+ @Test(dataProvider = "newdata", enabled = true)
+ public void update_user(String name, String job, int id) {
+  JSONObject js = new JSONObject();
+  js.put("name",name);
+  js.put("job", job);
+  
+  given().body(js.toJSONString()).when()
+  .put("https://reqres.in/api/users"+"/"+id)
+  .then().statusCode(200).log().all();
+  
+  
+ }
+ 
 }
-
 ```

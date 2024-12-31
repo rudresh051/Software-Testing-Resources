@@ -176,9 +176,8 @@ JSON (JavaScript Object Notation) is the most commonly used data format in API t
 ---
 
 ### **Conclusion**
+
 JSON's balance of simplicity, flexibility, and ecosystem support makes it the go-to format for most API use cases. While other formats are used for specific scenarios (e.g., file uploads, binary data), JSON's universality ensures it remains the dominant choice.
-
-
 
 ### **Encryption and Decryption in API Communication**
 
@@ -196,6 +195,7 @@ Encryption and decryption play a crucial role in ensuring the **security** and *
 ---
 
 ### **2. Common Encryption Methods**
+
 #### **a. Transport Layer Encryption**
 
 - **TLS/SSL**: Secures the entire communication channel.
@@ -203,6 +203,7 @@ Encryption and decryption play a crucial role in ensuring the **security** and *
   - Prevents attackers from eavesdropping on the communication.
 
 #### **b. Payload Encryption**
+
 Encrypting the API request or response payload itself, often in addition to TLS, for an extra layer of security.
 
 - **Symmetric Encryption**:
@@ -224,6 +225,7 @@ Encrypting the API request or response payload itself, often in addition to TLS,
 ---
 
 ### **3. Encryption with JSON**
+
 While JSON itself is not inherently encrypted, you can encrypt the data within it:
 
 #### **Before Transmission**
