@@ -124,6 +124,7 @@ JSON (JavaScript Object Notation) is the most commonly used data format in API t
 - JSON supports complex nested structures and arrays, making it versatile for representing various data types and relationships.
 
 **Example**: Handling nested data
+
 ```json
 {
   "user": {
@@ -298,12 +299,14 @@ APIs often use keys or tokens for authentication:
 ---
 
 ### **7. Real-World Application**
+
 #### **Example: Encrypted Payload in an API Request**
 
 - Client encrypts the JSON payload with AES.
 - Server decrypts it with the shared key and processes the data.
 
 **Request**:
+
 ```json
 {
   "encrypted_data": "U2FsdGVkX1+RtMe2+W4="
@@ -329,6 +332,7 @@ APIs often use keys or tokens for authentication:
 ---
 
 ### **Conclusion**
+
 Encryption and decryption in API communication ensure that sensitive data remains secure during transmission and processing. By combining TLS/SSL with robust encryption algorithms for payloads and adhering to best practices, you can achieve strong API security.
 
 ```json
@@ -353,6 +357,7 @@ Encryption and decryption in API communication ensure that sensitive data remain
     ]
 }
 ```
+
 to find sname => 
 `students[0].sname` => John
 `students[2].sname` => Scott
