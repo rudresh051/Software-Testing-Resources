@@ -76,5 +76,3 @@ An **access token** is a credential used to authenticate and authorize a client 
 - **Automation Frameworks** (e.g., Selenium, RestAssured): Automate token-based API testing by programmatically obtaining and using access tokens.
 
 By including access token tests in your API testing suite, you ensure robust security and proper functioning of authentication and authorization mechanisms.
-
-## Data driven testing using Postman

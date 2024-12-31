@@ -74,7 +74,7 @@ By understanding the difference, testers can effectively validate APIs for their
 parameter types,
 ensuring they meet the expected requirements.
 
-* Google Maps ADD API
+- Google Maps ADD API
 
 ```XML
 Google maps API
