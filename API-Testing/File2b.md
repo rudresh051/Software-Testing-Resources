@@ -58,8 +58,10 @@ pm.test("Test Name", ()=>{
 ![alt text](image-14.png)
 
 * JSON Schema Validation
+
 > Use JSON schema converter
 e.g.
+
 ```json
 {
     "page": 2,
@@ -157,6 +159,8 @@ e.g.
   ]
 }
 ```
+
 create two variablers json, json_schema
 tv4 is a library in postman
-![alt text](image-15.png)
+
+![alt text](image-15.png)  

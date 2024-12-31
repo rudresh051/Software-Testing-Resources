@@ -1,4 +1,5 @@
 # What are the basic steps involved in API testing?
+
 Here are the basic steps involved in API testing:
 
 Step 1. Test planning: Define the scope, objectives, and requirements of API testing. Identify the endpoints to be tested and the expected behaviors.
@@ -15,7 +16,7 @@ Step 6. Test maintenance: Regularly review and update test cases as the API evol
 
 These steps provide a general framework for API testing and can be customized based on the specific requirements of your project.
 
-# What are the different types of API tests?
+## What are the different types of API tests?
 
 * Unit testing:
 Tests individual functions or methods within the API to ensure they work correctly and produce the expected outputs.

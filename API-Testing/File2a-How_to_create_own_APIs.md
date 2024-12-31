@@ -1,4 +1,4 @@
-# Install the following 
+# Install the following
 
 * Install Node  
 `npm -node package manager`
@@ -64,10 +64,11 @@ JSON (JavaScript Object Notation) is the most commonly used data format in API t
 
 ### **1. Simplicity**
 
-- JSON is lightweight and easy to read, write, and understand.
-- Its structure uses key-value pairs, making it intuitive for developers.
+* JSON is lightweight and easy to read, write, and understand.
+* Its structure uses key-value pairs, making it intuitive for developers.
 
 **Example**:
+
 ```json
 {
   "name": "John Doe",

@@ -27,7 +27,7 @@ In API testing, the terms **parameters** and **query parameters** refer to disti
 passing data to an API endpoint.
 Here's the difference between them:
 
-### **Parameters**:
+## **Parameters**
 
 - **General Concept**: Parameters are a broader category that refers to any input data passed
 to an API to customize its behavior.
@@ -60,7 +60,7 @@ format, following a `?`.
 
 ---
 
-### Key Differences:
+### Key Differences
 
 | Aspect                | Parameters                               | Query Parameters                          |
 |-----------------------|------------------------------------------|-------------------------------------------|
@@ -166,7 +166,6 @@ Environment Setup: Setting up environment-specific configurations, such as authe
 In the Postman interface, there is a tab named "Authorization." Click on it to access authorization settings.
 Postman supports various types of authorization, such as "No Auth," "Basic Auth," "Bearer Token," etc. Choose the type that corresponds to the authentication mechanism used by the API you are testing.
 
-
 ## Data-driven testing
 
 Data-driven testing is a software testing methodology where test cases are designed based on input data sets, and the same test logic is applied across multiple data variations.
@@ -200,5 +199,3 @@ End-to-End Testing
 Data-driven testing is an approach where test scenarios are executed multiple times with different sets of input data. In the context of Rest-Assured, which is a popular Java library for testing RESTful APIs, data-driven testing involves executing HTTP requests with varying parameters and validating the responses against expected outcomes.
 
 Data-driven testing with Rest-Assured provides a flexible and efficient approach to testing RESTful APIs by enabling the execution of multiple test scenarios with varying input data.
-
-

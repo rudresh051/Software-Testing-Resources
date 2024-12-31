@@ -30,7 +30,6 @@ server, database server, home media server, print server, or web server.
 
 ![alt text](image-2.png)
 
-
 ![alt text](image-3.png)
 
 Application Program Interface (API): Is the way of communication between two
@@ -58,13 +57,12 @@ devices over a **network.**
 It only supports XML
 e.g Wifi, Bluetooth, Airdrop
 
-2. **Rest Services** - Rest stands for REPRESENTATIONAL STATE TRANSFER.   
+2. **Rest Services** - Rest stands for REPRESENTATIONAL STATE TRANSFER.  
 It is an ARCHITECTURAL STYLE FOR DESIGNING NETWORKED APPLICATIONS.
 Style for designing network application.
 Mainly based on URI - Uniform resource Identifier
 URL is a part of URI
 URL specifies where a resource is located and the protocol used to retrieve it.
-
 
 ## Types of API
 
@@ -77,12 +75,12 @@ Here's a clear breakdown of the differences between **REST API**, **Web API**, a
 
 ### 1. **REST API (Representational State Transfer API):**
 
-- **Definition**: REST is an architectural style for designing networked applications.   
+- **Definition**: REST is an architectural style for designing networked applications.
 It uses standard HTTP methods (GET, POST, PUT, DELETE) to interact with resources.
 - **Protocol**: Primarily uses HTTP/HTTPS.
 - **Format**: Typically uses JSON or XML for data exchange, though JSON is more common.
 - **Design Principles**:
-  - Stateless: Each request from the client to the server must contain all the   
+  - Stateless: Each request from the client to the server must contain all the
   information the server needs to fulfill the request.
   - Cacheable: Responses must define whether they can be cached or not.
   - Resource-based: Resources are identified using URIs.
@@ -97,9 +95,9 @@ It uses standard HTTP methods (GET, POST, PUT, DELETE) to interact with resource
 
 ---
 
-### 2. **Web API**:
+### 2. **Web API**
 
-- **Definition**: A broader term that encompasses any API that can be accessed over   
+- **Definition**: A broader term that encompasses any API that can be accessed over  
 the web using HTTP. REST APIs and SOAP APIs are types of Web APIs.
 - **Protocol**: Usually uses HTTP/HTTPS.
 - **Format**: Can use JSON, XML, or other formats.
@@ -134,7 +132,7 @@ of web services. SOAP is highly standardized and uses XML for message format.
 
 ---
 
-### Key Differences:
+### Key Differences
 
 | Feature                 | REST API                     | Web API                      | SOAP API                       |
 |-------------------------|------------------------------|------------------------------|-------------------------------|
@@ -150,7 +148,7 @@ of web services. SOAP is highly standardized and uses XML for message format.
 
 - Use **REST API** for lightweight and scalable applications with modern needs.
 - Use **Web API** when flexibility and diverse designs are required.
-- Use **SOAP API** for enterprise-level applications where security, reliability, and strict   
+- Use **SOAP API** for enterprise-level applications where security, reliability, and strict  
 standards are essential.
 
 ## Difference between Web application and Web Services
@@ -212,6 +210,7 @@ These are 3 digit numbers returned by a server in response to client's request.
 * 500-599 Series => Server error
 
 > Examples
+
 * 404 - File not found
 * 400 - Bad request
 * 402 - Payment Gateway
