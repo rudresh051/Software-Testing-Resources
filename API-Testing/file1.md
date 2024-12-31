@@ -113,7 +113,7 @@ the web using HTTP. REST APIs and SOAP APIs are types of Web APIs.
 
 ### 3. **SOAP API (Simple Object Access Protocol API):**
 
-- **Definition**: A protocol for exchanging structured information in the implementation   
+- **Definition**: A protocol for exchanging structured information in the implementation
 of web services. SOAP is highly standardized and uses XML for message format.
 - **Protocol**: Can use HTTP, HTTPS, SMTP, or other transport protocols.
 - **Format**: Exclusively XML.
@@ -144,7 +144,7 @@ of web services. SOAP is highly standardized and uses XML for message format.
 | **Use Cases**           | Web/mobile apps, IoT        | General-purpose              | High-security, enterprise apps|
 | **Complexity**          | Low                         | Varies                       | High                          |
 
-### Summary:
+### Summary
 
 - Use **REST API** for lightweight and scalable applications with modern needs.
 - Use **Web API** when flexibility and diverse designs are required.
@@ -160,8 +160,8 @@ And Web Services are meant for computers.
 
 Technically both are same.
 
-* At the time of development and testing we just call as API
-* And once it is developed and tested then we call it as web service.
+- At the time of development and testing we just call as API
+- And once it is developed and tested then we call it as web service.
 
 ## What kind of information??
 
@@ -169,7 +169,7 @@ WSDL(Web Services Description Language)
 Its work is to describe how a web service works, what kind of messages it can send and
 understand and how to send and receive those messages.
 
-**Web services only support XML**
+## Web services only support XML**
 
 ## There are three parts of URL
 
@@ -189,7 +189,6 @@ REST services support not only xml but also json, html.
 
 ![alt text](image-7.png)
 
-
 REST services are based on HTTP Methods:
 
 1. GET - If we want to see some data then we will use get method.
@@ -203,28 +202,26 @@ you have created
 
 These are 3 digit numbers returned by a server in response to client's request.
 
-* 100-199 Series => Informational message
-* 200-299 Series => Successful
-* 300-399 Series => Redirection
-* 400-499 Series => Client error
-* 500-599 Series => Server error
+- 100-199 Series => Informational message
+- 200-299 Series => Successful
+- 300-399 Series => Redirection
+- 400-499 Series => Client error
+- 500-599 Series => Server error
 
 > Examples
 
-* 404 - File not found
-* 400 - Bad request
-* 402 - Payment Gateway
-* 201 - Successfully created
-* 505 - http version not supported
+- 404 - File not found
+- 400 - Bad request
+- 402 - Payment Gateway
+- 201 - Successfully created
+- 505 - http version not supported
 
 ## Difference between HTTPS and HTTP
 
 ![alt text](image-6.png)
 
-The primary difference between **HTTP** (HyperText Transfer Protocol) and **HTTPS**   
+The primary difference between **HTTP** (HyperText Transfer Protocol) and **HTTPS**
 (HyperText Transfer Protocol Secure) is **security**. Here's a detailed breakdown:  
-
-
 
 ### 1. **Encryption**  
 
@@ -290,12 +287,11 @@ In short, webhooks help enable real-time, event-driven integrations between diff
 
 ## What is API Lifecycle
 
-https://www.postman.com/api-platform/api-testing/
+<https://www.postman.com/api-platform/api-testing/>
 
 Here’s the information formatted in Markdown (`.md`):
 
-
-# Common Bugs Found in API Testing
+## Common Bugs Found in API Testing
 
 The API testing process can surface a wide range of bugs and issues. Some of the most common ones include:
 
@@ -367,14 +363,14 @@ API tests help surface improper CORS configurations, which can:
 - Cause cross-origin requests to fail.
 - Result in client-side issues.
 
-# Payload
+## Payload
 
 ![alt text](image-8.png)
 
-## Relation Between URI, URL, and URN:
+## Relation Between URI, URL, and URN
 
-* A URI is the superset. Both URLs and URNs are types of URIs.
-* All URLs and URNs are URIs, but not all URIs are URLs or URNs.
+- A URI is the superset. Both URLs and URNs are types of URIs.
+- All URLs and URNs are URIs, but not all URIs are URLs or URNs.
 
 ## REST API Examples
 
