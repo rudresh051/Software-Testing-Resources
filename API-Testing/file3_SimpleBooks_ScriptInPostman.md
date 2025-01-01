@@ -4,7 +4,7 @@
 2. Method - set, get, unset
 3. Simple books API - Script
 
-# Script in Postman
+## Script in Postman
 
 * Pre-request Scripts
 * Tests Scripts
@@ -14,7 +14,6 @@
 `Pre-Request Script => Request => Response => Request`
 
 ![alt text](image-16.png)
-
 
 ```javascript
 pm.test("Status code is 200", function () {
@@ -43,21 +42,19 @@ It is accessbile only within that particular request.
 e.g. `pm.variables.set("url_local","https://reqres.in/api")`
 * Data - It can created in data files. e.g. csv files
 
-Variable types - 
+Variable types -
 
 * Default type
 * Secret type
-
 
 Workspace => Collections => requests
 
 ## Getting variables in Test script from pre-request script
 
-e.g.   
+e.g.
 `pm.globals.get("variable_name")`
 `pm.environment.get("variable_name")`
 `pm.collectionVariables.get("variable_name")`
-
 
 ## Delete a variable
 
@@ -65,12 +62,9 @@ e.g.
 `pm.environment.unset("variable_name")`
 `pm.collectionVariables.unset("variable_name")`
 
-
-
-
 ## Simple Books API
 
-https://github.com/vdespa/introduction-to-postman-course/blob/main/simple-books-api.md
+<https://github.com/vdespa/introduction-to-postman-course/blob/main/simple-books-api.md>
 
 * List of Books
 
@@ -113,3 +107,5 @@ for(var i=0;i<count;i++){
     }
 }
 ```
+
+## Postman - API Chaining
