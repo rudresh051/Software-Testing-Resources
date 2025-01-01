@@ -9,10 +9,12 @@ Single user not found - /api/users/23
 List <Resource> - /api/unknown
 Single <Resource> - /single/resource
 
+## Access Token
 
 An **access token** is a credential used to authenticate and authorize a client application or user to access specific resources in an API. It is typically issued by an **authentication server** after the client successfully authenticates and is often used in API testing to simulate real-world scenarios involving secure data exchange.
 
 ### **Key Features of an Access Token:**
+
 1. **Authentication**: Verifies the identity of the client or user.
 2. **Authorization**: Defines what resources or actions the token holder is permitted to access.
 3. **Expiration**: Tokens are often short-lived to enhance security.

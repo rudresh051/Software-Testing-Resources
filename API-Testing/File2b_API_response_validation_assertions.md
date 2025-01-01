@@ -1,6 +1,15 @@
 # API Response Validations and Different types of Assertions
 
-> Response Validations
+> Topics
+
+* Understanding JSON
+* Key Components of a Response
+* Assertion in Postman
+* Postman's Built-in Library(PM)
+* Writing User-Defined Functions
+* Chai Assertion Library
+
+## Response Validations
 
 * Status code
 * Headers

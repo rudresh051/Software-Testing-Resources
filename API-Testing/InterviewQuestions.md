@@ -15,3 +15,6 @@
 https://blog.postman.com/api-lifecycle-blueprint/
 15. Explain Shifting Left with Postman.
 https://blog.postman.com/shifting-left-with-postman/
+16. What is the purpose of using pm Library in Postman?
+17. How does chai assertion Library relate to Postman testing?
+18. What is the difference between normal and Arrow functions in JavaScript?

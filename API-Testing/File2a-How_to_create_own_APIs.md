@@ -1,4 +1,13 @@
-# Install the following
+# Topics
+
+* Install the package
+* What is JSON and advantages of it.
+* Comparison of JSON with Other Formats
+* Encryption and Decryption in API Communication
+  * Why Use Encryption in APIs?
+  * Common Encryption Methods
+
+## Install the following
 
 * Install Node  
 `npm -node package manager`
