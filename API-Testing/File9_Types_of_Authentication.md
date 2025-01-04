@@ -25,3 +25,11 @@ The article on authentication helpers elaborates how to use the same within the 
 ## Basic and Digest Auth
 
 ![alt text](image-19.png)
+
+## API Key authentication
+
+![alt text](image-20.png)
+
+## OAuth 1.0 and OAuth 2.0
+
+![alt text](image-21.png)
