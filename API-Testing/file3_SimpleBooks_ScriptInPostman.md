@@ -107,9 +107,3 @@ for(var i=0;i<count;i++){
     }
 }
 ```
-
-## Postman - API Chaining
-
-The response of one request becomes input of another request
-
-We need to store response in differnet variables and then refer that variable to another request.
