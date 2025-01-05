@@ -1,4 +1,22 @@
-# What is API
+# Topics
+>
+1. What is API
+2. What is Client & Server?
+3. Terms - End points, Request and Responses, Status Codes, Payloads
+4. Types of Services in API - Web Services, REST Services
+5. Types of API - REST, Web API, SOAP API
+6. Difference between Web application and Web Servies
+7. Parts of URL - Base URL, Resource URL, Parameterized URL
+8. HTTP Status Codes
+9. Difference Between HTTPS and HTTP
+10. What is WebHook.
+11. What is API Life cycle
+12. Common Bugs Found in API Testing
+13. Payload
+14. Relation Between URI, URL, and URN
+15.REST API Examples
+
+## What is API
 
 API Testing basically comes under Backend Testing
 
@@ -50,14 +68,14 @@ from the server.
 4. **Payloads** - Payloads contain data sent in the body of an API request and response,
 usually in formats like JSON or XML.
 
-There are two types of services in API
+## There are two types of services in API
 
 1. **Web Services** - A web service is a **method of communication** between the two electronic
 devices over a **network.**
 It only supports XML
 e.g Wifi, Bluetooth, Airdrop
 
-2. **Rest Services** - Rest stands for REPRESENTATIONAL STATE TRANSFER.  
+2. **REST Services** - Rest stands for REPRESENTATIONAL STATE TRANSFER.  
 It is an ARCHITECTURAL STYLE FOR DESIGNING NETWORKED APPLICATIONS.
 Style for designing network application.
 Mainly based on URI - Uniform resource Identifier
@@ -163,13 +181,13 @@ Technically both are same.
 - At the time of development and testing we just call as API
 - And once it is developed and tested then we call it as web service.
 
-## What kind of information??
+## What kind of information?
 
 WSDL(Web Services Description Language)  
 Its work is to describe how a web service works, what kind of messages it can send and
 understand and how to send and receive those messages.
 
-## Web services only support XML**
+* Web services only support XML
 
 ## There are three parts of URL
 
@@ -287,19 +305,19 @@ In short, webhooks help enable real-time, event-driven integrations between diff
 
 ## What is API Lifecycle
 
-<https://www.postman.com/api-platform/api-testing/>
+The API lifecycle is the series of steps that teams must take in order to successfully design, develop, deploy, and consume APIs. Teams that follow a clearly defined API lifecycle are more productive and better equipped to deliver a high-quality API.
 
-Here’s the information formatted in Markdown (`.md`):
+Link - `https://www.postman.com/api-platform/api-lifecycle/`
 
 ## Common Bugs Found in API Testing
 
 The API testing process can surface a wide range of bugs and issues. Some of the most common ones include:
 
-## 1. Incorrect Data Formatting
+> Incorrect Data Formatting
 
 API tests can help uncover responses that return data in the wrong format, such as JSON instead of XML, or vice versa. This can cause parsing errors in the client application.
 
-## 2. Missing Data or Parameters
+> Missing Data or Parameters
 
 API testing can reveal problems with API authentication or authorization, such as:
 
@@ -307,7 +325,7 @@ API testing can reveal problems with API authentication or authorization, such a
 - Issues with tokens or permissions.
 - Resulting in unauthorized access or denial of service.
 
-## 3. Performance and Scalability Problems
+> Performance and Scalability Problems
 
 API load testing can determine whether an API:
 
@@ -320,7 +338,7 @@ Common issues include:
 - Timeouts.
 - Service disruptions.
 
-## 4. Concurrency Issues
+> Concurrency Issues
 
 API testing can surface:
 
@@ -332,7 +350,7 @@ These problems can lead to:
 - Unpredictable behavior.
 - Data corruption.
 
-## 5. Security Vulnerabilities
+> Security Vulnerabilities
 
 API security tests can reveal flaws such as:
 
@@ -341,14 +359,14 @@ API security tests can reveal flaws such as:
 - Insufficient rate limiting.
 - Improper validation of input data (e.g., SQL injection, cross-site scripting (XSS)).
 
-## 6. Compatibility Issues
+> Compatibility Issues
 
 API testing can detect:
 
 - Compatibility issues when new API versions cause problems with existing client applications.
 - Broken functionality in client systems.
 
-## 7. Integration Problems
+> Integration Problems
 
 API integration tests help uncover:
 
@@ -356,7 +374,7 @@ API integration tests help uncover:
 - Data inconsistencies.
 - Interoperability issues.
 
-## 8. Cross-Origin Resource Sharing (CORS) Misconfigurations
+> Cross-Origin Resource Sharing (CORS) Misconfigurations
 
 API tests help surface improper CORS configurations, which can:
 
@@ -374,9 +392,23 @@ API tests help surface improper CORS configurations, which can:
 
 ## REST API Examples
 
-1. Payment Gateways
-2. Google Maps
-3. Twitter
-4. Facebook
-5. LinkedIn
-6. GitHub
+> Payment Gateways
+
+```text
+Stripe: https://stripe.com/docs/api
+PayPal: https://developer.paypal.com/docs/api/
+Square: https://developer.squareup.com/
+Braintree: https://developers.braintreepayments.com/
+Authorize.Net: https://developer.authorize.net/api/reference/
+```
+> Google Maps - 
+https://developers.google.com/maps/documentation
+
+> Twitter - 
+https://developer.twitter.com/en/docs/twitter-api
+
+> Facebook - 
+https://developers.facebook.com/docs/graph-api
+
+> GitHub - 
+https://docs.github.com/en/rest
