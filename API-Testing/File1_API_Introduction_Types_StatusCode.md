@@ -5,7 +5,7 @@
 3. Terms - End points, Request and Responses, Status Codes, Payloads
 4. Types of Services in API - Web Services, REST Services
 5. Types of API - REST, Web API, SOAP API
-6. Difference between Web application and Web Servies
+6. Difference between Web application and Web Servies and What is WSDL
 7. Parts of URL - Base URL, Resource URL, Parameterized URL
 8. HTTP Status Codes
 9. Difference Between HTTPS and HTTP
@@ -14,7 +14,7 @@
 12. Common Bugs Found in API Testing
 13. Payload
 14. Relation Between URI, URL, and URN
-15.REST API Examples
+15. REST API Examples
 
 ## What is API
 
@@ -171,23 +171,195 @@ standards are essential.
 
 ## Difference between Web application and Web Services
 
-Web application is meant for humans to read
-whereas web services are meant for computers to read
-e.g. Web application like Whatsapp is meant for the humans.
-And Web Services are meant for computers.
+Web applications and web services are distinct entities in the web ecosystem, serving different purposes. Here's a comparison to clarify the differences:
+
+### **Web Application**
+
+- **Definition:**  
+  A web application is an interactive, user-facing software accessible through a web browser. It is designed to provide functionality directly to users, such as e-commerce platforms, social media, or email services.
+
+- **Purpose:**  
+  To enable users to interact with the system using a graphical interface.
+
+- **Key Characteristics:**  
+  - Provides a user interface (UI) for interaction (e.g., forms, buttons, navigation).
+  - Runs on a web browser (e.g., Chrome, Firefox).
+  - Typically uses HTML, CSS, and JavaScript for frontend development.
+  - Examples: Amazon, Gmail, Facebook.
+
+- **Usage:**  
+  - E-commerce, content management systems, productivity tools.
+  - User-driven processes like login, purchases, or social networking.
+
+---
+
+### **Web Service**
+
+- **Definition:**  
+  A web service is a software component that allows applications to communicate over a network. It provides data or functionality without a user interface, often in a machine-to-machine context.
+
+- **Purpose:**  
+  To enable interoperability and data exchange between systems or applications.
+
+- **Key Characteristics:**  
+  - Operates through APIs, typically using protocols like HTTP, SOAP, or REST.
+  - Returns data in standardized formats such as XML or JSON.
+  - Examples: A payment gateway API, weather data service, or Google Maps API.
+
+- **Usage:**  
+  - Backend integration between systems.
+  - Enables functionalities like authentication, data processing, or accessing external resources.
+
+---
+
+### **Key Differences**
+
+| Aspect                     | Web Application                   | Web Service                        |
+|----------------------------|------------------------------------|------------------------------------|
+| **Audience**               | End-users interacting via browser | Other applications or systems      |
+| **Interface**              | User interface (UI) is present    | No UI; accessible via API          |
+| **Communication**          | User interacts directly           | Applications communicate over APIs |
+| **Purpose**                | Perform tasks and provide a service to users | Exchange data or provide functionality to systems |
+| **Examples**               | Online shopping, email, social media | Payment gateways, weather APIs     |
+| **Technologies Used**      | HTML, CSS, JavaScript, frameworks like React | SOAP, REST, JSON, XML             |
+
+---
+
+### In Summary
+
+- **Web applications** are for users. They have a UI and are accessed via a browser.
+- **Web services** are for systems. They have no UI and provide data or functionality through APIs.
 
 Technically both are same.
 
 - At the time of development and testing we just call as API
-- And once it is developed and tested then we call it as web service.
+- And once it is developed and tested and ready to be used , then we call it as web service.
 
-## What kind of information?
+## **WSDL (Web Services Description Language)**
 
-WSDL(Web Services Description Language)  
-Its work is to describe how a web service works, what kind of messages it can send and
-understand and how to send and receive those messages.
+WSDL is an **XML-based language** used to describe the functionality offered by a web service. It acts as a contract between the service provider and the consumer, specifying the operations a web service provides, how to call those operations, and what data structures are involved.
 
-* Web services only support XML
+### **Key Features of WSDL**
+
+1. **Defines the Web Service**:  
+   - Specifies the available operations (methods) and their input/output parameters.
+   - Describes how to communicate with the service.
+
+2. **XML-based**:  
+   - Written in XML, making it platform-independent.
+
+3. **Protocol and Data Binding**:  
+   - Specifies the communication protocol (e.g., SOAP, HTTP) and the format of the messages.
+
+4. **Used in SOAP Web Services**:  
+   - Primarily associated with SOAP-based web services to enable communication.
+
+---
+
+### **Structure of a WSDL Document**
+
+A WSDL document has several main elements:
+
+1. definitions  
+   - The root element that defines the name and target namespace of the WSDL.
+
+2. types
+   - Defines the data types used by the web service, often based on XML Schema (XSD).
+
+3. message
+   - Describes the data exchanged in the web service (input, output, or fault messages).
+
+4. portType
+   - Specifies the operations provided by the service and their corresponding messages.
+
+5. binding
+   - Defines how the operations and messages are bound to a specific protocol (e.g., SOAP).
+
+6. service
+   - Specifies the service endpoint (where the service can be accessed).
+
+---
+
+### **WSDL Example**
+
+```xml
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+             name="SampleService"
+             targetNamespace="http://example.com/SampleService">
+
+    <!-- Data Types -->
+    <types>
+        <xsd:schema targetNamespace="http://example.com/SampleService">
+            <xsd:element name="Request" type="xsd:string"/>
+            <xsd:element name="Response" type="xsd:string"/>
+        </xsd:schema>
+    </types>
+
+    <!-- Messages -->
+    <message name="SampleRequest">
+        <part name="parameters" element="Request"/>
+    </message>
+    <message name="SampleResponse">
+        <part name="parameters" element="Response"/>
+    </message>
+
+    <!-- Operations -->
+    <portType name="SamplePortType">
+        <operation name="SampleOperation">
+            <input message="SampleRequest"/>
+            <output message="SampleResponse"/>
+        </operation>
+    </portType>
+
+    <!-- Binding -->
+    <binding name="SampleBinding" type="SamplePortType">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="SampleOperation">
+            <soap:operation soapAction="http://example.com/SampleService/SampleOperation"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+    </binding>
+
+    <!-- Service -->
+    <service name="SampleService">
+        <port name="SamplePort" binding="SampleBinding">
+            <soap:address location="http://example.com/SampleService"/>
+        </port>
+    </service>
+</definitions>
+```
+
+---
+
+### **How WSDL Works**
+
+1. **Service Provider**: Creates the WSDL file to describe the web service.
+2. **Service Consumer**: Uses the WSDL to understand:
+   - The operations provided by the service.
+   - The message format.
+   - The communication protocol and endpoint.
+3. **Tools**: Many development tools (e.g., Apache Axis, .NET WCF) can read a WSDL file and generate client code for interacting with the service.
+
+---
+
+### **Benefits of WSDL**
+
+- **Interoperability**: Allows different systems to communicate regardless of platform or language.
+- **Automation**: Tools can auto-generate client stubs and server skeletons from WSDL.
+- **Clarity**: Provides a clear contract between service providers and consumers.
+
+---
+
+### **Key Use Case**
+
+WSDL is used with **SOAP-based web services** to describe the operations a service offers, facilitating seamless integration and communication between systems.
 
 ## There are three parts of URL
 
@@ -401,14 +573,15 @@ Square: https://developer.squareup.com/
 Braintree: https://developers.braintreepayments.com/
 Authorize.Net: https://developer.authorize.net/api/reference/
 ```
-> Google Maps - 
-https://developers.google.com/maps/documentation
 
-> Twitter - 
-https://developer.twitter.com/en/docs/twitter-api
+> Google Maps -
+<https://developers.google.com/maps/documentation>
 
-> Facebook - 
-https://developers.facebook.com/docs/graph-api
+> Twitter -
+<https://developer.twitter.com/en/docs/twitter-api>
 
-> GitHub - 
-https://docs.github.com/en/rest
+> Facebook -
+<https://developers.facebook.com/docs/graph-api>
+
+> GitHub -
+<https://docs.github.com/en/rest>
