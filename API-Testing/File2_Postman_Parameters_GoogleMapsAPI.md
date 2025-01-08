@@ -27,6 +27,11 @@ In API testing, the terms **parameters** and **query parameters** refer to disti
 passing data to an API endpoint.
 Here's the difference between them:
 
+## Mock Server
+
+The place where I put my response in the server and treat that as test Environment.
+It is a server which will have the response like real time. 
+
 ## **Parameters**
 
 - **General Concept**: Parameters are a broader category that refers to any input data passed
