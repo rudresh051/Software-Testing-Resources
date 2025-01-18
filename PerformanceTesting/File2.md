@@ -16,7 +16,9 @@ reliability, and application size. The process incorporates performance indicato
 Different types of performance testing are conducted throughout the development lifecycle to ensure that the application meets performance requirements and user expectations. Here are the primary types of performance testing:
 
 * **Load tests** simulate the number of virtual users who might use an application. In reproducing realistic usage and load conditions based on response times, this test can help identify potential bottlenecks. It also enables you to understand whether it’s necessary to adjust the size of an application’s architecture.
+
 * **Unit tests** simulate the transactional activity of a functional test campaign; their goal is to isolate transactions that could disrupt the system.
+
 * **Stress tests** evaluate the behavior of systems during peak activity. These tests significantly and continuously increase the number of users during the testing period.
 
 * **Soak tests** increase the number of concurrent users and monitor the behavior of the system over a more extended period. The objective is to observe whether intense and sustained activity over time shows a potential drop in performance levels, making excessive demands on the resources of the system.
@@ -40,6 +42,10 @@ Different types of performance testing are conducted throughout the development 
 * **Reliability tests** assess the system’s stability, availability, and resilience under real-world conditions, simulating failure scenarios and adverse conditions. They validate the system’s ability to maintain consistent performance and functionality over time, ensuring reliable operation in production environments.
 
 * **Stability** - Even under the peak load , the server should not fail.
+
+* **Benchmarking** -
+* **Resource utilization** - 
+* **Ramp-up/down Testing** - 
 
 # What is the performance testing process?
 
