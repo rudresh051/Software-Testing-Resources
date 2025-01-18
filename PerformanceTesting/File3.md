@@ -39,12 +39,14 @@ Add the certificaties in firefox browser
 * enter the url blazedemo.com >>  purchase flight >> enter the details
 * stop recording
 
-* create thread group
+* click on test name >> create thread group
 ![alt text](image-6.png)
 
 * cut and paste the .php files in thread group
 ![alt text](image-7.png)
 
-* Add Listener
+* Add Listener and click run
 
 ![alt text](image-8.png)
+
+* ![alt text](image-9.png)
