@@ -7,6 +7,8 @@ https://jmeter.apache.org/download_jmeter.cgi
 
 * unzip >> Navigate to bin folder >> double click on Jmeter batch file
 
+![alt text](image-10.png)
+
 
 ## Steps
 * Right click the test >> Add >> Non-Test Elements >> HTTPS Test Script recorder >> click
