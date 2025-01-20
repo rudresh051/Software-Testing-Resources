@@ -42,3 +42,8 @@ A **Cookie Manager** is a tool or component that helps manage cookies within a w
 - **Security**: Verifies cookie-related security attributes like `HttpOnly`, `Secure`, and `SameSite`.
 
 Would you like to explore how to implement or use a cookie manager in a specific tool or programming language?
+
+
+# Simple Books API
+
+![alt text](image-14.png)
