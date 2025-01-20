@@ -47,3 +47,11 @@ Would you like to explore how to implement or use a cookie manager in a specific
 # Simple Books API
 
 ![alt text](image-14.png)
+
+* Add the HTTP Header manager
+
+![alt text](image-15.png)
+```
+Name - Content-type
+value - application/json
+```
