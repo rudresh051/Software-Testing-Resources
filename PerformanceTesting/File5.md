@@ -51,6 +51,9 @@ Would you like to explore how to implement or use a cookie manager in a specific
 * Add the HTTP Header manager
 
 ![alt text](image-15.png)
+
+![alt text](image-16.png)
+
 ```
 Name - Content-type
 value - application/json
