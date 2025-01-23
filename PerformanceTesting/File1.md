@@ -585,3 +585,30 @@ Replicate the server
 ---
 
 JMeter can cover a wide range of testing scenarios, but its efficiency depends on how well the test plan is designed and the extent of your knowledge of the system under test. Let me know if you want help setting up a specific use case!
+
+
+#  Major components of JMeter:
+1. Test Plan
+2. Thread Group
+3. Controllers
+4. Listeners
+5. Timers
+6. Configuration Elements
+7. Pre-Processor Elements
+8. Post-Processor Elements
+
+![alt text](image-17.png)
+
+## Test Plan
+
+A test plan can be visualized as your JMeter script for running tests. A test plan consists of test elements such as thread groups, logic controllers, sample-generating controllers, listeners, timers, assertions, and configuration elements.
+
+A test plan consists of all steps which execute the script. Everything which is included in a test plan is executed in a sequence which is top to bottom or as per the defined sequence in the test plan. 
+
+## Thread Group
+
+As the name implies, thread group represents the group of threads JMeter will use during the test. Thread group elements are the beginning points of any test plan. The controls provided by a thread group allow you to:
+
+Set the number of threads.
+Set the ramp-up period.
+Set the number of times to execute the test.
