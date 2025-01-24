@@ -133,3 +133,13 @@ Post-Processors are essential in JMeter for handling dynamic and dependent test 
 * submit a request
 
 ![alt text](image-19.png)
+
+## Add Random Variable
+
+![alt text](image-21.png)
+
+![alt text](image-22.png)
+
+## Update an order
+
+![alt text](image-23.png)
