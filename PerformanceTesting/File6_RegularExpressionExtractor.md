@@ -84,3 +84,8 @@ The **Regular Expression Extractor** in JMeter is a post-processor used to extra
 
 
 ![alt text](image-24.png)
+
+## Response Assertion
+
+* Response code
+![alt text](image-25.png)
