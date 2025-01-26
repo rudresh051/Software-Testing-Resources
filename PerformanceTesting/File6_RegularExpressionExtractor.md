@@ -100,6 +100,10 @@ Give the path of file CSV created
 
 * Set the CSV data config in login
 
+* Add the variables
+
+![alt text](image-30.png)
+
 ![alt text](image-28.png)
 
 ![alt text](image-27.png)
