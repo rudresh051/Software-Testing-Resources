@@ -89,3 +89,17 @@ The **Regular Expression Extractor** in JMeter is a post-processor used to extra
 
 * Response code
 ![alt text](image-25.png)
+
+## Read Data From CSV file
+
+![alt text](image-26.png)
+
+Give the path of file CSV created
+
+![alt text](image-29.png)
+
+* Set the CSV data config in login
+
+![alt text](image-28.png)
+
+![alt text](image-27.png)
