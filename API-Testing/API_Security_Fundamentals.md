@@ -26,3 +26,18 @@ APIs are connected to data transaction, personal information, coporate intellect
 * Connect UIs to backend
 * Provide direct access to data
 * Can be easily discoverd
+
+## How APIs Get Attacked
+
+* Attackers look for APIs that are
+    * Over-permissioned
+    * Access unauthorized functions
+    * Return too much information
+    * Expose logic flaws.
+
+## "classic" Cyber Attack
+
+Recon => Infiltration => Weaponize => Lateral Movement => Privilege Escalation => BREACH
+
+* API Attack
+    Find vulerability => Breach
