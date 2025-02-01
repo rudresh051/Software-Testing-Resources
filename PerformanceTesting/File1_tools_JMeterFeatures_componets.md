@@ -612,3 +612,31 @@ As the name implies, thread group represents the group of threads JMeter will us
 Set the number of threads.
 Set the ramp-up period.
 Set the number of times to execute the test.
+
+## Controllers 
+
+1. **Samplers** - Samplers are the components which allow JMeter to send specific types of requests to a server.It simulates a user's request for a page to the target server.
+
+Samplers are a must to add component to a test plan as only it can let JMeter know what type of request need to go to a server. Requests could be HTTP, HTTP(s), FTP, TCP, SMTP, SOAP etc.
+
+2. **Logical Controllers** - 
+Logic Controllers help you to control the flow the order of processing of samplers in a thread. It can also change the order of requests coming from their child elements.
+
+Following is the list of all Logic Controllers in JMeter:
+
+Runtime Controller
+IF Controller
+Transaction Controller
+Recording Controller
+Simple Controller
+While Controller
+Switch Controller
+ForEach Controller
+Module Controller
+Include Controller
+Loop Controller
+Once Only Controller
+Interleave Controller
+Random Controller
+Random Order Controller
+Throughput Controller
