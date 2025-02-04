@@ -17,6 +17,8 @@ Different types of performance testing are conducted throughout the development 
 
 * **Load tests** simulate the number of virtual users who might use an application. In reproducing realistic usage and load conditions based on response times, this test can help identify potential bottlenecks. It also enables you to understand whether it’s necessary to adjust the size of an application’s architecture.
 
+![alt text](image-31.png)
+
 * **Unit tests** simulate the transactional activity of a functional test campaign; their goal is to isolate transactions that could disrupt the system.
 
 * **Stress tests** evaluate the behavior of systems during peak activity. These tests significantly and continuously increase the number of users during the testing period.
