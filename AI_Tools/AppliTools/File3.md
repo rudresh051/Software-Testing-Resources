@@ -95,7 +95,6 @@ eyes.check("Layout Check", Target.window().matchLevel(MatchLevel.LAYOUT));
 - **Exact**: For pixel-perfect comparison when visual fidelity is critical.  
 - **Ignore Colors**: When visual differences in color (e.g., theme changes) are not important.
 
-Let me know if you’d like help integrating this into your demo project! 😊
 
 
 # Practical Demo : Part-2
