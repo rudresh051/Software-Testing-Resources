@@ -58,3 +58,26 @@ eye.abortIfNotClosed();
 
 
 ## What are Match Levels?
+
+* Exact
+    * Pixel by Pixel Comparison
+* Strict
+    * Mimics the human eyes.
+    * Ignores trivial mismatches (antialiasing, small pixel movements, etc.)
+* Content
+    * Similar with STRICT plus it ignores colour changes
+
+Example for Content - 
+
+![alt text](image-6.png)
+
+
+
+* LAYOUT
+    * Compares the layouts
+    * Checks the elements locations
+
+Example - 
+Use **layout** match level here - 
+
+![alt text](image-5.png)
