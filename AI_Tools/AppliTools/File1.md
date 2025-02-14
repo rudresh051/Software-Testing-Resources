@@ -31,6 +31,8 @@ Example -
 
 ![alt text](image.png)
 
+![alt text](image-7.png)
+
 ## Why visual testing should be Automated?
 
 The Test Matrix is too big to cover manually.
