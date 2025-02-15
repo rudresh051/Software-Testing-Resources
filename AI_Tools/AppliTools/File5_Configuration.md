@@ -67,3 +67,5 @@ As our test framework continues to grow, we could move this configuration object
 
 
 ![alt text](image-11.png)
+
+In Summary, The Configuration object is considered a best practice as it allows us to set up the Configuration for our Eyes SDK once and then pass that object around as needed. This can allow us to clean up our code and make our framework more scalable as it grows. Additionally, it provides us with the flexibility to set up multiple configurations for multiple environments further boosting the maintainability of our code.
