@@ -299,3 +299,12 @@ public class TestCase1 {
     }
 }
 ```
+
+## Match Level Regions
+
+In practice , our pages are often much more complicated such that we need more than one of these match levels to achieve full coverage without unnecessary failures.
+The way this works is by passing in selectors to the dot layout or dot content function.
+
+This is the recommended best practice to use strict through the entire page and then use layout and ignore color regions to cover certain sections of the page as needed
+
+![alt text](image-22.png)
