@@ -16,3 +16,17 @@ Applitools server Will Check parent branch followed by
 default branch for matching baselines
 
 ![alt text](image-30.png)
+
+## Example
+
+Change to following code
+
+```java
+@test
+public void branchesTest(){
+driver.get("https://applitools.com/helloworld/?diff2");
+eyes.check(Target.window());
+}
+```
+
+`suiteConfig.setBranchName("BranchExample1")`
