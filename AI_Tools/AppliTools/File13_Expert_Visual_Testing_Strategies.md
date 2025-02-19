@@ -8,7 +8,7 @@
 6. Team Collaboration Tools
 7. Execution Cloud
 
-
+## Interesting Cases & How to Solve Them
 
 1. Responsive design - LayoutBreakpoints
 2. Lazy Loading - lazyLoad()
@@ -16,9 +16,17 @@
 
 ## Responsive Design
 
+Responsive design is when your page changes the size of the elements on the page or the overall layout of the page based on the dimensions of the browser.
+
+Q. How to design Responsive page?
+
 * CSS Media Queries
 * CSS % values
 * JavaScript Event Listeners
+
+![alt text](image-39.png)
+
+To solve the above problems
 
 ## Layout Breakpoints
 
@@ -26,3 +34,5 @@
 * Resizes the local driver to match widths
 * Captures DOM snapshots at these widths
 * UFG chooses best match DOM Snapshot
+
+`eyes.check(Target.window().layoutBreakpoints(true));`
