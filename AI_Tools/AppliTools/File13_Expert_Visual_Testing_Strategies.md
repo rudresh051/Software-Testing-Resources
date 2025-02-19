@@ -36,3 +36,5 @@ To solve the above problems
 * UFG chooses best match DOM Snapshot
 
 `eyes.check(Target.window().layoutBreakpoints(true));`
+
+//    	suiteConfig.setLayoutBreakpoints(true);
