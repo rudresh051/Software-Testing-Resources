@@ -96,3 +96,58 @@ const puppeteer = require('puppeteer');
     }
 })();
 ```
+
+
+## flyght app two times execution
+
+```java
+'use strict'
+const { Eyes, Target, Configuration, BatchInfo } = require('@applitools/eyes-images');
+const puppeteer = require('puppeteer');
+const path = require('path');
+
+(async () => {
+    const eyes = new Eyes();
+
+    // Initialize Applitools configuration
+    const configuration = new Configuration();
+    configuration.setBatch(new BatchInfo('Website vs Local Image Test'));
+    eyes.setConfiguration(configuration);
+
+    try {
+        // ------------- STEP 1: Set Local Image as Baseline -------------
+        // console.log("Uploading local image as baseline...");
+        // await eyes.open('Website Comparison', 'First Screen Baseline', { width: 800, height: 600 });
+
+        // const localImagePath = path.resolve(__dirname, 'splash.png');
+        // await eyes.check('Baseline Image', Target.image(localImagePath));
+
+        // await eyes.close();
+
+        console.log("Baseline set! Now capturing website screenshot...");
+
+        // ------------- STEP 2: Capture Website Screenshot & Compare -------------
+        const browser = await puppeteer.launch();
+        const page = await browser.newPage();
+        await page.goto('http://10.20.50.3:8097/', { waitUntil: 'networkidle2' });
+
+        const screenshotPath = path.resolve(__dirname, 'website-screenshot.png');
+        await page.screenshot({ path: screenshotPath });
+
+        await browser.close();
+
+        console.log("Website screenshot captured. Running comparison...");
+
+        await eyes.open('Website Comparison', 'First Screen Baseline', { width: 800, height: 600 });
+        await eyes.check('Website First Screen', Target.image(screenshotPath));
+
+        await eyes.close();
+
+        console.log("Comparison completed. Check Applitools dashboard for results.");
+    } catch (error) {
+        console.error('Error:', error);
+    } finally {
+        await eyes.abortIfNotClosed();
+    }
+})();
+```
