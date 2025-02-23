@@ -202,3 +202,71 @@ const path = require('path');
     }
 })();
 ```
+
+
+## comparing screenshot using Selenium java
+
+```
+package com.applitools.example;
+
+import com.applitools.eyes.BatchInfo;
+import com.applitools.eyes.TestResultsSummary;
+import com.applitools.eyes.selenium.Configuration;
+import com.applitools.eyes.selenium.Eyes;
+import com.applitools.eyes.selenium.fluent.Target;
+import com.applitools.eyes.visualgrid.services.RunnerOptions;
+import com.applitools.eyes.visualgrid.services.VisualGridRunner;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import java.nio.file.Paths;
+import java.time.Duration;
+
+public class WebsiteLocalImageComparison {
+
+    private final static BatchInfo BATCH = new BatchInfo("Website vs Local Image Test");
+
+    public static void main(String[] args) {
+        VisualGridRunner runner = new VisualGridRunner(new RunnerOptions().testConcurrency(1));
+        Eyes eyes = new Eyes(runner);
+        WebDriver driver = null;
+
+        try {
+            // ✅ Step 1: Configure Applitools
+            Configuration config = new Configuration();
+            config.setApiKey(System.getenv("APPLITOOLS_API_KEY"));
+            config.setBatch(BATCH);
+            eyes.setConfiguration(config);
+
+            // ✅ Step 2: Launch Selenium WebDriver
+            ChromeOptions options = new ChromeOptions().addArguments("--headless=new");
+            driver = new ChromeDriver(options);
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+            // ✅ Step 3: Open the website and capture a screenshot
+            driver.get("http://10.20.50.3:8097/");
+            eyes.open(driver, "Website Comparison", "Live Website Screenshot");
+            eyes.check("Website Screenshot", Target.window().fully());
+            eyes.closeAsync();
+
+            // ✅ Step 4: Compare with local image
+            String localImagePath = Paths.get("splash.png").toAbsolutePath().toString();
+            eyes.open("Website Comparison", "Local Image Baseline");
+            eyes.check("Local Image", Target.image(localImagePath));
+            eyes.closeAsync();
+
+            System.out.println("Comparison completed. Check Applitools dashboard for results.");
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            eyes.abortAsync();
+        } finally {
+            if (driver != null) driver.quit();
+            TestResultsSummary allTestResults = runner.getAllTestResults();
+            System.out.println(allTestResults);
+            System.exit(0);
+        }
+    }
+}
+```
