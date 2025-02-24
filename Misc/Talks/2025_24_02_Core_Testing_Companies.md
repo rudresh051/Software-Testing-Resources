@@ -71,4 +71,5 @@
 * If you have good communicatin skill you can definitely move into BA ( client communication and developer)
 * QA is the person who has knowledge of In and out of the project and if or she is good in communication then they definitely overcome in BA and then slowly can move into Product manager as a role
 * In client demonstration a QA can present , no one can do. Because He/She know what the USP of the project.(Even BA cannot do)
-* 
+* What options we have in Performance Testing?
+    * 
