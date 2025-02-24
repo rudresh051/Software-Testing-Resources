@@ -72,4 +72,35 @@
 * QA is the person who has knowledge of In and out of the project and if or she is good in communication then they definitely overcome in BA and then slowly can move into Product manager as a role
 * In client demonstration a QA can present , no one can do. Because He/She know what the USP of the project.(Even BA cannot do)
 * What options we have in Performance Testing?
-    * 
+    * Jmeter and scripting is only 5%
+    * Result analysis is major part and come to conclusion
+    * You have to read various spikes
+    * Grafana, Datadog
+    * Log reading, cloud monitor
+
+## How is the current job market for QA as you recently switch?
+
+* If you have enough skillset then nothing can stop you.
+
+## Impact AI on Jobs
+
+* A person can break a system AI can never
+* It will help in the job
+
+## What are the must have skills for QA for core testing companies
+
+* Framework level understanding
+* Programming  - Java and selenium
+* Testing concepts should be clear
+* Different real time scenario
+* Project specific hiring happens and questions
+
+## Final advice
+
+* Never stop learning and thinking
+* Console, Network tab, Bug isolation - reason identify
+* Any tool which can add value and fruitful and reduce time then learn it
+* Good analytical thinking
+* Bfwe updated with the market
+* Be focused
+
