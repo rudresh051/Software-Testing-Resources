@@ -24,5 +24,36 @@
     * we show our worth - from SRS phase
     * Involve QA from start
     * Core testing company - We follow this process and stick to our goal and by this we add value
-    
+    * How to make a form useful?
+* Service based company - 
+    * Tool constraint can be there
+    * Budget constraint can be there
+    * Resource contraint can be there
+    * Timeline constraint can be there
+
+## How to prepare for core testing companies?
+
+* You don't need to do extra ordinarily things
+* Testing knowledge hai ki nahi
+* Main skill set or QA Career or QA should have
+    * Contructive mind with destructive approach
+
+## What all tools are used in core testing companies?
+
+* It depends upon client requirements
+* which is feasible for the project
+* Test Management - We integrated Xray in Jira
+
+> Proper reason and feaseability is discussed  
+
+## How to start a career in core testing companies? How a non-IT can start a career as QA in core-testing companies?
+
+* Analytical thinking (if you can ask questions) should be there and constructive mind.
+* Testing is all about - Why to test? what to test and How to test?( how - you will gain after experience)
+
+## What are multiple options we have as a QA in our career?
+
+* It's very wide
+* Functional QA
+* Coding knowledge - you can move into automation
 
