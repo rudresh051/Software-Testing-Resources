@@ -56,4 +56,19 @@
 * It's very wide
 * Functional QA
 * Coding knowledge - you can move into automation
-
+    * Web Automation
+    * API Automation
+    * Mobile app automation
+* UI Frequent changes whether for branding purpose or marketing purpose. so now a days API automation is on boom
+* Niche Testing - Performance Testing(I did it for last 3 years)
+    * Money Making also
+    * Accessibility Testing
+* UI/UX Testing also specially
+* Individual contributor
+* Test lead
+* Test Manager
+* Delivery Manager/ Delivery Head
+* If you have good communicatin skill you can definitely move into BA ( client communication and developer)
+* QA is the person who has knowledge of In and out of the project and if or she is good in communication then they definitely overcome in BA and then slowly can move into Product manager as a role
+* In client demonstration a QA can present , no one can do. Because He/She know what the USP of the project.(Even BA cannot do)
+* 
