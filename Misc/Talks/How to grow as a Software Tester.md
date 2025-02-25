@@ -1,6 +1,6 @@
-# How to grow as a Software Tester
+# QA Podcast - Is ISTQB Certification Worth it in 2024? | How to grow as a Software Tester | QA Engineer Salary?
 
-## <https://www.youtube.com/watch?v=HNry1WV6oYQ>
+## https://www.youtube.com/watch?v=HNry1WV6oYQ
 
 * Introduction
 * Engineering Background and 1st Job

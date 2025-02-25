@@ -1,5 +1,7 @@
 # QA Podcast - Core Testing Companies - Skills Required
 
+https://www.youtube.com/watch?v=_5bzsNMLkSI 
+
 ## What is core testing companies?
 
 * Which provide Testing as a Service to clients

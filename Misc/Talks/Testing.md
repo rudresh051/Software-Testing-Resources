@@ -1,9 +1,9 @@
-## 5+ Years of Journey in Software Testing
+# QA Podcast - From 3 LPA CTC to 38 LPA, 6 Offers! - 5+ Years of Journey in Software Testing
 
-<https://www.youtube.com/watch?v=5zHoY_VpqhE>
+## https://www.youtube.com/watch?v=5zHoY_VpqhE
 (3 Oct 2024)
 
-```text
+```txt
 * Introduction - 
 5.7 Years of Experience
 Started career in Automation itself - Selenium Java, Karate Framework, API Testing, DB Testing
