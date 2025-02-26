@@ -325,3 +325,52 @@ const path = require('path');
 })();
 
 ```
+
+## Login screen working code
+
+```javascript
+'use strict';
+const { Eyes, Target, Configuration, BatchInfo } = require('@applitools/eyes-images');
+const puppeteer = require('puppeteer');
+const path = require('path');
+
+(async () => {
+    const eyes = new Eyes();
+    const configuration = new Configuration();
+    configuration.setBatch(new BatchInfo('Login Screen Test'));
+    eyes.setConfiguration(configuration);
+
+    try {
+        // ======= STEP 1: Set Local Figma Image as Baseline (Uncomment for first run) =======
+        // console.log("Setting local Figma image as baseline...");
+        // await eyes.open('Website Comparison', 'Login Screen Baseline', { width: 1920, height: 1080 });
+        // const localImagePath = path.resolve(__dirname, 'login-figma.png'); // Path to local Figma image
+        // await eyes.check('Baseline Login Screen', Target.image(localImagePath));
+        // await eyes.close();
+        // console.log("✅ Baseline login image set! Now comment this section and run Step 2.");
+        
+        // ======= STEP 2: Capture Website Screenshot & Compare (Uncomment after Step 1) =======
+        console.log("Launching browser to capture login screen...");
+        const browser = await puppeteer.launch();
+        const page = await browser.newPage();
+        await page.setViewport({ width: 1920, height: 1080 });
+        await page.goto('http://10.20.50.3:8097/', { waitUntil: 'networkidle2' });
+        // ✅ Wait for splash screen to disappear before capturing login screen
+        // await page.waitForTimeout(6000);
+        await new Promise(resolve => setTimeout(resolve, 6000));
+        const loginScreenshot = path.resolve(__dirname, 'login-screen.png');
+        await page.screenshot({ path: loginScreenshot });
+        console.log("✅ Login screen captured! Running visual comparison...");
+        await eyes.open('Website Comparison', 'Login Screen Test', { width: 1920, height: 1080 });
+        await eyes.check('Login Screen', Target.image(loginScreenshot));
+        await eyes.close();
+        await browser.close();
+        console.log("✅ Comparison completed! Check Applitools dashboard.");
+
+    } catch (error) {
+        console.error('Error:', error);
+    } finally {
+        await eyes.abortIfNotClosed();
+    }
+})();
+```
