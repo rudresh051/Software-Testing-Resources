@@ -32,3 +32,11 @@
 * Make a list of companies and follow those pages where you want to target.
 * Last way is start asking for referrals and follow up.
     * It's all about sales in the market
+
+## How important is to include numbers in the CV?
+
+* 2 reasons - Either Saving or growing business in the interview
+* Sprint target, velocity, sprint closure, deliverability, budgeting - connect with seniors
+* Confluence - Find all the numbers
+
+## How to explain the numbers which we put in our CV in interviews?
