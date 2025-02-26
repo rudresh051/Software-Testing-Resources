@@ -270,3 +270,62 @@ public class WebsiteLocalImageComparison {
     }
 }
 ```
+
+## Login screen validation
+
+```javascript
+
+'use strict';
+const { Eyes, Target, Configuration, BatchInfo } = require('@applitools/eyes-images');
+const puppeteer = require('puppeteer');
+const path = require('path');
+
+(async () => {
+    const eyes = new Eyes();
+
+    // Initialize Applitools configuration
+    const configuration = new Configuration();
+    configuration.setBatch(new BatchInfo('Website vs Local Image Test'));
+    eyes.setConfiguration(configuration);
+
+    try {
+        // Launch browser
+        const browser = await puppeteer.launch();
+        const page = await browser.newPage();
+
+        // ✅ Step 1: Open website & set viewport
+        await page.setViewport({ width: 1920, height: 1080 });
+        await page.goto('http://10.20.50.3:8097/', { waitUntil: 'networkidle2' });
+
+        // ✅ Step 2: Capture Splash Screen
+        const splashScreenshot = path.resolve(__dirname, 'splash-screen.png');
+        await page.screenshot({ path: splashScreenshot });
+        console.log("Splash screen captured!");
+
+        // Compare with baseline
+        await eyes.open('Website Comparison', 'Splash Screen Test', { width: 1920, height: 1080 });
+        await eyes.check('Splash Screen', Target.image(splashScreenshot));
+        await eyes.close();
+        
+        // ✅ Step 3: Wait for splash to disappear and capture Login Page
+        await page.waitForTimeout(5000); // Adjust timing based on actual transition
+        const loginScreenshot = path.resolve(__dirname, 'login-screen.png');
+        await page.screenshot({ path: loginScreenshot });
+        console.log("Login screen captured!");
+
+        // Compare Login Page with baseline
+        await eyes.open('Website Comparison', 'Login Screen Test', { width: 1920, height: 1080 });
+        await eyes.check('Login Screen', Target.image(loginScreenshot));
+        await eyes.close();
+
+        console.log("Comparison completed. Check Applitools dashboard for results.");
+
+        await browser.close();
+
+    } catch (error) {
+        console.error('Error:', error);
+    } finally {
+        await eyes.abortIfNotClosed();
+    }
+})();
+```
