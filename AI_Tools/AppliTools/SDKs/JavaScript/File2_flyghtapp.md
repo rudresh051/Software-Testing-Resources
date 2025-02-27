@@ -374,3 +374,59 @@ const path = require('path');
     }
 })();
 ```
+
+## Get OTP activated login screen
+```
+'use strict';
+const { Eyes, Target, Configuration, BatchInfo } = require('@applitools/eyes-images');
+const puppeteer = require('puppeteer');
+const path = require('path');
+
+(async () => {
+    const eyes = new Eyes();
+    const configuration = new Configuration();
+    configuration.setBatch(new BatchInfo('Login Screen Test'));
+    eyes.setConfiguration(configuration);
+
+    try {
+        // ======= STEP 1: Set Local Figma Image as Baseline (Uncomment for first run) =======
+        // console.log("Setting local Figma image as baseline...");
+        // await eyes.open('Website Comparison', 'Login Screen Baseline Get OTP 28th Feb', { width: 1920, height: 1080 });
+        // const localImagePath = path.resolve(__dirname, 'login-otp-figma.png'); // Path to local Figma image
+        // await eyes.check('Figma Baseline Login Screen', Target.image(localImagePath));
+        // await eyes.close();
+        // console.log("✅ Baseline login image set! Now comment this section and run Step 2.");
+
+        // ======= STEP 2: Capture Website Screenshot & Compare =======
+        console.log("Launching browser to capture login screen...");
+        const browser = await puppeteer.launch({ headless: false }); // Set to false for debugging
+        const page = await browser.newPage();
+        await page.setViewport({ width: 1920, height: 1080 });
+        await page.goto('http://10.20.50.3:8097/', { waitUntil: 'networkidle2' });
+        // ✅ Wait for splash screen to disappear before interacting
+        await new Promise(resolve => setTimeout(resolve, 6000));
+        // Enter phone number
+        console.log("Entering phone number...");
+        await page.type('input[type="tel"]', '8123423432', { delay: 100 });
+        // Wait for the "Get OTP" button to be activated
+        console.log("Waiting for 'Get OTP' button to be enabled...");
+        await page.waitForSelector('button:enabled', { timeout: 5000 });
+        // Take a screenshot after entering phone number
+        console.log("✅ Capturing login screen after entering phone number...");
+        const loginScreenshot = path.resolve(__dirname, 'login-screen.png');
+        await page.screenshot({ path: loginScreenshot });
+        // Run visual comparison
+        await eyes.open('Website Comparison', 'Login Screen Baseline Get OTP 28th Feb', { width: 1920, height: 1080 });
+        await eyes.check('Website Login Screen After Phone Input', Target.image(loginScreenshot));
+        await eyes.close();
+        await browser.close();
+        console.log("✅ Comparison completed! Check Applitools dashboard.");
+
+    } catch (error) {
+        console.error('Error:', error);
+    } finally {
+        await eyes.abortIfNotClosed();
+    }
+})();
+
+```
