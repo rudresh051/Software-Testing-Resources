@@ -40,3 +40,55 @@
 * Confluence - Find all the numbers
 
 ## How to explain the numbers which we put in our CV in interviews?
+
+* Delivered 50 Story points in sprint ( In 1 day 3-4 points)
+* Put those numbers which you can explain
+* Don't fake and start being honest
+* Be very flexible to work on other technologies
+* Be enthusiast
+* BDD on Make my Trip
+* Travel Portals are full of dynamic things
+
+## How to convince recruiter for multiple switches in our career?
+
+* Talk and confidently about genuine reasons and always welcom
+
+## How to get a job after career gap?
+
+* Career gaps are okay as long as you can justify them
+* Tell them what you were doing - business help, yoga, family demands. Proper story. Close to the truth
+
+## How to prepare Introduction for Interview?
+
+## How to not lose focus when we start learning coding and automation?
+
+## How to solve a new coding problem in Interviews?
+
+## Why did you choose to become Test Automation Architect?
+
+
+## How to Become a Test Automation Architect?
+
+
+## Is Certification important? Who should do Certification?
+
+
+## How do you stay up-to-date with the latest testing tools, techniques, and industry changes?
+
+
+## Will AI disrupt the testing industry
+
+
+## What to study as a software tester in AI?
+
+* Prompt Engineering - It is different from google search
+* Applitool - Good to start with
+
+## How to manage work and family life?
+
+Working on Zones
+
+## Final Advice -
+
+* Stay relevant to the Market - Staying relevant is as good as survival for the fittest
+* Not very Master on something
