@@ -1,5 +1,8 @@
 # QA Podcast
 
+## https://www.youtube.com/watch?v=R7to48Bv1QU
+
+
 ## How can freshers get their first job?
 
 * Be Active in College days apart from studies also
@@ -57,10 +60,30 @@
 
 * Career gaps are okay as long as you can justify them
 * Tell them what you were doing - business help, yoga, family demands. Proper story. Close to the truth
+* Keep patience
+    * Utilize Network, Upskill yourself and don't give up
+* Work with Strategy
+* Some companies give placement assistance
+    * Find online mentor
+* Udemy, YouTube are kind of distration while learning
+* Leverage LinkedIn Power - The correct way
 
 ## How to prepare Introduction for Interview?
 
+* Actually 10 min is enough to form the impression
+* Prepare your introduction in advance
+* Touch your introduction on JD
+* Talk about project, tools, Gap analysis
+* It's an Art - Talk about which is there in the JD and it makes interesting for the Interviewer
+* Also search about the Interviewer
+
+
 ## How to not lose focus when we start learning coding and automation?
+
+* Don't take break for 2 days
+* Do everything but Don't use phone
+* Decide and practice 1 hour - no excuses
+* Being consistent will give you result
 
 ## How to solve a new coding problem in Interviews?
 
