@@ -24,6 +24,19 @@ Auto Maintenance
 
 ![alt text](image-42.png)
 
+>RCA will highlight differences for the following types of information: tag changes, for example if a <span> element was changed to a <p> element. Differences in Attributes, for example if an elements class selector changes. Differences in the bounding box, meaning the x and y coordinate or the width and height of the given element. CSS property changes for instance if the color changed from red to blue and lastly, Text Changes. Let's head over to our Applitools Test Manager and see what RCA has flagged for some of our previous test results.
+
+# Auto Maintenance
+ Auto maintenance is a productivity enhancing tool offered by the Applitools Test Manager that allows you to batch repetitive actions together rather than performing them individually.
+
+ 
+## Key Features
+
+* Grouping tests by similar differences
+* Approving or rejecting diffs are similar
+* Easily manage baseline variations 
+* Applying or removing regions
+
 
 
 <!-- __________________________________________________ -->
