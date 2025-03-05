@@ -9,3 +9,9 @@ https://yourweb.app/
 Dashboard - 
 
 ![alt text](image.png)
+
+
+## Create a test that uses the Login test - File upload testing and Visual testing
+
+
+
