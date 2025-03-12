@@ -992,3 +992,60 @@ driver.get("https://example.com");
 3. **Explicitly Accept SSL Warnings for Testing**: If you are testing against internal or staging environments with self-signed certificates, use browser options or capabilities to ignore SSL errors.
 
 By configuring the WebDriver to accept insecure certificates, you can avoid the Invalid Certificate Exception and proceed with automating your tests, even on sites with SSL certificate issues.
+
+### How will you create a Java Selenium Framework for your project?
+
+Creating a **framework** for a software project in **Java Selenium** means setting up the **basic structure** of an **automation testing framework** without adding detailed test cases. It provides the foundation on which actual test scripts and functionalities can be developed.
+
+### 🔹 **Key Components of a Skeleton Framework in Java Selenium:**
+1. **Project Setup**  
+   - Create a **Maven** or **Gradle** project.
+   - Configure a **package structure** (`src/main/java`, `src/test/java`).
+   - Set up a **Git repository** (optional but recommended).
+
+2. **Dependencies Management**  
+   - Add required dependencies in `pom.xml` (for Maven) or `build.gradle` (for Gradle):
+     - **Selenium WebDriver**
+     - **TestNG or JUnit**
+     - **Log4j (for logging)**
+     - **Extent Reports (for reporting)**
+     - **Apache POI (for data-driven testing with Excel, if needed)**
+     - **WebDriverManager** (to manage browser drivers)
+
+3. **Base Classes**  
+   - `BaseTest.java` → Handles test setup (`@BeforeMethod`) and teardown (`@AfterMethod`).
+   - `BasePage.java` → Common methods like `clickElement()`, `enterText()`, `waitForElement()`.
+
+4. **Page Object Model (POM) Structure**  
+   - Create a **Page Class** for each web page:
+     ```
+     ├── src/test/java
+     │   ├── pages
+     │   │   ├── LoginPage.java
+     │   │   ├── HomePage.java
+     │   │   ├── ProductPage.java
+     │   │
+     │   ├── tests
+     │   │   ├── LoginTest.java
+     │   │   ├── CheckoutTest.java
+     ```
+   - Implement **Page Factory** (`@FindBy` annotations) for better maintainability.
+
+5. **Utility Classes**  
+   - `DriverManager.java` → Handles WebDriver initialization (`ChromeDriver`, `EdgeDriver`, etc.).
+   - `ConfigReader.java` → Reads config properties (e.g., `config.properties` for browser, URL, etc.).
+   - `ExcelUtils.java` → Reads test data from Excel files.
+
+6. **Test Execution Management**  
+   - **TestNG XML** (for test suite execution).
+   - **Listeners** for logging, screenshot capture on failure.
+   - **Parallel Execution** setup (if needed).
+
+7. **Reports & Logging**  
+   - Integrate **Extent Reports** or **Allure Reports** for test execution reports.
+   - Use **Log4j** for logging.
+
+### ✅ **Outcome of a Skeleton Framework**
+- **A well-structured automation project** that can be expanded with test cases.  
+- **Reusability** and **maintainability** are ensured from the start.  
+- Easier **scalability** to add new functionalities later.
