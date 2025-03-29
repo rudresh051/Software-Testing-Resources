@@ -3,15 +3,15 @@ Synchronization issue — When the Script execution speed doesn't match with
 the browser speed.
 
 # Wait Commands
-What are Wait commands in Selenium?
+**What are Wait commands in Selenium?**  
 The wait commands are essential when it comes to executing Selenium tests. They help to  
 observe and troubleshoot issues that may occur due to variation in time lag  
-While running Selenium tests, it is common for testers to get the message "Element Not  
-Visible Exception'. This appears when a particular web element with which has to  
+While running Selenium tests, it is common for testers to get the message **"Element Not  
+Visible Exception'**. This appears when a particular web element with which has to  
 interact, is delayed in its loading. To prevent this Exception, Selenium Wait Commands must  
 be used.  
 
-In automation testing, Selenium Uebdtiygc wait commands direct test execution to pause  
+In automation testing, Selenium WebDriver wait commands direct test execution to pause  
 for a certain length of time before moving onto the next step. This enables UeÄQÄgrto  
 check if one or more web elements are present/visible/enriched/clickable, etc when  
 identifying certain elements. If an element is not located, then the  
