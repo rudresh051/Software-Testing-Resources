@@ -9,10 +9,64 @@ information to understand what the **application does**
 
 Log4j **logging framework** which is written in **Java**. It is an **open-source logging API for java.**
 
+## 📌 Basic Log4j2 Configuration (log4j2.xml)
 
-## Dependencies - 
+Place this file inside src/main/resources.
 
-```jav
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c{1} - %msg%n</Pattern>
+            </PatternLayout>
+        </Console>
+
+        <!-- File Appender for Logs -->
+        <File name="FileLogger" fileName="logs/test-automation.log" append="true">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c{1} - %msg%n</Pattern>
+            </PatternLayout>
+        </File>
+
+        <!-- Rolling File Appender (Creates new log files after reaching a certain size) -->
+        <RollingFile name="RollingFileLogger" fileName="logs/rolling-logs.log"
+                     filePattern="logs/rolling-logs-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c{1} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- Root Logger (Logs everything from INFO and above) -->
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+            <AppenderRef ref="RollingFileLogger"/>
+        </Root>
+
+        <!-- Specific Logger for Selenium Tests -->
+        <Logger name="seleniumtest" level="DEBUG" additivity="false">
+            <AppenderRef ref="FileLogger"/>
+        </Logger>
+
+        <!-- Specific Logger for Framework Utilities -->
+        <Logger name="com.kritikal.framework" level="DEBUG" additivity="false">
+            <AppenderRef ref="RollingFileLogger"/>
+        </Logger>
+    </Loggers>
+</Configuration>
+```
+
+## Dependencies
+
+```java
 <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
@@ -51,7 +105,6 @@ public class LessonTest {
     }
 }
 ```
-
 
 ## 📌 Final Steps
 
