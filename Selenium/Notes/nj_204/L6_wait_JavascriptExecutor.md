@@ -1,18 +1,22 @@
 # Why do we need waits?
-Synchronization issue — When the Script execution speed doesn't match with
-the browser speed.
 
-# Wait Commands
+**What is Synchronization** - Synchronization in Selenium refers to handling the timing issues between the test script   
+execution and the web application’s response. It ensures that Selenium WebDriver waits for the   
+required elements or events before performing actions, preventing errors like   
+**ElementNotVisibleException,** **StaleElementReferenceException,** or **NoSuchElementException.**
+
+## Wait Commands
+
 **What are Wait commands in Selenium?**  
-The wait commands are essential when it comes to executing Selenium tests. They help to  
-observe and troubleshoot issues that may occur due to variation in time lag  
-While running Selenium tests, it is common for testers to get the message **"Element Not  
-Visible Exception'**. This appears when a particular web element with which has to  
+The wait commands are essential when it comes to executing Selenium tests.   
+They help to observe and troubleshoot issues that may occur due to variation in time lag  
+While running Selenium tests, it is common for testers to get the message **Element Not  
+Visible Exception**. This appears when a particular web element with which has to  
 interact, is delayed in its loading. To prevent this Exception, Selenium Wait Commands must  
 be used.  
 
 In automation testing, Selenium WebDriver wait commands direct test execution to pause  
-for a certain length of time before moving onto the next step. This enables UeÄQÄgrto  
+for a certain length of time before moving onto the next step. This enables WebDriver to  
 check if one or more web elements are present/visible/enriched/clickable, etc when  
 identifying certain elements. If an element is not located, then the  
 appears. Selenium Wait commands help resolve this  
@@ -20,19 +24,25 @@ issue.
 Important point — When the element is actually but there is a browser  
 delay issue.
 
-# Implicit Wait in Selenium
+## 1. Implicit Wait(Global Wait)
+
 Implicit Wait directs the Selenium to wait for a certain measure of time before  
 throwing an exception. Once this time is set, will wait for the element before the  
 exception occurs.  
-It sets a global wait for a certain amount of time for the entire script. Selenium will wait for a  
+**It sets a global wait for a certain amount of time for the entire script.** Selenium will wait for a  
 specified amount of time before throwing a if an element is not  
 present  
 Once the command is run, Implicit Wait remains forthe entire duration for which the browser  
 is open. default setting is 0, and the specific wait time needs to be set by the following  
 protocol.  
-Implicit Wait Syntax  
 
-```
+**Limitation:** It applies globally and may cause unnecessary waiting.  
+
+**Implicit Wait Syntax**  
+
+`driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));`
+
+```java
 ImplicitWaitTest
 
 package day4;
@@ -59,20 +69,19 @@ public class ImplicitWaitTest {
 //		driver.findElement(By.cssSelector("input[placeholder='Type to Select Countries']")).sendKeys("some country");
 		driver.findElement(By.cssSelector("input[placeholder='Type to ']")).sendKeys("some country");
 		driver.findElement(By.xpath("//a[@href='https://rahulshettyacademy.com/documents-request']")).click();
-
 	}
-
 }
 
 ```
 
-# Explicit wait
+## 2. Explicit wait(Conditional Wait)
+
 **Explicit Wait in Selenium**  
 
-By using the Explicit Wait command, the WebDriver is directed to wait until a **certain  
+* By using the Explicit Wait command, the WebDriver is directed to wait until a **certain  
 condition occurs** before proceeding with executing the code. 
 
-Setting Explicit Wait is important in cases where there are certaih elements that  
+Setting Explicit Wait is important in cases where there are certain elements that  
 naturally take more time to load. If one sets an implicit wait command, then the  
 browser will wait for the same time frame before loading **every web element**. This  
 causes an unnecessary delay in executing the test script.  
@@ -80,8 +89,12 @@ causes an unnecessary delay in executing the test script.
 Explicit wait is more intelligent, but can only be applied for specified elements.    
 However, it is an improvement on implicit wait since it allows the program to pause
 for dynamically loaded Ajax elements.  
+
+**Advantage:** More efficient than implicit wait as it applies only where needed.
+
 In order to declare explicit wait, one has to use ExpectedConditions. The following  
 **Expected Conditions** can be used in Explicit Wait.  
+
 1. alertIsPresent()
 2. elementSelectionStateToBe()
 3. elementToBeClickable()
@@ -104,7 +117,7 @@ In order to declare explicit wait, one has to use ExpectedConditions. The follow
 * Syntax
 WebDriverWait wait = new WebDriverWait(driver,30);
 
-```
+```java
 ExplicitWaitTest.java
 
 package day4;
@@ -122,39 +135,63 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ExplicitWaitTest {
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
+WebDriver driver = new ChromeDriver();
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-		
-		// Step1 - Create object of WebDriverWait
-		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
-		driver.get("https://www.ebay.com/");
-		
-		
-		// Step2 - Make use of until method and expected conditions
-		// Step3 - We will mention the condition in ExpectedConditions
-		wait.until(ExpectedConditions.urlToBe("https://www.ebay.com/"));
-		
-		// What happens in the above line?
-		// It will compare the mentioned to the URL that is loaded inside the browser.
-		// If the URL matches then it will not make it wait, it will allow the execution smoothly.
-		// What if the URL is wrong? It will make it wait for specified time and then throw the Exception.
-		
-		
-		driver.manage().window().maximize();
-		// Creating an object of Actions class.
-		
-		Actions act = new Actions(driver);
-		WebElement electronics_link = driver.findElement(By.linkText("Electronics"));
-		electronics_link.click();
+// Step1 - Create object of WebDriverWait
+WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+driver.get("https://www.ebay.com/");
+
+
+// Step2 - Make use of until method and expected conditions
+// Step3 - We will mention the condition in ExpectedConditions
+wait.until(ExpectedConditions.urlToBe("https://www.ebay.com/"));
+
+// What happens in the above line?
+// It will compare the mentioned to the URL that is loaded inside the browser.
+// If the URL matches then it will not make it wait, it will allow the execution smoothly.
+// What if the URL is wrong? It will make it wait for specified time and then throw the Exception.
+
+
+driver.manage().window().maximize();
+// Creating an object of Actions class.
+
+Actions act = new Actions(driver);
+WebElement electronics_link = driver.findElement(By.linkText("Electronics"));
+electronics_link.click();
 	}
 }
 ```
- 
 
-# JavaScript Executor
+## 3. Fluent Wait (Polling-based Wait)
+
+* It checks for an element at regular intervals until the condition is met or timeout occurs.
+* Useful for elements that appear at irregular intervals.
+
+```java
+FluentWait<WebDriver> wait = new FluentWait<>(driver)
+    .withTimeout(Duration.ofSeconds(30))
+    .pollingEvery(Duration.ofSeconds(5))
+    .ignoring(NoSuchElementException.class);
+
+WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("example")));
+```
+
+⚡ **Advantage:** Helps in handling dynamically changing elements.
+
+
+## 4. Thread.sleep() (Hard Wait)
+
+* It forces WebDriver to pause for a specific time before executing the next step.
+* Example - `Thread.sleep(5000);`
+* ⚡ **Disadvantage:** Inefficient, as it may wait longer than required.
+
+
+
+###  JavaScript Executor
+
  ![JavaScript Executor](image-19.png)
 
 In simple words, JavaScript Executor is an interface that is used to execute  
@@ -177,7 +214,8 @@ JavascriptExecutor js = (JavascriptExecutor) driver;
 js.executeScript(script, args);
 ```
 
-## How JavascriptExecutor works in Selenium
+### How JavascriptExecutor works in Selenium
+
 The JavaScript Executor in Selenium is an interface that provides a way to execute JavaScript code within the   
 context of the browser. It is particularly useful for performing operations that might not be directly supported   
 by Selenium WebDriver's API or for interacting with elements in ways that are more efficient or reliable than   
@@ -200,8 +238,8 @@ js.executeScript("window.scrollBy(0,250)","");
 // Scrolling down the page till the element is found
 js.executeScript("arguments[0].scrollIntoView();",Element);
 
+```java
 
-```
 JavaScriptExecutorTest.java
 
 package day4;
@@ -214,26 +252,23 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class JavaScriptExecutorTest {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-		driver.manage().window().maximize();
-		WebElement option1 = driver.findElement(By.cssSelector("input[name='checkBoxOption1']"));
-		option1.click();
-		
-		WebElement mousehover = driver.findElement(By.id("mousehover"));
-		
-//		Step1 - Invoke JavaScript Executor
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-//		js.executeScript("window.scrollBy(0,1300)");
-		
-		js.executeScript("arguments[0].scrollIntoView()", mousehover);
-		
-		
-	}
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\rudre\\Downloads\\chromeDriver124-8May\\chromedriver-win64\\chromedriver.exe");
+WebDriver driver = new ChromeDriver();
+driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+driver.manage().window().maximize();
+WebElement option1 = driver.findElement(By.cssSelector("input[name='checkBoxOption1']"));
+option1.click();
 
+WebElement mousehover = driver.findElement(By.id("mousehover"));
+
+//Step1 - Invoke JavaScript Executor
+JavascriptExecutor js = (JavascriptExecutor)driver;
+//js.executeScript("window.scrollBy(0,1300)");
+
+js.executeScript("arguments[0].scrollIntoView()", mousehover);
+}
 }
 
 ```
