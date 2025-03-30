@@ -1,6 +1,6 @@
 # Extent Reports
 
-What are Extent Reports?
+**What are Extent Reports?**
 
 Extent Reports is an open-source reporting library useful for test automation.  
 It can be easily integrated with major testing frameworks like JUnit, NUnit, TestNG etc.
@@ -17,6 +17,21 @@ Extent Reports in Selenium contain two major, frequently used classes:
 
 * ExtentReports class
 * ExtentTest class
+
+## Dependency
+
+* https://mvnrepository.com/artifact/com.aventstack/extentreports
+
+Example  
+
+```java
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.2</version>
+</dependency>
+```
 
 **Syntax**  
 
