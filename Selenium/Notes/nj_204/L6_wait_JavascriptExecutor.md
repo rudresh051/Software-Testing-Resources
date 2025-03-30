@@ -189,19 +189,37 @@ WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.i
 * ⚡ **Disadvantage:** Inefficient, as it may wait longer than required.
 
 
+## Table
 
-###  JavaScript Executor
+| Feature              | Implicit Wait                        | Explicit Wait                          |
+|----------------------|--------------------------------------|----------------------------------------|
+| **Definition**       | Waits for a specified time for elements to appear globally | Waits for specific conditions for specific elements |
+| **Scope**            | Applies to all elements globally     | Applies to specified elements and conditions |
+| **Setting**          | One-time global setting              | Defined each time for specific elements |
+| **Conditions**       | Only waits for the presence of elements | Can wait for various conditions like visibility, clickability, etc. |
+| **Control**          | Less control over wait conditions    | More control and flexibility with wait conditions |
+| **Typical Usage**    | Handling unpredictable delays        | Handling specific scenarios requiring certain conditions |
+
+
+**Example Use Cases**  
+Implicit Wait: Best used when you have many elements that may load at different times,   
+but you don't need to check specific conditions.
+
+Explicit Wait: Best used when you need to wait for specific conditions such as an element   
+becoming clickable, visible, or containing a certain text.
+
+### JavaScript Executor
 
  ![JavaScript Executor](image-19.png)
 
 In simple words, JavaScript Executor is an interface that is used to execute  
 JavaScript with Selenium.  
 To simplify the usage of JavaScript Executor in selenium, think of it as a medium that  
-enables the to interact with HTML élemet$s within the browser.  
+enables the to interact with HTML elements within the browser.  
 JavaScript is a programming language that interacts with HTML in a browser, and to  
 use this function in Selenium, is required.  
 
-```
+```java
 importing the package
 
 Import org.openqa.selenium.JavaScriptExecutor;
@@ -216,9 +234,9 @@ js.executeScript(script, args);
 
 ### How JavascriptExecutor works in Selenium
 
-The JavaScript Executor in Selenium is an interface that provides a way to execute JavaScript code within the   
-context of the browser. It is particularly useful for performing operations that might not be directly supported   
-by Selenium WebDriver's API or for interacting with elements in ways that are more efficient or reliable than   
+The JavaScript Executor in Selenium is an interface that provides a way to execute JavaScript code within the  
+context of the browser. It is particularly useful for performing operations that might not be directly supported  
+by Selenium WebDriver's API or for interacting with elements in ways that are more efficient or reliable than  
 standard WebDriver commands.  
 
 Let's try to understand the working of JavascriptExecutor using a simple example and implementation of   
@@ -274,7 +292,7 @@ js.executeScript("arguments[0].scrollIntoView()", mousehover);
 ```
 
 
-```
+```java
 EbayScrollTest.java
 
 package day4;
@@ -307,21 +325,6 @@ public class EbayScrollTest {
 
 ```
 
-| Feature              | Implicit Wait                        | Explicit Wait                          |
-|----------------------|--------------------------------------|----------------------------------------|
-| **Definition**       | Waits for a specified time for elements to appear globally | Waits for specific conditions for specific elements |
-| **Scope**            | Applies to all elements globally     | Applies to specified elements and conditions |
-| **Setting**          | One-time global setting              | Defined each time for specific elements |
-| **Conditions**       | Only waits for the presence of elements | Can wait for various conditions like visibility, clickability, etc. |
-| **Control**          | Less control over wait conditions    | More control and flexibility with wait conditions |
-| **Typical Usage**    | Handling unpredictable delays        | Handling specific scenarios requiring certain conditions |
 
-
-**Example Use Cases**  
-Implicit Wait: Best used when you have many elements that may load at different times,   
-but you don't need to check specific conditions.
-
-Explicit Wait: Best used when you need to wait for specific conditions such as an element   
-becoming clickable, visible, or containing a certain text.
 
 
