@@ -80,6 +80,8 @@ follow the installation instructions.
 Download jenkins.war file
 ![alt text](image-44.png)
 
+### Run the following command
+
 `java -jar jenkins.war`
 
 * ensure to have java 17 or 21
