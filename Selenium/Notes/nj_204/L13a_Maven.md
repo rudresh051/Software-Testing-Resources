@@ -70,6 +70,9 @@ want to force the plugin using javac, you must configure the plugin option force
 ![alt text](image-42.png)
 
 
+## Add the following plugin the project
+
+
 ```
 pom.xml
 
