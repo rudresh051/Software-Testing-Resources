@@ -98,7 +98,7 @@ web page.
 
 **Use the following steps to identify broken links in Selenium** 
 
-1. Use <a> tag to fetch all the links present on a web page
+1. Use `<a>` tag to fetch all the links present on a web page
 2. Send HTTP request for the link
 3. Verify the HTTP response code for the link
 4. Determine if the link is valid or it is broken based on the HTTP response code
@@ -169,6 +169,67 @@ public class BrokenLinks {
 
 }
 
+```
+
+## Finding Broken Images
+Steps:
+1. Find all `<img>` tags on the page.
+2. Get the src attribute from each image.
+3. Send an HTTP request to each src URL.
+4. Check the HTTP response code — if it's >= 400, it's a broken image.
+
+
+```
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.List;
+
+public class BrokenImagesChecker {
+    public static void main(String[] args) {
+        // Set the path to chromedriver
+        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://example.com"); // Replace with the URL you want to test
+
+        // Get all image elements
+        List<WebElement> images = driver.findElements(By.tagName("img"));
+        System.out.println("Total images found: " + images.size());
+
+        for (WebElement img : images) {
+            String imageUrl = img.getAttribute("src");
+
+            if (imageUrl == null || imageUrl.isEmpty()) {
+                System.out.println("⚠️ Image with empty src.");
+                continue;
+            }
+
+            try {
+                HttpURLConnection connection = (HttpURLConnection) (new URL(imageUrl).openConnection());
+                connection.setRequestMethod("HEAD"); // Faster than GET
+                connection.connect();
+                int responseCode = connection.getResponseCode();
+
+                if (responseCode >= 400) {
+                    System.out.println("❌ Broken image: " + imageUrl + " -- Response Code: " + responseCode);
+                } else {
+                    System.out.println("✅ Valid image: " + imageUrl + " -- Response Code: " + responseCode);
+                }
+
+            } catch (IOException e) {
+                System.out.println("⚠️ Error checking image: " + imageUrl + " -- " + e.getMessage());
+            }
+        }
+
+        driver.quit();
+    }
+}
 ```
 
 
