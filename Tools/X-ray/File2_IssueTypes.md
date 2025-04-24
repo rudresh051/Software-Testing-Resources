@@ -8,8 +8,8 @@ In **Xray for Jira**, *issue types* are the core building blocks used to represe
 |------------------|------------------------------------------------------------------------------|
 | **Test**         | Represents a single test case. Can be manual, automated, or generic.        |
 | **Pre-Condition**| Defines conditions that must be met before a Test runs.                     |
-| **Test Set**     | A logical grouping of multiple Test issues.                                 |
-| **Test Plan**    | Organizes Test Executions with a testing strategy or campaign in mind.      |
+| **Test Set**     | A logical grouping of multiple Test issues. It's kind of Test suite                                 |
+| **Test Plan**    | Organizes Test Executions with a testing strategy or campaign in mind.It's kind of Epic      |
 | **Test Execution**| Records the actual execution of Tests — run results, status, defects, etc. |
 | **Test Repository** | (Optional, depending on config) Used to organize tests in folders.       |
 
