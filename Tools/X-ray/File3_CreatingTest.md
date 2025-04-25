@@ -22,4 +22,12 @@ Screenshot -
  ![alt text](image-5.png)
 
  ## Parameterizing in Xray
- 
+
+ ## Test Management in Xray
+
+ ![alt text](image-6.png)
+
+ ## Test Plan in Xray
+ ## Test Repository in Xray
+
+ ![alt text](image-7.png)
