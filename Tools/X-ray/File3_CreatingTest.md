@@ -12,3 +12,7 @@ Screenshot -
  ## Creating a Pre-condition
 
  ![alt text](image-3.png)
+
+ ## Test Execution in Xray
+
+ ![alt text](image-4.png)
