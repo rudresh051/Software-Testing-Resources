@@ -16,3 +16,10 @@ Screenshot -
  ## Test Execution in Xray
 
  ![alt text](image-4.png)
+
+ ## Using parameters in a test
+
+ ![alt text](image-5.png)
+
+ ## Parameterizing in Xray
+ 
