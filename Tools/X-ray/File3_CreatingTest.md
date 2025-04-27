@@ -31,3 +31,8 @@ Screenshot -
  ## Test Repository in Xray
 
  ![alt text](image-7.png)
+
+ ## Defect mapping in xray
+Defect mapping" defines how Xray recognizes and handles defects — like, what Jira issue types should be considered "defects" and how they should be linked to tests.
+
+ ![alt text](image-8.png)
