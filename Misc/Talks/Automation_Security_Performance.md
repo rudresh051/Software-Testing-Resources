@@ -41,3 +41,10 @@ Very small circle. Job switch problem as everyone may know each other.
 65INR
 Bonus
 
+#### Salary in India vs Singapore?
+
+Without automation salary fetch difficult.
+It's a niche skill
+Tax is less here (6-7%)
+public transport is good
+once you permanent job and converted full time then you will have growth 
