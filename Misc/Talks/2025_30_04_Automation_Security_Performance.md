@@ -81,3 +81,71 @@ Trading system, hedging, interest rates
 Video streaming performance testing
 e.g. IRCTC
 searching of train - load on API of reservation search
+
+#### Is coding required for performance tester?
+You will get basic tool - selenium, cypress, jmeter
+you need to build on top of that
+
+In today's scenaio coding is required
+Gatling
+K6
+Scala
+Golang
+
+#### Realtime projects or websites to practice performance testing?
+
+EDOS, DDOS, API Gateway
+Throttling, Rate limiting
+
+Awesome sites to test on
+Blazemeter - Demo blaze website
+Run local API
+
+#### What is Security Testing? Any live use case?
+50% is automated
+50% is exploratory
+
+session hijacking
+cross site scripting
+SQL injection
+pen tester
+Burp suite
+
+Cost of security bug is very high
+zap proxy security tool
+
+#### How to become security tester?
+Basic Testing skill - 
+Basic - Curiosity is important in all things
+
+It's bit challenging
+Magazine, Top vulnerabilites till date, possibilites
+Postman collection
+Authentication, authorization
+networking - TLS, HTTPS, Websockets
+
+#### Real time projects or websites to practice security testing?
+OWASP - Juice shop
+Awesome sites to test repo
+GenAI security testing - Prompt testing, Guard rails
+
+#### Do performance and security testers get more salary than automation testers?
+
+Security pen tester
+
+#### Impact of AI on Software testers?
+How to improve Quality using AI
+Chatbot - RAG - Asking directly for the requirement
+Tracable
+
+100% autonomous
+
+#### Final Advice
+Chase excellence
+As a technologist
+Problem statement- how to improve quality of the product with the tools you have
+
+
+
+
+
