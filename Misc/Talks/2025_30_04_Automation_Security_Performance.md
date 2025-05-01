@@ -47,4 +47,37 @@ Without automation salary fetch difficult.
 It's a niche skill
 Tax is less here (6-7%)
 public transport is good
-once you permanent job and converted full time then you will have growth 
+First contract and then once you get permanent job, performance and converted full time then you will have growth
+Savings - 
+
+#### Can a fresher get a job in Singapore?
+
+List of Skills - SOS
+Work on niche skills
+
+#### Onsite opportunity
+SAP
+Telecom
+First make set of skills first - wide, communication, networking
+
+#### How are interviews conducted in Singapore?
+
+Banking - Domain
+Investment banking
+Trading system, hedging, interest rates
+
+* Leetcode
+* Problem - Playwright framework for a website
+  * 80% UI, 20% API, CI/CD
+  * Discussion on assignment
+* Holistic interview
+* Proprietary application they will provide
+* Self driven or not? how do you figure out?
+* POJO
+
+#### What is Performance Testing with live use case?  
+#### Skills required to become performance tester?
+
+Video streaming performance testing
+e.g. IRCTC
+searching of train - load on API of reservation search
