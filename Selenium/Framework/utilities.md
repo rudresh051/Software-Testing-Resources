@@ -51,3 +51,85 @@ WebElement loginBtn = waitUtil.waitForElementToBeVisible(By.id("loginButton"), 1
 * Makes test code **clean and readable**
 * Centralizes logic for **easy maintenance**
 * Increases **reusability and modularity**
+
+## Driver Utility
+
+A **Driver Utility** (or `DriverManager`) in a Selenium framework is a class responsible for managing the **WebDriver instance** — creating it, returning it when needed, and closing it after use. It ensures your test classes don’t deal with the setup/teardown of drivers directly, following the **Single Responsibility** and **DRY** principles.
+
+---
+
+### ✅ Typical Responsibilities of a Driver Utility:
+
+1. **Initialize browser drivers (Chrome, Firefox, etc.)**
+2. **Load browser configurations** (e.g., headless mode, window size)
+3. **Return a single WebDriver instance** (singleton pattern)
+4. **Close or quit the driver** properly
+5. **Support cross-browser testing**
+
+---
+
+### 🔧 Example: `DriverUtility` in Java (Selenium with TestNG)
+
+```java
+public class DriverUtility {
+    private static WebDriver driver;
+
+    public static WebDriver getDriver() {
+        if (driver == null) {
+            String browser = ConfigUtility.getProperty("browser"); // e.g., chrome, firefox
+
+            switch (browser.toLowerCase()) {
+                case "chrome":
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
+                    break;
+                case "firefox":
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver();
+                    break;
+                default:
+                    throw new RuntimeException("Unsupported browser: " + browser);
+            }
+
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        }
+        return driver;
+    }
+
+    public static void quitDriver() {
+        if (driver != null) {
+            driver.quit();
+            driver = null;
+        }
+    }
+}
+```
+
+---
+
+### 🔁 Usage in Test Classes:
+
+```java
+public class LoginTest {
+    WebDriver driver;
+
+    @BeforeMethod
+    public void setUp() {
+        driver = DriverUtility.getDriver();
+        driver.get("https://www.amazon.com");
+    }
+
+    @AfterMethod
+    public void tearDown() {
+        DriverUtility.quitDriver();
+    }
+
+    @Test
+    public void testTitle() {
+        Assert.assertEquals(driver.getTitle(), "Amazon.com");
+    }
+}
+```
+
+
