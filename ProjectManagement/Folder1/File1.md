@@ -45,9 +45,43 @@ in 2019.
 * The error was identified and corrected, leading to
 the successful soft landing of the Chandrayaan-
 3 lander on the lunar South Pole.
-* Clear Objectives
+* **Clear Objectives**
     * To explore the Moon and conduct scientific
 experiments.
-* Detailed Planning
+* **Detailed Planning**
     * extensive planning, including designing spacecraft, calculating and trajectories,
 specifying scientific payloads.
+* **Collaboration**
+    * Collaboration between various institutions,
+including ISRO (Indian Space Research
+Organization), academia, and industry.
+* **Monitoring and Control**
+    * Continuous monitoring and control mechanisms
+were in place to track progress and make
+adjustments as needed, another key aspect of
+project management.
+
+## Program, Project, Task and Work Packages
+
+* The military, the source of most of these terms,
+generally uses the term program to refer to a
+substantial, long-range objective that is broken
+down into a set of projects
+* Projects are divided further into tasks, which are, in
+turn, split into work packages that are themselves
+composed of work units
+
+![alt text](image.png)
+
+## Triple Constraint
+
+![alt text](image-1.png)
+
+* This illustration implies that some "function" relates
+them, one to another
+* Although the functions vary from project to project
+and from time to time for a given project
+* Two primary tasks of the project manager (the
+"PM")
+    * to manage these trade-offs and
+    * anticipate and address risks to the project
