@@ -67,3 +67,40 @@ and services** produced plus the **complexity of the
 processes** used to produce them
 * Leads to the need for more sophisticated systems to
 control both outcomes and processes
+
+## Benefits of Project Organization
+
+Project form of organisation allows the manager to be responsive to
+* The client and the environment
+* Identify and correct problems at an early date
+* Make timely decisions about trade-offs between conflicting project goals
+* Ensure that managers of the separate tasks that comprise the project do
+not optimise the performance of their tasks at the expense of the total
+project
+
+## Advantage of Project-based organizations
+
+* Experience better control and better customer
+relations
+* Increase in their project's return on investment
+* Shorter development times, lower costs, higher
+quality and reliability, and higher profit margins
+* Sharper orientation toward results, better
+interdepartmental coordination, and higher
+worker morale.
+
+## Disadvantage of Project-based organizations
+
+* Results in greater organisational complexity
+* Increases the likelihood that organizational
+policy will be violated
+* Higher costs, more management difficulties,
+and low personnel utilisation
+* Conflict
+
+## Limitations of Project Management
+* The creation of a project may be an admission
+that the parent organisation and its managers
+cannot accomplish the desired outcomes through
+the functional organisation
+* Conflict seems to be a necessary side effect
