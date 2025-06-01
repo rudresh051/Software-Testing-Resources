@@ -1,0 +1,1 @@
+# Lecture 07 : Attributes of Effective Project Manager
