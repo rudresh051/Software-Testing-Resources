@@ -1,3 +1,72 @@
+# Course Outline
+1. Phase 1 - Project Initiation
+2. Phase 2 - Project Planning
+3. Phase 3 - Project Execution
+4. Phase 4 - IT for Project Management
+
+## Phase 1 - Project Initiation
+Introduction to project management-I  
+Introduction to project management-II  
+Agile project management  
+Project selection models  
+Examples of Project selection Model  
+Project manager  
+Attributes of Effective Project Manager  
+Managing for stakeholders  
+Resolving Conflicts   
+Negotiation  
+Project in the organization structure  
+Human factors and the project team
+
+## Phase-2 Project Planning
+Traditional project activity planning  
+Agile project planning  
+Coordination through integration management  
+Project feasibility analysis  
+Estimating project budgets  
+Project risk management  
+Qua ntitative risk assessment methodologies  
+Critical path method (CPM)  
+Programme evaluation and review technique (PERT)  
+Risk analysis with simulation for scheduling  
+Scheduling with scrum  
+Crashing a project  
+Resource loading  
+Resource levelling  
+Goldratt's critical chain
+
+## Phase 3 - Project Execution
+Planning-monitoring-controlling cycle  
+Earned value analysis  
+Agile tools for tracking project  
+Three types of project-controlling  
+Control of change scope and scope creep  
+Project audit  
+Essentials of an audit/evaluation  
+When to close a project  
+Benefits realisation  
+
+## Phase 4 - IT for Project Management
+Software for project management  
+Demo on project management software  
+Simulations software for project management  
+Course Summary  
+
+## Book - Project Management - Meredith | Shafer
+
+Adapted by Ramesh Anbanandam
+
+## Agenda
+
+Introduction
+History of projects
+The Definition of a "Project"
+Program, Project, Task and Work Packages
+Triple Constraint
+Concept of Scope
+Ancillary goals
+Characteristics of Projects
+
 # Lecture 01: Introduction to Project Management - I
 
 ## Introduction
