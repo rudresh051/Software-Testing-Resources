@@ -86,8 +86,100 @@ towards the achievement of a goal"
 — 5% - time management  
 
 #### Leadership competencies
-![alt text](image-17.png)
+Area of competence are - 
+* IQ
 
+1. Competency - 
+2. Critical analysis and judgement  
+   vision and imagination  
+3. Strategic perspective  
+
+
+* MQ
+
+
+4. Engaging Communication  
+5. Managing resources  
+6. Empowering  
+7. Developing  
+8. Achieving  
+
+* EQ
+
+9.  Self-awareness
+10. Emotional resilience
+11. Motivation
+12. Sensitivity
+13. Influence
+14. Intuitiveness
+15. Conscientiousness
+
+**Common Ethical Missteps in Business**
+* "Wired" bids and contracts  
+* "buy-in"  
+* kickbacks  
+* "covering" for team members  
+* taking "shortcuts"  
+* using marginal materials
+* compromising on safety
+* violating standards
+* consultant loyalties
+
+**Management Style**
+* Shenhar (1998) classifies projects across two dimensions and concludes  
+that management style should be adapted to certain differences in the type of project  
+* His dimensions are:  
+  1. The level of technological uncertainty and
+  2. the level of system complexity
+
+* As the uncertainty increases from "low tech" to
+"high tech," the appropriate management style
+progresses from "firm, rigid, and formal" to
+"highly flexible."
+* As the system complexity increases from simple
+to highly complex, the style progresses from "in-
+house informal" to "remote and highly formal."
 
 ### Ability  to handle stress
+* The life of the PM is rarely serene
+* The PM is surrounded by conflict, often caught in an
+irrational management structure and trapped in a high-
+stress occupation
+* There are ways to deal with excessive stress
+* It is best if the organization is attuned to the problem and
+monitors their PMs and employees for work overload
+
+**Causes of stress**
+No consistent procedures  
+Too much to do  
+High need to achieve  
+Organizations in change  
+
+**Signs of excessive stress in workplace**
+— inability to switch off work issues  
+— disturbed sleep  
+— lack of pleasure in non-work-related leisure activities  
+— difficulty concentrating or making decisions  
+— tendency to anger quickly  
+— lack of energy  
+
+**Several ways to control stress**
+* Keep a journal, taking time to reflect on the events of the day
+* Prioritize all tasks facing you, eliminating tasks that
+do not need to be done, transferring or delegating
+what you can, delaying low-priority items, and
+minimizing the scope of any subtask that is not
+crucial to your overall task
+* Give yourself time to unwind from high-stress
+meetings, perhaps by taking a short walk or doing
+15 minutes of exercise or meditation.
+* Engage in after-work physical activities that take your
+mind off the tasks.
+* Improve your physical surroundings to be pleasant,
+enjoyable, and comfortable, helping you relax.
+* Become aware of the control you do or do not have
+over events
+* "Do not develop anxiety about things over which you
+have no control!"
+
 ### Drive to complete the task
