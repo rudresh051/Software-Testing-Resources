@@ -64,3 +64,53 @@ Select the sampling schemes and sample size
 Develop the questionaire  
 Scrutinize the information gathered  
 Analyze and interpret the information  
+
+## Market for the Product/Service
+
+* Based on the information gathered from secondary sources and through market
+survey, the market for the product/service may be described in terms of the following:  
+— Effective demand in the past and present  
+— Breakup of demand  
+— price  
+— Methods of distribution and sales promotion  
+— Consumers  
+— Supply and competition  
+— Government policy  
+
+## Estimating the future demand
+
+* After gathering information about various aspects of the market and demand
+from primary and secondary sources, an attempt may be made to estimate
+future demand.
+* A wide range of forecasting methods is available to the market analyst.
+* These may be divided into three broad categories:
+— Qualitative methods  
+— Time series projection methods  
+— Causal methods  
+
+### 1. Qualitative methods
+
+* Qualitative methods rely on experts' judgment to translate qualitative
+information into quantitative estimates.
+* The important qualitative methods are:
+    * Jury of executive method
+    * Delphi method
+
+### 2. Time series
+
+* Time series projection methods generate forecasts based on an
+analysis of the historical time series.
+* The important time series projection methods are:
+• Trend projection methods  
+• Exponential smoothing method  
+• Moving average method  
+
+### 3. Bass diffusion model and causal method
+
+* The Bass diffusion model seeks to estimate the
+pattern of sales growth for new products in
+terms of two factors: p, the coefficient of
+innovation and q, the coefficient of imitation.
+* Causal methods seek to develop forecasts
+based on cause-effect relationships specified in
+an explicit, quantitative manner
