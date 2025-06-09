@@ -115,3 +115,6 @@ Gantt chart button on the far left of the Task ribbon).
 * The Gantt chart view contains two windows.
 * On the left is a window that contains a form that is used to enter WBS data into the program.
 * The Gantt chart is displayed in the right window
+
+.
+.

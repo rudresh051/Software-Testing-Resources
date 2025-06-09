@@ -114,3 +114,6 @@ innovation and q, the coefficient of imitation.
 * Causal methods seek to develop forecasts
 based on cause-effect relationships specified in
 an explicit, quantitative manner
+
+.
+.
