@@ -129,3 +129,14 @@ an explicit, quantitative manner
 the inputs required to set up the project are available and  
 (b) to facilitate the most optimal formulation of the project in terms of
 technology, size, location, and so on.  
+
+
+## Choice of Technology
+
+A variety of considerations influences the choice of technology:
+Plant capacity  
+principal inputs  
+Investment outlay and production cost  
+Use by other units  
+Product mix  
+Latest developments & Ease of absorption  
