@@ -121,5 +121,11 @@ an explicit, quantitative manner
 — Evaluate the technical requirements and challenges of the project.
 — Assess the availability Of technology and expertise needed.
 — Consider any potential obstacles in implementing the technology.
-.
-.
+
+## Purpose of Technical Analysis
+
+* The broad purpose of technical analysis is
+(a) to ensure that the project is technically feasible in the sense that all
+the inputs required to set up the project are available and  
+(b) to facilitate the most optimal formulation of the project in terms of
+technology, size, location, and so on.  
