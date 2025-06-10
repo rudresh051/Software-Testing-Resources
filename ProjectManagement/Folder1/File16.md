@@ -115,5 +115,11 @@ innovation and q, the coefficient of imitation.
 based on cause-effect relationships specified in
 an explicit, quantitative manner
 
+## Components in a project feasibility analysis
+
+* Technical Feasibility
+— Evaluate the technical requirements and challenges of the project.
+— Assess the availability Of technology and expertise needed.
+— Consider any potential obstacles in implementing the technology.
 .
 .
