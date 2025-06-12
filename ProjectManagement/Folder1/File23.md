@@ -1,6 +1,7 @@
 # Lecture 23 Gantt Chart & Scheduling with scrum
 
 ## Agenda
+
 * Gantt Chart
     * Benefits and Weaknesses
     * Example
@@ -108,7 +109,7 @@ total time cannot be less than the promised week.
 simpler ways to map the required relationship
 
 ## Gantt Chart in MS Project
-<<>>
+
 * When we open MSP, the Gantt chart view is typically the default view
 displayed (at any time you can display the Gantt chart view by clicking on the
 Gantt chart button on the far left of the Task ribbon).

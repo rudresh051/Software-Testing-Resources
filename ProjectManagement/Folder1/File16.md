@@ -57,7 +57,7 @@ market survey specific to the project being appraised.
 
 ### Sample survery for Market Feasibility  
 
-Typically, sample survey consists of the following steps -   
+Typically, sample survey consists of the following steps -  
 
 Define the target population  
 Select the sampling schemes and sample size  
@@ -130,7 +130,6 @@ the inputs required to set up the project are available and
 (b) to facilitate the most optimal formulation of the project in terms of
 technology, size, location, and so on.  
 
-
 ## Choice of Technology
 
 A variety of considerations influences the choice of technology:
@@ -140,3 +139,39 @@ Investment outlay and production cost
 Use by other units  
 Product mix  
 Latest developments & Ease of absorption  
+
+## Appropriateness of Technology
+
+* Appropriate technology refers to production methods suitable to local
+economic, social, and cultural conditions.
+The advocates of appropriate technology urge that the technology should be  
+evaluated in terms of the following questions:  
+* Does the technology utilise local raw materials and
+man power?
+* Do the goods and services produced cater to basic needs?
+* Whether the technology protects ecological balance?
+* Whether the technology is harmonious with social and
+cultural conditions?
+
+### Technical Arrangements
+
+* Satisfactory arrangements must be made to obtain the technical know-
+how for the proposed manufacturing process.
+* When collaboration is sought, among other things, the following aspects
+of the agreement must be worked out in detail.
+
+**Material Inputs and Utilities**  
+Material inputs and utilities may be classified into four broad categories -  
+
+1. raw materials
+2. processed industrial materials and components
+3. auxiliary materials and factory supplies
+4. utilities
+
+**Product Mix**  
+
+* Market requirements guide the choice of product mix.
+* In the production Of most items, Size and quality variations aim to satisfy a
+broad range of customers.
+* For example, a garment manufacturer may have a wide range in size and
+quality to cater to different customers.
