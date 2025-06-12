@@ -175,3 +175,77 @@ Material inputs and utilities may be classified into four broad categories -
 broad range of customers.
 * For example, a garment manufacturer may have a wide range in size and
 quality to cater to different customers.
+
+### Plant Capacity(Production capacity)
+
+* Plant capacity (or production capacity) refers to the volume or number of units
+manufactured during a given period.
+* Several factors have a bearing on the capacity decision.
+— Technological requirement  
+— Input constraints  
+— Investment cost  
+— Market conditions  
+— Resources Of the firm  
+— Govemmental policy  
+
+### Location and Site
+
+* The choice of location and site follows an assessment of demand, size, and
+input requirements.
+* Location refers to a reasonably broad area like a city, an industrial zone, or
+a coastal area; site refers to a specific piece of land where the project
+would be set up.
+
+## Financial Feasibility
+
+* Estimate the initial and ongoing costs of the project.
+* project revenue streams and potential profitability.
+* Perform a cost-benefit analysis.
+
+### Cost of Project
+
+* Conceptually, the cost Of the project represents the total Of all items Of
+outlay associated with a project supported by long-term funds.
+* It is the sum of the outlays on the following:
+  * Land and site development  
+  * Buildings and civil works  
+  * Plant and machinery  
+  * Technical know-how and engineering fees  
+  * Expenses on foreign technicians and training of Indian technicians abroad
+  * Miscellaneous fixed assets
+  * preliminary and capital issue expenses
+  * Pre-operative expenses
+  * Margin money for working capital
+  * Initial cash losses
+
+### Means of Finance
+
+* To meet the cost of the project the following means of finance are available:
+— Share capital  
+— Term loans  
+— Debenture capital  
+— Deferred credit  
+— Incentive sources  
+
+### Cost of Production
+
+* Given the estimated production, the cost of production may be worked
+out
+* The significant components of cost of production are:
+— Material cost  
+— Utilities cost  
+— Labour cost  
+— Factory overhead cost  
+
+### Estimates of Sales and Production
+
+* Typically, the starting point for profitability projections is the forecast of sale:
+revenues.
+* In estimating sales revenues, the following considerations should be borne in
+mind:
+* It is not advisable to assume a high-capacity utilization level in the
+first year of operation.
+* Even if the technology is simple and the company may not face
+technical problems in achieving a high rate of capacity utilization in
+the first year itself, there are likely to be other constraints like raw
+material shortage, limited power, marketing problems, etc.
