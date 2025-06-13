@@ -13,15 +13,15 @@ Environmental and Social Feasibility
 
 * Project feasibility analysis is a
 **critical process that
-organizations undertake to assess the viability,
-sustainability, and potential success of a proposed
-project** before committing significant resources.
+organizations undertake to assess the viability,  
+sustainability, and potential success of a proposed  
+project** before committing significant resources.  
 * It helps stakeholders make informed decisions by
 evaluating various aspects of the project.
 
 ## Components in a project feasibility analysis
 
-* Market Feasibility
+* 1. Market Feasibility
 — Assess the demand for the product or service
 in the target market  
 — Analyze market trends, size, and potential
@@ -67,7 +67,7 @@ Analyze and interpret the information
 
 ## Market for the Product/Service
 
-* Based on the information gathered from secondary sources and through market
+* Based on the information gathered from secondary sources and through market  
 survey, the market for the product/service may be described in terms of the following:  
 — Effective demand in the past and present  
 — Breakup of demand  
@@ -79,8 +79,8 @@ survey, the market for the product/service may be described in terms of the foll
 
 ## Estimating the future demand
 
-* After gathering information about various aspects of the market and demand
-from primary and secondary sources, an attempt may be made to estimate
+* After gathering information about various aspects of the market and demand  
+from primary and secondary sources, an attempt may be made to estimate  
 future demand.
 * A wide range of forecasting methods is available to the market analyst.
 * These may be divided into three broad categories:
@@ -107,9 +107,9 @@ analysis of the historical time series.
 
 ### 3. Bass diffusion model and causal method
 
-* The Bass diffusion model seeks to estimate the
-pattern of sales growth for new products in
-terms of two factors: p, the coefficient of
+* The Bass diffusion model seeks to estimate the  
+pattern of sales growth for new products in  
+terms of two factors: p, the coefficient of  
 innovation and q, the coefficient of imitation.
 * Causal methods seek to develop forecasts
 based on cause-effect relationships specified in
@@ -117,10 +117,10 @@ an explicit, quantitative manner
 
 ## Components in a project feasibility analysis
 
-* Technical Feasibility
-— Evaluate the technical requirements and challenges of the project.
-— Assess the availability Of technology and expertise needed.
-— Consider any potential obstacles in implementing the technology.
+* 2. Technical Feasibility
+— Evaluate the technical requirements and challenges of the project.  
+— Assess the availability Of technology and expertise needed.  
+— Consider any potential obstacles in implementing the technology.  
 
 ## Purpose of Technical Analysis
 
@@ -196,7 +196,9 @@ input requirements.
 a coastal area; site refers to a specific piece of land where the project
 would be set up.
 
-## Financial Feasibility
+## Components in a project feasibility analysis
+
+### 3. Financial Feasibility
 
 * Estimate the initial and ongoing costs of the project.
 * project revenue streams and potential profitability.
@@ -245,7 +247,67 @@ revenues.
 mind:
 * It is not advisable to assume a high-capacity utilization level in the
 first year of operation.
-* Even if the technology is simple and the company may not face
-technical problems in achieving a high rate of capacity utilization in
-the first year itself, there are likely to be other constraints like raw
-material shortage, limited power, marketing problems, etc.
+* Even if the technology is simple and the company may not face  
+technical problems in achieving a high rate of capacity utilization in  
+the first year itself, there are likely to be other constraints like raw  
+material shortage, limited power, marketing problems, etc. 
+
+### Working Capital Requirement and its Financing
+* In estimating the working capital requirement and planning for its financing, the following points have to be borne in mind:
+* The working capital requirement consists of the following:
+(i) raw materials and components (indigenous & imported)  
+(ii) stocks of goods-in-process (also referred as work-in-process)  
+(iii) stocks of finished goods  
+(iv) debtors  
+(v) operating expenses  
+(vi) consumable  
+
+### Project Cash Flow Statement
+* The cash flow statement shows the movement of cash into and out of the firm and its net impact on the cash balance within the firm
+
+## Components in a project feasibility analysis
+
+### 4. Environmental and Social Feasibility
+— Assess the environmental impact of the project.  
+— Consider social and community aspects.  
+— Evaluate the project's sustainability and corporate
+social responsibility.  
+
+**Environmental Feasibility considerations**  
+Impact Assessment -   
+* Evaluate the project's potential environmental impacts, such as air and  
+water pollution, deforestation, habitat disruption, and other ecological  
+consequences.
+
+* Compliance with Regulations - 
+Ensure the project complies with local, national,  
+and international environmental regulations and  
+standards.
+
+* Sustainability - 
+Assess the project's sustainability by examining  
+resource use, waste generation, and the overall  
+ecological footprint.
+
+**Social Feasibility**  
+Definition -   
+Social feasibility involves analysing the potential impact of a project on  
+the community, society, and stakeholders.
+
+**Social Feasibility considerations**
+* Stakeholder Analysis:  
+Identify and assess the concerns and interests Of
+various stakeholders, including local communities,
+employees, customers, and other relevant parties.
+* Community Impact:  
+Examine how the project may affect the social fabric
+of the community, including changes in
+demographics, employment, and overall well-being.
+* Cultural Considerations:
+Take into account the cultural aspects of the
+community and ensure that the project respects and
+integrates with local customs and values.
+* Social Responsibility:
+Evaluate the project's commitment to social
+responsibility, including issues like fair labor practices,
+human rights, and community development labour
