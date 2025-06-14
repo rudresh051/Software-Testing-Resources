@@ -119,3 +119,107 @@ complex.
 **Table1 - List of Activities**
 
 ![alt text](image-70.png)
+
+* The sum of expected activity times is 51.
+* As a result, you may think that the total time required to complete the
+project is 51 weeks.
+* However, two or more activities often may be
+scheduled concurrently (assuming sufficient availability
+of other required resources), thus shortening the
+completion time for the project.
+* The activities correspond to the nodes of the network (drawn as rectangles),
+and the arcs (the lines with arrows) show the precedence relationships
+among the activities.
+* In addition, nodes have been added to the network to denote the start and
+the finish of the project.
+* A project network will help a manager visualize the
+activity relationships and provide a basis for carrying
+out the PERT/CPM computations.
+
+![alt text](image-71.png)
+
+* To facilitate the PERT/CPM computations, we shall modify the project
+network as shown in the next slide.
+* Note that the upper left-hand corner of each node contains the
+corresponding activity letter.
+* The activity time appears immediately below the letter.
+
+![alt text](image-72.png)
+
+## Critical Path
+
+* To determine the project completion time, we have to analyze the
+network and identify what is called the critical path for the network.
+* A path is a sequence of connected nodes that leads from the Start node to
+the Finish node.
+* All paths in the network must be traversed in
+order to complete the project, so we will look for
+the path that requires the **greatest time.**
+* Because all other paths are shorter in duration, this longest path
+determines the total time required to complete the project.
+* If activities on the longest path are delayed, the entire project will be
+delayed.
+* Thus, the longest path is the critical path.
+* Activities on the critical path are referred to as the
+critical activities for the project.
+
+### Earliest time for any activity
+Let:  
+ES = earliest start time for an activity  
+EF = earliest finish time for an activity  
+t = expected activity time  
+
+The earliest time for any activity is:
+* EF = ES + t
+
+**Forward Pass**  
+* Activity A can start as soon as the project starts, so
+we set the earliest start time for activity A equal to O.
+* With an expected activity time of 5 weeks, the
+earliest finish time for activity A is :
+* EF = ES + t = 0 + 5 = 5
+* We will write the earliest start and earliest finish
+times in the node to the right of the activity letter.
+
+![alt text](image-73.png)
+
+* Because an activity cannot be started until all immediately preceding
+activities have been finished, the following rule can be used to determine
+the earliest start time for each activity:  
+
+**"The earliest start time for an activity is equal to the largest (i.e., latest) of
+the earliest finish times for all its immediate predecessors."**
+
+**Backward Pass**  
+* Let us now continue the algorithm for finding the critical path by making a
+backward pass through the network.
+* Because the expected completion time for the entire project is 26 weeks,
+we begin the backward pass with a latest finish time of 26 for activity I.
+
+Let
+LS = latest start time for an activity  
+LF = latest finish time for an activity  
+LS = LF-t
+
+## Slack
+* After we complete the forward and backward passes, we can determine
+the amount of slack associated with each activity.
+* Slack is the length of time an activity can be delayed without increasing
+the project completion time.
+* The amount of slack for an activity is computed as follows:  
+`Slack = LS - ES = LF - EF`
+* In other words, completing activity E exactly
+as scheduled is critical in terms of keeping
+the project on schedule, and so activity E is a
+critical activity.
+* In general, the critical activities are the
+activities with zero slack.
+
+![alt text](image-74.png)
+
+## Contributions of PERT/CPM
+* We previously stated that project managers look for procedures that will
+help answer important questions regarding the planning, scheduling, and
+controlling of projects.
+* Let us reconsider these questions in light of the information that the
+critical path calculations have given us.
