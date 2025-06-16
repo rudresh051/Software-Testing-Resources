@@ -181,3 +181,90 @@ quickly, contributing to efficient scheduling.
 delivering the **most valuable features first.**
 * This value-centric approach ensures that the product meets customer
 needs and provides a return on investment.
+
+## Estimation poker-Scrum scheduling technique
+* Estimation poker, a technique used to gauge effort for
+user stories, involves the development team.
+* The Scrum Master facilitates this game to reach a
+consensus among developers.
+* A deck of cards based on the Fibonacci sequence (0, 1, 2,
+3, 5, 8, 13, 21, 34, 55, 89, 144, etc.) is used.
+* Team members select cards privately to estimate effort,
+aiming for a collective agreement on the complexity of
+tasks.
+
+![alt text](image-86.png)
+
+* In estimation poker, each team member uses cards
+featuring Fibonacci sequence numbers to rate items
+in the product backlog.
+* For instance, an 8-rated requirement demands more
+effort than those rated 1, 2, 3, or 5.
+* An 8-rated item should be slightly less than twice
+the effort of a 5-rated one and approximately
+equivalent to the combined effort of items rated 3
+and 5.
+* This relative assessment aids in understanding and
+comparing effort levels among different backlog
+items.
+* The development team begins by choosing a mutual
+requirement rated as 5 as a benchmark from the
+backlog.
+* Then, the product owner presents backlog
+requirements sequentially.
+* Each team member selects a card indicating their
+estimated effort, placing it face down.
+* Once revealed simultaneously, if there's no consensus,
+discussions start, focusing first on the highest and
+lowest estimations.
+* Further voting rounds occur until an agreement is
+reached within four rounds.
+* If no consensus emerges, the **Scrum Master** helps
+identify a mutually acceptable score.
+* Typically, using estimation poker, the team can
+estimate the entire backlog in a few hours,
+facilitating efficient estimation.
+
+## Scheduling with Scrum
+Here's how you can approach scheduling within Scrum:  
+
+**Time-Boxed Sprints:**
+* The basic unit of time in Scrum is the sprint, typically
+ranging from 1 to 4 weeks.
+* The team commits to delivering a potentially
+shippable product increment at the end of each
+sprint.
+
+**Product Backlog:**  
+* The product backlog is a prioritized list of all
+features, enhancements, bug fixes, and other work
+that needs to be done.
+* The team, along with the product owner, reviews
+and prioritizes the backlog regularly.
+
+**Sprint Planning:**
+* Before each sprint, there is a sprint planning
+meeting.
+* The team selects items from the product backlog
+based on priority and its capacity for the upcoming
+sprint.
+
+**Daily Standups:**  
+* Daily standup meetings (daily scrum) help the team
+stay aligned and discuss progress.
+* Team members share what they did yesterday, what
+they plan to do today, and any blockers.
+
+**Sprint Review:**
+* At the end of each sprint, there is a sprint review
+where the team demonstrates what was
+accomplished.
+* Stakeholders provide feedback, and the product
+backlog is adjusted based on the review.
+
+**Sprint Retrospective:**
+* After the review, there is a sprint retrospective to
+reflect on the sprint and identify areas for
+improvement.
+* This continuous feedback loop helps the team adapt
+and improve its processes.
