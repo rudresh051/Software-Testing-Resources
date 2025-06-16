@@ -11,10 +11,10 @@
 
 ## Gantt Chart
 
-* One Of the oldest but still one of the most valuable methods of presenting project schedule
-information is the Gantt chart
+* One Of the **oldest but still one of the most valuable methods of presenting project schedule
+information** is the Gantt chart
 * Developed around 1917 by
-Henry L. Gantt,
+**Henry L. Gantt**,
 pioneer in the field of scientific management.
 * The Gantt chart shows planned and actual progress
 for several tasks displayed as bars against a
@@ -117,5 +117,67 @@ Gantt chart button on the far left of the Task ribbon).
 * On the left is a window that contains a form that is used to enter WBS data into the program.
 * The Gantt chart is displayed in the right window
 
-.
-.
+
+## Demo 1 - MS Project
+
+## Demo 2 - MS Project
+
+## Why Scrum for Scheduling
+* Scrum is a popular framework for project management and product
+development, and it is used for scheduling due to several key
+characteristics that make it effective in managing complex tasks and
+projects.
+
+Here are some reasons why Scrum is commonly used for scheduling:  
+
+**Iterative and Incremental:**  
+* Scrum promotes an iterative and incremental approach to development.
+* Work is organized into time-boxed iterations called sprints, usually I to 4
+weeks long.
+* This allows for frequent inspection and adaptation,
+ensuring that the project stays on track and that any
+necessary adjustments can be made quickly.
+
+**Flexibility and Adaptability**  
+* Scrum is designed to be flexible and adaptive to change.
+* The product backlog can be reprioritized, and the team can adjust its plan at
+the beginning of each sprint during the sprint planning meeting.
+* This adaptability is crucial in dynamic environments where requirements
+may evolve or unexpected challenges arise.
+
+**Customer Feedback:**  
+* Regular feedback from stakeholders is integrated into the process through
+sprint reviews.
+* At the end of each sprint, the team demonstrates the work completed, and
+stakeholders provide feedback.
+* This feedback loop ensures that the product aligns
+with customer expectations and can be adjusted
+based on changing requirements.
+
+**Transparency:**  
+* Scrum emphasizes transparency in all aspects of the development process.
+The product backlog, sprint backlog, and progress are visible to all team I
+members, stakeholders, and often even customers.
+* Transparency helps in identifying potential issues early, allowing the team
+to address them promptly.
+
+**Time-Boxing:**  
+* Time-boxing, the practice of fixing the duration of certain events, such as
+sprints, helps create a predictable and sustainable pace for the team.
+* It provides a sense of urgency and ensures that the team delivers a
+potentially shippable product increment at the end of each sprint.
+
+**Collaboration:**  
+* Scrum encourages close collaboration between team members and
+stakeholders.
+* Daily standup meetings, sprint planning, sprint reviews, and retrospectives
+facilitate communication and alignment among team members.
+* Collaboration helps in identifying and resolving issues
+quickly, contributing to efficient scheduling.
+
+**Focus on Value Delivery**  
+* Scrum places a strong emphasis on delivering value to the customer.
+* The product backlog is prioritized based on value, and the team focuses on
+delivering the **most valuable features first.**
+* This value-centric approach ensures that the product meets customer
+needs and provides a return on investment.
