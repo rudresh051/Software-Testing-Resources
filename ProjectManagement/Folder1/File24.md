@@ -105,3 +105,52 @@ conditions of crashing.
 determined using the following equation:
 
 `Incremental cost = (crash cost - normal cost)/(nomal time - crash time)`
+
+• For an activity, if the crash cost and time are
+700 and 8 days, and if the normal cost and
+time are 500 and 12 days, we have
+
+Incremental cost per day = (700-500)/(12-8) = ₹ 50
+
+## An Example for Crashing 
+
+* Table shows for each activity
+needed to complete the project the
+normal time, the shortest time in
+which the activity can completed of
+a building contract and the cost per
+day for reducing the time of each
+activity.
+
+![alt text](image-89.png)
+
+The contract includes a penalty clause of per day over 17 days.  
+The overhead cost per day is 160.  
+The cost of completing the eight activities in normal time is 6,500  
+
+**Questions -**  
+Calculate the normal duration of the project, its cost and the critical path.  
+Calculate and plot on a graph the cost/time function for the project and
+state:  
+— the lowest cost and associated time.  
+— the shortest time and associated cost.  
+
+* The network is drawn and shown in
+Figure, where the normal and the
+shortest (crash) times for various
+activities are given.
+
+![alt text](image-90.png)
+
+
+![alt text](image-91.png)
+
+* We have the normal and minimum duration of the
+project equal to 20 and 13 days, respectively.
+* Now we shall consider the time—cost relationship
+for this project when it is crashed successively by a
+period of one day, to know the total cost of the
+project for durations of 20 days through 13 days.
+.
+.
+.
