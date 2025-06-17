@@ -64,3 +64,44 @@ the direct costs required to perform an activity.
 normal time—which may be stated more specifically
 as the shortest time required to perform an activity
 under the minimum direct cost constraint.
+
+## The time-cost relationships
+* The time—cost relationships can be
+visualized graphically in
+the form of a time versus
+cost curve which is, for a
+limited portion at least,
+sloping downward, as
+depicted in Figure
+
+![alt text](image-87.png)
+
+* The widely accepted convex shape of the
+curve between the crash time—cost point
+and the normal time-cost point indicates
+that it is marginally costlier to induce the
+last percentages of reduction in activity
+time duration than the first percentages.
+
+* Clearly, our interest lies in the central part of
+the curve contained between these two
+important points.
+* Although the cost curve is convex in nature, for
+simplification in network scheduling it is
+commonly accepted that linear a approximation of the time-cost relationship be
+used .
+
+![alt text](image-88.png)
+
+* This is shown in the figure by two-point
+approximation from the normal time-cost
+point to the crash time-cost point, the points
+being shown joined by a dotted line.
+
+* This linear approximation represents a linear
+incremental cost per unit of time saved under
+conditions of crashing.
+* The incremental cost for an activity can be
+determined using the following equation:
+
+`Incremental cost = (crash cost - normal cost)/(nomal time - crash time)`
