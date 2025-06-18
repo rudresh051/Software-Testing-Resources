@@ -117,5 +117,95 @@ implementation.
 — Ability to handle unexpected crises and deviations
 from plan.
 
-## Fundamentals Reasons why Projects fail
+## Fundamentals Re  asons why Projects fail
 
+1. **A Project Organization Was Not Required**
+   * The use of the project form of organisation was inappropriate for this task
+or in this environment.
+   * The parent organisation must understand the conditions that require
+instituting a project.
+
+2. **Insufficient Support from Senior Management**
+    * Projects invariably develop needs for resources that were not originally allocated.
+    * Arguments between functional departments over the command of such resources are prevalent.
+    * Without the direct support of a champion in senior
+management, the project is almost certain to lose the
+resource battle.
+
+3. Naming the Wrong Person as Project Manager
+   * A common mistake is to appoint an individual with excellent technical skills
+but weak managerial skills or training as a PM.
+
+4. **Poor Planning**
+* This is a prevalent cause of project failure.
+* In the rush to get the project's substance underway, competent planning is
+neglected.
+* Crisis management becomes a routine in such
+situations, leading to increased difficulties and errors,
+project delays, and budget overruns.
+
+### Other Reasons why Projects fail
+* No use was made of earlier project Final Reports that
+contained several recommendations for operating
+projects in the future.
+* Time/cost estimates were not prepared by those
+responsible for the work.
+* Starting late, the PM jumped into the tasks without
+adequate planning.
+* Project personnel were moved without adjusting the
+schedule or reassigned during slow periods and
+unavailable when needed.
+* project auditors/evaluators were reluctant to
+conduct careful, detailed, meaningful evaluations.
+* The project was allowed to continue long after it had
+ceased to make cost-effective progress.
+
+## Nontechnical reasons why projects are closed
+* There are several nontechnical reasons why projects are closed, but
+almost always, these closures seem to be associated with conflict when
+the conflict is anticipated at the beginning of the project.
+* **Political Closures**
+    * We mentioned this type of project demise when discussing termination by
+murder.
+    * These closures are typically the result of conflict among senior managers,
+one of whom may be terminated along with the project.
+* **Cross-Cultural Closures**
+    * Multinational projects often fail due to communication issues between
+cultural groups or incompatible working Styles.
+    * Conflicts arise due to poor communication or diverse working styles, leading
+to competition for ascendancy or win/lose negotiations among different
+cultures.
+    * The same cross-cultural forces operate when different disciplines,
+marketing and engineering, develop precisely the same problems.
+
+* Senescence Closures
+    * There are projects that die simply because senior managers, the project champion, the PM, and even key project workers lose interest in the
+project.
+    * The project has neither failed nor succeeded.
+    * It simply exists.
+    * Meanwhile, other exciting new ideas are being projected.
+    * The organisation's attention (and resources) is being directed elsewhere.
+    * The conflict between the old and the new may not be active.
+    * The senescent project gives way to the new.
+
+## Closing Agile Projects
+* In Agile approaches the project may be terminated at any time if the product
+owner determines the cost required to complete the remaining features in
+the product backlog exceed the benefits of adding these features.
+* Thus, Agile projects can be closed when sufficient
+functionality has been delivered and when it is
+determined that future investments would be less
+than the incremental future value.
+* Furthermore, no stigma is associated with closing a project early in Agile.
+* Rather, it is **regarded as a good business practice** to redeploy project team
+members and resources when the business value of completing the
+remaining backlog is less than the costs (including opportunity costs) of
+completing the remaining items in the product backlog.
+
+## The Closure Process
+**The Decision Process**  
+* Decision-aiding models for the closure decision fall into three generic
+categories.
+* First, some models base the decision on the degree to which the project
+qualifies against a set of factors generally associated with successful (or
+failed) projects.
