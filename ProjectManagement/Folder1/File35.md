@@ -117,7 +117,7 @@ implementation.
 — Ability to handle unexpected crises and deviations
 from plan.
 
-## Fundamentals Re  asons why Projects fail
+## Fundamentals Reasons why Projects fail
 
 1. **A Project Organization Was Not Required**
    * The use of the project form of organisation was inappropriate for this task
@@ -206,6 +206,60 @@ completing the remaining items in the product backlog.
 **The Decision Process**  
 * Decision-aiding models for the closure decision fall into three generic
 categories.
-* First, some models base the decision on the degree to which the project
-qualifies against a set of factors generally associated with successful (or
-failed) projects.
+* **First,** some models base the decision on the degree to which the project qualifies **against a set of factors** generally associated with successful (or failed) projects.
+* **Second**, some models base the decision on the degree to which the
+project meets its goals and objectives.
+* **Third**, there are projects that have fallen far enough behind their schedules and planned progress that the cost to complete them is no longer justifiable.
+
+**The Implementation Process**  
+* Once it has been decided to close a project, the process by which it will be terminated must be implemented.
+* The closure can be planned and orderly or a simple hatchet job.
+* The former is apt to have significantly better results, so we suggest that the closure process be planned, budgeted, and scheduled just as is done for any other phase of the project life cycle.
+
+**Design for Project closure**  
+
+![alt text](image-92.png)
+
+### Role of Project Manager in Project Closure
+* The processing of the project closeout is conducted under the direct
+supervision of the PM, but this often raises dilemmas.
+* For many PMs, closure signals the end of their reign as project leaders.
+* If the PM has another project to lead, the issue may not be serious; but if
+there is no other project and the PM faces a return to a staid life in a
+functional division, there may be a great temptation to stretch out the
+shutdown process.
+* Special closure managers are sometimes helpful in completing the long and
+involved process Of shutting down a project.
+* In such cases, the PM is transferred to another project or reassigned to a
+functional "home."
+* The closure manager does not have to deal with substantive project tasks
+and, therefore, maybe a person familiar with the administrative
+requirements Of closure and the environment within which the project will
+be operating (if it continues to live).
+
+## Checklist for project closure
+
+![alt text](image-93.png)
+
+The Primary duties of the closure manager are encompassed in the following nine general task - 
+1. Ensure completion Of the work, including tasks
+performed by subcontractors.
+2. Notify the client of project completion and ensure
+that delivery (and installation) is accomplished.
+Acceptance of the project must be acknowledged by
+the client.
+3. Complete documentation, including evaluating project deliverables and preparing the final report, should be completed, including lessons learned from project administration and management.
+4. Clear for final billings and oversee preparation of the final invoices sent to the client.
+5. Redistribute personnel, materials, equipment, and any other resources to the appropriate places.
+6. Clear project with legal counsel or consultant.
+File for patents if appropriate.
+Record and archive all "nondisclosure" documents.
+7. Determine what records (manuals, reports, and
+other paperwork) to keep.
+Ensure that such documents are stored in the proper
+places and that responsibility for document retention is
+turned over to the parent organization's archivist.
+8. Ascertain any product support requirements (e.g.,
+spares, service), decide how such support will be
+delivered, and assign responsibility.
+9. Oversee the closing of the project's books.
