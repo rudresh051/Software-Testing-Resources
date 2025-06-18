@@ -145,3 +145,12 @@ would have delayed by two days then as well.
 
 ## Eligible Activity Set(EAS)
 ## Ordered Activities Set(OAS)
+
+## Resource Allocation Algorithms
+
+![alt text](image-95.png)
+
+ES = Earliest start
+LS = Latest Start
+EAS = Eligible activity set
+OAS = Ordered activiety set
