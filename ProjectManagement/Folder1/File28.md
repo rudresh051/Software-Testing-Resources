@@ -145,17 +145,14 @@ unduly long or confusing in its goals, scope, deliverables, and processes.
 defined or well understood."
 * Vague or incomplete project requirements are a major
 red flag.
-2. Mysterious Stakeholders
+2. **Mysterious Stakeholders**
 * Full and detailed stakeholder descriptions and analysis are key to avoiding late problems and delays.
 * Incomplete documentation of all stakeholders is a major risk for any project.
 * There should be two versions of the stakeholder description:
-  * A formal one that identifies who each one is, their role, how to reach them,
-and their preferred mode of communication.
-* The other also includes whether they are a supporter of the project or a
-detractor, or perhaps a fence sitter, so the PM can anticipate any trouble that
-may occur later and get to these people early to head it off
+  * A formal one that identifies who each one is, their role, how to reach them, and their preferred mode of communication.
+* The other also includes whether they are a supporter of the project or a detractor, or perhaps a fence sitter, so the PM can anticipate any trouble that may occur later and get to these people early to head it off
 
-3. Unconstrained Constraints
+3. **Unconstrained Constraints**
 
 * Knowing how much leeway there is in your schedule and budget for each
 task, and where delays or cost overruns can be made up, keeps a project
@@ -166,13 +163,13 @@ failing increases exponentially."
 * Establish tolerance limits on each task, and intervene when they are
 exceeded.
 
-4. Suspicious Status Reports
+4. **Suspicious Status Reports**
 
 * Status reports that are unclear, inconsistent, late, or lack specific measures
 are a red flag for coming trouble.
 * Vague or overly optimistic language such as "very soon" or "marginal increase" in costs also indicates trouble ahead.
 
-5. Discord and Drama
+5. **Discord and Drama**
 
 * Unhappy team members can cause major trouble in the project, though hard to detect early on.
 * Meeting minutes can show team members who are consistently missing, have low participation, or seem to have excessive objections and complaints.
@@ -182,15 +179,6 @@ environment.
 * Create a positive team dynamic as soon as possible
 
 ## Information Needs and Reporting
-* Everyone concerned with the project should be appropriately tied into the
-project reporting system.
-* The monitoring system ought to be constructed so that it addresses every
-level of management, but reports need not be of the same depth or at the
-same frequency for each level.
-* Lower-level personnel have a need for detailed information about individual tasks and the factors affecting such tasks.
-* Report frequency is usually high.
-* For the senior management levels, overview reports describe progress in more aggregated terms with less individual task detail unless senior management has a
-special interest in a specific activity or task.
 * Reports are issued less often.
 * In both cases, the structure of the reports should
 reflect the WBS, with each managerial level
@@ -199,5 +187,170 @@ control at the relevant level.
 * At times, it may be necessary to move
 information between organizations, as illustrated
 in Figure , as well as between managerial levels.
+* The proliferation of electronic mechanisms along with a wide array of
+software has made the process of collecting and disseminating information
+much faster and less arduous than previously.
+* In addition to its use for conducting the routines of
+project management, the Internet is a rich source of
+information, including databases on almost anything,
+patent information, and technical aid for managing
+projects, to mention only a small fraction of readily
+available information.
+* Many current project management software packages allow easy
+connection to the Internet and e-mail to transmit information, charts,
+networks, and
+
 
 ![alt text](image-118.png)
+
+## The Reporting Process
+* The relationship Of project reports to the project WBS is the key to the
+determination of both report content and frequency.
+* Reports must contain data relevant to the control Of specific tasks that are
+being carried out according to a specific schedule.
+* The frequency of reporting should be great enough to
+allow control to be exerted during or before the
+period in which the task is scheduled for completion.
+* For example, efficacy tests of drugs do not produce rapid results in most
+cases.
+* Thus, there is no reason for weekly (and perhaps not even monthly) reports
+on such tests.
+* When test results begin to occur, more frequent reports and updates may be
+required.
+
+## Benefits of timely reports
+There are many benefits of detailed, timely reports delivered to the proper
+people. Among them are:  
+* Mutual understanding of the goals of the project
+* Awareness of the progress of parallel activities and of the
+problems associated with coordination among activities
+* Understanding the relationships of individual tasks to one
+another and to the overall project
+* Early warning signals of potential problems and delays in the
+project
+* Minimizing the confusion associated with change by reducing
+delays in communicating the change
+* Higher visibility to top management, including attention directed
+to the immediate needs of the project
+* Keeping the client and other interested outside parties up to
+date on project status, particularly regarding project costs,
+milestones, and deliverables
+
+## Report Types
+* For the purposes of project management, we can consider three distinct
+types of reports: routine, exception, and special analysis.
+
+* **The routine reports** are those issued on a regular basis; but, as we noted earlier,
+regular does not necessarily refer to the calendar.
+    * For senior management, the reports will usually be periodic and at major
+milestones, but for the PM and lower-level project personnel, critical events may
+be used to trigger routine reports.
+    * At times, it may be useful to issue routine reports on resource usage periodically,
+occasionally on a weekly or even daily basis.
+
+* **Exception reports** are useful in two cases
+  * First, they are directly oriented to project management decision-making
+and should be distributed to the team members who will have prime
+responsibility for decisions or who have a clear "need to know."
+* **Special analysis reports** are used to disseminate the results Of special studies
+conducted as part of the project or as a response to special problems that arise
+during the project.
+    * Usually, they cover matters that may be Of interest to other PMs or make use
+of analytic methods that might be helpful on other projects.
+
+## Meetings
+* There is no doubt that meetings of project teams
+are necessary and often helpful.
+* The main complaints are that they are interminably
+long, come to no conclusions, and waste everyone's
+time.
+* Indeed, a short commentary on how not to run a
+meeting is entitled, "Creative Time Wasting"
+
+A few simple rules can remove most of the pain associated with project meetings
+1. **Use meetings for making group decisions or getting input for**
+important problems.
+    * Avoid "show-and-tell" meetings, sometimes called "status
+and review meetings."
+    * If the latter type of meeting has been used to keep project
+team members informed about what others are doing on
+the project, insist that such information be communicated
+personally or electronically by the relevant individuals to the
+relevant individuals
+
+2. **Have preset starting and stopping times as well as a
+written agenda.**
+    * Stick with both, and above all, do not penalize
+those who show up on time by making them wait
+for those who are tardy
+3. **Make sure that you (and others) do your homework
+prior to the meeting. Be prepared!**
+
+4. **If you chair the meeting, take your own minutes.**
+    * Reality (and the minutes become reality as soon as the
+meeting is over) is too important to be left to the most
+junior person present.
+    * Distribute the minutes as soon as possible after the
+meeting, no later than the next workday
+
+5. **Avoid attributing remarks or viewpoints to individuals
+in the minutes.**
+    * Attribution makes people quite wary about what they
+say in meetings and damps creativity as well as controversy
+
+6. **Avoid overly formal rules of procedure**
+A project meeting is not a parliament and is not the place for Robert's Rules of Order, though courtesy is always in order
+
+7. **If a serious problem or crisis arises, call a meeting for
+the purpose of dealing with that issue only.**
+    * The stopping time for such meetings may be "When
+the problem has been solved." Some types of
+meetings should never be held at all.
+
+## Common Reporting Problems
+* There are three common difficulties in the design Of
+project reports.
+there is usually too much detail, both in the
+* **First,**
+reports themselves and in the input being solicited
+from workers.
+* Unnecessary detail (or too frequent reporting) usually
+results in the reports not being read.
+* In addition, it prevents project team members from
+finding the information they need.
+* Furthermore, the demand for large quantities of
+highly detailed input information Often results in
+careless preparation of the data, thereby casting
+doubt on the validity of reports based on such data
+
+* A **second** major problem is the poor interface
+between the project information system and the
+parent firm's information system.
+* In our experience, the PM may try to force a
+connection.
+* It rarely works well. The parent organization's
+information system must serve as the definitional
+prototype for the project's information system.
+* Obviously, different types of reports must be
+constructed for managing the project, but they can
+be built by using standard data, for the most part.
+* The PM can feel free to add new kinds of data to the
+information base but cannot insist that costs,
+resource usage, and the like be reported in the
+project differently from how they are reported in the
+parent organization.
+* The **third problem** concerns a poor correspondence
+between the planning and the monitoring systems.
+* If the monitoring system is not tracking information
+directly related to the project's plans, control is
+meaningless.
+* This often happens when the firm's existing information
+system is used for monitoring without modifications
+specifically designed for project management.
+* For example, an existing cost tracking system oriented
+to shop operations would be inappropriate for a
+project with major activities in the area of research
+and development.
+* But as we just noted, the. PM's problem is to fit
+standard information into a reporting and tracking
+system that is appropriate for the project
