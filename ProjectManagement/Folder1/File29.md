@@ -58,3 +58,98 @@ cent when the work is complete.
 probably because it is relatively fair and
 doesn't require the effort of attempting to
 estimate task progress.
+* Since it gives credit for half the task as soon as it has begun, it is excessively
+generous at the beginning of tasks.
+* Then it doesn't give credit for the other half until the task is finally
+complete.
+* It is excessively conservative toward the end of tasks, thereby tending to
+balance out on an overall basis.
+
+**The 0-100 percent rule**  
+* This rule allows no credit for work until the task is complete
+* With this highly conservative rule, the project
+always seems to be running late, until the very
+end of the project when it appears to suddenly
+catch up.
+* Consequently, the earned value line will always
+lag the planned value (PV) line on the graph.
+
+Example - 
+
+![alt text](image-119.png)
+
+**Critical input use rule**  
+* This rule assigns task progress according to
+the amount of a critical input that has been
+used.
+* Obviously, the rule is more accurate if the
+task uses this input in direct proportion to
+the true progress being made.
+* For example, when building a house, the task of building the foundation
+could be measured by the cubic yards (or meters) of **concrete poured.**
+* The task of framing the house could relate to the amount of lumber used
+* The roofing task could relate to the sheets of 4 x 8-foot plywood used
+
+**The Proportionality rule**  
+* This commonly used rule is also based on
+proportionalities but **uses time (or cost) as
+the critical input.**
+* It thus divides actual task time-to-date by
+the scheduled time for the task [or actual
+task cost-to-date by total budgeted task
+cost] to calculate percent complete.
+* If desirable, this rule can be subdivided according to the sub-activities within the task.
+* For example, suppose that progress on a task depends on purchasing a
+large, expensive machine to do a long and difficult task.
+* However, just having the machine does not contribute to substantial task progress.
+
+## Earned Value Chart
+
+* A graph illustrating the concept of earned
+value such as that shown in Figure can be
+constructed using the aforementioned rules
+and provides a basis for evaluating cost and
+scope to date.
+
+![alt text](image-120.png)
+
+* If the total value of the work accomplished
+is in balance with the planned (baseline)
+cost (i.e., minimal scheduling variance), as
+well its actual cost (minimal cost as variance),
+then top management has no need for a detailed analysis of individual tasks.
+
+* The concept of earned value combines **cost reporting and aggregate scope reporting** into one comprehensive chart
+
+## Terminologies used in Earned Value Chart
+* EV
+  * Earned value is a way to measure how much value or progress a report has achieved compared to the planned or budgeted amount
+
+* PV
+  * Planned value in project management is the
+amount of work that was expected to be
+completed at a specific point in time, based on
+the project plan and schedule.
+
+* AC
+  * Actual cost in project management refers
+to the total amount of money spent or
+incurred on a project up to a specific point
+in time.
+  * It represents the real expenses associated
+with the project's activities and tasks.
+
+* EAC
+  * Estimate at Completion (EAC) is a projection of the
+total cost of the project based on the actual
+performance to date.
+
+`EAC = AC + (BAC - EV) ` 
+
+Where,  
+EAC is the Estimate at completion  
+AC is the Actual Cost  
+BAC is the Budget at Completion  
+EV is the Earned Value  
+
+
