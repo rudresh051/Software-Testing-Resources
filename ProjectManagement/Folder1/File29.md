@@ -119,19 +119,21 @@ cost (i.e., minimal scheduling variance), as
 well its actual cost (minimal cost as variance),
 then top management has no need for a detailed analysis of individual tasks.
 
+![alt text](image-121.png)
+
 * The concept of earned value combines **cost reporting and aggregate scope reporting** into one comprehensive chart
 
 ## Terminologies used in Earned Value Chart
-* EV
+* **EV**
   * Earned value is a way to measure how much value or progress a report has achieved compared to the planned or budgeted amount
 
-* PV
+* **PV**
   * Planned value in project management is the
 amount of work that was expected to be
 completed at a specific point in time, based on
 the project plan and schedule.
 
-* AC
+* **AC**
   * Actual cost in project management refers
 to the total amount of money spent or
 incurred on a project up to a specific point
@@ -139,7 +141,7 @@ in time.
   * It represents the real expenses associated
 with the project's activities and tasks.
 
-* EAC
+* **EAC**
   * Estimate at Completion (EAC) is a projection of the
 total cost of the project based on the actual
 performance to date.
@@ -152,4 +154,120 @@ AC is the Actual Cost
 BAC is the Budget at Completion  
 EV is the Earned Value  
 
+* BAC
+  * Budget at Completion (BAC) refers to the total
+budgeted cost for the entire project.
 
+* ETC
+  * ETC stands for "Estimate to Complete."
+  * ETC represents the estimated cost required to
+complete the remaining work in a project.
+  * It is a projection based on the project's current
+performance and expenses.
+  * There are different ways to calculate ETC, but a common formula is - `ETC = EAC - AC`
+  ETC is the Estimate to complete  
+  EAC is the Estimate to Completion  
+  AC is the Actual Cost  
+  * In simple terms, ETC provides an estimate of how much more money will be needed to finish the remaining project work, given the project's current performance and expenditures
+
+* **SV (Schedule Variance)**
+  * Schedule Variance is a measure that
+indicates whether a project is ahead of or
+behind schedule at a specific point in time.
+  * The formula for Schedule Variance (SV) is:
+  **SV = EV - PV**
+  - SV is the Schedule Variance
+  - EV is the Earned Value
+  - PV is the Planned Value
+
+* **CV (Cost Variance)**
+  * Cost Variance is a measure that indicates whether a project is under or over budget at a specific point in time
+  * The formula for Cost Variance (CV) is
+  `CV = EV - AC`  
+  CV is the Cost Variance  
+  EV is the Earned Value  
+  AC is the Actual Cost  
+
+## Earned Value chart - Variance
+* **Cost variance (CV) = EV - AC**
+— Cost overrun is negative
+* **Schedule variance (SV) = EV - PV**
+— SV, behind is negative
+* **Time variance (TV) = ST - AT**
+— TV, delay is negative
+* Typically, variances are defined in such a way that they will be negative
+when the project is behind schedule and/or over cost.
+* As we have noted, however, this practice is not universal either in the
+literature or in practice.
+
+The variances are also often formulated as ratios rather than differences
+* CV becomes the cost performance index(CPI) = EV/AC
+* SV becomes the schedule performance index(SPI) = EV/PV
+* Time variance becomes the time performance index(TPI) = ST/AT
+* where values less than 1.0 are **"bad"**
+* Use of ratios is particularly helpful when an organization wishes to compare
+the performance of several projects (or PMs), or the same project over
+different time periods.
+* As we just noted, however, the accuracy and usefulness of all these
+performance measures depend on the degree in which estimates of
+percent completion reflect reality
+
+## Earned Value chart - Example 
+* Assume that operations on a work package were expected to cost $1,500(PV) to complete the package.
+* They were initially scheduled to have been finished today.
+* At this point, however, we have expended $1,350 (AC) and estimate that we
+have completed two-thirds of the work (Percent completion).
+* What are the cost and schedule variances?
+
+![alt text](image-122.png)
+
+
+![alt text](image-123.png)
+
+* In other words, we are spending at a higher level than our budget plan
+indicates, and we are not as far along as we should be.
+* We can also use SPI to calculate the time variance TV if we realize that the
+scheduled time, ST, should conceptually be in proportion to (EV/PV):
+
+`ST = (AT)(EV)/PV`
+* Since TV = ST - AT, then
+  TV = (AT)((EV/PV)-1) = (AT)(SPI - 1)
+
+  (This can be derived through simple trigonometry)
+
+
+### Six possible arrangements of AC, EV, and baseline PV resulting in four combinations of positive and negative schedule variance(SV) 
+
+![alt text](image-124.png)
+
+![alt text](image-125.png)
+
+![alt text](image-126.png)
+
+### Cost-Schedule Index
+
+![alt text](image-127.png)
+
+### Estimated Cost to Complete(ETC)
+
+ETC = (BAC-EV)/CPI  
+=(1500-1000)/0.74  
+= $676
+
+### Estimated Actual Cost to Complete(EAC)
+
+EAC = ETC + AC  
+= 676 + 1350  
+= 2026
+
+rather than original estimate of 1500
+
+## Updating a Project's Earned Value
+
+![alt text](image-128.png)
+
+* The planned AON diagram is shown in Figure, where path a-c-3 is the critical path, with project completion expected at day 10
+
+.
+
+.
