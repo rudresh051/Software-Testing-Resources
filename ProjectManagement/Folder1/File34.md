@@ -49,23 +49,20 @@ project team staff and from rivalries between projects.
 sincerely subject themselves to that discipline.
 
 ## Access to Records
-* For the a/e team to be effective,
-information relevant to the project.
+* For the a/e team to be effective,it must have
+**free access to all information relevant to the project.**
 * This may present some problems on
-it must have
-free access to all
 government projects that may be
 classified for reasons of national security.
-* In such cases, a subgroup of the a/e team may be formed from qualified
-("cleared") individuals.
+* In such cases, **a subgroup of the a/e team may be formed from qualified ("cleared") individuals.**
 * Most of the information needed for an a/e will come
 from the project team's records and those of the
 PMO, and/or from various departments such as
 accounting, personnel, and purchasing.
-* The a/e team is responsible for data collection, not the project management team, while the project team is responsible for keeping project records up-to-date throughout the project's life.
+* The a/e team is responsible for **data collection,** not the project management team, while the project team is responsible for keeping **project records up-to-date throughout the project's life.**
 * In addition to the formal records of the project, some of the most valuable
 information comes from documents that predate the project.  
-— for example, correspondence with the funder that led to the RFP,
+— for example, correspondence with the funder that led to the RFP(Request for proposal),
 minutes of the Project Selection Committee, and minutes of senior
 management committees that decided to pursue a specific area of technical interest.
 * Clearly, project status reports, relevant technical
@@ -81,7 +78,7 @@ information is often not in the form needed.
 is vital for an effective, credible a/e.
 
 ## Access to Project Personnel and Others
-* The a/e team should maintain free communication with
+* The a/e team should maintain **free communication** with
 project team members and other organisational
 members with project knowledge.
 * One exception is contact between the a/e team and the funder; such contacts are not made without clearance from senior management.
@@ -98,7 +95,7 @@ members and project team members.
 opinions and remarks that may not be appropriate or represent the consensus opinion of the a/e team.
 
 ## Measurement
-* Measurement is an integral part of the a/e process.
+* **Measurement is an integral part** of the a/e process.
 * Several aspects of a project that should be
 measured are apparent and, fortunately, relatively
 easy to measure.
@@ -112,10 +109,8 @@ computer program is finally
 "bug free."
 * Largely, however, milestone completion can be
 measured adequately.
-* There is
-to such measurement
-no theoretically acceptable solution
-problems, but there are politically acceptable solutions.
+* There is **no theoretically acceptable solution**
+to such measurement problems, but there are **politically acceptable solutions.**
 * All the cost/revenue allocation decisions must be made when the various
 projects are initiated.
 * If this is done, the battles are fought "up front," and the equity of
@@ -138,41 +133,41 @@ responsibilities, and the expectations of both the auditor and the auditee
 (the entity being audited).
 
 ## Key elements of the Rules of Engagement for an auditor
-* Scope of the Audit:
+* Scope of the Audit:  
 — Clearly defining the areas or processes to be audited.  
 — Identifying the period covered by the audit.
-* Objectivity and Independence:
+* Objectivity and Independence:  
 — Emphasizing the need for auditors to remain impartial and
 independent.  
 — Addressing any potential conflicts of interest.  
-* Audit Methodology
+* Audit Methodology  
 — Outlining the specific audit approach or
 methodology to be used.  
 — Describing the techniques and tools that will be
 employed during the audit.  
 
-* Communication Protocols
+* Communication Protocols  
 — Establishing channels of communication between
 the auditor and the auditee.  
 — Defining reporting requirements and timelines for communication of findings.  
 
-* Documentation Standards
+* Documentation Standards  
 — Specifying the documentation practices and
 standards to be followed.  
 — Ensuring that audit work papers are organised,
 complete, and in compliance with relevant
 standards.
 
-* Confidentiality and Security:
+* Confidentiality and Security:  
 — Addressing the confidentiality of audit
 information.  
 — Outlining procedures to safeguard sensitive data
 and information.
 
-* Ethical Considerations:
+* Ethical Considerations:  
 — Reinforcing adherence to professional ethics and codes of conduct.  
 — Addressing ethical dilemmas that may arise during the audit.
-* Client Cooperation:
+* Client Cooperation:  
 — Outlining expectations for cooperation from the auditee.
 — Defining the responsibilities of the auditee in providing access to information and personnel
 

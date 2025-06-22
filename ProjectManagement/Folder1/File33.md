@@ -40,7 +40,7 @@ a part of the project.
 project audits provides timely insights into the project that can be
 leveraged to increase the odds of successful project completion.
 * **From a strategic perspective, project audits play an
-essential role by helping ensure project success, **which
+essential role by helping ensure project success,** which
 subsequently translates into improved competitive
 success.
 
