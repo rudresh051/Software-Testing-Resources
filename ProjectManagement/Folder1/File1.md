@@ -58,14 +58,14 @@ Adapted by Ramesh Anbanandam
 
 ## Agenda
 
-Introduction
-History of projects
-The Definition of a "Project"
-Program, Project, Task and Work Packages
-Triple Constraint
-Concept of Scope
-Ancillary goals
-Characteristics of Projects
+Introduction  
+History of projects  
+The Definition of a "Project"  
+Program, Project, Task and Work Packages  
+Triple Constraint  
+Concept of Scope  
+Ancillary goals  
+Characteristics of Projects  
 
 # Lecture 01: Introduction to Project Management - I
 

@@ -160,20 +160,20 @@ our other needs
 
 ## Becoming a Better Leader
 
-**Gain confidence & clarity**
+**Gain confidence & clarity**  
 — Know how to handle difficult people and situations more effectively  
 — Maintain control of your emotions  
 — Learn to understand your team members and their needs  
 
-**Learn groundbreaking strategies for success**
+**Learn groundbreaking strategies for success**  
 — Learn the most effective ways to lead teams  
 — Gain commitment to objectives without coercion  
 
-**Eliminate self-doubt**
+**Eliminate self-doubt**  
 - Become rock-solid in handling conflict  
 - Learn to confidently set boundaries that everyone will honor  
 
-**Create a roadmap to building sustainable teams**
+**Create a roadmap to building sustainable teams**  
 — Learn new ways to meet your team members' needs
 — Initiate repeatable steps for sustaining successful teams
 — Have a profound impact on your teams and organisation
