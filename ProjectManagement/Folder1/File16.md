@@ -21,7 +21,7 @@ evaluating various aspects of the project.
 
 ## Components in a project feasibility analysis
 
-* 1. Market Feasibility
+* 1. **Market Feasibility**  
 — Assess the demand for the product or service
 in the target market  
 — Analyze market trends, size, and potential
