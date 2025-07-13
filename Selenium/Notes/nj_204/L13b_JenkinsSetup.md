@@ -1,7 +1,7 @@
 # GitHub workflow and Architecture.
 ![GitHub Architecture](image-32.png)
 
-# Introduction to CI-CD Jenkins & Integration with Selenium
+## Introduction to CI-CD Jenkins & Integration with Selenium
 
 Continuous Integration - Continuous Delivery, Continuous testing.
 
@@ -10,7 +10,8 @@ Jenkins is a CI-CD-CT tool.
 Developers make changes the code, they will push it to GitHub.
 Jenkins senses the changes in GitHub.
 
-**WebHooks** - It helps Jenkins to detect the changes made by the developer.   
+**WebHooks**  
+It helps Jenkins to detect the changes made by the developer.   
 It will automatically deploy the code by itself.
 
 
@@ -24,12 +25,12 @@ Jenkins is a well-known open-source DevOps tool used in many   organizations
 CI/CD pipelines. Selenium is a popular open-source   automation tool for   
 testing websites
 
-**What is Jenkins?**  
+### What is Jenkins?
 Jenkins is a self-contained, **open-source automation server** that can be   
 used to automate all sorts of tasks related to building, testing, and   
 delivering or deploying software.  
 
-### Key Features
+#### Key Features
 1. **Extensibility:** Jenkins supports a wide range of plugins, allowing users to   
 extend its capabilities and integrate with various tools and platforms, such as   
 Git, Maven, Docker, and Kubernetes.
@@ -65,34 +66,40 @@ a pipeline is a group of build jobs that are chained and integrated in sequence.
 Whenever you change your code, Jenkins can automatically perform your Selenium tests and   
 then deploy your code to a new environment if the tests pass.
 
-**Poll SCM**
-Jenkins allows you to set a time and date for executing your tests.
-
+**Poll SCM**  
+Jenkins allows you to set a time and date for executing your tests.  
 The Test Reports and performance logs can be saved for future reference.  
-
 Jenkins can be used in a continuous integration setup with Maven to create and test.  
 
-## Jenkins Installed
+## Install and Running Jenkins on Windows
 1. Make sure Jenkins is installed on your machine. You can download Jenkins from  
 https://jenkins.io/download/   
 
 ![alt text](image-48.png)
 
-follow the installation instructions.
+follow the installation instructions below - 
 
 Download jenkins.war file
+
+
 ![alt text](image-44.png)
 
-### Run the following command
+* Run the following command
 
 `java -jar jenkins.war`
 
+![alt text](image-49.png)
+
 * ensure to have java 17 or 21
-2. Navigate to tools and add path for Git, Maven and Java
-3. Install plugins for Git and Mavan
+* Navigate to `localhost:8080`
 
+![alt text](image-50.png)
 
+* Navigate to tools and add path for Git, Maven and Java
+* Install plugins for Git and Mavan
 * Check branch name if getting error
+
+
 ```txt
 Started by user admin
 Running as SYSTEM
