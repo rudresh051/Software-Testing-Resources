@@ -25,26 +25,26 @@ CI/CD pipelines. Selenium is a popular open-source   automation tool for
 testing websites
 
 **What is Jenkins?**  
-Jenkins is a self-contained, open-source automation server that can be   
+Jenkins is a self-contained, **open-source automation server** that can be   
 used to automate all sorts of tasks related to building, testing, and   
 delivering or deploying software.  
 
 ### Key Features
-1. Extensibility: Jenkins supports a wide range of plugins, allowing users to   
+1. **Extensibility:** Jenkins supports a wide range of plugins, allowing users to   
 extend its capabilities and integrate with various tools and platforms, such as   
 Git, Maven, Docker, and Kubernetes.
 
-2. Easy Installation and Configuration: Jenkins is relatively easy to install and   
+2. **Easy Installation and Configuration:** Jenkins is relatively easy to install and   
 configure, making it accessible to both small teams and large organizations.
 
-3. Distributed Builds: Jenkins can distribute build tasks across multiple machines,   
+3. **Distributed Builds:** Jenkins can distribute build tasks across multiple machines,   
 improving performance and scalability.
 
-4. Pipeline as Code: Jenkins supports defining build and deployment pipelines as code   
+4. **Pipeline as Code:** Jenkins supports defining build and deployment pipelines as code   
 using its Pipeline DSL (Domain-Specific Language), making it easy to version control and   
 manage complex workflows.
 
-5. Community Support: Being open-source, Jenkins has a large and active community that   
+5. **Community Support:** Being open-source, Jenkins has a large and active community that   
 contributes to its development and provides support.
 
 **What is Continuous Integration?**  
@@ -52,7 +52,7 @@ Continuous integration is the process of continuously checking-in the developer'
 into a version control system and triggering the build  
 to check and identify bugs in the written code.  (Triggering the Automation scripts)
 
-**What is Jenkins Pipeline? What is a Cl CD pipeline?**  
+**What is Jenkins Pipeline? What is a CI/CD pipeline?**  
 The pipeline can be defined as the suite of plugins supporting the implementation and   
 integration of continuous delivery pipelines in Jenkins.
 
@@ -75,6 +75,9 @@ Jenkins can be used in a continuous integration setup with Maven to create and t
 ## Jenkins Installed
 1. Make sure Jenkins is installed on your machine. You can download Jenkins from  
 https://jenkins.io/download/   
+
+![alt text](image-48.png)
+
 follow the installation instructions.
 
 Download jenkins.war file
@@ -90,7 +93,7 @@ Download jenkins.war file
 
 
 * Check branch name if getting error
-```
+```txt
 Started by user admin
 Running as SYSTEM
 Building in workspace C:\Users\rudre\.jenkins\workspace\Heroku
