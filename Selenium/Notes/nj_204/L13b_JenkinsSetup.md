@@ -95,6 +95,8 @@ Download jenkins.war file
 
 ![alt text](image-50.png)
 
+* To stop jenkins press `ctrl + c` in windows
+
 * Navigate to tools and add path for Git, Maven and Java
 * Install plugins for Git and Mavan
 * Check branch name if getting error
