@@ -17,3 +17,6 @@
 1. Zephyr Squad
 2. Zephyr Scale
 3. Zephyr Enterprise
+
+* Select Project e.g. Kanban and Company Managed Type(**for Components feature visibility**)
+* Components is used for Tracebility Purpose.
