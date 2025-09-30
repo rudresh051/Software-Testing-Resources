@@ -33,3 +33,17 @@ Here’s a breakdown:
 
 👉 In short:
 Scrum = *Agile in practice* → a framework that helps teams **focus on delivering value frequently**, **adapt to change quickly**, and **continuously improve**.
+
+## KANBAN
+* Simpler form of agile development
+* Define flow of work
+* Kanban Board - Visualize the workflow
+* Limit on WIP(Work in Progress) items
+* Monitor, adapt and improve
+
+* Scrum - Use for projects with defined features
+* Kanban - Use for support, unpredictable development
+
+
+* https://businessmap.io/kanban-resources/getting-started/what-is-kanban
+* https://www.atlassian.com/agile/kanban
