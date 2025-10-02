@@ -36,7 +36,24 @@
   * Same as Server, but at scale
   * Enterprise level security, availability, performance
 
-## Jira Versions
+* In this course we will be using Jira Cloud
+
+## Jira Cloud Subscription Tiers
 * Free
 * Standard
 * Premium
+* Enterprise
+
+Reference - https://www.atlassian.com/software/jira/pricing
+
+![alt text](image.png)
+
+## Course Structure
+* Intro Section
+* Agile Concepts with Jira
+* Working with an agile team with Jira
+* Managing an agile team with Jira
+* Jira administration
+* Team-Managed Projects
+* Bonus Sections
+* Confluence
