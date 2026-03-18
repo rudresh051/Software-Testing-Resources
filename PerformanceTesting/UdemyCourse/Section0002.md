@@ -83,5 +83,34 @@ Speed, stability and scalability
 * Peak load - Highest expected laod duing a peak hour or a peak load
 
 ## Performance Testing Process(Life Cycle) - Part 1
+We have 11 steps
+
 
 ![alt text](image-1.png)
+
+* **Requirement Gathering and Analysis** - 
+  * In this phase we will identify the performance goals such as response time, throughput, resource utilization.
+  * And we will also **understand the application architecture** and user load and expected usage pattern.
+    * To troubleshoot any performance issue, you need to understand the application architecture
+* Planning and Design
+* Environment setup
+  * Mirrors the production environment
+  * As close as possible to get realistic performance tool
+* Tool selection -  It is based on open or paid, based on skill set of the team
+* Test Script Development
+* Test Execution
+  * By gradually increase the load
+* Monitoring and Analysis
+* Tuning and Optimization
+  * Coordinate with developers
+  * Optimize the database or infrastructure
+* Retesting
+  * Rerun the performance tests
+* Reporting
+  * Document the test results
+  * Provide the detailed report to stakeholder
+* Continuous Monitoring
+  * Adjust the test scripts according to changing demands
+
+## Performance Testing Life Cycle(or Software Testing Life Cycle) - Part 2
+
