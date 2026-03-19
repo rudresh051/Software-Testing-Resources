@@ -114,3 +114,13 @@ We have 11 steps
 
 ## Performance Testing Life Cycle(or Software Testing Life Cycle) - Part 2
 
+How we can fit the PTLC in STLC  
+
+![alt text](image-2.png)
+
+
+![alt text](image-3.png)
+
+## Evaluating Performance Across the Software Development Life Cycle
+
+![alt text](image-4.png)
