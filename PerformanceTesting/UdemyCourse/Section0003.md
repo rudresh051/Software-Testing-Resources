@@ -69,3 +69,11 @@ from above screenshot
   * Loop count - Infinite
 
 ![alt text](image-10.png)
+
+## Templates in Jmeter
+* Saves time
+* Reduces possibility of error
+* Simplifies testing
+
+## Understanding Average, Median, Througput and standard Deviation
+
