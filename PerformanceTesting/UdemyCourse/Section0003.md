@@ -77,3 +77,25 @@ from above screenshot
 
 ## Understanding Average, Median, Througput and standard Deviation
 
+* Average(Response Time)
+  * Shows the average time taken to complete requests, helping you gauge the typical user experience
+  * High values indicate potential performance issues.
+
+![alt text](image-11.png)
+
+**Average** = Add the response time of each request/number of request  
+
+* **Median**
+  * 50th Percentile
+  * The middle value of response times, indicating that half the requests were completed below this time
+  * Median is less influenced by outliers than the average, making it valuable for identifying common user experience
+* **Throughput**
+  * Measures the number of requests processed per second(or per minute), reflecting server capacity
+  * Higher throughput means the application can handle more requests, which is essential for scalability
+* **Standard Deviation**
+
+![alt text](image-12.png)
+
+Formula - 
+
+![alt text](image-13.png)
