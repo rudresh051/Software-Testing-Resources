@@ -120,3 +120,42 @@ Formula -
 * **Regex matching** - It is generally used for recording certain pattern matching while recording.
 * **Transaction Name** - Used for grouping multiple HTTP/HTTPS requests under single name. 
   * example - Login Transaction can have multple HTTP requests, all can be grouped under single name called - Login
+* **Naming Scheme** - It defines basically how your recorded script will be named
+  * attach some prefix, suffix or same as transaction name
+* **Counter start value** - You can use the initial counter value while naming the request
+* **Create new transaction after request(ms)** - basically specify milliseconds. If idle time is more than specified millisecond then a new tranaction will be created
+* **Recording's default encoding** - Specify the proper encoding format. e.g. utf-8
+  * Retrieve all embedded resources- all html, css files
+  * **Use keepAlive** - It will keep the connection to the server open.
+  * no need to establish the connection again
+* **Type** - HttpClient4 , Java
+  * If you use java, it will use java http url connection class to handle the http requests.
+  * The type java may not be compatible in certain scenarios.
+* **GraphQL HTTP Sampler settings**
+  * Some modern web application may be using GraphQL request
+
+![alt text](image-16.png)
+
+* Request Filtering
+  * You can include or exclude URL patterns
+  * Some static content may not be useful in performance testing
+    * Add suggested excludes. These are non-critical resources. you can add it.
+
+## Certificate Generation and Installation
+Steps - 
+1. In a Test plan add thread group
+2. Add HTTP(s) test script recorder
+3. Under target controller - choose - Test plan > HTTP(S) Test Script Recorder
+4. Click on Start
+5. Go to Jmeter bin folder
+   1. e.g. ApacheJMeterTemporaryRootCA.crt will be generated.
+   2. Install that in the the browser. e.g. firefox
+6. Go to browser settings and search > "certificates"
+7. click view certificates. A certificate is valid for only 7 days.
+8. click import. Select the file. Select "ok" in the trust checkboxes
+
+![alt text](image-17.png)
+
+And voila your certificate is installed. And now you can use the firefox browser for recording the script for https based websites as well. i.e. websites with secure connection.
+
+9. After 7 days, you need to delete the old certificate and import the new one again which Jmeter will generate automatially after clicking on start.
