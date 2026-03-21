@@ -99,3 +99,24 @@ from above screenshot
 Formula - 
 
 ![alt text](image-13.png)
+
+
+## Understanding HTTP(s) Test Script Recorder and its components
+* Click on Test plan >> Add the Non-test elements 
+
+![alt text](image-14.png)
+
+* In firefox browser set it to manual proxy configuration at port 8888
+  * And then only 
+
+![alt text](image-15.png)
+
+* **HTTPS Domains** - e.g. abc.com, xyz.com
+  * write by comma if using multiple websites
+* **Target Controller** - where you want to save the recordings
+* **Grouping** - It is about how you want to organize your recordings
+* **Capture HTTP Headers** - HTTP headers will be captured during request so that you can later simulate
+* **Assertions** - Assertions are used for verifying the response
+* **Regex matching** - It is generally used for recording certain pattern matching while recording.
+* **Transaction Name** - Used for grouping multiple HTTP/HTTPS requests under single name. 
+  * example - Login Transaction can have multple HTTP requests, all can be grouped under single name called - Login
