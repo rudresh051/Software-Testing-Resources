@@ -170,3 +170,7 @@ Keep the following connection settings in the browser
 Also make sure to import certificate which we have done earlier.
 
 ![alt text](image-19.png)
+
+## How to Record Test Script using BlazeMeter Plugin to Chrome Browser
+
+![alt text](image-20.png)
