@@ -159,3 +159,14 @@ Steps -
 And voila your certificate is installed. And now you can use the firefox browser for recording the script for https based websites as well. i.e. websites with secure connection.
 
 9. After 7 days, you need to delete the old certificate and import the new one again which Jmeter will generate automatially after clicking on start.
+
+
+## Record test script using HTTP(s) Test Script Recorder in Jmeter
+
+![alt text](image-18.png)
+
+Keep the following connection settings in the browser
+
+Also make sure to import certificate which we have done earlier.
+
+![alt text](image-19.png)
