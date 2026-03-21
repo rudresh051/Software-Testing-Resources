@@ -174,3 +174,5 @@ Also make sure to import certificate which we have done earlier.
 ## How to Record Test Script using BlazeMeter Plugin to Chrome Browser
 
 ![alt text](image-20.png)
+
+![alt text](image-21.png)
