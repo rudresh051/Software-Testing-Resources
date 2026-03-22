@@ -176,3 +176,9 @@ Also make sure to import certificate which we have done earlier.
 ![alt text](image-20.png)
 
 ![alt text](image-21.png)
+
+## Variables in Jmeter
+
+* Variable is a container that can store a value, which can be referenced by any other element
+* Syntax - `${variableName}`
+
