@@ -217,3 +217,23 @@ you can first save(JMX file) then open in Jmeter app
 To explore more on functions
 * Go to Tools >> Function Helper Dialog
 
+
+## Parameterisation in JMeter
+* We do not want to hard code the test data in test script as it is not a good practce.
+* Using parameterization we can sepearate test data from test
+script.
+* Seperation of test script and test data will make it easy to
+maintain tests.
+
+We can parameterize using :
+* User defined variables
+* CSV Data set config
+
+![alt text](image-25.png)
+
+## Correlation in JMeter
+* In JMeter correlation is the process of capturing and storing the dynamic response from the server and passing it on to subsequent requests.
+
+
+
+![alt text](image-26.png)
