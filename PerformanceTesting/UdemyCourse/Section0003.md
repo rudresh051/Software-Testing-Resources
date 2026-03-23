@@ -190,4 +190,30 @@ you can first save(JMX file) then open in Jmeter app
 
 * JMeter Functions - 
   * JMeter functions are special values that can populate fields of any Sampler or other element in a test tree.
+* Syntax - 
+  * with parameter - ${__functionName(par1,par2,par3)} where "__functionName" matches the name of a function
+  * without parameter - ${__functionName}
+
+
+* Use function helper to experiment
+
+![alt text](image-24.png)
+
+* Function demonstrated - 
+  * ${__log("log function message")}
+  * ${__threadNum} ${__threadGroupName}
+  * ${__time(dd m yyyy hh mm ss)}
+  * ${__intSum(5,6,sum1)}
+    * sum2=${sum1} => This can be used in another HTTP sampler
+  * ${__BeanShell(10*19,result)}
+    * above is used for evaluation for a expression
+  * ${__machineIP}
+  * ${__machineName}
+
+
+* Function names are case sensitive
+* Function are written using camelCase Letters
+
+To explore more on functions
+* Go to Tools >> Function Helper Dialog
 
