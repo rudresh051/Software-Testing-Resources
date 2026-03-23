@@ -175,10 +175,16 @@ Also make sure to import certificate which we have done earlier.
 
 ![alt text](image-20.png)
 
-![alt text](image-21.png)
+you can first save(JMX file) then open in Jmeter app
 
 ## Variables in Jmeter
 
 * Variable is a container that can store a value, which can be referenced by any other element
 * Syntax - `${variableName}`
+
+![alt text](image-22.png)
+
+![alt text](image-23.png)
+
+## Functions in JMeter
 
