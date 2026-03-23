@@ -188,3 +188,6 @@ you can first save(JMX file) then open in Jmeter app
 
 ## Functions in JMeter
 
+* JMeter Functions - 
+  * JMeter functions are special values that can populate fields of any Sampler or other element in a test tree.
+
