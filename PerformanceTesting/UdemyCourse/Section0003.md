@@ -240,3 +240,8 @@ We can parameterize using :
 ![alt text](image-26.png)
 
 
+## Timers in Jmeter
+* Real user will take some time (Think Time) before performing actions.
+* Timers are used to simulate realistic performance test.
+* The purpose of the 'Timer' element is to pause a JMeter  
+Thread for a certain amount of time. Timers allow JMeter to delay each request that a thread makes.
