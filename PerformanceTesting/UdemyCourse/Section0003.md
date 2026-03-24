@@ -233,7 +233,10 @@ We can parameterize using :
 
 ## Correlation in JMeter
 * In JMeter correlation is the process of capturing and storing the dynamic response from the server and passing it on to subsequent requests.
+* It is also called dynamic referencing
 
 
 
 ![alt text](image-26.png)
+
+
