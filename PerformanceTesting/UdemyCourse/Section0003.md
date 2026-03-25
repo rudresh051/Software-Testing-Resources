@@ -245,3 +245,16 @@ We can parameterize using :
 * Timers are used to simulate realistic performance test.
 * The purpose of the 'Timer' element is to pause a JMeter  
 Thread for a certain amount of time. Timers allow JMeter to delay each request that a thread makes.
+
+* Constant Timer
+
+![alt text](image-27.png)
+
+* Uniform Random timer
+
+Formula for Uniform Random timers  
+= 0.X*Random Delay max + Constant Delay  
+
+where X varies between 0 to 9  
+
+![alt text](image-28.png)
