@@ -232,12 +232,22 @@ We can parameterize using :
 ![alt text](image-25.png)
 
 ## Correlation in JMeter
-* In JMeter correlation is the process of capturing and storing the dynamic response from the server and passing it on to subsequent requests.
+* In JMeter **correlation is the process of capturing and storing the dynamic response from the server** and passing it on to subsequent requests.
 * It is also called dynamic referencing
 
-
+> The value which comes from server is dynamic
+>> So each time you will get a different value
+>> Once the response is received from the server, we extract a value from that response using certain pattern using regular expression extractor and use that extracted value in the subsequent request.
 
 ![alt text](image-26.png)
+
+![alt text](image-29.png)
+
+![alt text](image-30.png)
+
+Template $1$ specifies first capturing group, that is expression within first set of parenthesis()
+
+![alt text](image-31.png)
 
 
 ## Timers in Jmeter
