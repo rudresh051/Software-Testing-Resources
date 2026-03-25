@@ -258,3 +258,6 @@ Formula for Uniform Random timers
 where X varies between 0 to 9  
 
 ![alt text](image-28.png)
+
+## Pre-processors and Post-processors in JMeter
+
