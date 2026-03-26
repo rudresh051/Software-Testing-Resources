@@ -271,3 +271,27 @@ where X varies between 0 to 9
 
 ## Pre-processors and Post-processors in JMeter
 
+## Plugins Management in JMeter
+* Plugins are those elements which will add additional functionality to the base Jmeter applications.
+* Plugins can also be called as application
+* Two ways - 
+  * Add Jar file
+    * https://jmeter-plugins.org/
+  * use the JMeter Plugin Manager
+
+![alt text](image-32.png)
+
+
+Below method is easy to install
+
+* Download plugin manager
+
+And paste the jar file inside   
+`..\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext`
+
+![alt text](image-34.png)
+
+![alt text](image-33.png)
+
+![alt text](image-35.png)
+
