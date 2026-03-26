@@ -295,3 +295,4 @@ And paste the jar file inside
 
 ![alt text](image-35.png)
 
+## How to run JMeter test from command Line?
