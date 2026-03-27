@@ -303,3 +303,16 @@ And paste the jar file inside
 
 -n → Run in non-GUI mode (important for performance testing)  
 -t → Path to your .jmx test file  
+
+## Generate HTML test report in JMeter
+
+
+## Convert a HAR file to a JMeter script
+Steps -  
+* Install plugin to JMeter(one time activity)
+  * plugin name - HAR Converter-JMeter-Plugin from https://jmeter-plugins.org
+  * Create HAR(HTTP Archive) file
+  * Launch the tool and convert the file
+* Motivation
+  * In some organizations we are not allowed to change the proxy settings
+  * Also you need to import the certificates
