@@ -296,3 +296,10 @@ And paste the jar file inside
 ![alt text](image-35.png)
 
 ## How to run JMeter test from command Line?
+* Command line is important because the GUI mode will consume lot of resources such as CPU and memory
+  * Hence GUI mode is not recommended while running GUI load testing
+
+![alt text](image-36.png)
+
+-n → Run in non-GUI mode (important for performance testing)  
+-t → Path to your .jmx test file  
