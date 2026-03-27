@@ -313,19 +313,6 @@ remaining pre-processor and post-processor we will do as and when necessary.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Plugins Management in JMeter
 * Plugins are those elements which will add additional functionality to the base Jmeter applications.
 * Plugins can also be called as application
@@ -360,6 +347,8 @@ And paste the jar file inside
 -t → Path to your .jmx test file  
 
 ## Generate HTML test report in JMeter
+
+![alt text](image-42.png)
 
 
 ## Convert a HAR file to a JMeter script
