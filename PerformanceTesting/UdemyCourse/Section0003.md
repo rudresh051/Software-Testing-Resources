@@ -269,7 +269,62 @@ where X varies between 0 to 9
 
 ![alt text](image-28.png)
 
-## Pre-processors and Post-processors in JMeter
+## Pre-processors and Post-pro
+* **Preprocessor** is something that get processed before the sample request is sent to the server and
+* **Post processor** is something that gets processed after request is sent to the server
+* Analogy - classes in TestNG like @beforeClass and @afterClass etc
+
+And something similar is used in JMeter
+
+e.g. adding userParameters as Pre-processor
+
+![alt text](image-37.png)
+
+so in threadgroup1 before http request 1 and 2 , preprocessor userparameters will get executed
+
+user1 will get assigned value userName1  
+user2 will get assigned value userName2  
+
+![alt text](image-38.png)
+
+Preprocessor - HTML link parser  
+It will find all the HTML links on the web page and it will take take on of the HTML link and it will execute the HTTP request  
+
+`/.*` => It means any matching link from the website(jmeter.apache.org)
+
+* After adding while controller the http4 request will get executed for the links
+
+![alt text](image-39.png)
+
+* Post processor
+*  e.g. add Result Status Action Handler
+
+![alt text](image-40.png)
+
+after giving loop count as 4 for thred group 3
+
+it executed 4 times http 5 and http 6
+
+![alt text](image-41.png)
+
+
+remaining pre-processor and post-processor we will do as and when necessary.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Plugins Management in JMeter
 * Plugins are those elements which will add additional functionality to the base Jmeter applications.
