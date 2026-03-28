@@ -354,9 +354,72 @@ And paste the jar file inside
 ## Convert a HAR file to a JMeter script
 Steps -  
 * Install plugin to JMeter(one time activity)
-  * plugin name - HAR Converter-JMeter-Plugin from https://jmeter-plugins.org
+  * **plugin name** - HAR Converter-JMeter-Plugin from https://jmeter-plugins.org
   * Create HAR(HTTP Archive) file
   * Launch the tool and convert the file
 * Motivation
-  * In some organizations we are not allowed to change the proxy settings
+  * In some organizations **we are not allowed to change the proxy settings**
   * Also you need to import the certificates
+
+how to generate the .har file?  
+
+![alt text](image-43.png)
+
+![alt text](image-44.png)
+
+Download the latest version
+
+extract the zip file
+
+whatever is present in bin folder paste in JMeter bin folder  
+
+![alt text](image-45.png)
+
+
+And whatever is present in ext folder, paste that in JMeter external folder  
+
+![alt text](image-46.png)
+
+after that restart your JMeter
+
+so now it's available  
+
+![alt text](image-47.png)
+
+In your chrome browser
+
+navigate to tools >> developer tools
+
+check the boxes, preserver log and disable cache.
+Then perform action on the petstore website and then download the HAR file . refer screenshot below
+
+![alt text](image-48.png)
+
+
+now open the .har file in jmeter. just browser from the har tool and select the file
+
+![alt text](image-49.png)
+
+and after importing click on convert and load generated script  
+
+![alt text](image-50.png)
+
+use the following regular expression to exclude the unnecessary file while importing  
+
+![alt text](image-51.png)
+
+This time we have not unnecessary files  
+
+![alt text](image-52.png)
+
+`(?i).*.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2|svg)`
+
+
+Note - remove the : whereever present in http header manager as JMeter by default work on http1 and our recorded script is in http 2. http 2 can also be done in JMeter but for that we need to install a plugin which we will see later
+
+
+add listener and run the test plan
+
+![alt text](image-53.png)
+
+so our all request is successded
