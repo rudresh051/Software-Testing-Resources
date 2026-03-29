@@ -92,24 +92,24 @@ We have 11 steps
   * In this phase we will identify the performance goals such as response time, throughput, resource utilization.
   * And we will also **understand the application architecture** and user load and expected usage pattern.
     * To troubleshoot any performance issue, you need to understand the application architecture
-* Planning and Design
-* Environment setup
+* **Planning and Design**
+* **Environment setup**
   * Mirrors the production environment
   * As close as possible to get realistic performance tool
-* Tool selection -  It is based on open or paid, based on skill set of the team
-* Test Script Development
-* Test Execution
+* **Tool selection** -  It is based on open or paid, based on skill set of the team
+* **Test Script Development**
+* **Test Execution**
   * By gradually increase the load
-* Monitoring and Analysis
-* Tuning and Optimization
+* **Monitoring and Analysis**
+* **Tuning and Optimization**
   * Coordinate with developers
   * Optimize the database or infrastructure
-* Retesting
+* **Retesting**
   * Rerun the performance tests
-* Reporting
+* **Reporting**
   * Document the test results
   * Provide the detailed report to stakeholder
-* Continuous Monitoring
+* **Continuous Monitoring**
   * Adjust the test scripts according to changing demands
 
 ## Performance Testing Life Cycle(or Software Testing Life Cycle) - Part 2
