@@ -12,6 +12,8 @@ project in your organization.
 ```
 ## 42. Project-Planning and Design (phase 2 - part 3)Performance Test Plan Creation
 
+Refer Attached Document - 4.2X+Performance+Test+plan-+Template (1).docx
+
 
 ## 43. Project Planning and Design Workload Modeling Phase 2 - Part 4
 
@@ -32,3 +34,14 @@ project in your organization.
 File attached - 4.2E+Workload+Modelling+and+User+Load+Distribution.xlsx
 
 ## 44. Project-Test Environment Setup (phase 3)
+
+> Environment setup is one of the important thing and we need to do it properly to get the realistic performance test result.  
+
+> If the test environment is significantly different from the production environment, then our performance testing result may not be accurate and we may not be able to get a realistic performance test Results in environment setup.
+
+
+## 45. Project-Test Tool Selection (phase 4)
+
+![alt text](image-58.png)
+
+## 46. Project-Performance Test Script Development phase 5 
