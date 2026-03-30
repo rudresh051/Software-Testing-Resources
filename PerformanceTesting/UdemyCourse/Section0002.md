@@ -22,26 +22,26 @@ You need to plan accordingly.
 Speed, stability and scalability  
 
 ## Types of Performance Testing
-* Load Testing - Testing with **expected** user load
+* **Load Testing** - Testing with **expected** user load
   * Testing on a regular day
-* Stress testing - Test **beyond** normal user load
+* **Stress testing** - Test **beyond** normal user load
   * On black friday sale
   * Diwali sale
   * Viral event on social media
-* Spike Testing - Sudden, sharp increase in user load
+* **Spike Testing** - Sudden, sharp increase in user load
   * Ticket booking suddenly on a website
-* Endurance Testing
+* **Endurance Testing**
   * Normal load but extended period of time
   * We check if there is any memory leak
-* Scalabilty Testing
+* **Scalabilty Testing**
   * Scale up and scale down the user load
   * To determine how well the system scales up or scales down
   * Cloud based system - resources will be added dynamically
-* Volume Testing - 
+* **Volume Testing** - 
   * Processing large volume of data
   * Whatspp - exchanged millions of message per minute
   *  It's a kind of database testing
-*  Benchmark testing
+*  **Benchmark testing**
    *  Compare against benchmark/pre-defined standard
    *  Comparing with competitor's product
    *  Zomate vs Swiggy
@@ -88,28 +88,28 @@ We have 11 steps
 
 ![alt text](image-1.png)
 
-* **Requirement Gathering and Analysis** - 
+* **Phase 1 - Requirement Gathering and Analysis** - 
   * In this phase we will identify the performance goals such as response time, throughput, resource utilization.
   * And we will also **understand the application architecture** and user load and expected usage pattern.
     * To troubleshoot any performance issue, you need to understand the application architecture
-* **Planning and Design**
-* **Environment setup**
+* **Phase 2 - Planning and Design**
+* **Phase 3 - Environment setup**
   * Mirrors the production environment
   * As close as possible to get realistic performance tool
-* **Tool selection** -  It is based on open or paid, based on skill set of the team
-* **Test Script Development**
-* **Test Execution**
+* **Phase 4 - Tool selection** -  It is based on open or paid, based on skill set of the team
+* **Phase 5 - Test Script Development**
+* **Phase 6 - Test Execution**
   * By gradually increase the load
-* **Monitoring and Analysis**
-* **Tuning and Optimization**
+* **Phase 7 - Monitoring and Analysis**
+* **Phase 8 - Tuning and Optimization**
   * Coordinate with developers
   * Optimize the database or infrastructure
-* **Retesting**
+* **Phase 9 - Retesting**
   * Rerun the performance tests
-* **Reporting**
+* **Phase 10 - Reporting**
   * Document the test results
   * Provide the detailed report to stakeholder
-* **Continuous Monitoring**
+* **Phase 11 - Continuous Monitoring**
   * Adjust the test scripts according to changing demands
 
 ## Performance Testing Life Cycle(or Software Testing Life Cycle) - Part 2

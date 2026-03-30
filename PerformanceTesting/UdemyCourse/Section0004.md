@@ -13,7 +13,7 @@ project in your organization.
 ## 42. Project-Planning and Design (phase 2 - part 3)Performance Test Plan Creation
 
 
-## Project Planning and Design Workload Modeling Phase 2 - Part 4
+## 43. Project Planning and Design Workload Modeling Phase 2 - Part 4
 
 * Workload Modeling
   * Workload modeling in performance testing involves **creating a simulation of the anticipated real-world usage of an application or system**
@@ -23,3 +23,5 @@ project in your organization.
 
 
 ![alt text](image-57.png)
+
+## 44. Project-Test Environment Setup (phase 3)
