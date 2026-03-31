@@ -44,4 +44,16 @@ File attached - 4.2E+Workload+Modelling+and+User+Load+Distribution.xlsx
 
 ![alt text](image-58.png)
 
-## 46. Project-Performance Test Script Development phase 5 
+## 46. Project-Performance Test Script Development Phase 5 
+
+![alt text](image-59.png)
+
+```
+And each of these scenario we might want to do different types of tests such as load test, stress test,
+
+spike test, endurance test that we will decide later.
+
+First thing is to record a script for each business scenario.
+
+Then we can do various types of performance testing on these scripts by adjusting the user load.
+```
