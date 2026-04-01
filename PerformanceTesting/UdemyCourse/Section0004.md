@@ -57,3 +57,5 @@ First thing is to record a script for each business scenario.
 
 Then we can do various types of performance testing on these scripts by adjusting the user load.
 ```
+
+* Adjust the delay time so that script will run quickly
