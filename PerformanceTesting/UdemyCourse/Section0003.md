@@ -238,6 +238,12 @@ We can parameterize using :
 
 ![alt text](image-25.png)
 
+* Also make sure to place the variable name i.e. the header names which you have used in csv file
+
+e.g. 
+
+![alt text](image-61.png)
+
 ## Correlation in JMeter
 * In JMeter **correlation is the process of capturing and storing the dynamic response from the server** and passing it on to subsequent requests.
 * It is also called dynamic referencing

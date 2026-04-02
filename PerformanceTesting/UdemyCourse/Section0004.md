@@ -61,3 +61,41 @@ Then we can do various types of performance testing on these scripts by adjustin
 * Adjust the delay time so that script will run quickly
 
 ## 46. Project-Performance Test Script Development Phase 6 - Parameterization
+
+* Parameterization for first scenario - 
+
+![alt text](image-62.png)
+
+place the csv file header value i.e. variable value
+
+![alt text](image-63.png)
+
+check the response body
+
+![alt text](image-64.png)
+
+
+* Parameterization for 2nd scenario - 
+
+![alt text](image-65.png)
+
+because someone can change the product ID
+
+![alt text](image-66.png)
+
+above things can be better done by **co-relation**(corelation is basically extracting the value from the response of earlier request) as values are dynamic i.e. not fixed . Basically it can change over a period of time. so using values from csv should also change and that is time consuming and not efficient
+
+* Parameterization for 3rd scenario - 
+
+![alt text](image-67.png)
+
+
+## 47 Phase 5 - part 7 - Co-relation
+
+
+![alt text](image-68.png)
+
+
+![alt text](image-69.png)
+
+
