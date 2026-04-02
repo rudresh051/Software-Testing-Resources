@@ -98,4 +98,8 @@ above things can be better done by **co-relation**(corelation is basically extra
 
 ![alt text](image-69.png)
 
+## 48 Project - Phase 6  
+
+![alt text](image-70.png)
+
 
