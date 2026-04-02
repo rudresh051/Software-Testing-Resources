@@ -177,6 +177,13 @@ Also make sure to import certificate which we have done earlier.
 
 you can first save(JMX file) then open in Jmeter app
 
+
+## Edge browser
+
+Change this in windows
+
+![alt text](image-60.png)
+
 ## Variables in Jmeter
 
 * Variable is a container that can store a value, which can be referenced by any other element
@@ -269,7 +276,7 @@ where X varies between 0 to 9
 
 ![alt text](image-28.png)
 
-## Pre-processors and Post-pro
+## Pre-processors and Post-processors
 * **Preprocessor** is something that get processed before the sample request is sent to the server and
 * **Post processor** is something that gets processed after request is sent to the server
 * Analogy - classes in TestNG like @beforeClass and @afterClass etc
@@ -309,8 +316,6 @@ it executed 4 times http 5 and http 6
 
 
 remaining pre-processor and post-processor we will do as and when necessary.
-
-
 
 
 ## Plugins Management in JMeter
