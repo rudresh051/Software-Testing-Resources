@@ -98,8 +98,50 @@ above things can be better done by **co-relation**(corelation is basically extra
 
 ![alt text](image-69.png)
 
-## 48 Project - Phase 6  
+## 48 Project Test Execution - Phase 6  
+
+
+* Add the ultimate thread group
+
+![alt text](image-71.png)
 
 ![alt text](image-70.png)
 
+![alt text](image-72.png)
 
+
+Note - While running the actual load testing , we will be using command-line. Using GUI is not recommended as it will consume lot of resources
+
+
+You can visualize the threads here easily - 
+
+![alt text](image-73.png)
+
+
+use the command - 
+`jmeter -n -t petstore-project\TestPlan-JpetStoreProject.jmx -l "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\petstore-project\TestResult\LoadTestUltimateThreadGroup.csv" -e -o "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\petstore-project\TestReport"`
+
+![alt text](image-74.png)
+
+
+we will understand later the HTML report
+
+![alt text](image-75.png)
+
+first let's understand how to run the ulitmate thread group for the load test.
+
+In the next step, we will be analyzing this report.  
+And we will be collecting the performance metrics.  
+And we will be presenting it to the business users.  
+
+
+## Project - Phase 7
+
+![alt text](image-76.png)
+
+
+Also you need to collect these usage
+
+![alt text](image-77.png)
+
+## Project - Phase 8 - Tuning and Optimization
