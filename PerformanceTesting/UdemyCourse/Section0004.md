@@ -144,4 +144,11 @@ Also you need to collect these usage
 
 ![alt text](image-77.png)
 
-## Project - Phase 8 - Tuning and Optimization
+## Project - Phase 8 - Performance Tuning and Optimization
+
+
+## Project - Phase 9 - Retesting
+
+## Project - Phase 10 - Reporting Performance Testing Results
+
+## Project - Phase 11 - Continuous Monitoring in Production Environment
