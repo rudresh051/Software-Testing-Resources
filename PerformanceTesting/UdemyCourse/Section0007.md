@@ -199,3 +199,6 @@ Website - the-internet.herokuapp.com/login
 2. download the .jmx file
 3. import the file in JMeter
 4. run the thread group and check if you are really logged in or not by enabling and disabling the cookie manager.
+
+
+![alt text](image-99.png)
