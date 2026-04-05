@@ -18,8 +18,59 @@
    4. Copy above rmi_keystore.jks file to JMeter -> bin folder in all remote host machines.
    5. Go to JMeter -> bin folder and start the JMeter server using jmeter-server file.(Double click on windows, on MAC open terminal go to the file path and run command - sh jmeter-server.sh)
 5. Execution using Command Line
-   1. 
+   1. Windows
+   2. `jmeter -n -t "path to jmx file" -l "path to result file.csv" -R "IP_of_Remote_Host"`
 
 
 ![alt text](image-79.png)
 
+
+Search for "remote host" in JMeter.properties file located in bin folder of JMeter
+
+![alt text](image-80.png)
+
+
+change the remote_hosts and give local IPv4 address of your laptop
+
+![alt text](image-82.png)
+
+and then restart JMeter and navigate to run . you will find remote start option available
+
+![alt text](image-81.png)
+
+
+Now double click the following file and open using bash  
+
+![alt text](image-83.png)
+
+rmi_keystore.jks file would be generated  
+
+![alt text](image-84.png)
+
+>copy these files to Jmeter bin folder in all remote host machine.  
+>Now I am using my local machine only as a remote host.  
+>That is why I do not need to copy it anywhere.
+> And it is already in the jmeter bin folder.  
+> If when you are using a multiple machines in real time, you will be using multiple machines.  
+> I do not have multiple machines right now.  
+> But in reality we will be using multiple machine that time.  
+> You need to copy this file to your multiple machines within the Jmeter bin folder.  
+> To make this, uh, remote or distributed testing work, uh, since I am using my local system as remote system, I do not need to copy it again.  
+
+
+now double click on jmeter-server.bat file  
+
+![alt text](image-85.png)
+
+run a simple using remote run for www.blazedemo.com
+you will see the server terminal showing starting and ending timings
+
+![alt text](image-87.png)
+
+
+![alt text](image-86.png)
+
+```
+Starting the test on host 192.168.88.6 @ 2026 Apr 5 11:44:09 IST (1775369649805)
+Finished the test on host 192.168.88.6 @ 2026 Apr 5 11:44:12 IST (1775369652004)
+```
