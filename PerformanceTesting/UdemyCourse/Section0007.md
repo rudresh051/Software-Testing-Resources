@@ -121,3 +121,81 @@ Then generate App Password & Notedown
 delete the app password after use.
 
 ![alt text](image-96.png)
+
+## How to do Database Performance Testing Using JMeter
+
+## 75. How to use JSON Extractor Post Processor
+
+1. **Introduction**
+   * **Purpose** - The JSON Extractor is usedtoextract values from JSON responses in JMeter.
+   * **When to use** - When you need to process and use data from JSON responses in subsequent requests or assertions.
+2. **Adding JSON Extractor**
+   1. * **Steps**
+      1. Right click on the sampler(HTTP Request) where you want to add the extractor
+      2. Navigate to **Add > Post Processors > JSON Extractor**
+3. **Configuration Elements**
+   1. **Name** - Give a meaningful name to the JSON Extractor
+   2. **JSON Path Expressions** - Define the JSON Path to extract the required value
+   3. **Variable Names** - Define the variable names to store the extracted values
+   4. **Default Value** - Specify a default value to be used if the JSON path does not find any matchingvalue. 
+   5. **Compute Concatenation Var(suffix _ALL)** - When checked, it creates a variable with all matchesconcatenated by a delimiter.
+
+
+**Different ways of extracting values:**
+Extract Random Values  
+Extract Sepcific Value  
+Extract all values  
+Extract all values in single variable  
+
+4. **JSON Path Expressions**
+   1. **Syntax** - JSON Path uses a dot notation to navigate through JSON elements
+      1. To format JSON - https://jsonformatter.org/
+      2. To validate expression -  https://jsonpath.com/
+      3. Sample APIs for testing -  https://reqres.in/
+
+* **Common Operators** - 
+  * $ : Root element
+  * . : Child element
+  * [*] : Wildcard to match any element in an array
+  * [index] : Specific index in an array
+
+5. **Using Extracted Variables**
+   1. Reference in subsequent requests - Use ${variableName} to refer to the extracted value.
+   2. > examples - ${id} ${email}
+
+## 76. How to control Thread Count, Ramp-up period and Loop count from command line
+
+**In Test Plan:**
+
+**Use function :**  __P
+This is a simplified property function which is intended for use with properties defined on the command line.
+**Example:**  
+
+${__P(user,1)}
+
+**Syntax:**  
+
+Windows OS:
+
+jmeter -n -t “path to jmx test script file”
+-l “path to csv result file”
+-e -o “path to result folder”
+-Juser=10 -Jrampup=10 -Jloop=10
+
+windows OS:
+
+jmeter -n -t "/Users/vishwa/Desktop/Test/commandline.jmx" -l "/Users/vishwa/Desktop/Test/result.csv" -e -o "/Users/vishwa/Desktop/Test/untitled folder" -Juser=10 - Jrampup=11 -Jloop=2
+
+
+![alt text](image-98.png)
+
+
+## Understand HTTP Cookie Manager in JMeter
+
+
+Website - the-internet.herokuapp.com/login
+
+1. record a user action from blazemeter
+2. download the .jmx file
+3. import the file in JMeter
+4. run the thread group and check if you are really logged in or not by enabling and disabling the cookie manager.
