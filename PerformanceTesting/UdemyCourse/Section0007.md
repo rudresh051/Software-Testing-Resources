@@ -81,3 +81,43 @@ Finished the test on host 192.168.88.6 @ 2026 Apr 5 11:44:12 IST (1775369652004)
 change back to this (but why?)
 
 ![alt text](image-88.png)
+
+## How to use HTTP Authorization Manager for Basic Authentication
+
+
+https://the-internet.herokuapp.com/basic_auth
+
+![alt text](image-90.png)
+
+if you run first without authorization manager you will get 401 - unauthorized
+
+![alt text](image-91.png)
+
+after adding authorization  
+
+![alt text](image-89.png)
+
+you will run successfully  
+
+![alt text](image-92.png)
+
+## How to send Email and do Performance testing of Email(SMTP) server using JMeter
+
+![alt text](image-93.png)
+
+Add the SMTP Sampler
+
+![alt text](image-94.png)
+
+![alt text](image-95.png)
+
+Now generate the app password - 
+
+Click on user profile picture => Click on Manage your Google Account => Search "App Password" using search bar.  
+Then generate App Password & Notedown
+
+![alt text](image-97.png)
+
+delete the app password after use.
+
+![alt text](image-96.png)
