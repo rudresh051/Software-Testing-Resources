@@ -22,6 +22,9 @@
    2. `jmeter -n -t "path to jmx file" -l "path to result file.csv" -R "IP_of_Remote_Host"`
 
 
+Note - Number of threads provided in test plan will be run each remote host
+
+
 ![alt text](image-79.png)
 
 
@@ -74,3 +77,7 @@ you will see the server terminal showing starting and ending timings
 Starting the test on host 192.168.88.6 @ 2026 Apr 5 11:44:09 IST (1775369649805)
 Finished the test on host 192.168.88.6 @ 2026 Apr 5 11:44:12 IST (1775369652004)
 ```
+
+change back to this (but why?)
+
+![alt text](image-88.png)
