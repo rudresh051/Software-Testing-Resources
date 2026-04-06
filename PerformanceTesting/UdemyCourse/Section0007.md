@@ -202,3 +202,25 @@ Website - the-internet.herokuapp.com/login
 
 
 ![alt text](image-99.png)
+
+## Introduction to Controllers in JMeter and If Controller in JMeter
+
+> Controllers help to achieve control on the flow of execution of requests
+
+* In JMeter, controllers are elements that determine the flow of execution for the requests in a test plan.
+* They help structure and manage how different parts of the test plan are executed, allowing you to create complex test scenarios.
+
+* If Controller
+  * Purpose - Conditionally execute child elements based on a specified condition
+  * Example - Run a next sampler only if previous sampler response code is success(200)
+
+![alt text](image-101.png)
+
+![alt text](image-100.png)
+
+![alt text](image-102.png)
+
+
+if we put 400 as response code, then http request inside if controller will not be executed
+
+`${__groovy(${var_resp_code}.toInteger() == 400)}`
