@@ -248,3 +248,31 @@ if we put 400 as response code, then http request inside if controller will not 
 
 * Purpose - Repeat child elements a specified number of times
 * Example - Run a login request 10 times with 10 different credentials
+
+
+
+![alt text](image-105.png)
+
+![alt text](image-106.png)
+
+> In this way, you can use the loop controller to run a set of request or a request multiple times.
+
+## While Controller in JMeter
+
+* Purspose - Repeat child elements as long as the specified condition is true
+  * Example - Execute the request until count <= 10
+
+![alt text](image-108.png)
+
+![alt text](image-107.png)
+
+![alt text](image-109.png)
+
+> we are executing the request in the while controller.As long as count value is less than or equal to ten.
+
+## Critical Section Controller in JMeter
+* The Critical Section Controller in JMeter is used to ensure that certain parts of a test plan are executed by only one a time, effectively creating a mutex(Mutually exclusive) or lock around those parts
+* This is particularly useful in scenarios where you need to **prevent race conditions** or ensure that shared resources are accessed in a controlled manner.
+* Suppose you have a test scenario where multiple users (threads) are performing actions that involve_updating a shared resource, like a database record, file, or session data.
+* If these actions are not synchronized, it could lead to inconsistent states or data corruption.
+* The Critical Section Controller helps to serialize access to that ensuring that only one thread can execute the critical section at a time.
