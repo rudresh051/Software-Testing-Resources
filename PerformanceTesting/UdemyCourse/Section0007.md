@@ -224,3 +224,27 @@ Website - the-internet.herokuapp.com/login
 if we put 400 as response code, then http request inside if controller will not be executed
 
 `${__groovy(${var_resp_code}.toInteger() == 400)}`
+
+## Transaction Controller in JMeter
+
+* **Purpose** - Group requests to measure overall time for a transaction.
+* **Exmaple** - Measure the time for the entire login process, including entering credentials and receiving response.
+
+> The purpose of the transaction controller is to group the requests to measure the overall time for a transaction. It means you can group multiple samplers and calculate the combined time.
+
+> So by using a transaction controller you can measure the time taken for a particular transaction.
+
+> In this case, it is a login transaction that we have taken as an example,
+
+![alt text](image-104.png)
+
+
+![alt text](image-103.png)
+
+>> So basically it will give time taken for any operation which you want to measure by grouping
+
+
+## Loop Controller in JMeter
+
+* Purpose - Repeat child elements a specified number of times
+* Example - Run a login request 10 times with 10 different credentials
