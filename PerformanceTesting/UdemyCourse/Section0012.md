@@ -184,3 +184,53 @@ These are some of the common myths and assumptions that might be floating around
 * Predicting Future Performance Issues
 
 ## Responsible use of AI - Ethics, Bias, Data privacy, Human
+
+> When you are dealing with some sensitive data
+> Like personal data, banking data
+
+* Ethical AI use
+* Bias Mitigation
+* Data Privacy
+* Human in the loop
+
+1. Ethical AI Use(very important)
+   1. Transparency
+   2. Explainability
+   3. Avoiding Misuse
+   4. Accountability
+2. Bias Mitigation
+   1. Dataset - Check if it covers all user types, regions, devices, and time periods(e.g. weekdays + weekends)
+   2. Different business flows
+   3. Different metrics
+   4. Different scenarios - peak load, slow network, global users
+3. Data Privacy and security
+   1. Identify and protect Sensitive Data(e.g. Email, phone, credit card number)
+   2. Anonymize or Mask before sharing
+   3. Ensure Compliance with Laws(e.g. GDPR)
+4. Human in the loop
+   1. Keep Humans in Control
+   2. Validate AI Outputs
+   3. Apply Critical Thinking
+   4. Maintain Skills & Context Awareness
+   5. Track Decisions
+
+## Industry Trends and Future Outlook
+> Based on survey by various org
+1. 
+![alt text](image-137.png)
+
+2. Test Script Maintenance
+
+![alt text](image-138.png)
+
+It is more relevant for functional testing not much in performance testing.
+Automatic test script maintenance is called **Self-Healing**
+
+3. Predictive Quality Analytics Cycle
+
+![alt text](image-139.png)
+
+
+From Script Writer to Quality Engineers
+
+![alt text](image-140.png)
