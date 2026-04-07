@@ -102,3 +102,13 @@ below example for 2 or more
 ![alt text](image-126.png)
 
 ![alt text](image-127.png)
+
+10. **Escape Sequences**
+
+* **Backslash** `\` escapes special characters.
+  * Example - `\.` matches a literal dot
+
+
+![alt text](image-128.png)
+
+We need to use backslash \ if we want to avoid special meaning of a special character
