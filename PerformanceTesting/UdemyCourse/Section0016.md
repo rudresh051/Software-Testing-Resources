@@ -112,3 +112,11 @@ below example for 2 or more
 ![alt text](image-128.png)
 
 We need to use backslash \ if we want to avoid special meaning of a special character
+
+
+
+
+
+![alt text](image-129.png)
+
+![alt text](image-130.png)
