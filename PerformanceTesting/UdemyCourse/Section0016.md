@@ -79,9 +79,26 @@ below example for 2 or more
 ![alt text](image-122.png)
 
 
-8. Anchors
+8. **Anchors**
 
-* Caret - `^` Matches the start of a string
+* **Caret** - `^` Matches the start of a string
   * Example - `^a` matches "a" at the start of the string
-* Dollar - `$` Matches the end of a string
+* **Dollar** - `$` Matches the end of a string
   * Example - `a$` matches "a" at the end of the string
+
+![alt text](image-123.png)
+
+![alt text](image-124.png)
+
+9. **Grouping and Alteration**
+
+* **Parentheses** - `()` Groups patterns together
+  * Example - `(abc)+` matches "abc", "abcabc" etc
+* **Pipe** - `|` Alteration (OR Operator)
+  * Example - `a|b`  matches "a" or "b"
+
+![alt text](image-125.png)
+
+![alt text](image-126.png)
+
+![alt text](image-127.png)
