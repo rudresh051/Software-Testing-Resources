@@ -306,3 +306,7 @@ To avoid that, we are using the critical section controller, that is, to avoid t
 ![alt text](image-144.png)
 
 Now let's paractically understand  
+
+## Include Controller in JMeter(Using Test Fragment)
+* The Include Controller is used to include external test fragments or test plans from a separate JMX file(JMeter script) into your current test plan.
+* 
