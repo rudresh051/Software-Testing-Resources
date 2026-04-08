@@ -304,3 +304,5 @@ To avoid that, we are using the critical section controller, that is, to avoid t
 
 
 ![alt text](image-144.png)
+
+Now let's paractically understand  
