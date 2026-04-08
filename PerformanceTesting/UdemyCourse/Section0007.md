@@ -309,4 +309,24 @@ Now let's paractically understand
 
 ## Include Controller in JMeter(Using Test Fragment)
 * The Include Controller is used to include external test fragments or test plans from a separate JMX file(JMeter script) into your current test plan.
-* 
+* It allows you to modularize your JMeter test plan by breaking it into smaller reusable pieces.
+
+**Why Use the Include Controller?**  
+* **Modular Testing** - You can divide your large test plan into smaller, manageable parts
+* **Reusability** - Once a section of your test is written in one JMX file, it can be reused in different test plans without rewriting the same logic
+* **Collaboration** - Multiple people can work on different parts of the test plan independently and later combine them using the Include Controller
+
+Example -  
+
+![alt text](image-145.png)
+
+You can use the login script in all other - view product, add product to the cart, checkout. 
+
+* Imagine you have a login test that you need to reuse in multiple test plans.
+* Instead of copying and pasting the login logic into each test plan, you can create a separate JMX file for the Io in process and include it in other test p ans using the Include Controller.
+
+No need to record login again and again  
+
+
+
+
