@@ -386,3 +386,31 @@ Behavior -
 ![alt text](image-150.png)
 
 ![alt text](image-151.png)
+
+## Once Only Controller in JMeter
+
+* The Once Only Controller in JMeter ensures that the samplers or logic controllers under it are executed **only once per thread**, regardless of the number of iterations in the Thread Group.
+
+* **How the Once Only Controller Works**
+  * The Once Only Controller executes its child elements only in the first iteration of each thread.
+  * After the first iteration, those child elements are skipped, but other elements outside the Once Only Controller continue to execute as per the test plan.
+
+* **Why Use the Once Only controller?**
+  * To handle tasks like user login, initialization, or setup that should happen only once per thread.
+  * To prevent redundant operations like repeated login attempts or setup actions in load tests.
+
+Example Scenario -  
+
+![alt text](image-152.png)
+
+Login will be executed only once because it is inside once only controller  
+
+![alt text](image-153.png)
+
+![alt text](image-154.png)
+
+Jpetstore example - Login only once and browse
+
+![alt text](image-155.png)
+
+## Random Controller in JMeter
