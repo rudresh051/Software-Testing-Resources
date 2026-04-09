@@ -344,6 +344,27 @@ And finally we can combine the script using include controller.
 This is the use of include controller in Jmeter.
 ```
 
+you can use blaze meter to record several pieces of recording
 
+and then use include controller
 
+![alt text](image-147.png)
+
+## Interleave Controller in JMeter
+* The interleave Controller in JMeter is used to execute one of its child samplers or controllers per iteration in a round-robin manner
+* It is helpful when you want to alternate between different actions or requests in each iteratiomrather than running all of them at once.
+
+## How the Interleave Controller Works - 
+* The controller picks only one child per iteration.
+* In the first iteration, it runs the first child.
+* In the second iteration, it runs the second child, and so on.
+* After all children have beery executed once, it loops back to the first child again in the next iteration.
+
+* Why use the Interleave Controller?
+  * Alternating Requests - If you want to test multiple end points but not all at once
+  * Simulating User flows - It can be used to mimic different user behaviours in different iterations
+
+**Example Scenario -** 
+* Let's sey you are testing an e-commerce website, and you want to alternate between checking the homepage, Sign In page, and Register page in every iteration.
+* Intead of hitting all three pages in every loop, you want each iteration to hit a different page.
 
