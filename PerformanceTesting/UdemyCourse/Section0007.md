@@ -442,3 +442,26 @@ Some users will access page.
 
 Some users will access registration page.
 ```
+
+## Random Order Controller in JMeter
+* The Random Order Controller in JMeter allows all its child samplers or logic controllers to be executed in a random order during each iteration.
+* Unlike the Random Controller, which selects and executes only one child at random, the Random Order Controller runs all the child elements but in a different random sequence each time.
+
+* **How the Random Order Controller Works** - 
+  * The Random Order Controller contains a set of child elements (samplers or controllers).
+  * During each iteration, it executes all child elements but shuffles the order in Which they are executed
+  * This helps in simulating scenarios where the order of user actions is not fixed but still all actions need to be completed.
+
+* **Why Use the Random Order Controller?**
+  * To simulate real-world behavior where the order of actions may vary, but every action gets completed in the end.
+  * To ensure that your system handles tasks correctly even when they occur in a random order.
+
+* Example Scenario -  
+
+![alt text](image-159.png)
+
+![alt text](image-160.png)
+
+If the url is common you can also add HTTP Request defaults
+
+![alt text](image-161.png)
