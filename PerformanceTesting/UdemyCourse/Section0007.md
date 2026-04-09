@@ -558,3 +558,25 @@ You can achieve this using throughput controller.
 ![alt text](image-173.png)
 
 ![alt text](image-169.png)
+
+you can also specify number of times it should run based on total executions   
+
+![alt text](image-175.png)
+
+## Module Controller in JMeter
+* The Module Controller helps you reuse parts of your test plan in different places
+* Instead of writing the same test steps multiple times, you can create them once and c**all them using the Module Controller.**
+
+* **How does it work?**
+  * First you build a section of your test(like login steps) inside a Simple controller or any other controller
+  * Then , you use the Module Controller to "call" that section of the test whereever you need it.
+
+* **Why Use it?**  
+  * It makes your test plan modular and reusable, meaning you don't have to repeat steps over and over.
+  * It's especially useful for large and complex test plans where certain actions (like login) are needed in multiple places.
+
+* Real Time Use case - Example  
+
+![alt text](image-176.png)
+
+![alt text](image-177.png)
