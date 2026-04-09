@@ -428,3 +428,17 @@ Jpetstore example - Login only once and browse
   * To avoid a predictable test flow and make your performance test more realistic
 
 ![alt text](image-156.png)
+
+![alt text](image-157.png)
+
+![alt text](image-158.png)
+
+```txt
+If there are users accessing this website, each users will be randomly accessing different pages.
+
+Some users will access this product listing page.
+
+Some users will access page.
+
+Some users will access registration page.
+```
