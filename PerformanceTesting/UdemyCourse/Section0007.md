@@ -322,10 +322,27 @@ Example -
 
 You can use the login script in all other - view product, add product to the cart, checkout. 
 
+Simple Example Scenario -  
+
 * Imagine you have a login test that you need to reuse in multiple test plans.
 * Instead of copying and pasting the login logic into each test plan, you can create a separate JMX file for the Io in process and include it in other test p ans using the Include Controller.
 
 No need to record login again and again  
+
+
+**So instead of copying login script again and again, we can put a include controller**
+
+![alt text](image-146.png)
+
+now include the login script which we have recorded earlier
+
+```txt
+Each member of the team can work on different parts.
+
+And finally we can combine the script using include controller.
+
+This is the use of include controller in Jmeter.
+```
 
 
 
