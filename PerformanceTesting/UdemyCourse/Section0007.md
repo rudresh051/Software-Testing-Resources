@@ -414,3 +414,17 @@ Jpetstore example - Login only once and browse
 ![alt text](image-155.png)
 
 ## Random Controller in JMeter
+* The Random Controller in JMeter randomly selects and executes one of its child samplers or logic controllers during each iteration.
+* It's useful when you want to introduce randomness into your test plan to simulate unpredictable user behavior, such as accessing different pages of a website in no particular order.
+
+* **How the Random Controller Works**
+  * The Random ontroller contains a set o child elements (samplers or logic controllers).
+  * During each iteration, it randomly chooses and executes only one of its child elements.
+  * It does not execute all child elements in sequence, but picks one randomly
+
+* **Why Use the Random Controller?**
+  * To simulate random user behavior
+  * To test how your application behaves when different paths or requests are randomly accessed
+  * To avoid a predictable test flow and make your performance test more realistic
+
+![alt text](image-156.png)
