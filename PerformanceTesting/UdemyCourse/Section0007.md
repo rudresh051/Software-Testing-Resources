@@ -465,3 +465,96 @@ Some users will access registration page.
 If the url is common you can also add HTTP Request defaults
 
 ![alt text](image-161.png)
+
+## Recording Controller in JMeter
+
+* The Recording Controller in JMeter is designed to capture real user interactions with a web application and store those interactions as HTTP requests.
+* It is primarily used in combination with the **HTTP(S) Test Script Recorder** to capture and record user activity, such as browsing, submitting forms, and other actions, directly into a JMeter test
+plan.
+
+* **How the Recording controller Works?**
+  * The Recording Controller acts as a placeholder where recorded requests will be placed during a recording session.
+  * It works alongside the HTTP(S) Test Script Recorder, which intercepts and logs HTTP requests as a user interacts with the application
+  * Once recorded, the requests are saved as samplers under the Recording Controller for further testing or modifications
+
+* **Why Use the Recording controller?**
+  * To automatically capture and store HTTP requests during live interaction with a website or application.
+  * To generate test plans quickly by recording rather than manually creating requests.
+  * It helps simulate real-world user scenarios by accurately recording user actions and responses from the server.
+
+* Example Scenario - 
+
+![alt text](image-162.png)
+
+![alt text](image-163.png)
+
+## Run Time Controller in JMeter
+* The Run Time Controller allows you to run certain parts of your test plan for a specified period of time(like 1 minute, 30 seconds , etc)
+  * Imagine like you are writing an exam for 3 hours. after 3 hours you are no longer allowed once specified time is over.
+
+**How does It work?**  
+* It controls how long certain test steps will run.
+
+**Real-Time Use Case -**  
+* Use Case -
+  * Suppose you're testing the search function of an e-commerce website during a high-traffic event like Black Friday
+  * You want to see how many search requests the server can handle in a 1-minute window.
+
+![alt text](image-164.png)
+
+In 60 seconds, it is able to search for 9 times
+
+![alt text](image-165.png)
+
+
+## Simple Controller in JMeter
+* The Simple controller is like **a folder or container**
+* It doesn't do much on its own but is used to organize your test steps or requests
+* Think of it as a way to group related actions together, just like putting similar items in a folder on your computer
+
+* **How does it work?**
+  * It helps you organize your test plan by grouping requests under it.
+  * The Simple Controller doesn't control any logic or conditions, it just holds the test steps inside it so that everything looks clean and tidy.
+  * For example - you can put all login-related actions inside a Simple Controller to keep things organized
+
+Example - Real time use case  
+
+![alt text](image-166.png)
+
+
+![alt text](image-167.png)
+
+The above steps you  can record using blazemeter or JMeter
+
+## Throughput Controller in JMeter
+
+* The Throughput Controller lets you control how often certain parts of your test are rum.
+
+```txt
+Suppose you want to run this request 70% of the time, and this request 30% of the time.
+
+Then you can do this.
+
+You can achieve this using throughput controller.
+
+```
+
+* You set a percentage or a fixed number to decide how often JMeter should run the requests inside the Throughput Controller.
+
+![alt text](image-168.png)
+
+* **Why Use it?**
+  * It's perfect when you want to simulate real-world scenarios where different parts of our website or application are accessed by users at different rates.
+  * Helps you control the load on different sections of your test plan
+
+![alt text](image-174.png)
+
+![alt text](image-170.png)
+
+![alt text](image-171.png)
+
+![alt text](image-172.png)
+
+![alt text](image-173.png)
+
+![alt text](image-169.png)
