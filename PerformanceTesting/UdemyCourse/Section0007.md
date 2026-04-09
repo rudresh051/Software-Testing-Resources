@@ -368,3 +368,21 @@ and then use include controller
 * Let's sey you are testing an e-commerce website, and you want to alternate between checking the homepage, Sign In page, and Register page in every iteration.
 * Intead of hitting all three pages in every loop, you want each iteration to hit a different page.
 
+* Behavior
+
+![alt text](image-148.png)
+
+* Ignore sub-controller blocks
+
+![alt text](image-149.png)
+
+Behavior - 
+* In each iteration, only one of the child HTTP requests is executed.
+* This allows you to alternate between different actions, ensuring you are testing different parts of the system in each loop.
+
+* **Interleave across threads**
+  * "Interleave across threads" in JMeter refers to how the Interleave Controller behaves when there are multiple threads (users) running in parallel in a Thread Group.
+
+![alt text](image-150.png)
+
+![alt text](image-151.png)
