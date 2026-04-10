@@ -348,14 +348,36 @@ And paste the jar file inside
 
 ![alt text](image-35.png)
 
-## How to run JMeter test from command Line?
-* Command line is important because the GUI mode will consume lot of resources such as CPU and memory
-  * Hence GUI mode is not recommended while running GUI load testing
+## How to run JMeter test from command Line?(Non-GUI mode)
+* Command line is important because the **GUI mode will consume lot of resources** such as CPU and memory
+  * Hence **GUI mode is not recommended while running GUI load testing**
+* Command line mode is helpful while integrating with CI/CD pipeline such as GitHub and Jenkins
 
-![alt text](image-36.png)
+* We need to run below test from **Windows command line tool**- 
+
+![alt text](image-178.png)
+
+
+1. **Navigate to bin folder of JMeter**
+use the following command
+
+```cmd
+jmeter -n -t "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\commandline.jmx" -l "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\Results\result10AprilFile.csv"
+
+```
+
+![alt text](image-179.png)
+
 
 -n → Run in non-GUI mode (important for performance testing)  
 -t → Path to your .jmx test file  
+
+* **using Git bash**
+  * `./jmeter.bat -n -t "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\commandline.jmx" -l "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\Results\result10AprilFile.csv"`
+
+![alt text](image-180.png)
+
+* To get help on Jmeter commands on Windows, use the command : `jmeter -h`
 
 ## Generate HTML test report in JMeter
 
