@@ -381,8 +381,78 @@ jmeter -n -t "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmete
 
 ## Generate HTML test report in JMeter
 
+* **Method 1**
+1. Navigate to JMeter bin folder
+2. Use the following command `jmeter -n -t "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\HTML Reports Demo.jmx" -l "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\Results\result225_10april.csv" -e -o "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\HTML_Reports\HTML_Report_10thApril"`
+
+Copy the path of your test script
+
+![alt text](image-181.png)
+
+-t => give path of your .jmx file  
+-l => give path of your .csv result file  
+-o => give path of your html report folder  
+
+```txt
+C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin>jmeter -n -t "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\HTML Reports Demo.jmx" -l "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\Results\result225_10april.csv" -e -o "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\HTML_Reports\HTML_Report_10thApril"
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\HTML Reports Demo.jmx
+Starting standalone test @ 2026 Apr 10 14:28:57 IST (1775811537814)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:02 =    0.6/s Avg:  1628 Min:  1628 Max:  1628 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +      3 in 00:00:01 =    2.0/s Avg:   490 Min:   449 Max:   515 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =      4 in 00:00:03 =    1.2/s Avg:   774 Min:   449 Max:  1628 Err:     0 (0.00%)
+Tidying up ...    @ 2026 Apr 10 14:29:01 IST (1775811541620)
+File 'C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\Results\result225_10april.csv' does not contain the field names header, ensure the jmeter.save.saveservice.* properties are the same as when the CSV file was created or the file may be read incorrectly when generating report
+... end of run
+
+C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin>jmeter -n -t "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\HTML Reports Demo.jmx" -l "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\Results\result225_10april.csv" -e -o "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\HTML_Reports\HTML_Report_10thApril"
+```
+
+* **Method 2**
+
+We can generate our HTML report from our result file which is generated. Basically we will not run the test again. generating the HTML report from already existing result file which generated ealier
+![alt text](image-182.png)
+
 ![alt text](image-42.png)
 
+Note - Run the the command from JMeter bin folder
+
+`jmeter -g "path of .csv file" -o "path of html report folder"`
+
+example -   
+
+```txt
+C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin>jmeter -g "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\Results\result225_10april.csv" -o "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\HTML_Reports\HTML_Report_10thApril_235"
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+File 'C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\Results\result225_10april.csv' does not contain the field names header, ensure the jmeter.save.saveservice.* properties are the same as when the CSV file was created or the file may be read incorrectly when generating report
+
+C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin>
+```
+
+
+* **Method 3 - Using JMeter GUI** 
+  * Navigate to Tools >> Generate HTML report
+
+![alt text](image-183.png)
+
+
+> If you want your application threshold to be different you can modify user.properties file and accordingly you can configure your report  
+
+![alt text](image-184.png)
+
+> You can also change reportgenerator.properties file
+
+![alt text](image-185.png)
+
+> It is important to interprest these results and make a conclusion and it will help you in giving feedback to the users about your performance test.
 
 ## Convert a HAR file to a JMeter script
 Steps -  
