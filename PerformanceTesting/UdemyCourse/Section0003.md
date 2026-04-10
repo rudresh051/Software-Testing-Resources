@@ -454,6 +454,24 @@ C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin>
 
 > It is important to interprest these results and make a conclusion and it will help you in giving feedback to the users about your performance test.
 
+* Method 4 - 
+
+empty file creation - `type nul > filename.txt`
+
+```txt
+C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin>jmeter -g "C:\Users\Rudreshwar.Jha\Downloads\results.jtl" -o "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\HTML_Reports\htmlReport10thApril_0315"
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+```
+
+
+![alt text](image-187.png)
+
+
+![alt text](image-186.png)
+
 ## Convert a HAR file to a JMeter script
 Steps -  
 * Install plugin to JMeter(one time activity)
