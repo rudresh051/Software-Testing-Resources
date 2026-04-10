@@ -458,6 +458,8 @@ C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin>
 
 empty file creation - `type nul > filename.txt`
 
+`jmeter -g "path of results.jtl file" -o "path of html reports folder"`
+
 ```txt
 C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin>jmeter -g "C:\Users\Rudreshwar.Jha\Downloads\results.jtl" -o "C:\Users\Rudreshwar.Jha\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\RudraPractise20thMarch\HTML_Reports\htmlReport10thApril_0315"
 WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
