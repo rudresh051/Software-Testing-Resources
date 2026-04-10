@@ -565,7 +565,7 @@ you can also specify number of times it should run based on total executions
 
 ## Module Controller in JMeter
 * The Module Controller helps you reuse parts of your test plan in different places
-* Instead of writing the same test steps multiple times, you can create them once and c**all them using the Module Controller.**
+* Instead of writing the same test steps multiple times, you can create them once and **call them using the Module Controller.**
 
 * **How does it work?**
   * First you build a section of your test(like login steps) inside a Simple controller or any other controller
@@ -580,3 +580,56 @@ you can also specify number of times it should run based on total executions
 ![alt text](image-176.png)
 
 ![alt text](image-177.png)
+
+
+## Using Step by Step Debugger in JMeter
+
+**Step** - 
+1. Install Step-by-step Debugger blazemeter from JMeter plugins manager  
+2. Click on start button present in step-by-step-debugger. It will start the execution.
+
+![alt text](image-188.png)
+
+Debugger will help you in debugging  
+
+## Logging Levels in JMeter
+Log Levels in JMeter
+1. OFF
+2. FATAL
+3. ERROR
+4. WARN
+5. INFO
+6. DEBUG
+7. TRACE
+8. ALL
+
+
+
+ALL>TRACE>DEBUG>INFO>WARN>ERROR>FATAL>OFF
+
+
+![alt text](image-189.png)
+
+## Automate Test Data Creation
+
+
+![alt text](image-192.png)
+
+![alt text](image-191.png)
+
+![alt text](image-190.png)
+
+```
+So let us say you want to create thousands of data like this.
+
+You can add those many records in the CSV file and you can run the script.
+
+Data will be created.
+
+Data will be created automatically and very quickly.
+
+In this way you can create a test data using a Jmeter script.
+```
+
+
+
