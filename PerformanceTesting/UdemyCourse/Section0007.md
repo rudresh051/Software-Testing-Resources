@@ -699,4 +699,36 @@ If you want to upload multiple files from different users
 
 make sure to add threads as 5 and run
 
+5 threads mean all users will simultaneously add the file.  
+
 ![alt text](image-211.png)
+
+you can also add the response assertion under upload
+
+![alt text](image-212.png)
+
+if any file is not found it will give error
+
+![alt text](image-213.png)
+
+
+## How to do File Download testing using JMeter
+
+url - https://the-internet.herokuapp.com/download
+
+## Think Time & Pacing in JMeter - Practical Demo for Realistic Load Testing
+
+## Boundry Extractor Post-Processor in JMeter with concept and Implementation
+
+![alt text](image-215.png)
+
+![alt text](image-214.png)
+
+0 => to extract any random links  
+-1 => to extract all the links  
+
+Boundry extractor is relativey simple compared to regular expression extractor but it cannot extract complex pattern
+
+![alt text](image-216.png)
+
+![alt text](image-217.png)
