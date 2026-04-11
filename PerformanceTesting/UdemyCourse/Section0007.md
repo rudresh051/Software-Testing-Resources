@@ -865,9 +865,7 @@ also provide the duration as 3600 seconds and number of users = 100 and loop cou
 for illustration purpose we will decrease it now  
 
 
-
-
-
+File attached in JMX folder  
 
 ## Boundry Extractor Post-Processor in JMeter with concept and Implementation
 
