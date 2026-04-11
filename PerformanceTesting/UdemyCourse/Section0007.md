@@ -581,6 +581,48 @@ you can also specify number of times it should run based on total executions
 
 ![alt text](image-177.png)
 
+![alt text](image-200.png)
+
+## Switch Controller in JMeter
+* The Switch Controller allows you to choose which part of your test will run during each execution.
+  * You can think of like a TV remote
+* The Switch Controller has multiple test steps or requests under it, but it will only run one of them at a time:
+* You tell the Switch Controller which "channel" (test step) to run by giving it an index (like picking a channel number on a remote).
+* If you have 5 test steps, you can set the Switch Controller to run step 0, step 1, step 2, at-ld so on, based on what number you pick.
+
+
+* **Why Use it?**
+  * The Switch Controller is useful when you want to test multiple scenarios but only want to execute one of them at a time.
+  * It helps you control and customize which part of your test runs without duplicating efforts.
+
+* Real-Time Use Case - Example
+
+* Suppose you are testing an online shopping website with differnt menus like
+  * Fish - 0
+  * Dogs - 1
+  * Reptiles - 2
+  * Cats - 3
+  * Birds - 4
+* But you want to visit only product at a time based on condition
+
+
+![alt text](image-201.png)
+
+![alt text](image-202.png)
+
+It will switch according to the switch value provided
+
+Now what we can do we will switch based on the previous response. 
+let's add a bean shell response  
+let's generate a random number. and based on random number generated it will switch
+
+![alt text](image-203.png)
+
+![alt text](image-204.png)
+
+![alt text](image-205.png)
+
+> .jmx File attached in the folder
 
 ## Using Step by Step Debugger in JMeter
 
