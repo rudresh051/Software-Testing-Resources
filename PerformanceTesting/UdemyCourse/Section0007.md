@@ -767,6 +767,108 @@ you can add ${__threadNum} for different files downloaded by differnt threads
 
 ## Think Time & Pacing in JMeter - Practical Demo for Realistic Load Testing
 
+Example - Checkout Scenario - 
+1. Login to the store
+2. Browse product category
+3. Select a product
+4. Add product to the cart
+5. Proceed to checkout
+6. Confirm order and logout
+
+> for any click and operation you take some time which thing to perform
+
+* **Think Time**
+  * Think time is the dealy a real user naturally takes between actions when using an application
+
+Think Time Example - 
+![alt text](image-231.png)
+
+* **Pacing**
+  * Pacing is the controlled delay between iterations of a user journey in a performance test
+
+![alt text](image-232.png)
+
+* **Problem Definition**
+  * Evaluate the performance of the checkout process
+* **Objective**
+  * Simulate 100 concurrent users and 4000 checkout transactions per hour
+* Key Metrics
+  * To ensure a realistic load, we need to determine
+    * Think time
+    * Total transaction time(response time + think time)
+    * Pacing
+
+**Step1** - **Define the User flow for checkout**   Scenario -  
+Login to the store.  
+Browse product category  
+Select a product  
+Add product to the cart.  
+Proceed to checkout.  
+Confirm order  
+Log out.  
+
+**Step2** - **Define Key Performance Inputs**  
+Number of users(VUs) - 100 users
+Total duration - 1 hour (=3600 seconds)
+Total transactions required per hour - 4000 checkouts
+iterations per user per hour = 4000/100 = 40  
+
+**Step3** - **Measure Response Times and Assign Think Time**  
+
+![alt text](image-233.png)
+
+**Time taken per Iteration = 17 + 43 = 60 seconds**
+so above is one single checkout process  
+
+so how much pacing we should provide so that we can achieve 4000 checkout by 100 users
+
+**Step 4 - Calculate Required Pacing**
+* Total available time for one user per hour = 3600 seconds
+* Each iteration (T) already takes 60 seconds
+* Formula for Pacing(P)
+
+![alt text](image-234.png)
+
+where IR = number of iteration per user  
+T = Think time + response time 
+
+so that we can achive 4000 transactions by 100 virtual users
+> pacing is nothing but time between the iterations
+
+**Step5** - Implement in JMeter
+
+Record the script using HTTP(S) test script recorder  
+rename the transactions for the understanding  
+Add the constant timer  
+
+![alt text](image-235.png)
+
+so add the think time as per the above plan  
+example -  
+
+![alt text](image-236.png)
+
+Now we need to add the pacing  
+basically add the sampler- flow control action  
+
+![alt text](image-237.png)
+
+pause for 30 seconds after each iteration  
+
+![alt text](image-238.png)
+
+also provide the duration as 3600 seconds and number of users = 100 and loop count as 40  
+
+![alt text](image-239.png)
+
+
+for illustration purpose we will decrease it now  
+
+
+
+
+
+
 ## Boundry Extractor Post-Processor in JMeter with concept and Implementation
 
 ![alt text](image-215.png)
