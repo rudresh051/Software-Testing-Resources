@@ -673,5 +673,30 @@ Data will be created automatically and very quickly.
 In this way you can create a test data using a Jmeter script.
 ```
 
+## File Upload testing using JMeter
+
+Website - https://the-internet.herokuapp.com/upload
+
+Keep the file in JMeter bin folder  
+
+![alt text](image-206.png)
+
+If you want to upload multiple files from different users
+1. create a csv file like this
+
+![alt text](image-207.png)
 
 
+![alt text](image-208.png)
+
+2. Add the csv data set config under thread group
+
+![alt text](image-209.png)
+
+3. give the variable names of filepath and mimetype in "fileupload" part
+
+![alt text](image-210.png)
+
+make sure to add threads as 5 and run
+
+![alt text](image-211.png)
