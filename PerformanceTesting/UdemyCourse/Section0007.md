@@ -750,6 +750,21 @@ give the thread count as 5 and run. it will download the files simultaneously
 
 ![alt text](image-225.png)
 
+To download the file same as website name - add the variable name
+
+![alt text](image-226.png)
+
+you can add ${__threadNum} for different files downloaded by differnt threads
+
+![alt text](image-227.png)
+
+
+![alt text](image-228.png)
+
+![alt text](image-229.png)
+
+![alt text](image-230.png)
+
 ## Think Time & Pacing in JMeter - Practical Demo for Realistic Load Testing
 
 ## Boundry Extractor Post-Processor in JMeter with concept and Implementation
