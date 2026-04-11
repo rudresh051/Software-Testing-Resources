@@ -716,6 +716,40 @@ if any file is not found it will give error
 
 url - https://the-internet.herokuapp.com/download
 
+Steps - 
+1. Record the script from HTTP(S) test script recorder
+2. import the .jmx file in JMeter
+
+![alt text](image-219.png)
+
+you can save download into a folder like this - 
+
+![alt text](image-218.png)
+
+by default it will download in JMeter bin folder
+
+If you want multiple file to download you can give file name in csv file and reading it
+
+![alt text](image-220.png)
+
+add the csv data set config and select the file
+
+![alt text](image-221.png)
+
+also give the variable name not necessary same of csv header
+
+![alt text](image-223.png)
+
+give the variable name in path
+
+![alt text](image-222.png)
+
+give the thread count as 5 and run. it will download the files simultaneously 
+
+![alt text](image-224.png)
+
+![alt text](image-225.png)
+
 ## Think Time & Pacing in JMeter - Practical Demo for Realistic Load Testing
 
 ## Boundry Extractor Post-Processor in JMeter with concept and Implementation
