@@ -76,3 +76,50 @@ But here, Amazon takes care of all those things
 ![alt text](image-243.png)
 
 ![alt text](image-244.png)
+
+select the instance checkbox and click connect
+
+![alt text](image-245.png)
+
+Select RDP client
+
+and download remote desktop file
+
+![alt text](image-246.png)
+
+now click get password to connect to the machine we have created  
+
+![alt text](image-247.png)
+
+and then decrypt the password
+
+double click on it , enter the password decrypted above
+
+![alt text](image-249.png)
+
+enjoy -  
+
+![alt text](image-251.png)
+
+
+![alt text](image-248.png)
+
+![alt text](image-250.png)
+
+delete the instance if not using - 
+![alt text](image-254.png)
+
+go to dashboard and delete the key-pair  
+
+go to dashboard and delete the security group which you have created  
+
+![alt text](image-255.png)
+
+
+## Distributed Load Testing on AWS Cloud using JMeter
+
+![alt text](image-252.png)
+
+
+![alt text](image-253.png)
+
