@@ -84,3 +84,35 @@ Dynatrace and app dynamics are paid tools
 
 You can install the monitoring on the server but it will increase the load on the application server. so ideally we should have a separate monitoring server.so that load on the application server will be less.
 
+* Part 2 -  
+
+![alt text](image-257.png)
+
+![alt text](image-256.png)
+
+## Thread Dump Analysis - Introduction
+* Thread Dump
+  * **Snapshot** -  It contains
+    * Thread name
+    * Thread state
+    * Stack trace
+  * **Key Parameters to check**
+    * **Thread State** - 
+      * RUNNABLE
+      * BLOCKED
+      * WAITING OR TIMED_WAITING
+    * **Thread Name** - 
+      * Identifies thread
+    * **Stack Trace**
+      * Code being executed by thread
+    * **Locked Resources**
+      * Check for - `locked <object> or waiting to lock <object>`
+
+* **Identify Common Issues**
+  * High CPU Usage
+  * Deadlocks
+  * Thread Contention
+  * Too many waiting Threads
+  * Stuck Threads
+
+## Thread Dump Analysis - High CPU Scenario
