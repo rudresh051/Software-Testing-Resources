@@ -469,3 +469,50 @@ at the same time, causing the delay or inefficiencies in the thread contention.
 
 Shared resources include resources such as files, variables, database record, etc. in this real world
 ```
+
+![alt text](image-268.png)
+
+![alt text](image-269.png)
+
+![alt text](image-270.png)
+
+You need to provide the feedback to developer to fixing the issue
+
+* **Resolution - To reduce contention**
+  * **Minimize synchronized blocks** - Reduce the time threads spend in the critical section
+  * **Use more granular locks** - Avoid locking large shared resources
+  * **Use thread-safe alternatives** - Replace shared data structures with thread-safe options(e.g. ConcurrentHashMap, ReentrantLock)
+
+## Using Tools for Thread Dump Analysis
+
+> We can use various tools available in market for thread dump analysis
+> Here our purpose not to go deep in a tool
+> once you understand the concept, you can use any tool
+
+* FastThread
+* GCEasy Thread Dump Analyzer
+* HP Thread Dump Analyzer
+
+some of tools are free for couple of weeks
+
+Steps - Thread Dump Analysis using tools  
+* Collect thread dump
+* Load into tool
+* Insights from analysis
+* Action taken
+* Retest and verify Result
+
+![alt text](image-271.png)
+
+![alt text](image-272.png)
+
+![alt text](image-273.png)
+
+![alt text](image-274.png)
+
+![alt text](image-275.png)
+
+> Flame graph means here this flame graph provides the stack trace, the flow of the program and how many threads are active at a given point of time.
+
+
+> You can learn the features in 1-2 weeks of time. Once you understand the concept, it should not be difficult for you to adapt to any tool 
