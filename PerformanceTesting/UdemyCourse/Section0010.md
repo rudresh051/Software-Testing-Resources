@@ -84,15 +84,50 @@ Dynatrace and app dynamics are paid tools
 
 You can install the monitoring on the server but it will increase the load on the application server. so ideally we should have a separate monitoring server.so that load on the application server will be less.
 
-* Part 2 -  
+* **Part 2** -  
 
 ![alt text](image-257.png)
 
 ![alt text](image-256.png)
 
+* **Part 3** - Using VisualVM
+
+**Navigate to URL** - https://visualvm.github.io/download.html  
+
+download the zip file for windows  
+
+![alt text](image-258.png)
+
+double click on visualvm.exe  
+
+![alt text](image-259.png)
+
+* VisualVM is also a java based application
+
+you can see the usage in Monitor tab  
+
+![alt text](image-260.png)
+
+Click on Thread Dump button to get the thread dump
+
+![alt text](image-261.png)
+
+You can also select all and paste it in a text file  
+
+![alt text](image-262.png)
+
+There are lot of tools available in the market to take the thread dump  
+It's not practical to go deeper into each tool  
+
+Visit the documentation -  
+
+![alt text](image-263.png)
+
 ## Thread Dump Analysis - Introduction
+* A thread dump is basically snapshot of the thread
+
 * Thread Dump
-  * **Snapshot** -  It contains
+  * **Snapshot** -  It contains  
     * Thread name
     * Thread state
     * Stack trace
