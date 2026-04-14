@@ -195,6 +195,8 @@ Change this in windows
 
 ## Functions in JMeter
 
+**Documentation** - https://jmeter.apache.org/usermanual/functions.html
+
 * JMeter Functions - 
   * JMeter functions are special values that can populate fields of any Sampler or other element in a test tree.
 * Syntax - 
