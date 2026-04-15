@@ -196,5 +196,61 @@ On Jetty -
 ## How to Trigger Heap Dump Manually using jcmd?
 
 * Manually Triggering a Heap Dump(While Application is Running)
+* Firs identify the process ID of your Java application
+  * `jps` - Lists all currently running java processes on a system
+    * if jdk is installed in your system it will list down the process ID
+  * Use the **jcmd** utility to trigger a heap dump
+    * `jcmd <pid> GC.heap_dump /path/to/heapdump.hprof`
+
+Now let's practically understand  
+
+![alt text](image-285.png)
+
+## How to take Heap Dump manually using Jmap?
 
 
+JMAP means - Java Memory Map  
+
+Install JDK in your system  
+
+* **Syntax** - 
+  * jmap -dump:live,format=b,file=/path/to/heapdump.hprof<PID>
+    * live : Captures only live objects(those not eligible for garbage collection).
+    * format = b means binary format
+    * file specifies the path where heap dump file to be saved 
+  
+
+![alt text](image-286.png)
+
+## How to Capture Heap Dump using a program
+
+Scenarios - 
+1. Memory Leak Investigation
+2. Performance bottleneck Idnetification
+3. Live Debugging in Production
+4. Automated Monitoring and alerts
+5. Before Restarting an application
+
+We will use the this particular API  
+
+* use `com.sun.management.HotSpotDiagnosticMXBean` API
+  * above import you need to do in your program.
+
+![alt text](image-287.png)
+
+run the program and go to folder path  
+
+## Tools for Capturing Heap Dump - Java Visual VM
+
+* JDK(Jcmd, Jmap)
+* JVisualVM(Java VisualVM)
+* Eclipse Memory Analyzer(MAT)
+* IBM HeapAnalyzer
+* YourKit Java Profiler
+
+Above tools are mainly for Java based application  
+
+![alt text](image-288.png)
+
+
+> Once you understand the concept you should be able to adapt to any tool based on the tool that is being used in your organization
