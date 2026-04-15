@@ -363,3 +363,8 @@ Open Query language
 ![alt text](image-305.png)
 
 ![alt text](image-306.png)
+
+![alt text](image-307.png)
+
+> Our purpose is to understand the concept of heap dump analysis from the perspective of performance engineering.
+> So these things should provide you a foundation for further exploration on the performance engineering.
