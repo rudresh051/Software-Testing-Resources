@@ -280,3 +280,86 @@ If this loaded cart is removed from the shopping mall along with the cart, these
 
 Example 1 - Objects in Memory  
 
+SH - Shallow Heap
+RH - Retained Heap
+
+![alt text](image-293.png)
+
+Example 2 - Objects in Memory
+
+![alt text](image-294.png)
+
+* Shallow heap is the memory occupied by the object itself
+
+![alt text](image-295.png)
+
+## Eclipse Memory Analyzer(MAT) Installation and Setup
+
+* MAT is a free and open source tool
+
+* link - https://eclipse.dev/mat/download
+
+Download the following file -  
+
+![alt text](image-296.png)
+
+you can also save the heap dump from  
+
+Run >> Edit Configurations  
+
+![alt text](image-297.png)
+
+![alt text](image-298.png)
+
+Please check for eclipse where to do the same thing -  
+
+![alt text](image-299.png)
+
+## Heap Dump Analysis using Eclipse MAT(part1) - Leak Suspects
+
+Go to file in Eclipse Heap Dump analyzer and open it
+
+![alt text](image-300.png)
+
+![alt text](image-301.png)
+
+* **Leak Suspects** -
+  * But imagine this scenario where guest. Checks into the room but never checks out. The room remains occupied forever even. Though guest is not using the room, guest is not giving back the locker of the room.
+
+## Heap Dump Analysis using Eclipse MAT(part 2) - Histogram
+
+![alt text](image-302.png)
+
+```txt
+A histogram in eclipse mat is a table which shows the objects in the heap, and they will be grouped
+by the class type along with the memory usage and the count.
+```
+
+## Heap Dump Analysis using Eclipse MAT(part 3) - Dominator Tree
+  
+
+![alt text](image-303.png)
+
+
+> The purpose of dominated tree is to find the objects which are preventing the garbage collection.
+> This dominator tree will help to identify the objects which are consuming the highest memory right.
+
+* Part 4 -  
+
+* Top Consumers
+  * Identifies Memory "Hotspots"
+  * Visual Breakdown
+
+![alt text](image-304.png)
+
+So by looking at this top consumer you can identify the which object is consuming the highest memory.
+
+* OQL Query in Eclipse MAT
+  * Runs custom heap queries
+  * Analyze specific memory issues
+
+Open Query language  
+
+![alt text](image-305.png)
+
+![alt text](image-306.png)
