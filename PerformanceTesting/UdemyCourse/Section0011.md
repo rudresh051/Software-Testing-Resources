@@ -254,3 +254,29 @@ Above tools are mainly for Java based application
 
 
 > Once you understand the concept you should be able to adapt to any tool based on the tool that is being used in your organization
+
+
+* JVisualVM (Java VisualVM)  
+
+![alt text](image-289.png)
+
+![alt text](image-290.png)
+
+## Understanding Shallow Heap and Retained Heap
+
+![alt text](image-291.png)
+
+```txt
+Similarly, the shallow heap of an object is memory directly occupied by the object here, in this case,
+
+space occupied by the shopping cart, but the retained heap of an object is total amount of memory that
+
+would be freed if an object is removed from the memory.
+
+If this loaded cart is removed from the shopping mall along with the cart, these items will also get freed up
+```
+
+![alt text](image-292.png)
+
+Example 1 - Objects in Memory  
+
