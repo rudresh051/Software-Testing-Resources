@@ -54,3 +54,12 @@ open the following file in database
 ## Requirement Analysis in Performance Testing and How AI Enhances it - Part 1
 
 ## ## Requirement Analysis in Performance Testing and How AI Enhances it - Part 2
+
+## Adapting AI in Performance Test Planning - How AI Enhances Test Plan Preparation
+
+## Customizing AI generated test plan
+
+## Test Scenario, Test Case Design and Test Scripting with AI - Part 1
+
+## Test Scenario, Test Case Design and Test Scripting with AI - Part 2
+
