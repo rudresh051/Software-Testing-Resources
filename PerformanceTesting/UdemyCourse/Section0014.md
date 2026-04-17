@@ -31,3 +31,22 @@ Measuring how long it takes to respond.
 * Traditional HTTP Request Samplers does not execute JavaScript, CSS, or images & do not measure client-side rendering performance
 
 ## When to use and When NOT to use WebDriver plugin for JMeter
+
+* **Scenarios**
+  * Measure Page Load time
+  * Testing single page applications
+  * Validating user experience
+
+* **Example** - E-commerce Website
+  * How long the homepage renders?
+  * How long it takes to load images?
+  * How JavaScript-based popups behave under load?
+
+* **When Not to use WebDriver Plugin for JMeter?**
+
+![alt text](image-313.png)
+
+It's not possible to open 10000 browsers
+
+
+
