@@ -48,5 +48,61 @@ Measuring how long it takes to respond.
 
 It's not possible to open 10000 browsers
 
+## How to setup WebDriver Plugin to JMeter and Run Sample Script
+
+Navigate to JMeter >> Options >> Plugin Manager
+
+![alt text](image-314.png)
+
+you can also install it from here -   
+
+![alt text](image-315.png)
+
+In the test plan add the following sampler and config element and later download the browser(chorome/firefox/edge) plugin
+
+![alt text](image-316.png)
+
+give the chrome driver pathe name here -  
+
+![alt text](image-317.png)
+
+Run the Sample test and you can see the execution of the browser  
+
+![alt text](image-318.png)
+
+## Measure Page Load Time using WebDriver Sampler(Real world scenario)
+
+```java
+import org.openqa.selenium.By
+import org.openqa.selenium.support.ui.WebDriverWait
+import org.openqa.selenium.support.ui.ExpectedConditions
+import java.time.Duration
+
+//Start measuring the page load time
+WDS.SampleResult.sampleStart();
+
+//open website
+def driver = WDS.browser
+driver.get("https://petstore.octoperf.com/actions/Catalog.action")
+
+// wait until page loads
+WebDriverWait wait = new WebDriverWait(driver, DurationOfSeconds(10))
+wait.until(ExpectedConditions.presenceOfElementLocated(By.tagName("Body")))
+
+//stop measuring page load time
+WDS.sampleResult.sampleEnd();
+
+long loadTime = WDS.sampleResult.getTime();
+WDS.log.info("Page load time" + loadTime + "ms")
+
+```
+
+![alt text](image-319.png)
+
+you can also generate the HTML report  
+
+![alt text](image-320.png)
+
+## Use Case - Test Page load time of multiple pages(Real World Scenario)
 
 
