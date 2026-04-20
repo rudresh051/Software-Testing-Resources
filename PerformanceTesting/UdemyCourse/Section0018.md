@@ -71,6 +71,20 @@ SampleResult.setDataType(SampleResult.TEXT);
 // set content type
 SampleResult.setContentType("application/json");
 ```
+## BeanShell Post-Processor(Use Case 3 - Handle Response Data)
 
+* Processing Response Data
+  * Use Beanshell PostProcessor to handle response data
+
+```java
+String responseData = prev.getResponseDataAsString();
+if(responseData.contains("JPetStore Demo")){
+	log.info("REQUEST Successful");
+}
+else{
+	log.warn("request failed");
+}
+
+![alt text](image-325.png)
 
 
