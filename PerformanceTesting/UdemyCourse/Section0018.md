@@ -23,3 +23,24 @@ Overview
 ➤ctx: For accessing the JMeter context.
 ➤prev: For accessing the previous sampler result.
 
+## Guideline for Using Beanshell Scripting
+
+![alt text](image-323.png)
+
+## BeanShell Pre-Processor(Use Case 1-Set variable value in JMeter)
+
+```java
+import java.util.Date;
+import java.text.SimpleDateFormat;
+Date date = new Date();
+SimpleDateFormat formatter = new SimpleDateFormat("dd-MMM-YYYY");
+
+String formattedDate = formatter.format(date);
+vars.put("currentDate",formattedDate);
+```
+
+![alt text](image-324.png)
+
+> So in this way, this is one of the use case where we are storing the value of the variable using the Beanshell preprocessor. And we can use the variable whereever necessary
+
+
