@@ -43,4 +43,34 @@ vars.put("currentDate",formattedDate);
 
 > So in this way, this is one of the use case where we are storing the value of the variable using the Beanshell preprocessor. And we can use the variable whereever necessary
 
+## BeanShell Sampler(Use Case 2 - Simulate API End Point)
+
+* Custom Sampler Logic
+  * Simulate API End Point using Beanshell Sampler Custom logic.
+
+```java
+
+// Define the simulated response data
+String response = "This is Simulated API response";
+
+// Set the response data for the sampler
+SampleResult.setResponseData(response,"UTF-8");
+
+// Set response code for sampler
+SampleResult.setResponseCode("200");
+
+// Set response message for sampler
+SampleResult.setResponseMessage("OK");
+
+// Mark sampler as successful
+SampleResult.setSuccessful(true);
+
+// set Data type for sampler
+SampleResult.setDataType(SampleResult.TEXT);
+
+// set content type
+SampleResult.setContentType("application/json");
+```
+
+
 
