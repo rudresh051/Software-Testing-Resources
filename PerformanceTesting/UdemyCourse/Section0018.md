@@ -15,3 +15,11 @@ Overview
 4. **Beanshell Assertion** - Validates the sampler response using a script
 5. **Beanshell Timer** - Introduces a delay using a script
 6. **Beanshell Listener** - Processes the results using a script
+
+## Commonly used variables in JMeter Beanshell scripts
+➤log: For logging messages.
+➤vars: For accessing JMeter variables.
+➤props: For accessing JMeter properties.
+➤ctx: For accessing the JMeter context.
+➤prev: For accessing the previous sampler result.
+
