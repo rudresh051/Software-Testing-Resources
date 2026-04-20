@@ -86,5 +86,14 @@ else{
 }
 
 ![alt text](image-325.png)
+```
 
+change the string -  
+
+![alt text](image-326.png)
+
+## BeanShell Assertion (Use Case 4 - Validate Response)
+
+* Adding Assertions
+  * Use Beanshell Assertion to validate response
 
