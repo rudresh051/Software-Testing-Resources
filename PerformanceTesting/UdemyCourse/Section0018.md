@@ -127,5 +127,14 @@ return (int) delay;
 
 ![alt text](image-328.png)
 
-## Logging in BeanShell Components (Use Case 6 - )
+## Logging in BeanShell Components (Use Case 6 - Use Logs for Debug and Monitor)
+
+* We use logging to debug and monitor scripts
+* Can add logging to any Bean shell component
+
+![alt text](image-329.png)
+
+You can also add bean shell post processor
+
+![alt text](image-330.png)
 
