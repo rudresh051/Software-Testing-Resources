@@ -117,6 +117,15 @@ Above is simple beanshell assertion
 * Beanshell Timer
   * We can use Beanshell Timer to add a delay.
 
+```java
+// BeanShell Timer
 
+long delay = 5000; // 5 seconds
 
+return (int) delay;
+```
+
+![alt text](image-328.png)
+
+## Logging in BeanShell Components (Use Case 6 - )
 
