@@ -97,3 +97,26 @@ change the string -
 * Adding Assertions
   * Use Beanshell Assertion to validate response
 
+
+```java
+// Beanshell Assertion
+
+String response = prev.getResponseDataAsString();
+
+if(!response.contains("Google")){
+	Failure = true;
+	FailureMessage = "Response does not contain expected data";
+	}
+```
+
+![alt text](image-327.png)
+
+Above is simple beanshell assertion
+
+## BeanShell Timer(Use Case 4 - Introduce Delay)
+* Beanshell Timer
+  * We can use Beanshell Timer to add a delay.
+
+
+
+
