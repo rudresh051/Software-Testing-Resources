@@ -76,4 +76,38 @@ Hold Time/Steady state: 10 mins (600 sec)
 **Note:** Above Values can be changed based on application under test and purpose of testing.  
 So on... till you find breaking point  
 
+JMeter Setup:  
+Stepping thread group and Ultimate thread group are most suited for stress testing. Add appropriate think time and pacing. Add listeners for analyzing the results
 
+**Breaking point:**
+Identify the maximum load the application can handle before performance degrades. This istypically seen when **response times significantly increase**  or **error rates rise**
+
+**Max Load (Identify Breaking Point):**  
+Example:  
+Continue increasing by 100 users, with a 60-second ramp-up & ramp-down, 10 min steadystate until performance degradation is observed.
+
+
+**Workload Modelling/Distribution based on user behaviour:**  
+**User Behavior Scenarios**  
+ **Search**: 35% of users  
+ **View Details:** 30% of users  
+ **Add to Cart:** 25% of users  
+ **Checkout:** 10% of users  
+
+**Performance Metrics**  
+ Response Time: < 2 seconds for 95% of requests  
+ Throughput: > 100 requests per second  
+ Error Rate: < 1%  
+ Resource Utilization: CPU < 70%, Memory < 80%, Network < 50%capacity  
+
+**Command to Run the Test :**
+Synatx :
+Windows OS:
+Go to Jmeter bin folder in command line, using command : cd “path_to_bin_folder”jmeter –n –t [location of jmeter test script] -l [location of result file] -e –o [locationof output report folder
+
+Windows OS:
+Example command on Windwos:
+jmeter -n -t "C:\Users\Vishwa\Softwares\Test Scripts and Test
+Data\Scripts\testplan.jmx" -l "C:\Users\Vishwa\Softwares\Test Scripts andTest
+Data\Results\results.jtl" -e -o "C:\Users\Vishwa\Softwares\Test Scripts andTest
+Data\Reports\report"
