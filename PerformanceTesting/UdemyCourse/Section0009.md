@@ -54,3 +54,83 @@ wait for all other 2 slave machines created ready for use, then connect to maste
 download rdp client for slave1 and slave2 also
 
 ![alt text](image-354.png)
+
+## JMeter Distributed Load Testing on AWS EC2-Setup Hands on Configuration
+
+![alt text](image-355.png)
+
+Search the following in JMeter.properties file
+
+* remote_hosts file
+* server.rmi.ssl.disable
+
+* Navigate back to each slave machine run the following command `jmeter-server`
+
+![alt text](image-356.png)
+
+It will create the remote object  
+
+![alt text](image-357.png)
+
+Now we need to enable the ports  
+
+![alt text](image-358.png)
+
+![alt text](image-359.png)
+
+* Now we need to disable the firewalls in Master and slave
+
+![alt text](image-360.png)
+
+* To Check firewall status
+  * `netsh advfirewall show allprofiles`
+* To disable firewall
+  * `netsh advfirewall set allprofiles state off`
+* To Test connection
+  * `Test-NetConnection <slave-private-ip> -Port 1099`
+  * ex `Test-NetConnection 172.31.31.109 -Port 1099`
+  * ex `Test-NetConnection 172.31.28.185 -Port 1099` 
+* To Enable telnet
+  * `dism /online/enable-feature/featurename:TelnetClient`
+* To test telnet connection(Master to Slave):
+  * telnet <slave-private-ip> <port>
+  * `telnet 172.31.31.109 1099`
+  * `telnet 172.31.28.185 1099`
+
+
+
+![alt text](image-361.png)
+
+run the following command in powershell of master
+
+![alt text](image-362.png)
+
+![alt text](image-363.png)
+
+you can also enable telnet  
+
+![alt text](image-364.png)
+
+check in master for the slave machine and if blank screen is coming after executing example such as `telnet 172.31.31.109 1099` then telnet connectivity is successful
+
+![alt text](image-365.png)
+
+## JMeter Distribute Load Testing on AWS EC2-Running Tests Hands on
+
+Now create a sample test plan on Master
+
+Go to Run >> Remote stert
+you will see your two slave machines ip addresses
+
+![alt text](image-366.png)
+
+you can click on start remote all to start on both machines
+
+It wil show the test started and finished on both slave machines
+
+Let us see how we can run using command line
+
+
+
+
+
