@@ -116,10 +116,5 @@ go to dashboard and delete the security group which you have created
 ![alt text](image-255.png)
 
 
-## Distributed Load Testing on AWS Cloud using JMeter
 
-![alt text](image-252.png)
-
-
-![alt text](image-253.png)
 
