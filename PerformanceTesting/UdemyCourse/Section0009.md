@@ -128,8 +128,84 @@ you can click on start remote all to start on both machines
 
 It wil show the test started and finished on both slave machines
 
-Let us see how we can run using command line
+Let us see how we can run using command line because for load testing in real scenarios we will be using command line  
 
+`jmeter -n -t "<FilePathwithFileName>" -r`
+
+![alt text](image-367.png)
+
+* To Run on selected hosts
+  * `jmeter -n -t test_plan.jmx -R <slave1_ip>`
+* To run test generate result file and HTML report
+  * `jmeter -n -t Test.jmx -r -l results.csv -e -o html.report`
+
+change the inbound rules if you are not getting tidying up message
+
+Master - ![alt text](image-369.png)
+
+![alt text](image-368.png)
+
+change the outbound rules also
+
+![alt text](image-370.png)
+
+
+![alt text](image-371.png)
+
+
+you can also generate the report  
+
+`jmeter -n -t "Sample Test Plan.jmx" -r -l result.csv -e -o html-report`
+
+![alt text](image-372.png)
+
+result.csv file  
+
+![alt text](image-373.png)
+
+you can also run the test on only one slave machine  
+
+![alt text](image-374.png)
+
+## Automating Distributed Performance Test run using shell-script hands on
+
+> because everytime you have to remove the old report and .csv file
+
+![alt text](image-375.png)
+
+![alt text](image-376.png)
+
+install git bash and run
+
+![alt text](image-377.png)
+
+## AWS Cleanup after JMeter Distributed Testing - Remove EC2, AMIs & More Hands on
+
+Terminate 
+
+![alt text](image-378.png)
+
+Deregister AMI
+
+![alt text](image-379.png)
+
+Delete Associated Snapshots  
+
+![alt text](image-380.png)
+
+Also delete the key-pair
+
+![alt text](image-381.png)
+
+delete the security groups  
+
+![alt text](image-382.png)
+
+you can check the dashboard and instances are terminated  
+
+![alt text](image-384.png)
+
+![alt text](image-383.png)
 
 
 
