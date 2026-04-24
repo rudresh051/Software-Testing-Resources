@@ -268,5 +268,67 @@ involved in the request-response cycle.
 
 ![alt text](image-425.png)
 
-* Total Blocking Time(TBT)
-  * It is a performance metric that
+* **Total Blocking Time(TBT)**
+  * It is a performance metric that measures the total amount of time during which a webpage is blocked and unable to respond to user input
+
+* It is a performance metric that measures the total amount of time during whic a webpage is blocked and unable to respond to user input.
+* This includes any time between First Contentful Paint (FCP)
+and Time to Interactive (TTI) when the main thread is blocked
+for long enough to prevent user interactions such as clicks,
+taps, or keyboard inputs.
+
+![alt text](image-426.png)
+
+* **Importance of TBT**
+
+![alt text](image-427.png)
+
+* **Improving TBT**
+
+![alt text](image-428.png)
+
+Link - https://web.dev/articles/tbt
+
+![alt text](image-429.png)
+
+
+## Client-Side Performance Engineering - Speed Index(SI)
+
+![alt text](image-430.png)
+
+* Speed Index(SI)
+
+* **Speed Index (SI)** is a performance metric that measures how quickly the content of a web page is visibly populated.
+* It is a key indicator of user experience, as it quantifies the visual completeness of a page load.
+* The lower the Speed Index score, the faster the content is
+displayed to the user.
+
+![alt text](image-431.png)
+
+![alt text](image-432.png)
+
+Link - https://developer.chrome.com/docs/lighthouse/performance/speed-index
+
+* **Importance of Speed Index**
+
+![alt text](image-433.png)
+
+* **Improving Speed Index**  
+
+![alt text](image-434.png)
+
+> And some of the things will remain common, such as optimizing the JavaScript, optimizing the CSS, compressing the image and media using the content delivery network, reducing the server response time, and using caching strategies.
+
+
+## Client-Side Metric - Accessibility (User Experience Metric)
+
+* Accessibility in the context of web development refers to
+making web pages usable for as many people as possible,
+including those with disabilities.
+* The Google Lighthouse accessibility report evaluates a
+webpage's compliance with accessibility best practices and
+standards.
+
+![alt text](image-435.png)
+
+![alt text](image-436.png)
