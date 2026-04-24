@@ -147,6 +147,105 @@ videos, iframes) until they are needed, typically when they enter the viewport (
 
 ![alt text](image-397.png)
 
+**CLS Defintion** - CLS measures the total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page
 
+* Diagram of Layout Shift
 
+![alt text](image-398.png)
 
+Website - https://www.woorank.com/en/core-web-vitals/improving-cumulative-layout-shift
+
+* Good CLS Score -  
+
+![alt text](image-399.png)
+
+* **Strategies to Improve CLS**
+  * Improving CLS involves minimizing unexpected movements of web page elements. Here are some strategies
+
+![alt text](image-400.png)
+
+![alt text](image-401.png)
+
+![alt text](image-402.png)
+
+![alt text](image-403.png)
+
+## Client-Side Performance Engineering - First Contentful Paint(FCP)
+
+* **FCP**
+  * FCP is a wep performance metric that **measures the time from when a page starts loading to when any part of the page's content is rendered on the screen**.
+  * This content could be text, images, SVGs, or canvas elements.FCP is crucial for user experience as it gives an indication of how quickly users can start consuming content.
+* **FCP Definition** - FCP marks the time at which the first text or image is painted on the screen
+
+* Pictorial Representation
+
+![alt text](image-404.png)
+
+* Diagram of FCP
+
+![alt text](image-405.png)
+
+* Good FCP Score
+
+![alt text](image-406.png)
+
+* **Strategies to Improve FCP**
+  * Improve FCP involves optimizing various aspects of how your webpage loads and renders its content
+
+![alt text](image-407.png)
+
+![alt text](image-408.png)
+
+![alt text](image-409.png)
+
+![alt text](image-410.png)
+
+Link - https://web.dev/articles/fcp
+
+![alt text](image-411.png)
+
+## Client-Side Performance Engineering - First Input Delay(FID)
+
+* **First Input Delay(FID)**
+  * First Input Delay (FID) is a web performance metric that
+measures the time from when a user first interacts with a page (such as clicking a link, tapping a button, or using a custom JavaScript-powered control) to the time when the browser is actually able to respond to that interaction.
+
+* **FID Definition:** FID measures the delay between a user's first interaction with a web page and the time when the browser can begin processing event handlers in response to that interaction
+
+![alt text](image-412.png)
+
+![alt text](image-413.png)
+
+* Diagram of FID
+
+![alt text](image-414.png)
+
+* **Strategies to Improve FID**
+
+![alt text](image-415.png)
+
+![alt text](image-416.png)
+
+![alt text](image-417.png)
+
+![alt text](image-418.png)
+
+```txt
+But as a performance engineer, whenever you are doing a client side performance engineering, it is
+
+good to know these things.
+
+That is why I am discussing these things in detail here.
+
+And whenever you find a performance issue, you can give a clear feedback to the development team
+That way understanding these concepts will help you.
+```
+
+## Client-Side Performance Engineering - Time to First Byte(TTFB)
+
+![alt text](image-419.png)
+
+* **Time to First Byte (TTFB)** is a key performance metric that measures the time it takes for a user's browser to receive the first byte of data from the server after making an HTTP request.
+* It is an important indicator of server responsiveness and overall website performance.
+
+![alt text](image-420.png)
