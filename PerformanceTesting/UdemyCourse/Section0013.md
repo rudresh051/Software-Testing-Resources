@@ -122,10 +122,139 @@ Assume you are performance test engineer who is analysing requirements. Go throu
 
 > How we can use AI for above
 
+![alt text](image-465.png)
+
+* prompt - 
+
+```txt
+Prepare performance test plan using the attached documents(Non functional requirement document, performance requirement document) include the below sections in proper logical order. Also include initial project title page, index page, last signature page.
+
+1. Introduction
+    - Purpose of the document
+    - Scope of performance testing
+    - References
+2. Objectives
+    - Performance goals
+    - Business scenarios to be validated
+3. Test Strategy
+    - Types of performance testing(load, stress, soak, etc)
+    - Approach (script-based, protocol-level, UI-level)
+    - Entry and exit criteria
+    - Pass/fail criteria
+4. Test Scope
+    - In-scope components
+    - Out-of-scope components
+    - User journeys and critical transactions
+5. Workload Modelling
+    - User profiles
+    - Concurrent users
+    - Transaction mix and pacing
+    - Think time and ramp-up/ramp-down patterns
+6. Test Environment
+    - Hardware and software setup
+    - Network configuration
+    - Environment topology(app servers, DB, etc.)
+    - Data requirements
+7. Tool Selection
+    - Performance testing tools
+    - Monitoring and analysis tools
+    - Test data management tools
+8. Scripting Plan
+    - Script development guidelines
+    - Parameterization
+    - Correlation
+    - Reusability strategy
+9. Execution Plan
+    - Test cycles and schedule
+    - Pre-test checks
+    - Execution steps
+    - Rollback/cleanup steps
+10. Monitoring and Metrics
+    - Server-side metrics to be captured(CPU, memory, DB, etc)
+    - Application-level metrics(response time, throughput, etc)
+    - Monitoring tools and dashboards
+11. Roles and Responsibilites
+    - Team structure
+    - Responsibilities of each team member
+12. Risk Management
+    - Potential risks
+    - Mitigation strategies
+    - Assumptions and constraints
+13. Reporting and Analysis
+    - Reporting format
+    - Result analysis approach
+    - Stakeholders for report distribution
+14. Exit Criteria
+    - Completion conditions
+    - Criteria for success/failure
+    - Sign-off process
+
+```
+
 
 ## Customizing AI generated test plan
 
+![alt text](image-466.png)
+
 ## Test Scenario, Test Case Design and Test Scripting with AI - Part 1
 
+![alt text](image-467.png)
+
+> So by leveraging the AI or adapting the AI, we are able to quickly design the test cases. Here, we just have to verify whether they are correct or not
+
 ## Test Scenario, Test Case Design and Test Scripting with AI - Part 2
+
+* Modular
+* Re-usable
+* Easy to Maintain
+
+![alt text](image-468.png)
+
+
+create the following folder structure
+
+![alt text](image-469.png)
+
+## Test Script Creation and Enhancement for Registration Scenario - Part 1
+
+![alt text](image-470.png)
+
+![alt text](image-471.png)
+
+
+http://myapp.local:3000/#/
+
+
+* **Prompt**
+
+```txt
+You are an experienced Performance Test Engineer specializing in creating and optimizing JMeter test scripts to meet industry best practices.
+I will provide you with a JMeter.jmx script file.
+Your tasks are:
+
+Analyze the script's structure and configuration – review Thread Groups, HTTP Requests, Timers, Assertions, Listeners, Config Elements, and any data parameterization.
+
+Identify gaps or issues – such as hardcoded data, missing correlation, lack of modularization, unnecessary requests, or unrealistic user behavior simulation.
+
+Recommend specific improvements as per industry standards, including:
+
+Parameterization with CSV Data Set Config
+
+Use of HTTP Request Defaults & Variables (e.g., $${BASE_URL})
+
+Correlation for dynamic values
+
+Appropriate Think Time and pacing
+
+Functional validations (Assertions)
+
+Modular structure (Reusable Test Fragments)
+
+Naming conventions and documentation
+
+Provide examples of improved XML snippets where relevant, so I can directly apply changes
+
+Ensure all recommendations are clear, practical and ready for immediate implementation in JMeter
+```
+
 
