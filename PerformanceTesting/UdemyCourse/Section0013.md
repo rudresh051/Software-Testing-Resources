@@ -53,6 +53,25 @@ open the following file in database
 
 ## Requirement Analysis in Performance Testing and How AI Enhances it - Part 1
 
+![alt text](image-458.png)
+
+![alt text](image-459.png)
+
+```txt
+Help me to prepare performance requirement Specification(PRS) document using the Non Functional requirement document(NFR) provided.
+Include the below sections in the PRS document based on the given NFR document
+1. Introduction
+2. Performance Requirements
+3. Business and Technical Use Cases
+4. Service Level Agreements(SLAs)
+5. System Architecture Overview
+6. Technology Stack
+7. Test Scope
+8. Workload Modelling Inputs
+9. Risks and Assumptions
+10. Initial Tool Feasibility Summary
+```
+
 ## ## Requirement Analysis in Performance Testing and How AI Enhances it - Part 2
 
 ## Adapting AI in Performance Test Planning - How AI Enhances Test Plan Preparation
