@@ -24,9 +24,14 @@
 
 **LCP Definition** -  
 
-* LCP measures the loading performance of the largest visible element on the webpage.
+* LCP measures the loading performance of the **largest visible element** on the webpage.
 * This could be an image, a video, a block-level text element, or any other significatnt element.
 
+![alt text](image-387.png)
 
-
+* How LCP is measured?
+  * Page Load Starts - The browser begins to load the HTML of the page
+  * Initial Content Load - The initial text, images, and other elements start to appear
+  * LCP Element Appears - The largest element, like the main image or headline, finishes rendering and becomes visible to the user
+  * LCP Time recorded - The time from the start of the page load to the point where this element is fully loaded is recorded as the LCP
 
