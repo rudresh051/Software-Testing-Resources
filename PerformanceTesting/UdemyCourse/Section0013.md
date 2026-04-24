@@ -74,7 +74,54 @@ Include the below sections in the PRS document based on the given NFR document
 
 ## ## Requirement Analysis in Performance Testing and How AI Enhances it - Part 2
 
+```txt
+we have discussed how we can use and leverage the AI to prepare a performance
+
+Requirement specification document from the documents that have been provided to you.
+
+It can be non-functional requirement document or a business requirement documents and whatever the documents
+
+that has been provided to you by business users or a business analyst.
+```
+
+![alt text](image-460.png)
+
+![alt text](image-461.png)
+
+![alt text](image-462.png)
+
+![alt text](image-463.png)
+
+> You can follow the process based on your organization in your organization.
+> You might just gather the information in some table format or something like that.
+
+* Prompt
+
+> To gather key info in table format
+> Upload PRS document to AI tool and use the below prompt.
+
+
+```txt
+Assume you are performance test engineer who is analysing requirements. Go through this document and provide key parameters necessary for performance testing in table format.
+```
+
+![alt text](image-464.png)
+
+> This distribution should be based on real user behavior in production. Get it from analytics/Business team.
+
 ## Adapting AI in Performance Test Planning - How AI Enhances Test Plan Preparation
+
+* Test Planning
+  * Test Plan document - It will serve as blueprint
+    * Objectives
+    * Scope
+    * Strategy
+    * tools
+    * timeline
+    * Responsibilities
+
+> How we can use AI for above
+
 
 ## Customizing AI generated test plan
 
