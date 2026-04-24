@@ -107,4 +107,46 @@ videos, iframes) until they are needed, typically when they enter the viewport (
 
 ![alt text](image-390.png)
 
+## Client-Side Performance Engineering - Interaction to Next Paint(INP)
+
+* **INP**
+  * Interaction to Next Paint (INP) is a web performance metric that measures the responsiveness of a web page.
+  * Specifically, it captures the time it takes for the page to respond to user interactions, such as clicks or keyboard inputs, and render the next frame.
+  * This metric helps identify **how quickly a page can respond to user inputs**, which is critical for user experience.
+
+> It is very important for user experience
+
+![alt text](image-391.png)
+
+* **INP Defintion**
+  * INP measures the latency between the time a user interacts with the page (e.g., clicks a button) and the time the page begins to render the next frame.
+* **Good INP Score**
+
+![alt text](image-392.png)
+
+### Strategies to Improve INP
+* Improving INP involves optimizing the page's responsivess to user interactions
+
+1. **Solution 1 - Optimize JavaScript**
+
+![alt text](image-393.png)
+
+2. **Solution 2 - Optimize Rendering Performance**
+
+![alt text](image-394.png)
+
+3. **Solution 3 - Improve Server Response Time**
+
+![alt text](image-395.png)
+
+4. **Solution 4 - Enhance User Interaction Handling**
+
+![alt text](image-396.png)
+
+## Client-Side Performance Engineering - Cumulative Layout Shift(CLS)
+
+![alt text](image-397.png)
+
+
+
 
