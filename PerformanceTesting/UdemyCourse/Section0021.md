@@ -249,3 +249,24 @@ That way understanding these concepts will help you.
 * It is an important indicator of server responsiveness and overall website performance.
 
 ![alt text](image-420.png)
+
+* Components of TTFB
+
+![alt text](image-421.png)
+
+* **Improving TTFB**
+  * To improve TTFB, you need to optimize the various stages
+involved in the request-response cycle.
+
+![alt text](image-422.png)
+
+![alt text](image-423.png)
+
+## Client-Side Performance Engineering - Total Blocking Time(TBT)
+
+![alt text](image-424.png)
+
+![alt text](image-425.png)
+
+* Total Blocking Time(TBT)
+  * It is a performance metric that
