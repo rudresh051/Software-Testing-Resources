@@ -332,3 +332,107 @@ standards.
 ![alt text](image-435.png)
 
 ![alt text](image-436.png)
+
+Link - https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+## Client-Side Best Practices(Front-end best practices)
+
+* Best Practices in the Google Lighthouse report evaluate a
+webpage against a set of recommended practices to ensure
+that it is secure, reliabiöjäifd-pertormsuett:—
+* These practices encompass a range of areas, including
+security, performance, and codingstandards. Here are some
+key best practices along with explanations and examples:
+
+![alt text](image-437.png)
+
+![alt text](image-438.png)
+
+![alt text](image-439.png)
+
+
+* XSS
+
+![alt text](image-441.png)
+
+![alt text](image-440.png)
+
+* No Vulnerable Libraries
+
+![alt text](image-442.png)
+
+![alt text](image-443.png)
+
+![alt text](image-444.png)
+
+## Client-Side Metric - Search Engine Optimization (SEO)
+
+* SEO (Search Engine Optimization) in the Google Lighthouse
+report assesses a webpage's compliance with best-practices
+that can help it rank better in search engine results.
+* This part of the report provides insights and actionable
+recommendations to improve the discoverability and
+performance of your webpage in search engines.
+
+* Page Has a Title Element
+
+The title element is crucial as it appears in search engine results and browser tabs, providing a brief summary of the page's content.
+
+* Meta Description
+
+The meta description provides a summary of the page's content, which can appear in search engine réSüItS31t-ShOuld be concise and relevant.
+
+<head> <meta name="description" content="This is an example page meta description"> </head>
+
+* HTTP Status Code
+
+Ensures the page returns a successful HTTP status code (200)
+so that it can be indexed by search engines.
+
+* Description Text for Links
+
+Links should have descriptive text that indicates the link's
+destination, improving usabitity and SEO.
+
+* Content-Bearing Images Have Alt Attributes
+
+Alt attributes provide alternative text for images, helping search engines understand the content and improving accessibility.
+
+* Document has a <meta name="viewport"> tag
+
+The viewport meta tag helps control the layout on mobile
+browsers, ensuring the page is responsive.
+
+![alt text](image-445.png)
+
+* Font Size Accessibility
+
+Ensures that the text is legible on all devices by checking that the font size is appropriate for readability
+
+* Tap Targets are sized Appropriately
+
+Ensures that interactive elements are large enough for users to tap easily-on-touchscreens.
+* Example:
+* Check: Ensure that buttons, links, and other interactive
+elements have sufficient size and spacing.
+
+![alt text](image-446.png)
+
+![alt text](image-447.png)
+
+```txt
+You can share this report to the relevant teams such as business users, front end development team,
+
+back end development team based on the issue and they can work on this to improve the SEO score.
+
+There might be a separate digital marketing team in your organization.
+
+They might also be working on these things to improve the overall ranking of the website.
+
+In search engine, that is to improve the SEO score.
+
+```
+
+
+
+
