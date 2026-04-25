@@ -257,4 +257,10 @@ Provide examples of improved XML snippets where relevant, so I can directly appl
 Ensure all recommendations are clear, practical and ready for immediate implementation in JMeter
 ```
 
+Think Time  
+
+Total Delay - Constant Delay offset + Random delay maximum  
+
+* **Note** - In your organization you can check with API specification document or check with developers on which API is doing what
+
 
