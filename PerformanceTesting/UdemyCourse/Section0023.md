@@ -75,5 +75,10 @@ change the code -
 
 ![alt text](image-492.png)
 
+![alt text](image-493.png)
 
+![alt text](image-494.png)
+
+* Also create a backup of before changing of dashboard.js.fmkr file
+* > So for business users, displaying the result in terms of second might be more meaningful.
 
