@@ -433,18 +433,3 @@ In search engine, that is to improve the SEO score.
 
 ```
 
-## How to Co-relate Session ID or Login Token
-
-![alt text](image-482.png)
-
-![alt text](image-479.png)
-
-![alt text](image-480.png)
-
-![alt text](image-481.png)
-
-## How to Filter JMeter Results using Plugin Tool
-
-![alt text](image-483.png)
-
-![alt text](image-484.png)

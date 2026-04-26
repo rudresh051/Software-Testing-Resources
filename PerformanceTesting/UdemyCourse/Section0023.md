@@ -30,5 +30,50 @@ Syntax - ` ${__FileToString(<file path>,<encoding>,<variable>)}`
 
 ## How to Co-relate Session ID or Login Token
 
+![alt text](image-482.png)
+
+![alt text](image-479.png)
+
+![alt text](image-480.png)
+
+![alt text](image-481.png)
+
+## How to Filter JMeter Results using Plugin Tool
+
+![alt text](image-483.png)
+
+![alt text](image-484.png)
+
+![alt text](image-485.png)
+
+![alt text](image-486.png)
+
+![alt text](image-487.png)
+
+
+## How to Stop a JMeter Test Plan when a Thread Group Finishes
+![alt text](image-489.png)
+
+![alt text](image-488.png)
+
+> File attached in jmx folder
+
+## How to Convert JMeter HTML Report Response time Milli Seconds to Seconds
+Navigate to following file
+
+![alt text](image-491.png)
+
+search the following in file
+
+`cell.innerHTML` and change to seconds(for header)
+
+`statistics`
+
+change the code - 
+
+![alt text](image-490.png)
+
+![alt text](image-492.png)
+
 
 
