@@ -73,6 +73,12 @@ why this slowness or timeout is happening? memory/ database issue or network iss
 4. Simulate User Load(How many people can shop at once?)
 5. Monitor Key Metrics(What are we measuring?)
 6. Identify and Fix Bottlenecks(What can go wrong)
+   1. > Network issue, slow database queries, overloaded server
+7. Repeat with Increasing Load(Test bigger numbers)
 
 ![alt text](image-499.png)
+
+![alt text](image-500.png)
+
+
 
