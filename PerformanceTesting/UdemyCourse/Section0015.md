@@ -80,5 +80,90 @@ why this slowness or timeout is happening? memory/ database issue or network iss
 
 ![alt text](image-500.png)
 
+> Above are basic guidelines. you can changed based on your scenario
 
+## Scenario Based Performance Testing Interview Questions - Part 4
+
+* Question - How do you handle performance testing in a microservice-based architecture?
+
+![alt text](image-501.png)
+
+> A microservice architecture means a big application is built using collection of small independent services, and each service will be responsible for specific function.
+
+* Understand the Architecture
+  * How many services are there, how they are interacting
+* Define the Performance Testing Goals
+  * focus on critical service first e.g. payment service, login service
+* Identify Critical Performance Scenarios
+* Simulate Load on Individiual Microservices
+* End-to-End Performance Testing
+  * e.g. Simulate the entire user journey
+* Monitor and Measure Key Metrics
+  * Capture resource utilization
+* Identify Bottlenecks
+  * Slow communication between service
+  * Slow payment service
+* Implement Optimization and Retest
+
+![alt text](image-502.png)
+
+> The main thing here is you are testing the load on the individual microservices individually first, and then you are also doing the end to end testing.(Checking multiple microservices later)
+
+> Above is guidelines
+
+## General Performance Testing Interview Questions and Answers - Part 1
+
+* **What is Performance Testing?**
+  * Evaluating how a system performs under specific conditions such as varying user loads, to ensure its speed, scalability, and stability
+* **Importance of Performance Testing in Software development?**
+  * Optimizes User Experience
+    * > You don't want user to get frustrated where website keeps on loading
+  * Prevents Downtime
+  * Ensures Reliability
+  * Validates Scalability
+* **What are the different types of performance testing?**
+  * 1. **Load Testing**
+    * Evaluates system performance **under expected user load**to ensure it functions as required
+  * 2. **Stress Testing**
+    * Tests the system by **increasing load beyond normal levels** to identify its breaking point and stability limits.
+  * 3. **Endurance Testing(Soak Testing)**
+    * Assesses system performance under sustained load over a long period to identify memory leaks or degradation
+  * 4. **Spike Testing**
+    * Examines how the system reacts to sudden, large spikes in user load
+  * 5. **Scalability Testing**
+    * Measures the system's ability to scale up or down in response to varying user loads
+      * > Number of user will increase or decrease throughout the day
+  * 6. **Volume Testing**
+    * Tests the system's capacity to handle a large volume of data
+  * 7. **Benchmark Testing**
+    * It is a type of performance testing where a system or application is **measured against a predefined set of standards or benchmarks**
+      * > What are your expectation
+      * > e.g. This is response I want 
+
+
+* **What metrics do you capture during performance testing?**
+
+![alt text](image-503.png)
+
+![alt text](image-504.png)
+
+![alt text](image-505.png)
+
+![alt text](image-506.png)
+
+![alt text](image-507.png)
+
+![alt text](image-508.png)
+
+![alt text](image-509.png)
+
+![alt text](image-510.png)
+
+![alt text](image-511.png)
+
+![alt text](image-512.png)
+
+![alt text](image-513.png)
+
+## General Performance Testing Interview Questions and Answers - Part 2
 
