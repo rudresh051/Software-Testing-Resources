@@ -167,3 +167,58 @@ why this slowness or timeout is happening? memory/ database issue or network iss
 
 ## General Performance Testing Interview Questions and Answers - Part 2
 
+* **What is performance bottleneck? What are common performance bottlenecks in a system?**
+  * A performance bottle is a part of a computer system, software, or network that slows everything else down
+
+![alt text](image-514.png)
+
+* Think of it like a narrow part of a water pipe that reduces the flow of water
+* Even if the rest of the system works fast, this one slow part can limit the overall speed
+* In software, it could be slow code, a busy server, or limited memory that causes delays, making the whole system perform poorly.
+
+![alt text](image-515.png)
+
+![alt text](image-516.png)
+
+![alt text](image-517.png)
+
+* **How do you determine performance testing requirements?**
+
+![alt text](image-518.png)
+
+## Performance Testing Using JMeter - Interview Questions - Part 1
+
+* **What is JMeter and what are its main features**
+  * JMeter is an open-source performance testing tool used to analyze and measure the performance of a variety of services
+
+
+![alt text](image-519.png)
+
+**Example** - Use JMeter to simulate a load test on a web application with 100 users hitting the login endpoint concurrently  
+
+![alt text](image-520.png)
+
+* Explain how you would set up a performance test in JMeter.
+
+![alt text](image-521.png)
+
+3. How do you analyze performance test results in JMeter
+
+![alt text](image-522.png)
+
+e.g. Analyzing a summary report to determine if the average response time meets the SLA of 2 seconds
+
+4. What is the purpose of the "Thread Group" in JMeter?
+
+![alt text](image-523.png)
+
+e.g. A Thread Group configured with 100 users, a 10-second ramp-up, and 5 iterations to simulate a peak load test
+
+5. What are different types of processors in JMeter?
+
+![alt text](image-524.png)
+
+e.g. Using a Regular Expression Extractor to parse a token from a login response
+
+
+
