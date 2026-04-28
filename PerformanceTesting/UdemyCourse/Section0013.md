@@ -261,6 +261,13 @@ Think Time
 
 Total Delay - Constant Delay offset + Random delay maximum  
 
+## Test Script Creation and Enhancement - Login Scenario
+
 * **Note** - In your organization you can check with API specification document or check with developers on which API is doing what
+* > Basically what are the APIs that need to be tested you can get in touch with development team and you know the exact logic what exactly it is doing if you have a API specific document 
+* > Here we don't have API specific documentation, I will follow based on my understanding
+* > But in your organization when you are testing, know what exactly each API is doing. You can get in touch with backend developer or API development team. so you will know what you need to test
+
+
 
 
