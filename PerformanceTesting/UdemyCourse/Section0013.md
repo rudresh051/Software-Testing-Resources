@@ -268,6 +268,54 @@ Total Delay - Constant Delay offset + Random delay maximum
 * > Here we don't have API specific documentation, I will follow based on my understanding
 * > But in your organization when you are testing, know what exactly each API is doing. You can get in touch with backend developer or API development team. so you will know what you need to test
 
+## Test Script Creation and enhancement - Product Search Scenarios
+
+* Prompt
+
+```txt
+Go through the given API details below (or API specification document) provided
+
+API Details :
+Home page API URL - http://myapp.local:3000/
+Search API URL - http://myapp.local:3000/rest/products/search?1=apple
+
+here "apple" is search item to be parameterized.
+
+Create jmeter performance test script using the details given below, you can provide xml or jmx file.
+
+I'm using jmeter version 5.6.3, my JDK version is 21
+
+Scenario:
+Product Browsing(Search)
+
+Steps:
+1. Use Search bar with keyboard
+2. View product listing
+3. Click product for details
+4. Click on Close button
+
+Think time -  2-3 sec between actions
+Pacing - 2 searches/user/min
+Number of threads = 10
+
+Performance Targets:
+Average load :
+Response time <=3 sec
+Error rate <= 1%
+Peak Load:
+Response time <= 4 sec
+Error rate <=1%
+
+Add assertions to verify the relevant performance targets are met
+
+Add listeners view result tree, summary report
+
+```
+
+![alt text](image-526.png)
+
+![alt text](image-525.png)
+
 
 
 
