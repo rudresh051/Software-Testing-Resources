@@ -327,6 +327,9 @@ We need to parameterize these -  so for that you can read from a csv file
 
 ## Test Script Creation and Enhancement - Add to Cart
 
+* We will take the useful API's
+* 
+
 
 
 
