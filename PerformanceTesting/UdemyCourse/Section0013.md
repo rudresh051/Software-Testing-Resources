@@ -316,6 +316,18 @@ Add listeners view result tree, summary report
 
 ![alt text](image-525.png)
 
+* If you have proper API details document for your project, you will have better idea on which API to use
+* Also can discuss with developers
+
+We need to parameterize these -  so for that you can read from a csv file
+
+![alt text](image-527.png)
+
+![alt text](image-528.png)
+
+## Test Script Creation and Enhancement - Add to Cart
+
+
 
 
 
