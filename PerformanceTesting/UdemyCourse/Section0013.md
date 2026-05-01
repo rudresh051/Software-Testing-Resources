@@ -343,6 +343,14 @@ Order details should match
 
 ![alt text](image-530.png)
 
+## Enhancing and Customizing Test Plan further
+
+![alt text](image-532.png)
+
+## Understanding Performance Test Environment Architecture
+
+![alt text](image-533.png)
+
 
 
 
