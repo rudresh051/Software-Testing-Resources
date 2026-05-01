@@ -351,7 +351,60 @@ Order details should match
 
 ![alt text](image-533.png)
 
+## Understanding different aspects of Test Environment
+
+![alt text](image-534.png)
+
+## Understanding Load Balancers in Performance Test Environments
+
+![alt text](image-535.png)
+
+## Load Balancer Setup and Configuration with Nginx
 
 
+![alt text](image-536.png)
+
+## Understanding Monitoring and Observability
+
+![alt text](image-537.png)
+
+```txt
+And let us say you don't have any monitoring and observability setup.
+
+Then how do you check what was the problem?
+
+What was the state of the system when the user has complained, right?
+
+Suppose let us say your manager asks you to troubleshoot or find the issue.
+
+Then you don't have any reference point.
+
+You don't have any data, right?
+
+Why the system was slow or when it was slow, right?
+
+You don't have anything to check in order to identify the issue.
+
+We need a monitoring and observability stack in a production environment as well.
+
+This will be there to check when the production environment becomes slow or if there is any issue.
+```
+
+* You can think Monitoring as subset of observability
+
+## Setting up Prometheus, Grafana and Node exporter for Monitoring
+
+![alt text](image-538.png)
+
+| Myth / Concept        | Tool       | Role                                |
+| --------------------- | ---------- | ----------------------------------- |
+| Prometheus gives fire | Prometheus | Gives **insight (metrics)**         |
+| Graph / visualization | Grafana    | Shows **what’s happening visually** |
+
+
+🧠 Simple definition
+
+**Node Exporter is a small agent that:**
+collects system-level metrics (CPU, RAM, disk, network) from your machine and exposes them for Prometheus to scrape.
 
 
