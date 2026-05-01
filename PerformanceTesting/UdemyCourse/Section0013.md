@@ -416,3 +416,18 @@ collects system-level metrics (CPU, RAM, disk, network) from your machine and ex
 ## Connect Prometheus Data Source and Build Your Grafana Dashboard
 
 ![alt text](image-541.png)
+
+
+![alt text](image-542.png)
+
+![alt text](image-543.png)
+
+![alt text](image-544.png)
+
+![alt text](image-545.png)
+
+> So you are able to monitor the health of your server from grafana
+
+## Running Performance Tests, Monitoring and Analyzing Grafana for system Infrastructure
+
+![alt text](image-546.png)
