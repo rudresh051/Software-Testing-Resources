@@ -408,3 +408,11 @@ This will be there to check when the production environment becomes slow or if t
 collects system-level metrics (CPU, RAM, disk, network) from your machine and exposes them for Prometheus to scrape.
 
 
+
+![alt text](image-539.png)
+
+![alt text](image-540.png)
+
+## Connect Prometheus Data Source and Build Your Grafana Dashboard
+
+![alt text](image-541.png)
