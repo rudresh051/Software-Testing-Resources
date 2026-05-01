@@ -337,6 +337,12 @@ We need to parameterize these -  so for that you can read from a csv file
 
 ## Test Script Creation and Enhancement - Payment Scenario
 
+Order details should match 
+
+![alt text](image-531.png)
+
+![alt text](image-530.png)
+
 
 
 
