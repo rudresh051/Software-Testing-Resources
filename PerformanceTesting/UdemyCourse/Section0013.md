@@ -328,7 +328,14 @@ We need to parameterize these -  so for that you can read from a csv file
 ## Test Script Creation and Enhancement - Add to Cart
 
 * We will take the useful API's
-* 
+
+* Also add a delete if something product is added
+
+![alt text](image-529.png)
+
+## Test Script Creation and Enhancemen - Checkout Scenario
+
+## Test Script Creation and Enhancement - Payment Scenario
 
 
 
