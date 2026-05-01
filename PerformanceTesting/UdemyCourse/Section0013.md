@@ -431,3 +431,14 @@ collects system-level metrics (CPU, RAM, disk, network) from your machine and ex
 ## Running Performance Tests, Monitoring and Analyzing Grafana for system Infrastructure
 
 ![alt text](image-546.png)
+
+## Unlocking Deeper Performance Insights by corelating Grafana Dashboards and JMeter
+
+![alt text](image-547.png)
+
+once test is completed , usage graph is coming down
+
+![alt text](image-548.png)
+
+![alt text](image-549.png)
+

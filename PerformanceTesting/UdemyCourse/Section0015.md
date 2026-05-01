@@ -1,5 +1,21 @@
 # Performance Testing Interview Questions and Answers
 
+## Implement Co-relation Scenario using JSON extractor(Interview question)
+
+![alt text](image-550.png)
+
+![alt text](image-551.png)
+
+![alt text](image-552.png)
+
+also add the content-type  
+
+![alt text](image-553.png)
+
+if the order changes use this -  
+
+![alt text](image-554.png)
+
 ## Scenario Based Performance Testing Interview Questions - Part 1
 
 * Question - Can you walk us through a challenging performance issue you faced and how you solved it using JMeter?
