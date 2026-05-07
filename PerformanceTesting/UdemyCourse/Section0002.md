@@ -14,12 +14,18 @@
 ![alt text](image-556.png)
 
 * Example - I will search the product, then add the product, do the checkout and make the payment => This is normal functional testing
-  * When this is done by multiple users - 100 users, 1000 users, 10000 users
+  * When this is done by multiple users - 100 users, 1000 users, 10000 users may be million of users  
 
 => Real life scenario  
 * Online shopping on black friday or diwali sale
 * Online Exam platforms
+
+![alt text](image-557.png)
+
+
 * Booking a movie ticket or train tickets
+
+![alt text](image-558.png)
 
 
 **Analogy** - Suppose you are organizing a party at your house for 50 people. can kitchen can handle for everyone, music and sound system.
