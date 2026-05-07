@@ -1,7 +1,23 @@
 # Essentials of Performance Testing
 
+## Introduction to Performance Testing
+* Checking how well something works under pressure
+
+![alt text](image-555.png)
+
+> When the same functional testing is done by lot of users at the same time, then it is called performance testing  
+> e.g. Login, fund transfer, mobile top-up => Normal functional testing
+
+
+* Basically we will be simulating the user load by using tools like JMeter. These tools will create virtual users and apply the load to the system
+
+![alt text](image-556.png)
+
+* Example - I will search the product, then add the product, do the checkout and make the payment => This is normal functional testing
+  * When this is done by multiple users - 100 users, 1000 users, 10000 users
+
 => Real life scenario  
-* Online shopping on black friday
+* Online shopping on black friday or diwali sale
 * Online Exam platforms
 * Booking a movie ticket or train tickets
 
