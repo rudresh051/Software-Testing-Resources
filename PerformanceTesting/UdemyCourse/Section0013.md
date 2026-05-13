@@ -2,14 +2,14 @@
 
 ## Project Overview
 
-1. Application E-commerce WebApp - Juice Shop
+1. **Application E-commerce WebApp - Juice Shop**
 
 Application Intallation
 
 GitHub URL - https://github.com/juice-shop/juice-shop?tab=readme-ov-file
 
 
-2. Install Node.js
+2. **Install Node.js**
 
 Node.js download link - https://nodejs.org/en/download 
 
@@ -27,7 +27,7 @@ Complete the installation and run
 
 ![alt text](image-308.png)
 
-3. DB tools(DB browsing)
+3. **DB tools(DB browsing)**
 
 Download link - 
 https://sqlitebrowser.org/dl
@@ -53,6 +53,9 @@ open the following file in database
 
 ## Requirement Analysis in Performance Testing and How AI Enhances it - Part 1
 
+> In the requirement analysis phase you will use the NFR/BRD document or whatever document is provided we will create the performance requirement document  
+> Non Functional Requirement document will be provided by business owner or business analyst
+
 ![alt text](image-458.png)
 
 ![alt text](image-459.png)
@@ -71,6 +74,8 @@ Include the below sections in the PRS document based on the given NFR document
 9. Risks and Assumptions
 10. Initial Tool Feasibility Summary
 ```
+* So you can copy the output and you can prepare a document, modify it based on your need.
+* Don't just blindly use whatever is provided by AI. We need to ensure whatever given here is relevant for our application and we need to modify it
 
 ## ## Requirement Analysis in Performance Testing and How AI Enhances it - Part 2
 
